@@ -1,18 +1,18 @@
-# MusicDSL User Guide for LLMs
+# Melos User Guide for LLMs
 
-This document describes the syntax and semantics of MusicDSL, a domain-specific language for representing musical scores. Use this guide to generate valid MusicDSL code.
+This document describes the syntax and semantics of **Melos**, a domain-specific language for representing musical scores. Use this guide to generate valid Melos code.
 
 ## 1. Overview
 
-MusicDSL is a text-based format for defining musical scores. It supports:
--   Global headers (Title, Tempo, Time Signature)
+Melos is a text-based format for defining musical scores. It supports:
+-   Global headers (Title, Tempo, Time, Key)
 -   Multiple parts (instruments)
 -   Measures containing musical events (notes, rests, tuplets)
--   Context changes within parts (Time Signature, Key Signature)
+-   Context changes within parts (Time Signature, Key Signature, Tempo)
 
 ## 2. Syntax Specification
 
-The following grammar describes the structure of a MusicDSL file.
+The following grammar describes the structure of a Melos file.
 
 ### 2.1. Top-Level Structure
 
@@ -23,13 +23,13 @@ SCORE       ::= HEADER* PART+
 HEADER      ::= "Title:" STRING_LITERAL
               | "Tempo:" INTEGER
               | "Time:" TIME_SIGNATURE
+              | "Key:"  KEY_SIGNATURE
 ```
 
 ### 2.2. Parts
 
 Each part represents a musical voice or instrument.
 
-```text
 ```text
 PART        ::= "Part:" IDENTIFIER "Instrument:" INSTRUMENT_NAME "{" CONTENT "}"
 CONTENT     ::= (MEASURE | CONTEXT_CHANGE)+
@@ -102,11 +102,12 @@ ARTICULATION ::= "." (staccato) | ">" (accent) | "-" (tenuto)
 
 ### 2.10. Context Changes
 
-Time and Key signatures can be changed within a part.
+Time signatures, Key signatures, and Tempo can be changed within a part.
 
 ```text
 CONTEXT_CHANGE ::= "Time:" TIME_SIGNATURE
                  | "Key:" KEY_SIGNATURE
+                 | "Tempo:" INTEGER
 
 TIME_SIGNATURE ::= INTEGER "/" INTEGER
 KEY_SIGNATURE  ::= PITCH_CLASS STRING_LITERAL
@@ -122,14 +123,14 @@ The name specified in the `Instrument:` field determines the instrument sound (M
 -   **Fallback**: If the name is not recognized, it defaults to Piano (Program 0).
 
 Example:
-```dsl
+```mel
 Part: "Violin 1" Instrument: Violin { ... }
 Part: "Solo Guitar" Instrument: "Electric Guitar (Jazz)" { ... }
 ```
 
 ## 3. Semantics and Latent Knowledge
 
-When generating MusicDSL, apply your latent knowledge of music theory:
+When generating Melos, apply your latent knowledge of music theory:
 
 -   **Pitch**: Standard scientific pitch notation (e.g., `C4` is middle C).
 -   **Rhythm**: Ensure measures contain the correct number of beats according to the current time signature.
@@ -142,7 +143,7 @@ When generating MusicDSL, apply your latent knowledge of music theory:
 
 ### Example 1: Simple Melody
 
-```dsl
+```mel
 Title: "Twinkle Twinkle Little Star"
 Tempo: 120
 Time: 4/4
@@ -157,7 +158,7 @@ Part: Piano Instrument: Piano {
 
 ### Example 2: Complex Rhythms and Context Changes
 
-```dsl
+```mel
 Title: "Advanced Etude"
 Tempo: 140
 Time: 4/4
@@ -173,7 +174,7 @@ Part: Flute Instrument: Flute {
 
 ## 5. Common Syntax Errors and Tips
 
-To ensure valid MusicDSL generation, avoid these common mistakes:
+To ensure valid Melos generation, avoid these common mistakes:
 
 1.  **Case Sensitivity**: Keywords like `Title:`, `Part:`, `Instrument:`, `Tuplet` are case-sensitive. Use `Part:` not `part:`.
 2.  **Missing Pipes**: Every measure must be enclosed in pipes `|`.

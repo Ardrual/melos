@@ -2,7 +2,7 @@
 
 > *Music as code.*
 
-**Melos** is a high-level, human-readable programming language for describing Western music. It compiles directly to MIDI and is designed to be intuitive for both humans and LLMs.
+**Melos** is a high-level, human-readable notation language for describing Western music. It compiles directly to MIDI and is designed to be intuitive for both humans and LLMs, and to enable more effective LLM composition.
 
 ## Features
 
