@@ -1,0 +1,953 @@
+// ============================================================================
+//                              ANAMNESIS
+//                    A Piano Quintet in Five Movements
+//                              Claude, Op. 5
+// ============================================================================
+//
+//                    Movement IV: Fragmenta (Ruins)
+//
+// ============================================================================
+//
+// PROGRAM NOTES:
+//
+// The stillness shatters.
+//
+// After the patient waiting of "Lacuna," this movement is violent return —
+// the fragments we've been gathering across three movements now pile up in
+// stretto, overlapping, colliding. For the first time, Phrases A and B of
+// the hidden theme appear consecutively. We're closer than ever to grasping
+// the whole. But the approach is anguished, not triumphant.
+//
+// "Fragmenta" — ruins, broken pieces. The word carries archaeological weight:
+// what remains when the whole has been lost, the shards from which we 
+// reconstruct. But also: what breaks when pressure becomes unbearable.
+//
+// D minor opens the movement — the dominant's relative, one step closer to
+// home than E-flat was. The trajectory moves toward G minor: we're spiraling
+// inward, the home key pulling. But G minor, not major. The third remains
+// dark. Resolution is coming, but not yet.
+//
+// The piano, which has been supportive and cushioning, now becomes the
+// destabilizer — hammering fragments, insisting on the tritone, driving
+// the other instruments toward crisis. The "Long-Short" rhythm that appeared
+// gently in Movement I now pounds across all five voices.
+//
+// This is the night at its darkest. The fever must break before morning.
+//
+// ============================================================================
+
+Title: "Anamnesis - IV. Fragmenta"
+Tempo: 132
+Time: 3/4
+Key: D "Minor"
+
+Part: Piano Instrument: Piano {
+    
+    // =========================================================================
+    // SECTION A: The Shattering (mm. 1-32)
+    // =========================================================================
+    //
+    // Immediate intensity. The piano hammers the tritone (C#-G) that has
+    // haunted the piece. Fragments of the theme appear in rapid succession.
+    
+    // mm. 1-4: The tritone attack
+    | [C#3 G3 C#4] q [C#3 G3 C#4] q [C#3 G3 C#4] q ff |
+    | [D3 A3 D4] h. |
+    | [C#3 G3 C#4] q [C#3 G3 C#4] q [C#3 G3 C#4] q |
+    | [D3 A3 D4] h. |
+    
+    // mm. 5-8: The rising fifth — Phrase A material, fragmented
+    // D-A is the fifth, but hammered, not sung
+    | [D3 A3] q [D3 A3] q [D3 A3] q f |
+    | [E3 B3] q [F3 C4] q [G3 D4] q |
+    | [A3 E4] h. |
+    | r q [G3 D4] q [F3 C4] q |
+    
+    // mm. 9-12: Stepwise cell, driving
+    | [D3 F3 A3] q [E3 G3 B3] q [F3 A3 C4] q f |
+    | [G3 Bb3 D4] q [A3 C4 E4] q [Bb3 D4 F4] q |
+    | [A3 C4 E4] h. |
+    | [G3 Bb3 D4] h. |
+    
+    // mm. 13-16: The Long-Short rhythm, insistent
+    | [D3 A3 D4] h [D3 A3 D4] q ff |
+    | [C3 G3 C4] h [C3 G3 C4] q |
+    | [Bb2 F3 Bb3] h [Bb2 F3 Bb3] q |
+    | [A2 E3 A3] h. |
+    
+    // mm. 17-20: Fragmenting further
+    | D4 q r q E4 q f |
+    | F4 q r q G4 q |
+    | A4 q G4 q F4 q |
+    | E4 h. |
+    
+    // mm. 21-24: Bass line emerges — the theme's harmonic DNA
+    // D-C-Bb-A: the descending line that underlies Phrase A
+    | [D2 D3] h. mf |
+    | [C2 C3] h. |
+    | [Bb1 Bb2] h. |
+    | [A1 A2] h. |
+    
+    // mm. 25-28: The tritone returns, higher
+    | [G3 C#4 G4] q [G3 C#4 G4] q [G3 C#4 G4] q ff |
+    | [A3 D4 A4] h. |
+    | [G3 C#4 G4] q [G3 C#4 G4] q [G3 C#4 G4] q |
+    | [A3 D4 A4] h. |
+    
+    // mm. 29-32: Transition — toward G minor
+    | [D3 F3 A3] h [D3 F3 A3] q f |
+    | [G3 Bb3 D4] h [G3 Bb3 D4] q |
+    | [C3 Eb3 G3] h [D3 F#3 A3] q |
+    | [G3 Bb3 D4] h. |
+    
+    // =========================================================================
+    // SECTION B: Phrase A Emerges (mm. 33-56)
+    // =========================================================================
+    //
+    // For the first time: Phrase A of the theme, nearly complete.
+    // The rising fifth, the stepwise ascent. But fragmented across
+    // instruments, never in one voice. Stretto — entries overlapping.
+    
+    Key: G "Minor"
+    Tempo: 144
+    
+    // mm. 33-36: Supporting the strings' statement
+    | [G2 D3 G3] h. f |
+    | [A2 E3 A3] h. |
+    | [Bb2 F3 Bb3] h. |
+    | [C3 G3 C4] h. |
+    
+    // mm. 37-40: Driving forward
+    | [D3 A3 D4] q [D3 A3 D4] q [D3 A3 D4] q ff |
+    | [Eb3 Bb3 Eb4] q [Eb3 Bb3 Eb4] q [Eb3 Bb3 Eb4] q |
+    | [D3 A3 D4] h. |
+    | [C3 G3 C4] h [D3 A3 D4] q |
+    
+    // mm. 41-44: The chromatic turn — Phrase B material
+    // G-A-Bb-A: the circling figure, now urgent
+    | G3 q A3 q Bb3 q f |
+    | A3 q Bb3 q A3 q |
+    | G3 q A3 q Bb3 q |
+    | A3 h. |
+    
+    // mm. 45-48: Phrase B continues — the Eb darkening
+    | [Eb3 G3 Bb3] h. mf |
+    | [D3 F#3 A3] h. |
+    | [Eb3 G3 Bb3] h [D3 F#3 A3] q |
+    | [G3 Bb3 D4] h. |
+    
+    // mm. 49-52: Stretto — fragments piling
+    | [G3 D4] q [A3 E4] q [Bb3 F4] q f |
+    | [C4 G4] q [D4 A4] q [Eb4 Bb4] q |
+    | [D4 A4] q [C4 G4] q [Bb3 F4] q |
+    | [A3 E4] q [G3 D4] q [F#3 C#4] q |
+    
+    // mm. 53-56: Climax of Section B
+    | [G3 Bb3 D4 G4] h. ff |
+    | [A3 C4 Eb4 A4] h. |
+    | [Bb3 D4 F4 Bb4] h. |
+    | [A3 C4 E4 A4] h. |
+    
+    // =========================================================================
+    // SECTION C: Crisis (mm. 57-80)
+    // =========================================================================
+    //
+    // The Long-Short rhythm pounds across all instruments. The fragments
+    // we've heard separately now collide. Maximum density before collapse.
+    
+    Tempo: 152
+    
+    // mm. 57-60: All voices, Long-Short
+    | [G2 G3] h [G2 G3] q fff |
+    | [D3 D4] h [D3 D4] q |
+    | [G3 G4] h [G3 G4] q |
+    | [D4 D5] h [D4 D5] q |
+    
+    // mm. 61-64: The descending bass — Phrase A's skeleton
+    | [G2 D3 G3] h. ff |
+    | [F2 C3 F3] h. |
+    | [Eb2 Bb2 Eb3] h. |
+    | [D2 A2 D3] h. |
+    
+    // mm. 65-68: Tritone crisis
+    | [C#3 G3 C#4] h [C#3 G3 C#4] q fff |
+    | [D3 A3 D4] h [D3 A3 D4] q |
+    | [C#3 G3 C#4] h [C#3 G3 C#4] q |
+    | [D3 A3 D4] h. |
+    
+    // mm. 69-72: Near-statement — almost the complete phrase
+    | [G3 D4] h [A3 E4] q ff |
+    | [Bb3 F4] q [C4 G4] q [D4 A4] q |
+    | [D4 A4] h [C4 G4] q |
+    | [Bb3 F4] q [A3 E4] q [G3 D4] q |
+    
+    // mm. 73-76: Breaking apart
+    | [G3 Bb3 D4] q r q [A3 C4 E4] q f |
+    | r q [Bb3 D4 F4] q r q |
+    | [A3 C4 Eb4] q r q [G3 Bb3 D4] q |
+    | r q [F#3 A3 C4] h |
+    
+    // mm. 77-80: Collapse begins
+    | [G3 Bb3 D4] h. mf |
+    | r q [D3 F3 A3] h |
+    | [G2 Bb2 D3] h. p |
+    | [G2 D3] h. |
+    
+    // =========================================================================
+    // SECTION D: Aftermath (mm. 81-96)
+    // =========================================================================
+    //
+    // The storm has passed. Fragments still drift, but exhausted.
+    // We settle on G minor — not resolution, but preparation.
+    // The home key, in its dark form. Dawn is coming.
+    
+    Tempo: 108
+    
+    // mm. 81-84: Exhausted fragments
+    | [G2 D3 G3] h. p |
+    | r h. |
+    | [D3 A3] h. pp |
+    | r h. |
+    
+    // mm. 85-88: The fifth, gentle now
+    | [G2 D3] h [G2 D3] q pp |
+    | r h. |
+    | [G2 D3 G3] h. |
+    | [A2 E3 A3] h [G2 D3 G3] q |
+    
+    // mm. 89-92: The Long-Short, dying away
+    | [G2 D3 G3] h [G2 D3 G3] q p |
+    | [F2 C3 F3] h [F2 C3 F3] q |
+    | [Eb2 Bb2 Eb3] h [Eb2 Bb2 Eb3] q pp |
+    | [D2 A2 D3] h. |
+    
+    // mm. 93-96: Final settling on G minor
+    | [G2 Bb2 D3] h. pp |
+    | [G2 Bb2 D3] h. |
+    | [G2 D3 G3] w. ppp |
+    
+    Time: 4/4
+    | [G2 D3 G3 Bb3] w |
+}
+
+Part: Cello Instrument: Cello {
+    
+    // The cello carries the bass line that prefigures the theme's harmony,
+    // and in Section B, finally states the rising fifth clearly.
+    
+    // =========================================================================
+    // SECTION A (mm. 1-32)
+    // =========================================================================
+    
+    // mm. 1-4: Grounding the tritone
+    | A2 h. f |
+    | D2 h. |
+    | A2 h. |
+    | D2 h. |
+    
+    // mm. 5-8: Rising with the piano
+    | D2 q D2 q D2 q f |
+    | E2 q F2 q G2 q |
+    | A2 h. |
+    | G2 q F2 q E2 q |
+    
+    // mm. 9-12: Driving bass
+    | D2 q E2 q F2 q f |
+    | G2 q A2 q Bb2 q |
+    | A2 h. |
+    | G2 h. |
+    
+    // mm. 13-16: Long-Short in the bass
+    | D2 h D2 q ff |
+    | C2 h C2 q |
+    | Bb1 h Bb1 q |
+    | A1 h. |
+    
+    // mm. 17-20: Fragmentary
+    | D3 q r q E3 q mf |
+    | F3 q r q G3 q |
+    | A3 q G3 q F3 q |
+    | E3 h. |
+    
+    // mm. 21-24: THE BASS LINE — theme's harmonic DNA
+    | D2 h. mf |
+    | C2 h. |
+    | Bb1 h. |
+    | A1 h. |
+    
+    // mm. 25-28: Supporting the tritone return
+    | G2 h. f |
+    | D2 h. |
+    | G2 h. |
+    | D2 h. |
+    
+    // mm. 29-32: Transition to G minor
+    | D2 h D2 q f |
+    | G2 h G2 q |
+    | C2 h D2 q |
+    | G2 h. |
+    
+    // =========================================================================
+    // SECTION B: Phrase A in the Cello (mm. 33-56)
+    // =========================================================================
+    
+    Key: G "Minor"
+    Tempo: 144
+    
+    // mm. 33-36: THE RISING FIFTH — Phrase A begins!
+    // G to D: the opening gesture of the hidden theme, at last
+    | G2 h. f |
+    | D3 h. |
+    | G3 h D3 h. |
+    | G2 h. |
+    
+    // mm. 37-40: Continuing the stepwise ascent
+    | D3 q E3 q F3 q ff |
+    | G3 q A3 q Bb3 q |
+    | A3 h. |
+    | G3 h A3 q |
+    
+    // mm. 41-44: The turn figure
+    | G2 q A2 q Bb2 q mf |
+    | A2 q Bb2 q A2 q |
+    | G2 q A2 q Bb2 q |
+    | A2 h. |
+    
+    // mm. 45-48: Phrase B material — Eb darkening
+    | Eb2 h. mf |
+    | D2 h. |
+    | Eb2 h D2 q |
+    | G2 h. |
+    
+    // mm. 49-52: Stretto bass
+    | G2 q A2 q Bb2 q f |
+    | C3 q D3 q Eb3 q |
+    | D3 q C3 q Bb2 q |
+    | A2 q G2 q F#2 q |
+    
+    // mm. 53-56: Climax support
+    | G2 h. ff |
+    | A2 h. |
+    | Bb2 h. |
+    | A2 h. |
+    
+    // =========================================================================
+    // SECTION C: Crisis (mm. 57-80)
+    // =========================================================================
+    
+    Tempo: 152
+    
+    // mm. 57-60: Long-Short, pounding
+    | G2 h G2 q fff |
+    | D2 h D2 q |
+    | G2 h G2 q |
+    | D3 h D3 q |
+    
+    // mm. 61-64: Descending bass — the skeleton
+    | G2 h. ff |
+    | F2 h. |
+    | Eb2 h. |
+    | D2 h. |
+    
+    // mm. 65-68: Tritone in the bass
+    | C#2 h C#2 q fff |
+    | D2 h D2 q |
+    | C#2 h C#2 q |
+    | D2 h. |
+    
+    // mm. 69-72: Near-complete phrase
+    | G2 h A2 q ff |
+    | Bb2 q C3 q D3 q |
+    | D3 h C3 q |
+    | Bb2 q A2 q G2 q |
+    
+    // mm. 73-76: Breaking apart
+    | G2 q r q A2 q f |
+    | r q Bb2 q r q |
+    | A2 q r q G2 q |
+    | r q F#2 h |
+    
+    // mm. 77-80: Collapse
+    | G2 h. mf |
+    | r q D2 h |
+    | G2 h. p |
+    | G2 h. |
+    
+    // =========================================================================
+    // SECTION D: Aftermath (mm. 81-96)
+    // =========================================================================
+    
+    Tempo: 108
+    
+    // mm. 81-84: Exhausted
+    | G2 h. p |
+    | r h. |
+    | D2 h. pp |
+    | r h. |
+    
+    // mm. 85-88: The fifth, quiet
+    | G2 h G2 q pp |
+    | D3 h. |
+    | G2 h. |
+    | A2 h G2 q |
+    
+    // mm. 89-92: Long-Short fading
+    | G2 h G2 q p |
+    | F2 h F2 q |
+    | Eb2 h Eb2 q pp |
+    | D2 h. |
+    
+    // mm. 93-96: Final
+    | G2 h. pp |
+    | G2 h. |
+    | G2 w. ppp |
+    
+    Time: 4/4
+    | G2 w |
+}
+
+Part: Viola Instrument: Viola {
+    
+    // The viola weaves between bass and treble, often carrying inner
+    // voice fragments and participating in the stretto passages.
+    
+    // =========================================================================
+    // SECTION A (mm. 1-32)
+    // =========================================================================
+    
+    // mm. 1-4: Inner voice
+    | E3 h. f |
+    | F3 h. |
+    | E3 h. |
+    | F3 h. |
+    
+    // mm. 5-8: Rising
+    | A3 q A3 q A3 q f |
+    | B3 q C4 q D4 q |
+    | E4 h. |
+    | D4 q C4 q B3 q |
+    
+    // mm. 9-12: Parallel with piano
+    | F3 q G3 q A3 q f |
+    | Bb3 q C4 q D4 q |
+    | C4 h. |
+    | Bb3 h. |
+    
+    // mm. 13-16: Long-Short
+    | F3 h F3 q ff |
+    | E3 h E3 q |
+    | D3 h D3 q |
+    | C3 h. |
+    
+    // mm. 17-20: Fragmentary, echoing
+    | A3 q r q Bb3 q mf |
+    | C4 q r q D4 q |
+    | E4 q D4 q C4 q |
+    | B3 h. |
+    
+    // mm. 21-24: Holding
+    | F3 h. mp |
+    | E3 h. |
+    | D3 h. |
+    | C3 h. |
+    
+    // mm. 25-28: Tritone return
+    | E3 h. f |
+    | F3 h. |
+    | E3 h. |
+    | F3 h. |
+    
+    // mm. 29-32: Transition
+    | F3 h F3 q f |
+    | D3 h D3 q |
+    | Eb3 h D3 q |
+    | D3 h. |
+    
+    // =========================================================================
+    // SECTION B (mm. 33-56)
+    // =========================================================================
+    
+    Key: G "Minor"
+    Tempo: 144
+    
+    // mm. 33-36: Supporting the cello's phrase
+    | D3 h. f |
+    | E3 h. |
+    | F3 h. |
+    | G3 h. |
+    
+    // mm. 37-40: Stretto entry — the fifth, 2 beats after cello
+    | r h G3 q ff |
+    | D4 h. |
+    | A3 q Bb3 q C4 q |
+    | D4 h D4 q |
+    
+    // mm. 41-44: Turn figure
+    | Bb3 q C4 q D4 q mf |
+    | C4 q D4 q C4 q |
+    | Bb3 q C4 q D4 q |
+    | C4 h. |
+    
+    // mm. 45-48: Phrase B
+    | G3 h. mf |
+    | F#3 h. |
+    | G3 h F#3 q |
+    | D3 h. |
+    
+    // mm. 49-52: Stretto
+    | Bb3 q C4 q D4 q f |
+    | Eb4 q F4 q G4 q |
+    | F4 q Eb4 q D4 q |
+    | C4 q Bb3 q A3 q |
+    
+    // mm. 53-56: Climax
+    | D4 h. ff |
+    | Eb4 h. |
+    | F4 h. |
+    | E4 h. |
+    
+    // =========================================================================
+    // SECTION C (mm. 57-80)
+    // =========================================================================
+    
+    Tempo: 152
+    
+    // mm. 57-60: Pounding
+    | Bb3 h Bb3 q fff |
+    | A3 h A3 q |
+    | Bb3 h Bb3 q |
+    | A3 h A3 q |
+    
+    // mm. 61-64: Inner voice descent
+    | Bb3 h. ff |
+    | A3 h. |
+    | G3 h. |
+    | F3 h. |
+    
+    // mm. 65-68: Tritone
+    | E3 h E3 q fff |
+    | F3 h F3 q |
+    | E3 h E3 q |
+    | F3 h. |
+    
+    // mm. 69-72: Near-statement
+    | Bb3 h C4 q ff |
+    | D4 q Eb4 q F4 q |
+    | F4 h Eb4 q |
+    | D4 q C4 q Bb3 q |
+    
+    // mm. 73-76: Breaking
+    | D4 q r q Eb4 q f |
+    | r q F4 q r q |
+    | Eb4 q r q D4 q |
+    | r q C4 h |
+    
+    // mm. 77-80: Collapse
+    | D4 h. mf |
+    | r q A3 h |
+    | Bb3 h. p |
+    | Bb3 h. |
+    
+    // =========================================================================
+    // SECTION D (mm. 81-96)
+    // =========================================================================
+    
+    Tempo: 108
+    
+    // mm. 81-84
+    | Bb3 h. p |
+    | r h. |
+    | F3 h. pp |
+    | r h. |
+    
+    // mm. 85-88
+    | D3 h D3 q pp |
+    | A3 h. |
+    | D3 h. |
+    | C3 h Bb2 q |
+    
+    // mm. 89-92
+    | Bb2 h Bb2 q p |
+    | A2 h A2 q |
+    | G2 h G2 q pp |
+    | F2 h. |
+    
+    // mm. 93-96
+    | D3 h. pp |
+    | D3 h. |
+    | D3 w. ppp |
+    
+    Time: 4/4
+    | D3 w |
+}
+
+Part: "Violin 2" Instrument: Violin {
+    
+    // Second violin often mirrors or answers the first, and participates
+    // in the canonic/stretto passages of Section B.
+    
+    // =========================================================================
+    // SECTION A (mm. 1-32)
+    // =========================================================================
+    
+    // mm. 1-4: Upper voice
+    | G3 h. f |
+    | A3 h. |
+    | G3 h. |
+    | A3 h. |
+    
+    // mm. 5-8: Following Violin 1
+    | r q D4 q D4 q f |
+    | E4 q F4 q G4 q |
+    | A4 h. |
+    | G4 q F4 q E4 q |
+    
+    // mm. 9-12: Driving
+    | A3 q B3 q C4 q f |
+    | D4 q E4 q F4 q |
+    | E4 h. |
+    | D4 h. |
+    
+    // mm. 13-16: Long-Short
+    | A3 h A3 q ff |
+    | G3 h G3 q |
+    | F3 h F3 q |
+    | E3 h. |
+    
+    // mm. 17-20: Fragmentary
+    | F4 q r q G4 q mf |
+    | A4 q r q Bb4 q |
+    | C5 q Bb4 q A4 q |
+    | G4 h. |
+    
+    // mm. 21-24: Holding
+    | A3 h. mp |
+    | G3 h. |
+    | F3 h. |
+    | E3 h. |
+    
+    // mm. 25-28: Tritone context
+    | C#4 h. f |
+    | D4 h. |
+    | C#4 h. |
+    | D4 h. |
+    
+    // mm. 29-32: Transition
+    | A3 h A3 q f |
+    | Bb3 h Bb3 q |
+    | G3 h A3 q |
+    | Bb3 h. |
+    
+    // =========================================================================
+    // SECTION B (mm. 33-56)
+    // =========================================================================
+    
+    Key: G "Minor"
+    Tempo: 144
+    
+    // mm. 33-36: Stretto — entering after viola
+    | r h. |
+    | r h G4 q f |
+    | D5 h. |
+    | Eb5 h D5 q |
+    
+    // mm. 37-40: Continuing
+    | A4 q Bb4 q C5 q ff |
+    | D5 q Eb5 q F5 q |
+    | Eb5 h. |
+    | D5 h Eb5 q |
+    
+    // mm. 41-44: Turn
+    | D4 q E4 q F4 q mf |
+    | E4 q F4 q E4 q |
+    | D4 q E4 q F4 q |
+    | E4 h. |
+    
+    // mm. 45-48: Phrase B
+    | Bb3 h. mf |
+    | A3 h. |
+    | Bb3 h A3 q |
+    | Bb3 h. |
+    
+    // mm. 49-52: Stretto
+    | D4 q E4 q F4 q f |
+    | G4 q A4 q Bb4 q |
+    | A4 q G4 q F4 q |
+    | E4 q D4 q C4 q |
+    
+    // mm. 53-56: Climax
+    | Bb3 h. ff |
+    | C4 h. |
+    | D4 h. |
+    | C4 h. |
+    
+    // =========================================================================
+    // SECTION C (mm. 57-80)
+    // =========================================================================
+    
+    Tempo: 152
+    
+    // mm. 57-60: Pounding
+    | D4 h D4 q fff |
+    | A4 h A4 q |
+    | D5 h D5 q |
+    | A4 h A4 q |
+    
+    // mm. 61-64: Descent
+    | D4 h. ff |
+    | C4 h. |
+    | Bb3 h. |
+    | A3 h. |
+    
+    // mm. 65-68: Tritone
+    | G3 h G3 q fff |
+    | A3 h A3 q |
+    | G3 h G3 q |
+    | A3 h. |
+    
+    // mm. 69-72: Near-statement
+    | D4 h E4 q ff |
+    | F4 q G4 q A4 q |
+    | A4 h G4 q |
+    | F4 q E4 q D4 q |
+    
+    // mm. 73-76: Breaking
+    | Bb3 q r q C4 q f |
+    | r q D4 q r q |
+    | C4 q r q Bb3 q |
+    | r q A3 h |
+    
+    // mm. 77-80: Collapse
+    | Bb3 h. mf |
+    | r q F3 h |
+    | D3 h. p |
+    | D3 h. |
+    
+    // =========================================================================
+    // SECTION D (mm. 81-96)
+    // =========================================================================
+    
+    Tempo: 108
+    
+    // mm. 81-84
+    | D4 h. p |
+    | r h. |
+    | A3 h. pp |
+    | r h. |
+    
+    // mm. 85-88
+    | Bb3 h Bb3 q pp |
+    | D4 h. |
+    | Bb3 h. |
+    | C4 h Bb3 q |
+    
+    // mm. 89-92
+    | D4 h D4 q p |
+    | C4 h C4 q |
+    | Bb3 h Bb3 q pp |
+    | A3 h. |
+    
+    // mm. 93-96
+    | Bb3 h. pp |
+    | Bb3 h. |
+    | Bb3 w. ppp |
+    
+    Time: 4/4
+    | Bb3 w |
+}
+
+Part: "Violin 1" Instrument: Violin {
+    
+    // First violin often leads the melodic fragments, especially in
+    // the stretto passages. Carries the highest voice.
+    
+    // =========================================================================
+    // SECTION A (mm. 1-32)
+    // =========================================================================
+    
+    // mm. 1-4: The tritone, high
+    | C#4 h. f |
+    | D4 h. |
+    | C#4 h. |
+    | D4 h. |
+    
+    // mm. 5-8: Rising fifth — Phrase A fragment
+    | D4 q D4 q D4 q f |
+    | E4 q F4 q G4 q |
+    | A4 h. |
+    | G4 q F4 q E4 q |
+    
+    // mm. 9-12: Stepwise ascent
+    | D4 q E4 q F4 q f |
+    | G4 q A4 q Bb4 q |
+    | A4 h. |
+    | G4 h. |
+    
+    // mm. 13-16: Long-Short, leading
+    | D4 h D4 q ff |
+    | C4 h C4 q |
+    | Bb3 h Bb3 q |
+    | A3 h. |
+    
+    // mm. 17-20: Fragmentary melody
+    | A4 q r q B4 q mf |
+    | C5 q r q D5 q |
+    | E5 q D5 q C5 q |
+    | B4 h. |
+    
+    // mm. 21-24: Sustained above the bass line
+    | D5 h. mp |
+    | C5 h. |
+    | Bb4 h. |
+    | A4 h. |
+    
+    // mm. 25-28: Tritone return, high
+    | G4 h. f |
+    | A4 h. |
+    | G4 h. |
+    | A4 h. |
+    
+    // mm. 29-32: Transition
+    | D4 h D4 q f |
+    | G4 h G4 q |
+    | G4 h F#4 q |
+    | G4 h. |
+    
+    // =========================================================================
+    // SECTION B: First Violin states Phrase A (mm. 33-56)
+    // =========================================================================
+    
+    Key: G "Minor"
+    Tempo: 144
+    
+    // mm. 33-36: THE RISING FIFTH — clear statement
+    // G to D, the opening of the hidden theme
+    | G4 h. f |
+    | D5 h. |
+    | G5 h. |
+    | G4 q A4 q Bb4 q |
+    
+    // mm. 37-40: Stepwise ascent, decorated descent
+    | C5 q D5 q Eb5 q ff |
+    | D5 q C5 q Bb4 q |
+    | A4 h. |
+    | G4 h A4 q |
+    
+    // mm. 41-44: The turn — Phrase B begins
+    | Bb4 q C5 q D5 q f |
+    | C5 q D5 q C5 q |
+    | Bb4 q C5 q D5 q |
+    | C5 h. |
+    
+    // mm. 45-48: The Eb darkening
+    | Eb5 h. mf |
+    | D5 h. |
+    | Eb5 h D5 q |
+    | D5 h. |
+    
+    // mm. 49-52: Stretto — overlapping with others
+    | G4 q A4 q Bb4 q f |
+    | C5 q D5 q Eb5 q |
+    | D5 q C5 q Bb4 q |
+    | A4 q G4 q F#4 q |
+    
+    // mm. 53-56: Climax — fortissimo
+    | G4 h. ff |
+    | A4 h. |
+    | Bb4 h. |
+    | A4 h. |
+    
+    // =========================================================================
+    // SECTION C: Crisis (mm. 57-80)
+    // =========================================================================
+    
+    Tempo: 152
+    
+    // mm. 57-60: Long-Short, all voices
+    | G5 h G5 q fff |
+    | D5 h D5 q |
+    | G5 h G5 q |
+    | D5 h D5 q |
+    
+    // mm. 61-64: Descending — the skeleton exposed
+    | G5 h. ff |
+    | F5 h. |
+    | Eb5 h. |
+    | D5 h. |
+    
+    // mm. 65-68: Tritone climax
+    | C#5 h C#5 q fff |
+    | D5 h D5 q |
+    | C#5 h C#5 q |
+    | D5 h. |
+    
+    // mm. 69-72: THE NEAR-COMPLETE STATEMENT
+    // Phrase A and B together — but it breaks before C
+    | G4 h A4 q ff |
+    | Bb4 q C5 q D5 q |
+    | D5 h C5 q |
+    | Bb4 q A4 q G4 q |
+    
+    // mm. 73-76: Breaking apart
+    | G4 q r q A4 q f |
+    | r q Bb4 q r q |
+    | A4 q r q G4 q |
+    | r q F#4 h |
+    
+    // mm. 77-80: Collapse
+    | G4 h. mf |
+    | r q D4 h |
+    | D4 h. p |
+    | D4 h. |
+    
+    // =========================================================================
+    // SECTION D: Aftermath (mm. 81-96)
+    // =========================================================================
+    
+    Tempo: 108
+    
+    // mm. 81-84: Exhausted fragments
+    | D4 h. p |
+    | r h. |
+    | A4 h. pp |
+    | r h. |
+    
+    // mm. 85-88: The fifth, quiet
+    | G4 h G4 q pp |
+    | D5 h. |
+    | D4 h. |
+    | Eb4 h D4 q |
+    
+    // mm. 89-92: Long-Short, dying
+    | D4 h D4 q p |
+    | C4 h C4 q |
+    | Bb3 h Bb3 q pp |
+    | A3 h. |
+    
+    // mm. 93-96: Final settling
+    | G4 h. pp |
+    | G4 h. |
+    | G4 w. ppp |
+    
+    Time: 4/4
+    | D4 w |
+}
+
+// ============================================================================
+// END OF MOVEMENT IV
+//
+// The crisis has passed. For the first time, Phrases A and B appeared
+// consecutively — the rising fifth, the stepwise ascent, the chromatic
+// turn with E-flat. The ear has heard enough to almost grasp the theme.
+// Almost. The movement broke off before Phrases A' and C could complete
+// the statement.
+//
+// We end on G minor — the home key, but in its dark form. The major third
+// that will transform everything waits in the wings. Movement V will bring
+// the B-natural that turns G minor to G major, shadow to light.
+//
+// The fragments have done their work. We've heard enough pieces that when
+// the theme finally arrives complete, it will feel not like new information
+// but like recognition. Anamnesis: remembering what we already knew.
+//
+// ============================================================================

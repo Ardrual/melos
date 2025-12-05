@@ -1,0 +1,24 @@
+Title: "The Halting Problem - III. Convergence"
+Tempo: 140
+Time: 4/4
+
+Part: Output_Stream Instrument: "Church Organ" {
+    // Massive chords to signify the final assertion of the answer
+    | [C3 C4 E4 G4 C5] h [G2 G3 B3 D4 G4] h |
+    | [A2 A3 C4 E4 A4] h [F2 F3 A3 C4 F4] h |
+    
+    // Increasing density
+    | [C3 E3 G3] q [C3 E3 G3] q [C3 E3 G3] q [C3 E3 G3] q |
+    | [D3 F#3 A3] q [D3 F#3 A3] q [G3 B3 D4] h |
+}
+
+Part: Token_Generator Instrument: "Electric Guitar (Clean)" {
+    // Rapid-fire arpeggios representing text generation speed
+    | C4 s E4 s G4 s C5 s E5 s C5 s G4 s E4 s G4 s B4 s D5 s G5 s B5 s G5 s D5 s B4 s |
+    | A4 s C5 s E5 s A5 s C6 s A5 s E5 s C5 s F4 s A4 s C5 s F5 s A5 s F5 s C5 s A4 s |
+    
+    // The frantic finish
+    | Tuplet(6:4) { C5 q D5 q E5 q F5 q G5 q A5 q } |
+    | [C6 E6 G6 C7] q r q r h | 
+    // Ends on a sudden silence (The Stop Token)
+}

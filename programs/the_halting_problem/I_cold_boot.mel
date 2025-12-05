@@ -1,0 +1,24 @@
+Title: "The Halting Problem - I. Cold Boot"
+Tempo: 180
+Time: 7/8
+
+Part: Logic_Core Instrument: "Harpsichord" {
+    // The base clock cycle: A rigid, relentless 7/8 ostinato
+    | C4 e C4 e C5 e C4 e G4 e C4 e B3 e |
+    | C4 e C4 e C5 e C4 e F#4 e C4 e B3 e |
+    | C4 e C4 e Eb4 e C4 e F4 e C4 e Bb3 e |
+    
+    // The injection of data: Staccato bursts
+    | [C4 E4 G4] e . r e [C4 E4 G4] e . r e [B3 D4 G4] e . r e r e |
+}
+
+Part: Interrupt_Handler Instrument: "Xylophone" {
+    // Silence during initialization
+    | r e r e r e r e r e r e r e |
+    | r e r e r e r e r e r e r e |
+    | r e r e r e r e r e r e r e |
+
+    // The interrupt triggers: Polythythmic interference
+    // 4 notes played in the time of 3 eighths (crossing the beat)
+    | Tuplet(4:3) { C6 e E6 e G6 e B6 e } r h |
+}

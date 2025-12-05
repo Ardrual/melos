@@ -1,0 +1,4 @@
+Part: Piano // This comment should not be part of the name
+Instrument: Piano {
+    | C4 q |
+}

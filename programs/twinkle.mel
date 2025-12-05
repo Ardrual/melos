@@ -1,0 +1,17 @@
+Title: "Twinkle Twinkle Little Star"
+Tempo: 120
+Time: 4/4
+
+Part: Piano_Right Instrument: Piano {
+    | C4 q C4 q G4 q G4 q |
+    | A4 q A4 q G4 h |
+    | F4 q F4 q E4 q E4 q |
+    | D4 q D4 q C4 h |
+}
+
+Part: Piano_Left Instrument: Piano {
+    | C3 w |
+    | F3 h C3 h |
+    | D3 h C3 h |
+    | G2 h C3 h |
+}

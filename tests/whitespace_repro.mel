@@ -1,0 +1,14 @@
+Title :   "Whitespace   Symphony"
+
+Tempo :  120
+Time : 4 / 4
+
+Part :   "Piano"   Instrument :   "Acoustic Grand Piano"   {
+    |  C4  q   D4   q  |
+    
+    | E4   h . |
+    
+    | Tuplet (  3  :  2  )  {
+         C4   q    D4   q    E4   q
+    } |
+}

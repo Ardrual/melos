@@ -1,0 +1,150 @@
+Title: "Emergences"
+Tempo: 54
+Time: 4/4
+
+Part: Violin Instrument: Violin {
+    | r w |
+    | r w |
+    | r h G5 h pp |
+    | D5 w |
+    | r h G5 h |
+    | D5 h A5 h |
+    | G5 w |
+    | r h D5 q G5 q |
+    | A5 h G5 h |
+    | D5 q G5 q A5 h |
+    | B5 h pp A5 h |
+    | G5 q A5 q B5 h |
+    | D6 h p A5 h |
+    | G5 q A5 q B5 q D6 q |
+    | E6 h D6 h |
+    | B5 q D6 q E6 q G6 q |
+    | A6 h mp G6 h |
+    | E6 q D6 q B5 h |
+    | A5 h G5 h |
+    | D5 w pp |
+
+    Time: 5/4
+    Tempo: 72
+    | G5 q A5 q B5 q D6 q G5 q |
+    | A5 q B5 q D6 q G5 q A5 q |
+    | B5 q D6 q G5 q A5 q B5 q |
+    | D6 q G5 q A5 q B5 q D6 q |
+    | G5 q A5 q B5 q D6 q E6 q |
+    | A5 q B5 q D6 q E6 q G6 q mf |
+    | B5 q D6 q E6 q G6 q A6 q |
+    | D6 q E6 q G6 q A6 q B6 q |
+    | E6 q G6 q A6 q B6 q D7 q f |
+    | G6 h. r h |
+    
+    Time: 4/4
+    Tempo: 46
+    | r w |
+    | G6 w ppp |
+    | r h D6 h |
+    | r w |
+    | B5 h r h |
+    | r w |
+    | r h G5 h pp |
+    | r w |
+    | D5 w ppp |
+    | r w |
+}
+
+Part: Viola Instrument: Viola {
+    | D3 w pp |
+    | r h D4 h |
+    | G3 w |
+    | r h D4 q G4 q |
+    | D3 h G3 h |
+    | r q D4 q G4 h |
+    | D3 q G3 q D4 h |
+    | G4 h D4 h |
+    | D3 q G3 q A3 q D4 q |
+    | G4 h A4 h |
+    | D3 h G3 h |
+    | D4 q G4 q A4 h |
+    | B4 h pp A4 h |
+    | G4 q D4 q G3 h |
+    | D4 h G4 h |
+    | A4 h p B4 h |
+    | D5 h G4 h |
+    | A4 q B4 q D5 q G4 q |
+    | D4 h G3 h |
+    | G3 w pp |
+
+    Time: 7/4
+    Tempo: 72
+    | D4 q G4 q A4 q B4 q D5 q G4 q A4 q |
+    | G4 q A4 q B4 q D5 q G4 q A4 q B4 q |
+    | A4 q B4 q D5 q G4 q A4 q B4 q D5 q |
+    | B4 q D5 q G4 q A4 q B4 q D5 q G5 q |
+    | D5 q G4 q A4 q B4 q D5 q G5 q A5 q mf |
+    | G4 q A4 q B4 q D5 q G5 q A5 q B5 q |
+    | A4 q B4 q D5 q G5 q A5 q B5 q D6 q |
+    | B4 q D5 q G5 q A5 q B5 q D6 q G6 q f |
+    | D5 h. r w |
+    | r w r h. |
+    
+    Time: 4/4
+    Tempo: 46
+    | D5 w ppp |
+    | r w |
+    | r h A4 h |
+    | G4 w ppp |
+    | r w |
+    | D4 h r h |
+    | r w |
+    | G3 w ppp |
+    | r w |
+    | r w |
+}
+
+Part: Cello Instrument: Cello {
+    | r w |
+    | G2 w pp |
+    | r h D3 h |
+    | G2 h D3 h |
+    | G3 h D3 h |
+    | G2 q D3 q G3 h |
+    | D3 h G3 h |
+    | D3 q G3 q D4 h |
+    | G3 h D4 h |
+    | G3 q D3 q G2 h |
+    | D3 h G3 q D4 q |
+    | G4 h D4 h |
+    | G3 h pp D3 h |
+    | G2 w |
+    | D3 h G3 h |
+    | D4 h p G4 h |
+    | G3 h D3 h |
+    | G2 w |
+    | D3 h G3 h |
+    | D3 w pp |
+
+    Time: 4/4
+    Tempo: 72
+    | G3 q D4 q G4 q D4 q |
+    | G3 q D4 q G4 q D4 q |
+    | G3 q D4 q G4 q D4 q |
+    | G3 q D4 q G4 q A4 q |
+    | G3 q D4 q A4 q D4 q |
+    | G3 q D4 q A4 q B4 q mf |
+    | G3 q D4 q B4 q D4 q |
+    | G3 q D4 q B4 q D5 q |
+    | G3 q D4 q D5 q G5 q f |
+    | G3 w |
+    
+    Time: 4/4
+    Tempo: 46
+    | r h G4 h ppp |
+    | D4 h r h |
+    | r w |
+    | D3 w ppp |
+    | r w |
+    | r h G3 h |
+    | D3 h r h |
+    | r w |
+    | r h G2 h ppp |
+    | G2 w |
+}

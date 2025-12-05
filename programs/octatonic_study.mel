@@ -1,0 +1,62 @@
+Title: "Octatonic Study in Uneven Ground"
+Tempo: 138
+Time: 7/8
+
+Part: Piano_Right Instrument: Piano {
+    Key: C "Octatonic"
+    | Eb5 e G5 e Bb5 q. Db6 q |
+    | C6 e A5 e F#5 q. Eb5 q |
+    | Tuplet(3:2) { G5 e Bb5 e Db6 e } A5 q. |
+    | F#5 e Eb5 e C5 q. r q |
+    
+    Time: 5/8
+    | Bb5 e Db6 e Eb6 q. |
+    | A5 e C6 e Eb6 q. |
+    | Tuplet(5:4) { G5 s Bb5 s C6 s Eb6 s F#6 s } |
+    | Db6 q. r q |
+    
+    Time: 7/8
+    | [Eb5 G5 Bb5] q. [Db5 F#5 A5] q [C5 Eb5] e |
+    | [Bb4 Db5 F#5] q. [A4 C5 Eb5] h |
+    | Tuplet(3:2) { [G4 Bb4 Db5] q [F#4 A4 C5] q [Eb4 G4 Bb4] q } r q |
+    | [C4 Eb4 F#4 A4 C5] w |
+}
+
+Part: Piano_Left Instrument: Piano {
+    Key: C "Octatonic"
+    | C3 q. Eb3 q F#3 e |
+    | A3 q. C4 q Eb3 e |
+    | F#3 q. A3 q C3 e |
+    | Eb3 q. r h |
+    
+    Time: 5/8
+    | A2 q. C3 q |
+    | Eb3 q. F#3 q |
+    | A3 q. C4 q |
+    | F#3 q. r q |
+    
+    Time: 7/8
+    | [C2 G2] q. [Eb2 Bb2] q [F#2] e |
+    | [A2 Eb3] q. [C3 G3] h |
+    | [Eb2 Bb2 F#3] h. r e |
+    | [C2 F#2 C3] w |
+}
+
+Part: Percussion Instrument: "Taiko Drum" {
+    | r e r e r e r q r q |
+    | C4 e r e C4 e r q. C4 q |
+    | r e C4 e r e C4 q. r q |
+    | C4 e C4 e r e r q C4 q |
+    
+    Time: 5/8
+    | C4 e r e C4 q. |
+    | r e C4 e r q. |
+    | C4 e C4 e C4 e C4 e C4 e |
+    | r q. C4 q |
+    
+    Time: 7/8
+    | C4 e r e C4 e r q. C4 q |
+    | r e C4 e r e C4 q. r q |
+    | C4 q. r q C4 q |
+    | C4 h. r e |
+}

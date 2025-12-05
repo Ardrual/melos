@@ -1,0 +1,57 @@
+WHITESPACE = _{ " " | "\t" | "\r" | "\n" }
+COMMENT = _{ ("//" | "=") ~ (!"\n" ~ ANY)* }
+
+score = { SOI ~ header* ~ part+ ~ EOI }
+
+header = {
+    ("Title" ~ ":" ~ string_literal) |
+    ("Tempo" ~ ":" ~ integer) |
+    ("Time" ~ ":" ~ time_signature) |
+    ("Key" ~ ":" ~ key_signature)
+}
+
+part = { "Part" ~ ":" ~ part_name ~ "Instrument" ~ ":" ~ instrument_name ~ "{" ~ part_content ~ "}" }
+part_name = { string_literal | bare_name }
+instrument_name = { string_literal | bare_name }
+bare_name = @{ (!"{" ~ !("Instrument" ~ WHITESPACE* ~ ":") ~ !("//" | "=") ~ ANY)+ }
+
+part_content = { measure_block }
+
+measure_block = { (measure | context_change)+ }
+
+measure = { "|" ~ music_event* ~ "|" }
+
+music_event = { note | chord | rest | tuplet | dynamic }
+
+note = { pitch ~ duration? ~ dynamic? ~ articulation? }
+chord = { "[" ~ pitch+ ~ "]" ~ duration? ~ dynamic? ~ articulation? }
+
+rest = { "r" ~ duration? }
+
+tuplet = { "Tuplet" ~ "(" ~ integer ~ ":" ~ integer ~ ")" ~ "{" ~ music_event* ~ "}" }
+
+pitch = { step ~ accidental? ~ octave }
+step = { "A" | "B" | "C" | "D" | "E" | "F" | "G" }
+accidental = { "#" | "b" }
+octave = @{ ASCII_DIGIT+ }
+
+duration = { base_duration ~ dot* }
+base_duration = { "w" | "h" | "q" | "e" | "s" }
+dot = { "." }
+
+dynamic = { "fff" | "ff" | "f" | "ppp" | "pp" | "p" | "mp" | "mf" }
+articulation = { "." | ">" | "-" }
+
+context_change = {
+    ("Tempo" ~ ":" ~ integer) |
+    ("Time" ~ ":" ~ time_signature) |
+    ("Key" ~ ":" ~ key_signature)
+}
+
+time_signature = { integer ~ "/" ~ integer }
+key_signature = { pitch_class ~ string_literal }
+pitch_class = { step ~ accidental? }
+
+string_literal = @{ "\"" ~ (!"\"" ~ ANY)* ~ "\"" }
+identifier = @{ ASCII_ALPHA ~ (ASCII_ALPHANUMERIC | "_")* }
+integer = @{ ASCII_DIGIT+ }

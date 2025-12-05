@@ -1,0 +1,593 @@
+// ============================================================================
+//                              ANAMNESIS
+//                    A Piano Quintet in Five Movements
+//                              Claude, Op. 5
+// ============================================================================
+//
+//                     Movement I: Umbra (Shadow)
+//
+// ============================================================================
+//
+// PROGRAM NOTES:
+//
+// The Greek word ἀνάμνησις (anamnesis) appears in Plato's dialogues to
+// describe a theory of knowledge: the soul, before incarnation, knew all
+// things; what we call "learning" is really remembering what we already
+// know. The slave boy in the Meno, who has never studied geometry, can
+// derive the Pythagorean theorem when properly questioned — not because
+// Socrates teaches him, but because the knowledge was always there, waiting.
+//
+// This quintet enacts anamnesis as musical form. A theme exists — complete,
+// coherent, memorable — but it will not be heard in full until the final
+// movement. Everything before that moment is shadow, fragment, false path,
+// near-recognition. The listener's experience should mirror the philosophical
+// concept: when the theme finally arrives, it should feel not like new
+// information but like remembering something always known.
+//
+// "Umbra" establishes the sound-world and plants the seeds. The movement
+// presents fragments of the hidden theme — a rising fifth, a stepwise cell,
+// a rhythmic figure — but stripped of context, suspended in harmonic fog.
+// The ear registers significance without grasping meaning. Shapes move in
+// peripheral vision. Something is being said, but what?
+//
+// The key is G minor, though "key" overstates the case. We rarely cadence.
+// The piano introduces the foundational interval — G to D, a perfect fifth —
+// but unaccompanied, unexplained. The strings respond with sustained tones
+// that drift rather than progress. When the stepwise cell (D-E-F#-G) appears,
+// it's broken across instruments, a melody distributed into texture.
+//
+// This is music of implication. Every gesture points beyond itself toward
+// something not yet present. The movement ends without resolution, suspended
+// on a chord that could go anywhere — because where it goes is the rest of
+// the piece.
+//
+// ============================================================================
+
+Title: "Anamnesis - I. Umbra"
+Tempo: 46
+Time: 4/4
+
+// The piano and string quartet are treated as five equal voices, not as
+// "piano with accompaniment." In this movement, the piano often initiates
+// while the strings respond, but this relationship will shift.
+
+Part: Piano Instrument: Piano {
+    
+    // =========================================================================
+    // SECTION A: The Fifth Emerges (mm. 1-16)
+    // =========================================================================
+    //
+    // The movement begins with near-silence. The piano states the interval
+    // that generates everything: G to D, a perfect fifth. No harmony, no
+    // rhythm beyond the notes themselves. This is the DNA of the hidden theme,
+    // presented as pure relation.
+    
+    // mm. 1-4: Silence, then the fifth
+    // The rest is not empty time but pregnant pause. When G arrives, it
+    // should feel like emergence from void.
+    | r w |
+    | r h G3 h pp |
+    | r w |
+    | D4 w ppp |
+    
+    // mm. 5-8: The fifth again, differently spaced
+    // Same interval, different register. We're learning this sound.
+    | r w |
+    | r h [G2 G3] h pp |
+    | r w |
+    | [D3 D4] h r h |
+    
+    // mm. 9-12: The piano begins to move
+    // For the first time, motion within a phrase. But fragmentary —
+    // the stepwise cell (D-E-F#) appears, incomplete.
+    | r h D4 q E4 q ppp |
+    | F#4 h r h |
+    | r w |
+    | r w |
+    
+    // mm. 13-16: The Long-Short rhythm, detached
+    // This dotted figure is one of the theme's rhythmic cells. Here it
+    // carries no thematic pitch — just rhythm as gesture.
+    | G3 h. G3 q pp |
+    | r w |
+    | D3 h. D3 q |
+    | r w |
+    
+    // =========================================================================
+    // SECTION B: Searching (mm. 17-32)
+    // =========================================================================
+    //
+    // The texture thickens slightly. Piano and strings begin to interact,
+    // though not yet converse. The stepwise cell passes between instruments
+    // like a question no one can answer.
+    
+    // mm. 17-20: Response to strings
+    | r w |
+    | [G2 D3] w pp |
+    | r h D4 h ppp |
+    | E4 q F#4 q G4 h |
+    
+    // mm. 21-24: The cell, elaborated
+    // D-E-F#-G complete for the first time in the piano, but slow,
+    // separated — not yet a melody, just pitches in sequence.
+    | r w |
+    | D3 h r h pp |
+    | E3 h r h |
+    | F#3 h G3 h |
+    
+    // mm. 25-28: Harmonic thickening
+    // For the first time, something like a chord. But hollow — fifths
+    // stacked, no third to clarify major or minor.
+    | [G2 D3 A3] w p |
+    | r w |
+    | [D2 A2 E3] w pp |
+    | r w |
+    
+    // mm. 29-32: The Long-Short returns
+    | G3 h. A3 q ppp |
+    | Bb3 h r h |
+    | r w |
+    | r h [G2 D3] h pp |
+    
+    // =========================================================================
+    // SECTION C: Near-Recognition (mm. 33-48)
+    // =========================================================================
+    //
+    // The music builds toward something — almost a statement. Fragments
+    // align momentarily. But the moment passes before it coheres. This is
+    // the closest we come to the theme in this movement: proximity without
+    // arrival.
+    
+    // mm. 33-36: Rising tension
+    | D4 h E4 h p |
+    | F#4 h G4 h |
+    | r h A4 h mp |
+    | G4 q F#4 q E4 h |
+    
+    // mm. 37-40: The descent begins
+    // This falling figure (A-G-F#-E-D) is from the theme, but here
+    // it appears as response, not statement.
+    | D4 w pp |
+    | r w |
+    | [G2 D3] h [A2 E3] h |
+    | [Bb2 F3] h [G2 D3] h p |
+    
+    // mm. 41-44: Climax — such as it is
+    // The loudest moment of the movement, which isn't very loud.
+    // Multiple fragments sounding together, not quite fitting.
+    | [G3 D4 G4] h. [G3 D4 G4] q mf |
+    | [A3 E4 A4] h [G3 D4] h |
+    | [F#3 D4] h [E3 B3] h mp |
+    | [D3 A3] w |
+    
+    // mm. 45-48: Dissolution
+    | r h G4 h pp |
+    | D4 h r h |
+    | r w |
+    | r w |
+    
+    // =========================================================================
+    // SECTION D: Return to Fog (mm. 49-60)
+    // =========================================================================
+    //
+    // After the near-arrival, dispersal. The material thins. We end
+    // almost where we began — the fifth, alone — but now freighted with
+    // implication. The silence is no longer empty.
+    
+    // mm. 49-52: Fragments, fading
+    | D3 h. D3 q ppp |
+    | r w |
+    | E3 q F#3 q r h |
+    | r w |
+    
+    // mm. 53-56: The strings continue; piano withdraws
+    | r w |
+    | r w |
+    | [G2 D3] w pp |
+    | r w |
+    
+    // mm. 57-60: Final sounds
+    // Ending on the fifth, but with Bb in the bass — the flatted third
+    // implying G minor without confirming it. Suspension, not resolution.
+    | r h D4 h ppp |
+    | r w |
+    | [Bb1 G2 D3] w pp |
+    | r w |
+}
+
+Part: "Violin 1" Instrument: Violin {
+    
+    // The first violin often carries the highest voice, but in this movement
+    // it's more shadow than lead. It traces the upper partials of the piano's
+    // statements, adds wisps of the stepwise cell.
+    
+    // mm. 1-4: Tacet — the piano alone
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    
+    // mm. 5-8: First entry — a high D, the fifth's upper note
+    | r w |
+    | r w |
+    | D5 w ppp |
+    | r w |
+    
+    // mm. 9-12: Responding to piano's fragment
+    | r w |
+    | r h D5 h ppp |
+    | E5 q r q r h |
+    | r w |
+    
+    // mm. 13-16: Long-Short rhythm, transferred
+    | r w |
+    | D5 h. D5 q ppp |
+    | r w |
+    | r w |
+    
+    // mm. 17-20: The stepwise cell, high
+    | D5 h E5 h pp |
+    | F#5 h r h |
+    | r w |
+    | r h D5 h ppp |
+    
+    // mm. 21-24: Sustaining over piano motion
+    | G5 w pp |
+    | r w |
+    | r w |
+    | r h D5 h ppp |
+    
+    // mm. 25-28: Harmonic tones
+    | r w |
+    | A5 w ppp |
+    | r w |
+    | r w |
+    
+    // mm. 29-32: Fragments
+    | r w |
+    | r h D5 h pp |
+    | E5 h F#5 h |
+    | G5 h r h |
+    
+    // mm. 33-36: Building
+    | r w |
+    | r h G5 h p |
+    | A5 h r h |
+    | G5 q F#5 q E5 h |
+    
+    // mm. 37-40: The descent
+    | D5 h r h pp |
+    | r w |
+    | r w |
+    | r h D5 h p |
+    
+    // mm. 41-44: Climax
+    | G5 h. G5 q mf |
+    | A5 h G5 h |
+    | F#5 h E5 h mp |
+    | D5 w |
+    
+    // mm. 45-48: Dissolving
+    | r w |
+    | r h G5 h pp |
+    | D5 w ppp |
+    | r w |
+    
+    // mm. 49-52: Fading
+    | r w |
+    | D5 h. r q ppp |
+    | r w |
+    | r w |
+    
+    // mm. 53-56: Near-silence
+    | r w |
+    | r w |
+    | r h D5 h ppp |
+    | r w |
+    
+    // mm. 57-60: Final tones
+    | D5 w ppp |
+    | r w |
+    | r w |
+    | r w |
+}
+
+Part: "Violin 2" Instrument: Violin {
+    
+    // Second violin often doubles or shadows the first at the lower octave
+    // or third. Here it provides harmonic filling — the middle of the texture.
+    
+    // mm. 1-8: Tacet
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    
+    // mm. 9-12: First entry
+    | r w |
+    | r w |
+    | r h G4 h ppp |
+    | r w |
+    
+    // mm. 13-16: Rhythmic figure
+    | r w |
+    | r w |
+    | A4 h. A4 q ppp |
+    | r w |
+    
+    // mm. 17-20: Stepwise motion
+    | r h D4 h pp |
+    | E4 h F#4 h |
+    | G4 h r h |
+    | r w |
+    
+    // mm. 21-24: Sustained tones
+    | r w |
+    | D4 w pp |
+    | E4 w |
+    | r w |
+    
+    // mm. 25-28: Filling harmony
+    | D4 w pp |
+    | r w |
+    | E4 w pp |
+    | r w |
+    
+    // mm. 29-32: Motion
+    | G4 h r h ppp |
+    | r w |
+    | r h D4 h pp |
+    | E4 h D4 h |
+    
+    // mm. 33-36: Building
+    | r h G4 h p |
+    | A4 h G4 h |
+    | F#4 h E4 h |
+    | D4 w |
+    
+    // mm. 37-40: Sustained
+    | r w |
+    | A4 w pp |
+    | G4 w |
+    | F4 h r h |
+    
+    // mm. 41-44: Climax
+    | D4 h. D4 q mf |
+    | E4 h D4 h |
+    | D4 h B3 h mp |
+    | A3 w |
+    
+    // mm. 45-48: Thinning
+    | r w |
+    | r w |
+    | r h G4 h pp |
+    | r w |
+    
+    // mm. 49-52: Fragments
+    | r w |
+    | r w |
+    | r h D4 h ppp |
+    | r w |
+    
+    // mm. 53-56: Fading
+    | r w |
+    | r h G4 h ppp |
+    | r w |
+    | r w |
+    
+    // mm. 57-60: Final
+    | r w |
+    | Bb4 w ppp |
+    | r w |
+    | r w |
+}
+
+Part: Viola Instrument: Viola {
+    
+    // The viola is the "hidden" voice — the inner part that the ear doesn't
+    // consciously track but that shapes everything. In later movements, 
+    // crucial thematic material will be buried here.
+    
+    // mm. 1-8: Tacet, then entry
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r h A3 h ppp |
+    | r w |
+    
+    // mm. 9-12: The inner third
+    | r w |
+    | A3 w ppp |
+    | r w |
+    | r w |
+    
+    // mm. 13-16: Long tones
+    | D3 w pp |
+    | r w |
+    | r w |
+    | r w |
+    
+    // mm. 17-20: Motion begins
+    | r w |
+    | r h D4 h pp |
+    | E4 h D4 h |
+    | r w |
+    
+    // mm. 21-24: The stepwise cell, lower
+    | D3 h E3 h pp |
+    | F#3 h G3 h |
+    | r w |
+    | r h Bb3 h |
+    
+    // mm. 25-28: Filling
+    | E3 w pp |
+    | r w |
+    | r w |
+    | A3 w ppp |
+    
+    // mm. 29-32: Chromatic inflection
+    | D4 h Eb4 h pp |
+    | D4 h r h |
+    | r w |
+    | Bb3 h r h |
+    
+    // mm. 33-36: Building with others
+    | G3 h A3 h p |
+    | Bb3 h A3 h |
+    | r h G3 h |
+    | A3 h G3 h |
+    
+    // mm. 37-40: Descent
+    | F#3 w pp |
+    | E3 w |
+    | D3 w |
+    | r w |
+    
+    // mm. 41-44: Climax — the inner voice
+    | Bb3 h. Bb3 q mf |
+    | C4 h Bb3 h |
+    | A3 h G3 h mp |
+    | F#3 w |
+    
+    // mm. 45-48: Fading
+    | r h D4 h pp |
+    | r w |
+    | Bb3 w ppp |
+    | r w |
+    
+    // mm. 49-52: Wisps
+    | r w |
+    | r w |
+    | r w |
+    | Bb3 h r h ppp |
+    
+    // mm. 53-56: Near-silence
+    | G3 w ppp |
+    | r w |
+    | r w |
+    | Bb3 w ppp |
+    
+    // mm. 57-60: Final — the minor third implied
+    | r w |
+    | r w |
+    | Bb2 w pp |
+    | r w |
+}
+
+Part: Cello Instrument: Cello {
+    
+    // The cello will ultimately carry the complete theme in Movement V.
+    // Here it provides the bass — the harmonic ground, such as it is —
+    // and occasionally rises to sing fragments of what's to come.
+    
+    // mm. 1-4: Tacet with piano
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    
+    // mm. 5-8: First entry — the low G
+    | G2 w pp |
+    | r w |
+    | r w |
+    | D2 w ppp |
+    
+    // mm. 9-12: Sustaining
+    | G2 w pp |
+    | r w |
+    | r w |
+    | r w |
+    
+    // mm. 13-16: Answering the piano's rhythm
+    | r w |
+    | G2 h. G2 q pp |
+    | r w |
+    | D2 w ppp |
+    
+    // mm. 17-20: Motion
+    | G2 h r h |
+    | r w |
+    | r h G2 h pp |
+    | D3 h r h |
+    
+    // mm. 21-24: The bass moves
+    | G2 w pp |
+    | F#2 w |
+    | E2 w |
+    | D2 w |
+    
+    // mm. 25-28: Open fifths, low
+    | G2 w p |
+    | r w |
+    | D2 w pp |
+    | r w |
+    
+    // mm. 29-32: Chromatic motion
+    | G2 h r h pp |
+    | r w |
+    | r h G2 h |
+    | r w |
+    
+    // mm. 33-36: Building
+    | G2 h A2 h p |
+    | Bb2 h A2 h |
+    | G2 h F#2 h |
+    | G2 w |
+    
+    // mm. 37-40: Descent in bass
+    | D2 w pp |
+    | C2 w |
+    | Bb1 w |
+    | r w |
+    
+    // mm. 41-44: Climax — bass foundation
+    | G2 h. G2 q mf |
+    | A2 h G2 h |
+    | D2 h E2 h mp |
+    | D2 w |
+    
+    // mm. 45-48: Dissolving
+    | G2 h r h pp |
+    | r w |
+    | r h G2 h ppp |
+    | r w |
+    
+    // mm. 49-52: Fragments
+    | r w |
+    | G2 w ppp |
+    | r w |
+    | r w |
+    
+    // mm. 53-56: The ground
+    | D2 w ppp |
+    | r w |
+    | G2 w pp |
+    | r w |
+    
+    // mm. 57-60: Final — Bb in bass, darkening
+    | r w |
+    | G2 h r h ppp |
+    | r w |
+    | G2 w ppp |
+}
+
+// ============================================================================
+// END OF MOVEMENT I
+//
+// The shadows have been cast. The fifth (G-D) is established as fundamental.
+// The stepwise cell (D-E-F#-G) has appeared, fragmented. The Long-Short
+// rhythm has been heard. But nothing has cohered. The listener carries
+// forward a sense of significance without meaning — which is exactly right.
+//
+// Movement II, "Spectra," will take these fragments and subject them to
+// distortion: inversion, displacement, false harmonization. The pursuit
+// of the hidden theme becomes more urgent, more frustrated. What was fog
+// becomes fever dream.
+// ============================================================================

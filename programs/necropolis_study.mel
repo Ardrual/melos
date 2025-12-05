@@ -1,0 +1,27 @@
+Title: "necropolis study i"
+Tempo: 72
+Time: 5/4
+
+Part: Piano Instrument: Piano {
+    | [C3 G3 C4] h.   r q   E4 e F#4 e |
+    | Tuplet(5:4) { G4 e A4 e Bb4 e C5 e D5 e } r e |
+    Time: 3/4
+    | [C4 Eb4 G4] q-   [Db4 F4 Ab4] q-   r q |
+    | Tuplet(3:2) { F#4 e. G4 s A4 e. }   E4 q   C4 q |
+}
+
+Part: "Acoustic Bass" Instrument: "Acoustic Bass" {
+    | C2 h.   r q   G1 q |
+    | Tuplet(3:2) { C2 q D2 q Eb2 q } |
+    Time: 3/4
+    | C2 h   Bb1 q |
+    | F1 q   r q   G1 q |
+}
+
+Part: Flute Instrument: Flute {
+    | r q   G5 q. A5 e   D6 q |
+    | Tuplet(7:4) { A5 s Bb5 s C6 s D6 s Eb6 s D6 s C6 s } r e |
+    Time: 3/4
+    | C6 q>   Bb5 q. A5 e |
+    | G5 q   r q   D6 q |
+}

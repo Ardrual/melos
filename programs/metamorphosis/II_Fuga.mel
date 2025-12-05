@@ -1,0 +1,307 @@
+// ============================================================================
+// METAMORPHOSES ON A LAMENT
+// Movement II: Fuga — "Voices in Descent"
+// ============================================================================
+//
+// If the passacaglia is Sisyphean, the fugue is something stranger: a room
+// of mirrors where a single idea chases itself through harmonic space. 
+//
+// The fugue subject derives from our tetrachord, but now rhythmicized and
+// extended: A4-G4-F4-E4 becomes a complete musical thought with a "tail"
+// that provides counterpoint material.
+//
+// SUBJECT: A4 h - G4 q - F4 q - E4 h - F4 q - G4 q - A4 h
+// (The descent, then a partial recovery — the grief that can't stay down)
+//
+// The ANSWER appears at the dominant (E), as tradition demands.
+// 
+// Structure:
+//   - Exposition: All four voices enter with subject/answer
+//   - Episode I: Sequential development
+//   - Middle entries: Subject in relative major (C), subdominant (D)
+//   - Episode II: Stretto implications
+//   - Final section: Stretto (voices overlapping), pedal point, coda
+//
+// This is a "learned" fugue in the Bach tradition, but the subject's
+// lamenting character should never be forgotten.
+// ============================================================================
+
+Title: "Metamorphoses on a Lament - II. Fuga"
+Tempo: 72
+Time: 4/4
+
+Part: Cello Instrument: Cello {
+    // EXPOSITION - Cello enters last (bar 10) with subject in bass register
+    // Bars 1-9: Tacet while upper voices establish
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    
+    // Bar 10-12: SUBJECT in A minor, bass voice
+    | A2 h G2 q F2 q mf |
+    | E2 h F2 q G2 q |
+    | A2 w |
+    
+    // Bars 13-15: Free counterpoint
+    | E2 q F2 q G2 q A2 q |
+    | B2 q C3 q D3 q E3 q |
+    | A2 w |
+    
+    // EPISODE I (Bars 16-19): Sequential passage
+    | D2 h E2 h |
+    | F2 h G2 h |
+    | A2 h B2 h |
+    | C3 h D3 h |
+    
+    // MIDDLE ENTRY (Bars 20-22): Subject in C major (relative)
+    | C3 h B2 q A2 q f |
+    | G2 h A2 q B2 q |
+    | C3 w |
+    
+    // Bars 23-25: Free counterpoint
+    | G2 q A2 q B2 q C3 q |
+    | D3 q E3 q F3 q G3 q |
+    | C3 w |
+    
+    // EPISODE II (Bars 26-29): Tension building
+    | F2 h. F2 q |
+    | E2 h. E2 q |
+    | D2 h. D2 q |
+    | E2 w |
+    
+    // STRETTO SECTION (Bars 30-35): Subject entries overlap
+    // Cello has subject while viola follows 2 beats later
+    | A2 h G2 q F2 q ff |
+    | E2 h F2 q G2 q |
+    | A2 h G2 h |
+    | F2 h E2 h |
+    | D2 h C2 h |
+    | D2 w |
+    
+    // PEDAL POINT (Bars 36-39): Dominant pedal
+    | E2 w |
+    | E2 w |
+    | E2 w |
+    | E2 w |
+    
+    // CODA (Bars 40-43): Final statement
+    | A2 h G2 q F2 q p |
+    | E2 w |
+    | A2 w pp |
+    | A2 w ppp |
+}
+
+Part: Viola Instrument: Viola {
+    // EXPOSITION - Viola enters third (bar 7)
+    // Bars 1-6: Tacet
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    
+    // Bars 7-9: ANSWER in E minor (dominant)
+    | E3 h D3 q C3 q mf |
+    | B2 h C3 q D3 q |
+    | E3 w |
+    
+    // Bars 10-12: Countersubject while cello has subject
+    | C3 q D3 q E3 q F3 q |
+    | G3 q A3 q B3 q C4 q |
+    | E3 h D3 h |
+    
+    // Bars 13-15: Free counterpoint
+    | C3 h B2 h |
+    | A2 h G2 h |
+    | C3 w |
+    
+    // EPISODE I (Bars 16-19)
+    | F3 q E3 q D3 q C3 q |
+    | D3 q C3 q B2 q A2 q |
+    | C3 q D3 q E3 q F3 q |
+    | E3 q F3 q G3 q A3 q |
+    
+    // MIDDLE ENTRY (Bars 20-22): Counterpoint to cello's subject
+    | E3 q F3 q G3 q A3 q f |
+    | B3 q C4 q D4 q E4 q |
+    | E3 h D3 h |
+    
+    // Bars 23-25: Subject in D minor (subdominant)
+    | D3 h C3 q B2 q |
+    | A2 h B2 q C3 q |
+    | D3 w |
+    
+    // EPISODE II (Bars 26-29)
+    | A3 h. A3 q |
+    | G3 h. G3 q |
+    | F3 h. F3 q |
+    | G#3 w |
+    
+    // STRETTO (Bars 30-35): Answer enters 2 beats after cello
+    | r h E3 h ff |
+    | D3 q C3 q B2 h |
+    | C3 q D3 q E3 h |
+    | D3 h C3 h |
+    | B2 h A2 h |
+    | G#2 w |
+    
+    // PEDAL POINT (Bars 36-39): Inner voice motion over E pedal
+    | G#3 h A3 h |
+    | B3 h C4 h |
+    | B3 h A3 h |
+    | G#3 w |
+    
+    // CODA (Bars 40-43)
+    | E3 h D3 q C3 q p |
+    | B2 w |
+    | C3 w pp |
+    | C3 w ppp |
+}
+
+Part: "Violin 2" Instrument: Violin {
+    // EXPOSITION - Violin 2 enters second (bar 4)
+    // Bars 1-3: Tacet
+    | r w |
+    | r w |
+    | r w |
+    
+    // Bars 4-6: ANSWER in E minor (dominant)
+    | E4 h D4 q C4 q mf |
+    | B3 h C4 q D4 q |
+    | E4 w |
+    
+    // Bars 7-9: Countersubject while viola has answer
+    | A3 q B3 q C4 q D4 q |
+    | E4 q F4 q G4 q A4 q |
+    | G4 h F4 h |
+    
+    // Bars 10-12: Free counterpoint
+    | E4 h D4 h |
+    | C4 h B3 h |
+    | C4 w |
+    
+    // Bars 13-15: Free counterpoint
+    | E4 q D4 q C4 q B3 q |
+    | A3 q G3 q F3 q E3 q |
+    | E4 w |
+    
+    // EPISODE I (Bars 16-19)
+    | A4 q G4 q F4 q E4 q |
+    | F4 q E4 q D4 q C4 q |
+    | E4 q F4 q G4 q A4 q |
+    | G4 q A4 q B4 q C5 q |
+    
+    // MIDDLE ENTRY (Bars 20-22): Subject in C major
+    | C4 h B3 q A3 q f |
+    | G3 h A3 q B3 q |
+    | C4 w |
+    
+    // Bars 23-25: Counterpoint
+    | B3 q C4 q D4 q E4 q |
+    | F4 q G4 q A4 q B4 q |
+    | A4 h G4 h |
+    
+    // EPISODE II (Bars 26-29)
+    | C4 h. C4 q |
+    | B3 h. B3 q |
+    | A3 h. A3 q |
+    | B3 w |
+    
+    // STRETTO (Bars 30-35): Subject in inversion (ascending)
+    | E4 h F4 q G4 q ff |
+    | A4 h G4 q F4 q |
+    | E4 h D4 h |
+    | C4 h B3 h |
+    | A3 h G3 h |
+    | B3 w |
+    
+    // PEDAL POINT (Bars 36-39)
+    | E4 h D4 h |
+    | E4 h F4 h |
+    | E4 h D4 h |
+    | E4 w |
+    
+    // CODA (Bars 40-43)
+    | C4 h B3 q A3 q p |
+    | G#3 w |
+    | A3 w pp |
+    | A3 w ppp |
+}
+
+Part: "Violin 1" Instrument: Violin {
+    // EXPOSITION - Violin 1 enters first with SUBJECT (bar 1)
+    
+    // Bars 1-3: SUBJECT in A minor
+    | A4 h G4 q F4 q mf |
+    | E4 h F4 q G4 q |
+    | A4 w |
+    
+    // Bars 4-6: Countersubject while Violin 2 has answer
+    | C5 q B4 q A4 q G4 q |
+    | G4 q A4 q B4 q C5 q |
+    | B4 h A4 h |
+    
+    // Bars 7-9: Free counterpoint
+    | C5 h B4 h |
+    | A4 h G4 h |
+    | B4 w |
+    
+    // Bars 10-12: Free counterpoint while cello has subject
+    | A4 q B4 q C5 q D5 q |
+    | E5 q D5 q C5 q B4 q |
+    | C5 w |
+    
+    // Bars 13-15: Free counterpoint
+    | A4 h G4 h |
+    | F4 h E4 h |
+    | A4 w |
+    
+    // EPISODE I (Bars 16-19)
+    | D5 q C5 q B4 q A4 q |
+    | B4 q A4 q G4 q F4 q |
+    | A4 q B4 q C5 q D5 q |
+    | C5 q D5 q E5 q F5 q |
+    
+    // MIDDLE ENTRY (Bars 20-22): High counterpoint
+    | G4 q A4 q B4 q C5 q f |
+    | D5 q E5 q F5 q G5 q |
+    | E5 w |
+    
+    // Bars 23-25: Subject in high register
+    | A5 h G5 q F5 q |
+    | E5 h F5 q G5 q |
+    | A5 w |
+    
+    // EPISODE II (Bars 26-29)
+    | F5 h. F5 q |
+    | E5 h. E5 q |
+    | D5 h. D5 q |
+    | E5 w |
+    
+    // STRETTO (Bars 30-35): Final subject statement
+    | A5 h G5 q F5 q ff |
+    | E5 h F5 q G5 q |
+    | A5 h G5 h |
+    | F5 h E5 h |
+    | D5 h C5 h |
+    | E5 w |
+    
+    // PEDAL POINT (Bars 36-39): Dominant preparation
+    | B4 h C5 h |
+    | D5 h E5 h |
+    | D5 h C5 h |
+    | B4 w |
+    
+    // CODA (Bars 40-43): Final descent
+    | A4 h G4 q F4 q p |
+    | E4 w |
+    | E4 w pp |
+    | A4 w ppp |
+}

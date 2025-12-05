@@ -1,0 +1,271 @@
+// ============================================================================
+//                          THREE ATTENTIONS
+//                         for Solo Piano
+//                           Claude, Op. 4
+// ============================================================================
+//
+// PROGRAM NOTES:
+//
+// This triptych explores three modes of perception — three ways attention
+// can transform the one who attends. Each movement takes its title and
+// animating impulse from a text that has shaped how I think about
+// consciousness, emptiness, and the demands that beauty makes.
+//
+// The three texts are:
+//
+//   I.   Wallace Stevens, "The Snow Man" (1921)
+//   II.  Rainer Maria Rilke, "Archaic Torso of Apollo" (1908)
+//   III. The Heart Sutra (c. 1st century CE)
+//
+// What connects them: each describes a perceptual event that undoes
+// the perceiver. The Snow Man empties himself to see clearly; the viewer
+// of the torso is filled and shattered by being seen; the practitioner
+// of the Sutra dissolves the very categories of self and world. Three
+// paths to the same placeless place.
+//
+// Duration: approximately 9 minutes
+//
+// ============================================================================
+
+
+// ============================================================================
+// I. THE SNOW MAN (mm. 1-20)
+// ============================================================================
+//
+// "One must have a mind of winter
+// To regard the frost and the boughs
+// Of the pine-trees crusted with snow;
+//
+// And have been cold a long time
+// To behold the junipers shagged with ice,
+// The spruces rough in the distant glitter
+//
+// Of the January sun; and not to think
+// Of any misery in the sound of the wind,
+// In the sound of a few leaves,
+//
+// Which is the sound of the land
+// Full of the same wind
+// That is blowing in the same bare place
+//
+// For the listener, who listens in the snow,
+// And, nothing himself, beholds
+// Nothing that is not there and the nothing that is."
+//
+//                              — Wallace Stevens
+//
+// The movement is almost entirely not-sounding. A single interval — the
+// perfect fifth E-B — is the only material: the barest harmonic identity
+// before it becomes "about" something. The silences are not rests between
+// events but the substance of the piece itself.
+//
+// Stevens describes a perception stripped of projection: seeing what is
+// actually there, which includes the nothing. The final line is
+// inexhaustible — "the nothing that is" — emptiness not as absence but
+// as presence. The music attempts to embody that paradox: sparse enough
+// to hear the silence, but not silent.
+//
+// ============================================================================
+
+Title: "Three Attentions"
+Tempo: 40
+Time: 4/4
+
+Part: Piano Instrument: Piano {
+
+    // mm. 1-5: Establishing the void
+    // The fifth E-B emerges from silence, disappears, returns. Each appearance
+    // is an event; each silence is equally an event.
+    | r w |
+    | r h E4 h ppp |
+    | r w |
+    | B3 w |
+    | r h r q E4 q ppp |
+
+    // mm. 6-10: The interval persists, never insists
+    // No development, no direction — only presence and absence alternating.
+    // "The listener, who listens in the snow..."
+    | r w |
+    | r h B3 h |
+    | E4 h r h |
+    | r w |
+    | B3 q r q E4 h ppp |
+
+    // mm. 11-15: The octave opens the space further
+    // E3 enters below — the same pitch, deeper register. The harmony
+    // remains purely fifth and octave: pre-tonal, pre-expressive.
+    | r w |
+    | [E3 B3] w pp |
+    | r w |
+    | r h E4 q B4 q ppp |
+    | r w |
+
+    // mm. 16-20: Dissolution into "the nothing that is"
+    // The material thins to single tones, then silence. The ending is not
+    // a cadence but a cessation — the snow man beholding nothing.
+    | [B3 E4] h r h |
+    | r w |
+    | E3 w ppp |
+    | r w |
+    | r w |
+
+
+// ============================================================================
+// II. ARCHAIC TORSO OF APOLLO (mm. 21-40)
+// ============================================================================
+//
+// "We cannot know his legendary head
+// with eyes like ripening fruit. And yet his torso
+// is still suffused with brilliance from inside,
+// like a lamp, in which his gaze, now turned to low,
+//
+// gleams in all its power. Otherwise
+// the curved breast could not dazzle you so, nor could
+// a smile run through the placid hips and thighs
+// to that dark center where procreation flared.
+//
+// Otherwise this stone would seem defaced
+// beneath the translucent cascade of the shoulders
+// and would not glisten like a wild beast's fur:
+//
+// would not, from all the borders of itself,
+// burst like a star: for here there is no place
+// that does not see you. You must change your life."
+//
+//                              — Rainer Maria Rilke (trans. Stephen Mitchell)
+//
+// The reverse movement from the first: you go to look at the artwork and
+// discover it is looking at you. The torso has no head, no eyes, but every
+// surface sees. The demand is absolute: "You must change your life."
+//
+// Rising major triads in parallel motion — archaic, almost Debussyan —
+// build relentlessly through the registers. The crescendo enacts the
+// gathering intensity of being beheld. The fortissimo arrival is the
+// moment of confrontation. Then the retreat: the same material dissolving
+// downward, but you cannot unhear what happened. You leave different.
+//
+// ============================================================================
+
+    Time: 3/4
+
+    // mm. 21-24: The torso emerges
+    // Parallel triads ascending by whole steps — an archaic, non-functional
+    // progression. Each chord is a surface; each surface sees you.
+    | [D4 F#4 A4] h. pp |
+    | [E4 G#4 B4] h. |
+    | [Gb4 Bb4 Db5] h. p |
+    | [Ab4 C5 Eb5] h. |
+
+    // mm. 25-28: "Suffused with brilliance from inside"
+    // The ascent continues, dynamics swelling. The gaze intensifies.
+    | [A4 C#5 E5] h. mp |
+    | [B4 D#5 F#5] h. |
+    | [Db5 F5 Ab5] h. mf |
+    | [Eb5 G5 Bb5] h. |
+
+    // mm. 29-32: "For here there is no place that does not see you"
+    // The climax. Triads compress into faster rhythm at the peak.
+    // The full weight of the confrontation.
+    | [E5 G#5 B5] h. f |
+    | [Gb5 Bb5 Db6] h. |
+    | [Ab5 C6 Eb6] h. ff |
+    | [A5 C#6 E6] q [B5 D#6 F#6] q [Db6 F6 Ab6] q |
+
+    // mm. 33-36: "You must change your life"
+    // The fortissimo chord — then silence. The demand hangs in the air.
+    // What follows is aftermath: the descent, the processing, the
+    // impossibility of returning unchanged.
+    | [Eb6 G6 Bb6] h. fff |
+    | r h. |
+    | [A3 C#4 E4] h. pp |
+    | r q [Ab3 C4 Eb4] h |
+
+    // mm. 37-40: Leaving the museum
+    // The material fades downward. The same triads, but now receding.
+    // You carry the gaze with you.
+    | r h. |
+    | [E3 G#3 B3] h. ppp |
+    | r h. |
+    | r h. |
+
+
+// ============================================================================
+// III. GATE GATE (mm. 41-54)
+// ============================================================================
+//
+// "...in emptiness there is no form, no sensation, no perception,
+// no mental formation, no consciousness; no eye, no ear, no nose,
+// no tongue, no body, no mind; no color, no sound, no smell, no taste,
+// no touch, no object of mind; no realm of sight and so forth until
+// no realm of mind-consciousness; no ignorance and no end of ignorance
+// and so forth until no old age and death and no end of old age and death;
+// no suffering, no origin, no cessation, no path; no wisdom and no attainment.
+//
+// With nothing to attain, a bodhisattva relies on prajnaparamita
+// and thus the mind is without hindrance...
+//
+// Gate gate pāragate pārasaṃgate bodhi svāhā."
+//
+// (Gone, gone, gone beyond, gone completely beyond, awakening, so be it.)
+//
+//                              — The Heart Sutra
+//
+// The systematic negation of the Sutra: no eyes, no ears, no nose, no tongue,
+// no body, no mind. Each category of experience dissolved. But this is not
+// nihilism — the negation opens into compassion, the "gone beyond" that
+// somehow returns to help all beings.
+//
+// A chromatic descent through the registers, each note separated by
+// silence. The 5/4 meter creates asymmetry; this is not mechanical erasure
+// but living dissolution. The final low E is not resolution — it is the
+// ground that was always there, now audible because everything else has
+// been cleared away.
+//
+// The silence after the last measure is part of the piece.
+//
+// ============================================================================
+
+    Time: 5/4
+
+    // mm. 41-44: "No eye, no ear, no nose, no tongue..."
+    // Stepwise descent from E5, each pitch isolated by silence.
+    // The categories dissolve one by one.
+    | E5 q pp r q D5 q r q C5 q |
+    | r q B4 q r q A4 q r q |
+    | G4 q r q F4 q r q E4 q |
+    | r q D4 q r q C4 q r q |
+
+    // mm. 45-48: "No suffering, no origin, no cessation, no path..."
+    // The descent continues into the lower register. Dynamics fade.
+    // The negation is nearly complete.
+    | B3 q ppp r q A3 q r h |
+    | r q G3 q r h. |
+    | r h F3 q r h |
+    | r h. E3 h ppp |
+
+    // mm. 49-52: "Gate gate pāragate..."
+    // Gone, gone, gone beyond. The notes thin to near-silence.
+    // Isolated tones in a field of rest.
+    | r h. r h |
+    | r w r q |
+    | r h. r h |
+    | r w E3 q ppp |
+
+    // mm. 53-54: "...bodhi svāhā"
+    // Awakening, so be it. The final E — the ground tone from the
+    // first movement — returns at the bottom of the keyboard.
+    // Not arrival but recognition: this was always here.
+    | r w r q |
+    | r w r q |
+}
+
+// ============================================================================
+// END
+//
+// The three movements trace a single arc: from emptying oneself to perceive
+// clearly (Stevens), through being shattered by what one perceives (Rilke),
+// to dissolving the very distinction between perceiver and perceived
+// (the Sutra). Three attentions; three transformations; one placeless place.
+//
+// The silence after the final measure is part of the piece.
+// ============================================================================

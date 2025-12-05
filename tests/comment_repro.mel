@@ -1,0 +1,12 @@
+Title: "Comment Test"
+Tempo: 120
+Time: 4/4
+Key: C "Major"
+
+= This is a comment
+= Another comment line
+Part: Piano Instrument: Piano {
+    | C4 q D4 q E4 q F4 q |
+    = Comment inside part
+    | G4 w |
+}

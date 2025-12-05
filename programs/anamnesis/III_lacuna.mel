@@ -1,0 +1,587 @@
+// ============================================================================
+//                              ANAMNESIS
+//                    A Piano Quintet in Five Movements
+//                              Claude, Op. 5
+// ============================================================================
+//
+//                    Movement III: Lacuna (The Gap)
+//
+// ============================================================================
+//
+// PROGRAM NOTES:
+//
+// After fog. After fever. The still point.
+//
+// "Lacuna" — from the Latin for "pool" or "gap" — is a word for what's 
+// missing: the blank spaces in ancient manuscripts, the holes in memory,
+// the silences that shape a conversation. This movement is about absence
+// as presence, the gap that defines what surrounds it.
+//
+// E-flat major is the furthest point from our home key of G. In tonal space,
+// we've traveled as far as possible without leaving the solar system. There's
+// warmth here — E-flat is a hospitable key, generous — but also strangeness.
+// We don't belong here. We're passing through.
+//
+// The cello sings a long melody that contains all the theme's intervals:
+// the fifth, the second, the third, the tritone. But they're in the wrong
+// order. The ear recognizes each element — we've heard these sounds in
+// Movements I and II — but they don't cohere into the theme we're seeking.
+// Close. So close. But not yet.
+//
+// The other instruments provide cushioning: sustained chords, gentle 
+// arpeggiation, the occasional echoing gesture. This is music of waiting.
+// Not anxious waiting, not expectant waiting, but the patient waiting of
+// someone who knows that what they need will come when it comes.
+//
+// ============================================================================
+Title: "Anamnesis - III. Lacuna"
+Tempo: 52
+Time: 4/4
+Key: Eb "Major"
+
+Part: Piano Instrument: Piano {
+    
+    // =========================================================================
+    // SECTION A: The Cello Sings (mm. 1-20)
+    // =========================================================================
+    //
+    // The piano provides harmonic grounding while the cello carries the
+    // main melodic material. Warm, sustained chords in E-flat major.
+    // The texture is spacious, unhurried.
+    
+    // mm. 1-4: Establishing E-flat
+    | [Eb3 G3 Bb3] w pp |
+    | r h [Eb3 G3 Bb3] h |
+    | [Ab3 C4 Eb4] w |
+    | [Eb3 G3 Bb3] w |
+    
+    // mm. 5-8: Gentle motion
+    | r w |
+    | [F3 Ab3 C4] h [G3 Bb3 D4] h pp |
+    | [Ab3 C4 Eb4] w |
+    | [Eb3 Bb3 Eb4] h r h |
+    
+    // mm. 9-12: Adding the sixth (C minor inflection)
+    | [C3 Eb3 G3] w p |
+    | [D3 F3 Ab3] h [Eb3 G3 Bb3] h |
+    | [F3 Ab3 C4] w |
+    | [Eb3 G3 Bb3] h r h |
+    
+    // mm. 13-16: The turn figure in the piano (Phrase B material)
+    // C-D-Eb-D: the circling gesture, but here in E-flat context
+    | r h C4 q D4 q pp |
+    | Eb4 h D4 h |
+    | C4 w |
+    | r w |
+    
+    // mm. 17-20: Responding to cello's phrase
+    | [Bb2 F3 Bb3] w pp |
+    | [Ab2 Eb3 Ab3] h [G2 D3 G3] h |
+    | [Ab2 Eb3 Ab3] w |
+    | [Eb2 Bb2 Eb3] w |
+    
+    // =========================================================================
+    // SECTION B: Deepening (mm. 21-40)
+    // =========================================================================
+    //
+    // The texture becomes slightly richer. The piano takes on more of the
+    // thematic material, trading phrases with cello. Still unhurried.
+    
+    // mm. 21-24: Piano states the reordered intervals
+    // Third-second-fifth instead of fifth-second-third
+    | r h Eb4 q G4 q p |
+    | F4 h Eb4 h |
+    | Bb3 w |
+    | r w |
+    
+    // mm. 25-28: The tritone appears, gentle
+    // A natural in E-flat context = distant, strange
+    | [Eb3 G3 Bb3] h [D3 F3 A3] h pp |
+    | [Eb3 G3 Bb3] w |
+    | r h [Ab3 C4] h |
+    | [G3 Bb3] w |
+    
+    // mm. 29-32: Arpeggiated accompaniment
+    | Eb3 q G3 q Bb3 q Eb4 q pp |
+    | Bb3 q G3 q Eb3 q Bb2 q |
+    | Ab2 q C3 q Eb3 q Ab3 q |
+    | Eb3 q Bb3 q Eb4 q G4 q |
+    
+    // mm. 33-36: Sustained, hymn-like
+    | [Eb3 G3 Bb3 Eb4] w p |
+    | [F3 Ab3 C4 F4] w |
+    | [G3 Bb3 D4 G4] h [F3 Ab3 C4 F4] h |
+    | [Eb3 G3 Bb3 Eb4] w |
+    
+    // mm. 37-40: Fading back
+    | r h [D3 F3 Bb3] h pp |
+    | [Eb3 G3 Bb3] w |
+    | r w |
+    | [Eb3 Bb3] w ppp |
+    
+    // =========================================================================
+    // SECTION A': Return, Transformed (mm. 41-56)
+    // =========================================================================
+    //
+    // The opening material returns, but the cello's melody has changed us.
+    // We hear the same chords differently now. The gap hasn't closed,
+    // but we've learned to inhabit it.
+    
+    // mm. 41-44: As at the beginning
+    | [Eb3 G3 Bb3] w pp |
+    | r h [Eb3 G3 Bb3] h |
+    | [Ab3 C4 Eb4] w |
+    | [Eb3 G3 Bb3] w |
+    
+    // mm. 45-48: But now with motion toward G
+    // The home key begins to pull, though we don't arrive
+    | [D3 G3 B3] h [D3 F3 A3] h p |
+    | [Eb3 G3 Bb3] w |
+    | [C3 Eb3 G3] h [D3 F3 A3] h |
+    | [G3 B3 D4] h r h |
+    
+    // mm. 49-52: The turn figure again, higher
+    | r h G4 q A4 q pp |
+    | Bb4 h A4 h |
+    | G4 w |
+    | r w |
+    
+    // mm. 53-56: Final settling
+    | [Eb3 G3 Bb3] w pp |
+    | [Ab2 Eb3 Ab3] h r h |
+    | [Eb2 Bb2 Eb3 G3] w ppp |
+    | [Eb2 Bb2 Eb3 G3] w |
+}
+
+Part: Cello Instrument: Cello {
+    
+    // The cello carries the main melodic material — a long, singing line
+    // that contains all the theme's intervals in the wrong order. The
+    // listener recognizes the components without grasping the whole.
+    
+    // =========================================================================
+    // SECTION A: The Cello's Melody (mm. 1-20)
+    // =========================================================================
+    
+    // mm. 1-4: Entry with the third (not the fifth)
+    // The theme begins with G-D (fifth). This begins with Eb-G (third).
+    // Same interval class, wrong order.
+    | r h Eb3 h p |
+    | G3 w |
+    | Ab3 h G3 h |
+    | Eb3 w |
+    
+    // mm. 5-8: The stepwise cell, but descending
+    // Theme ascends D-E-F#-G. This descends Bb-Ab-G-F.
+    | Bb3 h. Ab3 q |
+    | G3 h F3 h |
+    | Eb3 w |
+    | r w |
+    
+    // mm. 9-12: Now the fifth appears — but late
+    // Bb-Eb is the same interval as G-D, but in the "wrong" place
+    | Bb2 w p |
+    | Eb3 h D3 h |
+    | C3 h Bb2 h |
+    | Eb3 w |
+    
+    // mm. 13-16: The tritone, understated
+    // A natural against E-flat: the distant flash
+    | G3 h A3 h pp |
+    | Bb3 w |
+    | G3 h F3 h |
+    | Eb3 w |
+    
+    // mm. 17-20: Long tones, settling
+    | Bb2 w pp |
+    | Eb3 w |
+    | G3 h F3 h |
+    | Eb3 w |
+    
+    // =========================================================================
+    // SECTION B: Development (mm. 21-40)
+    // =========================================================================
+    
+    // mm. 21-24: Resting, then the Long-Short rhythm
+    | r w |
+    | r h Bb3 q Ab3 q p |
+    | G3 h. F3 q |
+    | Eb3 w |
+    
+    // mm. 25-28: Dialogue with piano's tritone
+    | G3 w pp |
+    | F3 h Eb3 h |
+    | D3 w |
+    | Eb3 w |
+    
+    // mm. 29-32: Rising, the most passionate moment
+    // For a moment, the intervals align almost correctly...
+    | Eb3 h G3 h mp |
+    | Bb3 h C4 h |
+    | D4 w |
+    | Eb4 h D4 h |
+    
+    // mm. 33-36: ...but then the order breaks again
+    | C4 h Bb3 h p |
+    | Ab3 w |
+    | G3 h F3 h |
+    | Eb3 w |
+    
+    // mm. 37-40: Descending to rest
+    | D3 h Eb3 h pp |
+    | Bb2 w |
+    | r w |
+    | Eb2 w ppp |
+    
+    // =========================================================================
+    // SECTION A': Return (mm. 41-56)
+    // =========================================================================
+    
+    // mm. 41-44: The opening transformed
+    | r h Eb3 h pp |
+    | G3 w |
+    | F3 h Eb3 h |
+    | D3 w |
+    
+    // mm. 45-48: Reaching toward G (the home key)
+    | G3 h A3 h p |
+    | B3 w |
+    | G3 h F#3 h |
+    | G3 w |
+    
+    // mm. 49-52: But falling back to E-flat
+    | Eb3 h F3 h pp |
+    | G3 w |
+    | F3 h Eb3 h |
+    | D3 w |
+    
+    // mm. 53-56: Final settling
+    | Eb3 w pp |
+    | Bb2 h r h |
+    | Eb2 w ppp |
+    | Eb2 w |
+}
+
+Part: Viola Instrument: Viola {
+    
+    // The viola provides inner voice sustain and occasional countermelody.
+    // Often doubling the piano's middle voices or echoing the cello.
+    
+    // =========================================================================
+    // SECTION A (mm. 1-20)
+    // =========================================================================
+    
+    // mm. 1-4: Sustained
+    | Bb3 w pp |
+    | Bb3 w |
+    | C4 h Bb3 h |
+    | G3 w |
+    
+    // mm. 5-8: Inner voice motion
+    | r h Bb3 h pp |
+    | Ab3 h G3 h |
+    | G3 w |
+    | Bb3 h r h |
+    
+    // mm. 9-12: Echoing the cello's third
+    | G3 w pp |
+    | Ab3 h G3 h |
+    | Ab3 w |
+    | G3 w |
+    
+    // mm. 13-16: Holding through the turn
+    | Eb3 w pp |
+    | F3 w |
+    | Eb3 w |
+    | r w |
+    
+    // mm. 17-20: Low sustain
+    | D3 w pp |
+    | Eb3 w |
+    | D3 h C3 h |
+    | Bb2 w |
+    
+    // =========================================================================
+    // SECTION B (mm. 21-40)
+    // =========================================================================
+    
+    // mm. 21-24: Parallel to cello
+    | Bb3 w pp |
+    | F3 h Eb3 h |
+    | D3 w |
+    | Eb3 h r h |
+    
+    // mm. 25-28: The tritone context
+    | Bb3 w pp |
+    | Ab3 w |
+    | F3 w |
+    | G3 w |
+    
+    // mm. 29-32: Rising with cello
+    | G3 h Bb3 h p |
+    | D4 h Eb4 h |
+    | F4 w |
+    | G4 h F4 h |
+    
+    // mm. 33-36: Descending
+    | Eb4 h D4 h pp |
+    | C4 w |
+    | Bb3 h Ab3 h |
+    | G3 w |
+    
+    // mm. 37-40: Settling
+    | F3 h G3 h pp |
+    | F3 w |
+    | Eb3 h r h |
+    | Bb2 w ppp |
+    
+    // =========================================================================
+    // SECTION A' (mm. 41-56)
+    // =========================================================================
+    
+    // mm. 41-44
+    | Bb3 w pp |
+    | Bb3 w |
+    | Ab3 h G3 h |
+    | F3 w |
+    
+    // mm. 45-48: Toward G
+    | G3 w pp |
+    | D3 w |
+    | Eb3 h D3 h |
+    | D3 w |
+    
+    // mm. 49-52: Falling back
+    | Bb3 h Ab3 h pp |
+    | Bb3 w |
+    | Ab3 h G3 h |
+    | F3 w |
+    
+    // mm. 53-56: Final
+    | G3 w pp |
+    | Eb3 h r h |
+    | Bb2 w ppp |
+    | Bb2 w |
+}
+
+Part: "Violin 2" Instrument: Violin {
+    
+    // Second violin provides upper-register sustain and gentle arpeggiation.
+    // Rarely melodic, mostly textural.
+    
+    // =========================================================================
+    // SECTION A (mm. 1-20)
+    // =========================================================================
+    
+    // mm. 1-4
+    | Eb4 w pp |
+    | D4 w |
+    | Eb4 w |
+    | Eb4 h D4 h |
+    
+    // mm. 5-8
+    | r w |
+    | C4 h Bb3 h pp |
+    | C4 w |
+    | Bb3 h r h |
+    
+    // mm. 9-12
+    | Eb4 w pp |
+    | F4 h Eb4 h |
+    | Eb4 w |
+    | D4 w |
+    
+    // mm. 13-16
+    | G3 w pp |
+    | Ab3 w |
+    | G3 w |
+    | r w |
+    
+    // mm. 17-20
+    | F4 w pp |
+    | Eb4 w |
+    | D4 h Eb4 h |
+    | Bb3 w |
+    
+    // =========================================================================
+    // SECTION B (mm. 21-40)
+    // =========================================================================
+    
+    // mm. 21-24
+    | Eb4 w pp |
+    | C4 h Bb3 h |
+    | Bb3 w |
+    | G3 h r h |
+    
+    // mm. 25-28
+    | D4 w pp |
+    | Eb4 w |
+    | Eb4 h D4 h |
+    | D4 w |
+    
+    // mm. 29-32: Arpeggiated
+    | Bb3 q D4 q Eb4 q G4 q pp |
+    | F4 q Eb4 q D4 q Bb3 q |
+    | C4 q Eb4 q Ab4 q Eb4 q |
+    | Bb4 q G4 q Eb4 q D4 q |
+    
+    // mm. 33-36
+    | Eb4 w p |
+    | F4 w |
+    | G4 h F4 h |
+    | Eb4 w |
+    
+    // mm. 37-40
+    | D4 h Eb4 h pp |
+    | D4 w |
+    | Bb3 h r h |
+    | Bb3 w ppp |
+    
+    // =========================================================================
+    // SECTION A' (mm. 41-56)
+    // =========================================================================
+    
+    // mm. 41-44
+    | Eb4 w pp |
+    | D4 w |
+    | Eb4 w |
+    | F4 h Eb4 h |
+    
+    // mm. 45-48
+    | D4 w pp |
+    | D4 w |
+    | Eb4 h D4 h |
+    | D4 w |
+    
+    // mm. 49-52
+    | Eb4 h D4 h pp |
+    | D4 w |
+    | C4 h Bb3 h |
+    | Bb3 w |
+    
+    // mm. 53-56
+    | Bb3 w pp |
+    | G3 h r h |
+    | G3 w ppp |
+    | G3 w |
+}
+
+Part: "Violin 1" Instrument: Violin {
+    
+    // First violin has the highest register, often sustaining or providing
+    // gentle countermelody. In this movement, more textural than melodic.
+    
+    // =========================================================================
+    // SECTION A (mm. 1-20)
+    // =========================================================================
+    
+    // mm. 1-4
+    | G4 w pp |
+    | G4 h F4 h |
+    | Ab4 w |
+    | G4 w |
+    
+    // mm. 5-8
+    | r h Bb4 h pp |
+    | Ab4 h G4 h |
+    | Ab4 w |
+    | G4 h r h |
+    
+    // mm. 9-12
+    | G4 w pp |
+    | Ab4 h G4 h |
+    | Ab4 w |
+    | G4 w |
+    
+    // mm. 13-16: Echoing the turn figure, high
+    | r h Eb5 q F5 q ppp |
+    | G5 h F5 h |
+    | Eb5 w |
+    | r w |
+    
+    // mm. 17-20
+    | D5 w pp |
+    | C5 w |
+    | Bb4 h Ab4 h |
+    | G4 w |
+    
+    // =========================================================================
+    // SECTION B (mm. 21-40)
+    // =========================================================================
+    
+    // mm. 21-24
+    | G4 w pp |
+    | Ab4 h G4 h |
+    | F4 w |
+    | Eb4 h r h |
+    
+    // mm. 25-28: Holding above the tritone
+    | G4 w pp |
+    | G4 w |
+    | Ab4 h G4 h |
+    | G4 w |
+    
+    // mm. 29-32: The climax — sustained high Bb
+    | Bb4 w p |
+    | Bb4 w |
+    | C5 w |
+    | Bb4 h Ab4 h |
+    
+    // mm. 33-36: Descending
+    | G4 w p |
+    | Ab4 w |
+    | Bb4 h Ab4 h |
+    | G4 w |
+    
+    // mm. 37-40: Fading
+    | Bb4 h G4 h pp |
+    | G4 w |
+    | F4 h r h |
+    | Eb4 w ppp |
+    
+    // =========================================================================
+    // SECTION A' (mm. 41-56)
+    // =========================================================================
+    
+    // mm. 41-44
+    | G4 w pp |
+    | G4 h F4 h |
+    | Ab4 w |
+    | G4 w |
+    
+    // mm. 45-48: Reaching toward G major
+    | G4 h F#4 h p |
+    | G4 w |
+    | G4 h F#4 h |
+    | G4 w |
+    
+    // mm. 49-52: Falling back
+    | G4 h F4 h pp |
+    | G4 w |
+    | Ab4 h G4 h |
+    | F4 w |
+    
+    // mm. 53-56: Final
+    | Eb4 w pp |
+    | Eb4 h r h |
+    | Eb4 w ppp |
+    | Eb4 w |
+}
+
+// ============================================================================
+// END OF MOVEMENT III
+//
+// The gap remains. The melody sang all the theme's intervals — fifth, third,
+// second, tritone — but in the wrong order. We heard recognition without
+// arrival. The lacuna hasn't closed; we've simply learned to rest in it.
+//
+// E-flat major has been warm, hospitable, but not home. In the final bars,
+// the music reached toward G (the F# in the violins, the A and B in the 
+// cello) but couldn't sustain the journey. We settle back into E-flat,
+// but the pull toward G has been registered.
+//
+// Movement IV, "Fragmenta," will break this stillness. The crisis is coming.
+// For the first time, Phrases A and B of the hidden theme will appear
+// consecutively — the closest approach yet to full statement. But it will
+// be violent, fragmentary, agitato. The night must get darker before dawn.
+// ============================================================================

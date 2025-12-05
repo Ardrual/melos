@@ -1,0 +1,66 @@
+Title: "Fugue in D Minor"
+Tempo: 72
+Time: 4/4
+
+Part: Piano Instrument: Piano {
+    Key: D "Minor"
+    
+    | r w |
+    | r w |
+    | D4 q E4 q F4 q G4 q |
+    | A4 e G4 e F4 e E4 e D4 h |
+    | [A4 F4] q [Bb4 G4] q [A4 F4] q [G4 E4] q |
+    | [F4 D4] q [E4 C#4] q [D4 D4] h |
+    | [D5 F4] e [C5 E4] e [Bb4 D4] e [A4 C4] e [C5 E4] e [Bb4 D4] e [A4 C4] e [G4 Bb3] e |
+    | [Bb4 D4] e [A4 C4] e [G4 Bb3] e [F4 A3] e [E4 C#4] q [D4 D4] q |
+    | [F4 C4] q [G4 D4] q [A4 E4] q [Bb4 F4] q |
+    | [C5 E4] e [Bb4 D4] e [A4 C4] e [G4 Bb3] e [F4 A3] h |
+    | [G4 E4] e [A4 F4] e [Bb4 G4] e [C5 A4] e [D5 F4] q [C#5 E4] q |
+    | [D5 F4] h [D5 A4] q [E5 Bb4] q |
+    | [F5 A4 A4] q [G5 Bb4 Bb4] q [A5 C5] e [G5 Bb4] e [F5 A4] e [E5 G4] e |
+    | [D5 D5] q [C#5 Bb4] q [D5 A4] q [E5 Bb4] q |
+    | [F5 A4] q [E5 G4] q [D5 F4] q [C#5 E4] q |
+    | [D5 F#4] w |
+}
+
+Part: Violin Instrument: Violin {
+    Key: D "Minor"
+    
+    | r w |
+    | A4 q B4 q C5 q D5 q |
+    | E5 e D5 e C5 e Bb4 e A4 h |
+    | F4 e E4 e D4 e C4 e D4 q E4 q |
+    | F4 q G4 q F4 q E4 q |
+    | D4 q C#4 q D4 h |
+    | D5 e C5 e Bb4 e A4 e C5 e Bb4 e A4 e G4 e |
+    | Bb4 e A4 e G4 e F4 e E4 q D4 q |
+    | C4 q D4 q E4 q F4 q |
+    | E4 e F4 e G4 e A4 e C4 h |
+    | E4 q D4 q F4 q E4 q |
+    | F4 q G4 q A4 q Bb4 q |
+    | A4 q A4 q Bb4 q C5 q |
+    | D5 e C5 e Bb4 e A4 e A4 q Bb4 q |
+    | A4 q G4 q F4 q E4 q |
+    | D4 w |
+}
+
+Part: Cello Instrument: Cello {
+    Key: D "Minor"
+    
+    | D3 q E3 q F3 q G3 q |
+    | A3 e G3 e F3 e E3 e D3 h |
+    | r w |
+    | r w |
+    | D3 q E3 q F3 q G3 q |
+    | A3 e G3 e F3 e E3 e D3 h |
+    | D3 q G3 q C3 q F3 q |
+    | Bb2 q C3 q A2 q D3 q |
+    | A2 q Bb2 q C3 q D3 q |
+    | E3 q D3 q F3 h |
+    | C3 q Bb2 q Bb2 q A2 q |
+    | D3 q E3 q F3 q G3 q |
+    | A3 e G3 e F3 e E3 e D3 q C3 q |
+    | Bb2 q A2 q D3 q G2 q |
+    | F3 q C3 q D3 q A2 q |
+    | D3 w |
+}

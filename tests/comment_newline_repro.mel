@@ -1,0 +1,13 @@
+Title: "Comment Test"
+Tempo: 120
+Time: 4/4
+
+Part: "Piano" Instrument: "Piano" {
+    // Comment inside part
+    
+    | C4 q |
+    
+    // Comment between measures
+    
+    | D4 q |
+}

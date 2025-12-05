@@ -1,0 +1,43 @@
+Title: "Morning in the Valley"
+Tempo: 92
+Time: 4/4
+
+Part: Banjo Instrument: Banjo {
+    | G3 e D4 e G4 q B4 e D5 e G4 q |
+    | G3 e D4 e G4 q A4 e C5 e G4 q |
+    | C3 e E4 e G4 q C5 e E5 e G4 q |
+    | D3 e F#4 e A4 q D5 h |
+    
+    Time: 3/4
+    Key: G "Major"
+    | G4 q B4 q D5 q |
+    | Tuplet(3:2) { E5 e D5 e C5 e } G4 q |
+    | A4 q. B4 e C5 q |
+    | D5 h r q |
+    
+    Time: 4/4
+    | G3 e D4 e [G4 B4] q D5 e B4 e G4 q |
+    | C4 e E4 e [G4 C5] q E5 e C5 e G4 q |
+    | D4 e F#4 e [A4 D5] q F#5 e D5 e A4 q |
+    | [G3 D4 G4 B4] w |
+}
+
+Part: Guitar Instrument: "Acoustic Guitar (Steel)" {
+    | [G2 D3 G3 B3] h [G2 D3 G3 B3] h |
+    | [G2 D3 G3 B3] h [G2 D3 G3 B3] h |
+    | [C2 E3 G3 C4] h [C2 E3 G3 C4] h |
+    | [D2 A2 D3 F#3] w |
+    
+    Time: 3/4
+    Key: G "Major"
+    | [G2 B2 D3] h. |
+    | [E2 G2 B2] h. |
+    | [A2 C3 E3] h. |
+    | [D2 F#2 A2] h. |
+    
+    Time: 4/4
+    | [G2 D3 G3 B3] h [G2 D3 G3 B3] h |
+    | [C2 E3 G3 C4] h [C2 E3 G3 C4] h |
+    | [D2 A2 D3 F#3] h [D2 A2 D3 F#3] h |
+    | [G2 D3 G3 B3 D4] w |
+}

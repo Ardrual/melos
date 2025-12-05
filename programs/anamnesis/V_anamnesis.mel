@@ -1,0 +1,1088 @@
+// ============================================================================
+//                              ANAMNESIS
+//                    A Piano Quintet in Five Movements
+//                              Claude, Op. 5
+// ============================================================================
+//
+//                  Movement V: Anamnesis (Remembering)
+//
+// ============================================================================
+//
+// PROGRAM NOTES:
+//
+// "Learning is remembering." — Plato, Meno 81d
+//
+// The Greek word "anamnesis" means recollection — but in Plato's philosophy,
+// it carries a deeper meaning: the soul's recovery of knowledge it possessed
+// before birth. We don't learn; we remember. The truth was always there,
+// waiting to be recognized.
+//
+// This finale enacts that recognition. After four movements of fragments —
+// veiled intervals, inverted cells, wrong orders, near-statements that
+// broke apart — the theme finally arrives. Not as new information, but as
+// something the ear has been preparing for all along. The listener should
+// experience not surprise but familiarity: "Ah, of course. This is what
+// it was."
+//
+// The cello sings the theme alone, piano tacet. The simplest possible
+// texture for the most important statement. Then the other strings join,
+// harmonizing. Then the piano enters — and what it plays is the bass line
+// that has been lurking beneath the surface since Movement I. The harmonic
+// DNA finally made explicit.
+//
+// Four variations follow, each "answering" one of the previous movements:
+//   - Variation I casts light on Movement I's shadows
+//   - Variation II redeems Movement II's distortions as ornaments
+//   - Variation III fills Movement III's lacuna
+//   - Variation IV assembles Movement IV's fragments
+//
+// The coda gathers everything into a final fortissimo statement — the theme
+// in its fullest, most triumphant form. Then dissolution: the music thins,
+// slows, and returns to the opening fifth, G-D, pianissimo. We end where
+// we began, but transformed by the journey. The question that is also
+// the answer.
+//
+// Duration: approximately 9 minutes
+//
+// ============================================================================
+
+Title: "Anamnesis - V. Anamnesis (Remembering)"
+Tempo: 52
+Time: 4/4
+Key: G "Major"
+
+Part: Piano Instrument: Piano {
+
+    // =========================================================================
+    // THEME STATEMENT (mm. 1-32)
+    // =========================================================================
+    //
+    // The theme arrives at last. First in the cello alone — the piano
+    // tacet, listening. This is the moment the whole quintet has been
+    // building toward.
+    
+    // mm. 1-16: Tacet while cello states the theme alone
+    // The piano's silence here is not absence but attention.
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    
+    // mm. 17-24: The piano enters with THE BASS LINE
+    // This is what has been lurking beneath since Movement I:
+    // G - F# - E - D (descending from the tonic)
+    // The harmonic skeleton, finally explicit
+    | G2 w p |
+    | F#2 w |
+    | E2 w |
+    | D2 w |
+    | G2 w |
+    | A2 w |
+    | B2 w |
+    | C3 h B2 h |
+    
+    // mm. 25-32: Supporting Phrase A' and C
+    | G2 w mp |
+    | F#2 w |
+    | E2 h D2 h |
+    | G2 w |
+    | D3 w |
+    | E3 w |
+    | F#3 h E3 h |
+    | [G2 D3 G3] w p |
+    
+    // =========================================================================
+    // VARIATION I: Answering "Umbra" (mm. 33-48)
+    // =========================================================================
+    //
+    // Movement I was fog and shadow — isolated intervals, the fifth appearing
+    // then vanishing. This variation casts light on those shadows.
+    // The same material, but now illuminated by context.
+    
+    Tempo: 58
+    
+    // mm. 33-36: The fifth, no longer isolated
+    | [G2 D3 G3] h [G2 D3 B3] h p |
+    | [G2 D3 G3] h [A2 E3 C4] h |
+    | [G2 D3 B3] w |
+    | [F#2 D3 A3] w |
+    
+    // mm. 37-40: Stepwise cells, now complete and connected
+    | [E2 B2 G3] h [F#2 C#3 A3] h mp |
+    | [G2 D3 B3] h [A2 E3 C4] h |
+    | [B2 F#3 D4] w |
+    | [C3 G3 E4] h [B2 F#3 D4] h |
+    
+    // mm. 41-44: The "Long-Short" rhythm from Mvt I, now lyrical
+    | [G2 D3 G3] h [G2 D3 G3] q [A2 E3 A3] q p |
+    | [B2 F#3 B3] h [B2 F#3 B3] q [C3 G3 C4] q |
+    | [D3 A3 D4] h [D3 A3 D4] q [E3 B3 E4] q |
+    | [D3 A3 F#4] w |
+    
+    // mm. 45-48: Resolution
+    | [G2 D3 B3] h [A2 E3 C4] h pp |
+    | [G2 D3 B3] w |
+    | [C3 G3 E4] h [D3 A3 F#4] h |
+    | [G2 D3 G3] w p |
+    
+    // =========================================================================
+    // VARIATION II: Answering "Spectra" (mm. 49-64)
+    // =========================================================================
+    //
+    // Movement II was distortion — inverted material, the tritone disrupting.
+    // This variation reclaims those "wrong" versions as ornamentation.
+    // The same gestures, but now serving the theme rather than obscuring it.
+    
+    Tempo: 66
+    
+    // mm. 49-52: The tritone resolved — F# no longer against C, but leading to G
+    | [G2 B2 D3] q [F#2 A2 C3] q [G2 B2 D3] h mf |
+    | [A2 C3 E3] q [G2 B2 D3] q [F#2 A2 D3] h |
+    | [G2 B2 D3] q [A2 C3 E3] q [B2 D3 F#3] q [C3 E3 G3] q |
+    | [D3 F#3 A3] w |
+    
+    // mm. 53-56: Inverted cells now heard as decoration
+    | [G3 B3 D4] q [F#3 A3 D4] e [G3 B3 D4] e [A3 C4 E4] h mf |
+    | [B3 D4 G4] q [A3 C4 F#4] e [G3 B3 E4] e [F#3 A3 D4] h |
+    | [G3 B3 D4] h [A3 C4 E4] h |
+    | [B3 D4 F#4] h [C4 E4 G4] h f |
+    
+    // mm. 57-60: Chase texture from Mvt II, now exuberant
+    | [D4 F#4 A4] q [E4 G4 B4] q [F#4 A4 C5] q [G4 B4 D5] q f |
+    | [A4 C5 E5] q [B4 D5 F#5] q [C5 E5 G5] q [D5 F#5 A5] q |
+    | [G4 B4 D5] h [D4 F#4 A4] h |
+    | [G3 B3 D4] w mf |
+    
+    // mm. 61-64: Settling
+    | [E3 G3 B3] h [F#3 A3 C4] h mp |
+    | [G3 B3 D4] w |
+    | [C3 E3 G3] h [D3 F#3 A3] h |
+    | [G2 B2 D3] w p |
+    
+    // =========================================================================
+    // VARIATION III: Answering "Lacuna" (mm. 65-80)
+    // =========================================================================
+    //
+    // Movement III was the lacuna — all the theme's intervals present
+    // but in the wrong order. Patient waiting. This variation fills
+    // the gap: the E-flat major warmth of Mvt III, now with the melody
+    // in its true form.
+    
+    Tempo: 52
+    Key: Eb "Major"
+    
+    // mm. 65-68: E-flat major warmth, theme in correct order
+    | [Eb3 G3 Bb3] w p |
+    | [D3 F3 Bb3] w |
+    | [C3 Eb3 G3] w |
+    | [Bb2 D3 F3] w |
+    
+    // mm. 69-72: The turn figure, now gentle not searching
+    | [Eb3 G3 Bb3] h [F3 Ab3 C4] h pp |
+    | [Eb3 G3 Bb3] w |
+    | [Ab2 C3 Eb3] h [Bb2 D3 F3] h |
+    | [Eb3 G3 Bb3] w |
+    
+    // mm. 73-76: Transition back toward G
+    | [C3 Eb3 G3] w p |
+    | [D3 F3 A3] w |
+    | [D3 F#3 A3] w |
+    | [D3 G3 B3] w |
+    
+    Key: G "Major"
+    
+    // mm. 77-80: Return to G major, the lacuna filled
+    | [G2 B2 D3] h [A2 C3 E3] h pp |
+    | [G2 B2 D3] w |
+    | [C3 E3 G3] h [D3 F#3 A3] h |
+    | [G2 D3 G3] w p |
+    
+    // =========================================================================
+    // VARIATION IV: Answering "Fragmenta" (mm. 81-96)
+    // =========================================================================
+    //
+    // Movement IV was crisis — fragments piling up, the theme almost
+    // emerging but breaking apart. This variation assembles those
+    // fragments into triumphant wholeness.
+    
+    Tempo: 72
+    
+    // mm. 81-84: The Long-Short, now triumphant
+    | [G2 D3 G3] h [G2 D3 G3] q [A2 E3 A3] q f |
+    | [B2 F#3 B3] h [B2 F#3 B3] q [C3 G3 C4] q |
+    | [D3 A3 D4] h [E3 B3 E4] q [F#3 C4 F#4] q |
+    | [G3 D4 G4] w |
+    
+    // mm. 85-88: Phrases A and B consecutive, complete
+    | [G3 B3 D4] q [F#3 A3 D4] q [G3 B3 D4] q [A3 C4 E4] q ff |
+    | [B3 D4 G4] q [A3 C4 F#4] q [G3 B3 E4] q [F#3 A3 D4] q |
+    | [G3 B3 D4] h [A3 C4 E4] h |
+    | [B3 D4 G4] w |
+    
+    // mm. 89-92: Building to climax
+    | [D3 G3 B3] q [E3 A3 C4] q [F#3 B3 D4] q [G3 C4 E4] q f |
+    | [A3 D4 F#4] q [B3 E4 G4] q [C4 F#4 A4] q [D4 G4 B4] q |
+    | [E4 A4 C5] q [F#4 B4 D5] q [G4 C5 E5] q [A4 D5 F#5] q ff |
+    | [B4 E5 G5] h [C5 F#5 A5] h |
+    
+    // mm. 93-96: Climax
+    | [D5 G5 B5] w fff |
+    | [C5 E5 G5] h [D5 F#5 A5] h |
+    | [B4 D5 G5] h [C5 E5 A5] h |
+    | [D5 G5 B5] w |
+    
+    // =========================================================================
+    // CODA (mm. 97-120)
+    // =========================================================================
+    //
+    // The final statement gathers everything. Fortissimo, the theme in
+    // its fullest form. Then dissolution — the music thins, slows, and
+    // returns to the opening fifth. We end where we began, but
+    // transformed. The question that is also the answer.
+    
+    // mm. 97-100: Final fortissimo statement of theme
+    | [G2 D3 G3 B3] w fff |
+    | [F#2 D3 F#3 A3] w |
+    | [E2 B2 E3 G3] w |
+    | [D2 A2 D3 F#3] w |
+    
+    // mm. 101-104: Phrase B, triumphant
+    | [G2 D3 G3 B3] w fff |
+    | [A2 E3 A3 C4] w |
+    | [Bb2 F3 Bb3 D4] w ff |
+    | [A2 E3 A3 C#4] w |
+    
+    // mm. 105-108: Final descent begins
+    Tempo: 46
+    | [G2 D3 B3] w f |
+    | [F#2 D3 A3] w mf |
+    | [E2 B2 G3] w mp |
+    | [D2 A2 F#3] w p |
+    
+    // mm. 109-112: Thinning
+    | [G2 D3] w p |
+    | [G2 D3] w pp |
+    | G2 h D3 h pp |
+    | G2 h D3 h ppp |
+    
+    Tempo: 40
+    
+    // mm. 113-116: The fifth, alone
+    // The question that is also the answer
+    | [G2 D3] w ppp |
+    | r w |
+    | [G2 D3] w ppp |
+    | r w |
+    
+    // mm. 117-120: Final dissolution
+    | G2 w ppp |
+    | r h D3 h ppp |
+    | r w |
+    | [G2 D3] w ppp |
+}
+
+Part: Cello Instrument: Cello {
+
+    // =========================================================================
+    // THEME STATEMENT (mm. 1-32)
+    // =========================================================================
+    //
+    // The cello states the complete theme for the first time in the quintet.
+    // This is THE THEME — 16 bars that everything has been pointing toward.
+    // Phrase A: Rising fifth G→D, stepwise ascent, decorated descent
+    // Phrase B: Chromatic turn with E-flat
+    // Phrase A': Like A but reaches to B
+    // Phrase C: Descending scale, final bar rises
+
+    // === PHRASE A: "The Question" (mm. 1-4) ===
+    // Rising fifth G→D, then stepwise ascent D-E-F#-G, decorated descent
+    | G3 h D4 h p |
+    | D4 q E4 q F#4 q G4 q |
+    | G4 h F#4 q E4 q |
+    | D4 w |
+    
+    // === PHRASE B: "The Turn" (mm. 5-8) ===
+    // Chromatic darkening with E-flat, circling turn figure
+    | G3 h A3 h |
+    | Bb3 h A3 h |
+    | G3 q A3 q Bb3 q A3 q |
+    | G3 w |
+    
+    // === PHRASE A': "The Return" (mm. 9-12) ===
+    // Opens like A but reaches higher, to B
+    | G3 h D4 h mp |
+    | D4 q E4 q F#4 q G4 q |
+    | A4 h B4 h |
+    | G4 w |
+    
+    // === PHRASE C: "The Answer" (mm. 13-16) ===
+    // Descending scale, but final bar rises — closed yet open
+    | G4 q F#4 q E4 q D4 q |
+    | D4 q C4 q B3 q A3 q |
+    | G3 h A3 h |
+    | G3 w p |
+    
+    // mm. 17-24: Theme repeated, now with harmonization
+    | G3 h D4 h p |
+    | D4 q E4 q F#4 q G4 q |
+    | G4 h F#4 q E4 q |
+    | D4 w |
+    | G3 h A3 h |
+    | Bb3 h A3 h |
+    | G3 q A3 q Bb3 q A3 q |
+    | G3 w |
+    
+    // mm. 25-32: A' and C repeated
+    | G3 h D4 h mp |
+    | D4 q E4 q F#4 q G4 q |
+    | A4 q B4 q A4 q G4 q |
+    | G4 w |
+    | G4 q F#4 q E4 q D4 q |
+    | D4 q C4 q B3 q A3 q |
+    | G3 h A3 h |
+    | G3 w p |
+    
+    // =========================================================================
+    // VARIATION I (mm. 33-48)
+    // =========================================================================
+    
+    Tempo: 58
+    
+    // The cello provides the bass foundation
+    | G2 h D3 h p |
+    | G2 h A2 h |
+    | G2 w |
+    | D2 w |
+    
+    | E2 h F#2 h mp |
+    | G2 h A2 h |
+    | B2 w |
+    | C3 h B2 h |
+    
+    | G2 h G2 q A2 q p |
+    | B2 h B2 q C3 q |
+    | D3 h D3 q E3 q |
+    | D3 w |
+    
+    | G2 h A2 h pp |
+    | G2 w |
+    | C3 h D3 h |
+    | G2 w p |
+    
+    // =========================================================================
+    // VARIATION II (mm. 49-64)
+    // =========================================================================
+    
+    Tempo: 66
+    
+    | G2 q F#2 q G2 h mf |
+    | A2 q G2 q F#2 h |
+    | G2 q A2 q B2 q C3 q |
+    | D3 w |
+    
+    | G3 q F#3 e G3 e A3 h mf |
+    | B3 q A3 e G3 e F#3 h |
+    | G3 h A3 h |
+    | B3 h C4 h f |
+    
+    | D3 q E3 q F#3 q G3 q f |
+    | A3 q B3 q C4 q D4 q |
+    | G3 h D3 h |
+    | G2 w mf |
+    
+    | E2 h F#2 h mp |
+    | G2 w |
+    | C3 h D3 h |
+    | G2 w p |
+    
+    // =========================================================================
+    // VARIATION III (mm. 65-80)
+    // =========================================================================
+    
+    Tempo: 52
+    Key: Eb "Major"
+    
+    | Eb2 w p |
+    | Bb2 w |
+    | C3 w |
+    | Bb2 w |
+    
+    | Eb2 h F2 h pp |
+    | Eb2 w |
+    | Ab2 h Bb2 h |
+    | Eb2 w |
+    
+    | C2 w p |
+    | D2 w |
+    | D2 w |
+    | G2 w |
+    
+    Key: G "Major"
+    
+    | G2 h A2 h pp |
+    | G2 w |
+    | C3 h D3 h |
+    | G2 w p |
+    
+    // =========================================================================
+    // VARIATION IV (mm. 81-96)
+    // =========================================================================
+    
+    Tempo: 72
+    
+    | G2 h G2 q A2 q f |
+    | B2 h B2 q C3 q |
+    | D3 h E3 q F#3 q |
+    | G3 w |
+    
+    | G3 q F#3 q G3 q A3 q ff |
+    | B3 q A3 q G3 q F#3 q |
+    | G3 h A3 h |
+    | B3 w |
+    
+    | D3 q E3 q F#3 q G3 q f |
+    | A3 q B3 q C4 q D4 q |
+    | E4 q F#4 q G4 q A4 q ff |
+    | B4 h C5 h |
+    
+    | D4 w fff |
+    | C4 h D4 h |
+    | B3 h C4 h |
+    | D4 w |
+    
+    // =========================================================================
+    // CODA (mm. 97-120)
+    // =========================================================================
+    
+    | G2 w fff |
+    | F#2 w |
+    | E2 w |
+    | D2 w |
+    
+    | G2 w fff |
+    | A2 w |
+    | Bb2 w ff |
+    | A2 w |
+    
+    Tempo: 46
+    | G2 w f |
+    | F#2 w mf |
+    | E2 w mp |
+    | D2 w p |
+    
+    | G2 w p |
+    | G2 w pp |
+    | G2 h D3 h pp |
+    | G2 h D3 h ppp |
+    
+    Tempo: 40
+    
+    | G2 w ppp |
+    | r w |
+    | G2 w ppp |
+    | r w |
+    
+    | G2 w ppp |
+    | r h D2 h ppp |
+    | r w |
+    | G2 w ppp |
+}
+
+Part: Viola Instrument: Viola {
+
+    // =========================================================================
+    // THEME STATEMENT (mm. 1-16): Tacet, listening
+    // =========================================================================
+    
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    
+    // mm. 17-24: Harmonizing the theme
+    | D3 h G3 h p |
+    | A3 w |
+    | B3 h A3 h |
+    | F#3 w |
+    | D3 h E3 h |
+    | F3 h E3 h |
+    | D3 q E3 q F3 q E3 q |
+    | D3 w |
+    
+    // mm. 25-32
+    | D3 h G3 h mp |
+    | A3 w |
+    | C4 h D4 h |
+    | B3 w |
+    | B3 q A3 q G3 q F#3 q |
+    | F#3 q E3 q D3 q C3 q |
+    | D3 h E3 h |
+    | D3 w p |
+    
+    // =========================================================================
+    // VARIATION I (mm. 33-48)
+    // =========================================================================
+    
+    Tempo: 58
+    
+    | D3 h G3 h p |
+    | D3 h E3 h |
+    | D3 w |
+    | D3 w |
+    
+    | B2 h C3 h mp |
+    | D3 h E3 h |
+    | F#3 w |
+    | E3 h D3 h |
+    
+    | D3 h D3 q E3 q p |
+    | F#3 h F#3 q G3 q |
+    | A3 h A3 q B3 q |
+    | A3 w |
+    
+    | D3 h E3 h pp |
+    | D3 w |
+    | E3 h A3 h |
+    | D3 w p |
+    
+    // =========================================================================
+    // VARIATION II (mm. 49-64)
+    // =========================================================================
+    
+    Tempo: 66
+    
+    | D3 q C3 q D3 h mf |
+    | E3 q D3 q C3 h |
+    | D3 q E3 q F#3 q G3 q |
+    | A3 w |
+    
+    | D4 q C4 e D4 e E4 h mf |
+    | F#4 q E4 e D4 e C4 h |
+    | D4 h E4 h |
+    | F#4 h G4 h f |
+    
+    | A3 q B3 q C4 q D4 q f |
+    | E4 q F#4 q G4 q A4 q |
+    | D4 h A3 h |
+    | D3 w mf |
+    
+    | B2 h C3 h mp |
+    | D3 w |
+    | E3 h F#3 h |
+    | D3 w p |
+    
+    // =========================================================================
+    // VARIATION III (mm. 65-80)
+    // =========================================================================
+    
+    Tempo: 52
+    Key: Eb "Major"
+    
+    | G3 w p |
+    | F3 w |
+    | Eb3 w |
+    | D3 w |
+    
+    | G3 h Ab3 h pp |
+    | G3 w |
+    | Eb3 h F3 h |
+    | G3 w |
+    
+    | Eb3 w p |
+    | F#3 w |
+    | F#3 w |
+    | D3 w |
+    
+    Key: G "Major"
+    
+    | D3 h E3 h pp |
+    | D3 w |
+    | E3 h F#3 h |
+    | D3 w p |
+    
+    // =========================================================================
+    // VARIATION IV (mm. 81-96)
+    // =========================================================================
+    
+    Tempo: 72
+    
+    | D3 h D3 q E3 q f |
+    | F#3 h F#3 q G3 q |
+    | A3 h B3 q C4 q |
+    | D4 w |
+    
+    | D4 q C4 q D4 q E4 q ff |
+    | F#4 q E4 q D4 q C4 q |
+    | D4 h E4 h |
+    | F#4 w |
+    
+    | G3 q A3 q B3 q C4 q f |
+    | D4 q E4 q F#4 q G4 q |
+    | A4 q B4 q C5 q D5 q ff |
+    | E5 h F#5 h |
+    
+    | G4 w fff |
+    | G4 h A4 h |
+    | F#4 h G4 h |
+    | G4 w |
+    
+    // =========================================================================
+    // CODA (mm. 97-120)
+    // =========================================================================
+    
+    | D3 w fff |
+    | D3 w |
+    | B2 w |
+    | A2 w |
+    
+    | D3 w fff |
+    | E3 w |
+    | F3 w ff |
+    | E3 w |
+    
+    Tempo: 46
+    | D3 w f |
+    | D3 w mf |
+    | B2 w mp |
+    | A2 w p |
+    
+    | D3 w p |
+    | D3 w pp |
+    | D3 h r h pp |
+    | D3 h r h ppp |
+    
+    Tempo: 40
+    
+    | D3 w ppp |
+    | r w |
+    | D3 w ppp |
+    | r w |
+    
+    | D3 w ppp |
+    | r w |
+    | r w |
+    | D3 w ppp |
+}
+
+Part: "Violin 2" Instrument: Violin {
+
+    // =========================================================================
+    // THEME STATEMENT (mm. 1-16): Tacet
+    // =========================================================================
+    
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    
+    // mm. 17-24: Harmonizing, inner voice
+    | B3 h D4 h p |
+    | D4 q E4 q F#4 q G4 q |
+    | D4 h C4 h |
+    | A3 w |
+    | B3 h C4 h |
+    | D4 h C4 h |
+    | B3 q C4 q D4 q C4 q |
+    | B3 w |
+    
+    // mm. 25-32
+    | B3 h D4 h mp |
+    | D4 q E4 q F#4 q G4 q |
+    | E4 h F#4 h |
+    | D4 w |
+    | D4 q C4 q B3 q A3 q |
+    | A3 q G3 q F#3 q E3 q |
+    | D3 h E3 h |
+    | D3 w p |
+    
+    // =========================================================================
+    // VARIATION I (mm. 33-48)
+    // =========================================================================
+    
+    Tempo: 58
+    
+    | G3 h B3 h p |
+    | G3 h C4 h |
+    | B3 w |
+    | A3 w |
+    
+    | G3 h A3 h mp |
+    | B3 h C4 h |
+    | D4 w |
+    | E4 h D4 h |
+    
+    | B3 h B3 q C4 q p |
+    | D4 h D4 q E4 q |
+    | F#4 h F#4 q G4 q |
+    | F#4 w |
+    
+    | G3 h A3 h pp |
+    | G3 w |
+    | G3 h A3 h |
+    | G3 w p |
+    
+    // =========================================================================
+    // VARIATION II (mm. 49-64)
+    // =========================================================================
+    
+    Tempo: 66
+    
+    | B3 q A3 q B3 h mf |
+    | C4 q B3 q A3 h |
+    | B3 q C4 q D4 q E4 q |
+    | F#4 w |
+    
+    | G4 q F#4 e G4 e A4 h mf |
+    | B4 q A4 e G4 e F#4 h |
+    | G4 h A4 h |
+    | B4 h C5 h f |
+    
+    | F#4 q G4 q A4 q B4 q f |
+    | C5 q D5 q E5 q F#5 q |
+    | B4 h F#4 h |
+    | B3 w mf |
+    
+    | G3 h A3 h mp |
+    | B3 w |
+    | G3 h A3 h |
+    | G3 w p |
+    
+    // =========================================================================
+    // VARIATION III (mm. 65-80)
+    // =========================================================================
+    
+    Tempo: 52
+    Key: Eb "Major"
+    
+    | Bb3 w p |
+    | Bb3 w |
+    | G3 w |
+    | F3 w |
+    
+    | Bb3 h C4 h pp |
+    | Bb3 w |
+    | C4 h D4 h |
+    | Bb3 w |
+    
+    | G3 w p |
+    | A3 w |
+    | A3 w |
+    | B3 w |
+    
+    Key: G "Major"
+    
+    | G3 h A3 h pp |
+    | G3 w |
+    | G3 h A3 h |
+    | G3 w p |
+    
+    // =========================================================================
+    // VARIATION IV (mm. 81-96)
+    // =========================================================================
+    
+    Tempo: 72
+    
+    | B3 h B3 q C4 q f |
+    | D4 h D4 q E4 q |
+    | F#4 h G4 q A4 q |
+    | B4 w |
+    
+    | B4 q A4 q B4 q C5 q ff |
+    | D5 q C5 q B4 q A4 q |
+    | B4 h C5 h |
+    | D5 w |
+    
+    | B3 q C4 q D4 q E4 q f |
+    | F#4 q G4 q A4 q B4 q |
+    | C5 q D5 q E5 q F#5 q ff |
+    | G5 h A5 h |
+    
+    | B5 w fff |
+    | G5 h A5 h |
+    | G5 h A5 h |
+    | B5 w |
+    
+    // =========================================================================
+    // CODA (mm. 97-120)
+    // =========================================================================
+    
+    | B3 w fff |
+    | A3 w |
+    | G3 w |
+    | F#3 w |
+    
+    | B3 w fff |
+    | C4 w |
+    | D4 w ff |
+    | C#4 w |
+    
+    Tempo: 46
+    | B3 w f |
+    | A3 w mf |
+    | G3 w mp |
+    | F#3 w p |
+    
+    | G3 w p |
+    | G3 w pp |
+    | G3 h D3 h pp |
+    | G3 h D3 h ppp |
+    
+    Tempo: 40
+    
+    | B3 w ppp |
+    | r w |
+    | B3 w ppp |
+    | r w |
+    
+    | B3 w ppp |
+    | r h A3 h ppp |
+    | r w |
+    | B3 w ppp |
+}
+
+Part: "Violin 1" Instrument: Violin {
+
+    // =========================================================================
+    // THEME STATEMENT (mm. 1-16): Tacet
+    // =========================================================================
+    
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    
+    // mm. 17-24: Theme in high register, doubled
+    | D4 h G4 h p |
+    | G4 q A4 q B4 q C5 q |
+    | B4 h A4 h |
+    | A4 w |
+    | D4 h E4 h |
+    | F4 h E4 h |
+    | D4 q E4 q F4 q E4 q |
+    | D4 w |
+    
+    // mm. 25-32
+    | D4 h G4 h mp |
+    | G4 q A4 q B4 q C5 q |
+    | C5 h D5 h |
+    | D5 w |
+    | D5 q C5 q B4 q A4 q |
+    | A4 q G4 q F#4 q E4 q |
+    | D4 h E4 h |
+    | D4 w p |
+    
+    // =========================================================================
+    // VARIATION I (mm. 33-48)
+    // =========================================================================
+    
+    Tempo: 58
+    
+    | B3 h D4 h p |
+    | B3 h E4 h |
+    | D4 w |
+    | C4 w |
+    
+    | B3 h C4 h mp |
+    | D4 h E4 h |
+    | F#4 w |
+    | G4 h F#4 h |
+    
+    | D4 h D4 q E4 q p |
+    | F#4 h F#4 q G4 q |
+    | A4 h A4 q B4 q |
+    | A4 w |
+    
+    | B3 h C4 h pp |
+    | B3 w |
+    | E4 h F#4 h |
+    | D4 w p |
+    
+    // =========================================================================
+    // VARIATION II (mm. 49-64)
+    // =========================================================================
+    
+    Tempo: 66
+    
+    | D4 q C4 q D4 h mf |
+    | E4 q D4 q C4 h |
+    | D4 q E4 q F#4 q G4 q |
+    | A4 w |
+    
+    | B4 q A4 e B4 e C5 h mf |
+    | D5 q C5 e B4 e A4 h |
+    | B4 h C5 h |
+    | D5 h E5 h f |
+    
+    | A4 q B4 q C5 q D5 q f |
+    | E5 q F#5 q G5 q A5 q |
+    | D5 h A4 h |
+    | D4 w mf |
+    
+    | B3 h C4 h mp |
+    | D4 w |
+    | E4 h F#4 h |
+    | D4 w p |
+    
+    // =========================================================================
+    // VARIATION III (mm. 65-80)
+    // =========================================================================
+    
+    Tempo: 52
+    Key: Eb "Major"
+    
+    | Eb4 w p |
+    | D4 w |
+    | C4 w |
+    | Bb3 w |
+    
+    | Eb4 h F4 h pp |
+    | Eb4 w |
+    | Ab4 h Bb4 h |
+    | Eb4 w |
+    
+    | Eb4 w p |
+    | F#4 w |
+    | F#4 w |
+    | G4 w |
+    
+    Key: G "Major"
+    
+    | B3 h C4 h pp |
+    | B3 w |
+    | E4 h F#4 h |
+    | D4 w p |
+    
+    // =========================================================================
+    // VARIATION IV (mm. 81-96)
+    // =========================================================================
+    
+    Tempo: 72
+    
+    | D4 h D4 q E4 q f |
+    | F#4 h F#4 q G4 q |
+    | A4 h B4 q C5 q |
+    | D5 w |
+    
+    | D5 q C5 q D5 q E5 q ff |
+    | F#5 q E5 q D5 q C5 q |
+    | D5 h E5 h |
+    | F#5 w |
+    
+    | D4 q E4 q F#4 q G4 q f |
+    | A4 q B4 q C5 q D5 q |
+    | E5 q F#5 q G5 q A5 q ff |
+    | B5 h C6 h |
+    
+    | D6 w fff |
+    | E5 h F#5 h |
+    | D5 h E5 h |
+    | D5 w |
+    
+    // =========================================================================
+    // CODA (mm. 97-120)
+    // =========================================================================
+    
+    | D4 w fff |
+    | D4 w |
+    | B3 w |
+    | A3 w |
+    
+    | D4 w fff |
+    | E4 w |
+    | F4 w ff |
+    | E4 w |
+    
+    Tempo: 46
+    | D4 w f |
+    | D4 w mf |
+    | B3 w mp |
+    | A3 w p |
+    
+    | D4 w p |
+    | D4 w pp |
+    | D4 h G3 h pp |
+    | D4 h G3 h ppp |
+    
+    Tempo: 40
+    
+    | D4 w ppp |
+    | r w |
+    | D4 w ppp |
+    | r w |
+    
+    | D4 w ppp |
+    | r h G3 h ppp |
+    | r w |
+    | D4 w ppp |
+}
+
+// ============================================================================
+// END OF MOVEMENT V — END OF ANAMNESIS
+//
+// The theme has arrived. After four movements of fragments, inversions,
+// wrong orders, and near-statements, we finally hear what we've been
+// circling around: 16 bars of melody in G major, rising fifth to
+// stepwise ascent to chromatic turn to decorated descent.
+//
+// The variations have answered each previous movement:
+//   - The shadows of "Umbra" now cast by clear light
+//   - The distortions of "Spectra" now heard as ornament
+//   - The lacuna filled at last
+//   - The fragments of "Fragmenta" assembled into wholeness
+//
+// And the coda returns us to where we began: the fifth, G-D, pianissimo.
+// But we hear it differently now. Having completed the journey, the
+// question has become the answer. Or perhaps: we recognize that it
+// always was.
+//
+// "Learning is remembering."
+//
+// ============================================================================

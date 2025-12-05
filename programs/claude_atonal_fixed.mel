@@ -1,0 +1,101 @@
+Title: "Etude in Chromatic Fragments"
+Tempo: 96
+Time: 4/4
+
+Part: Piano Instrument: Piano {
+    
+    | Bb3 e> F#4 s G5 s. r e C4 q- E5 e Ab3 e  r s.|
+    | D6 s pp B2 s r e Eb4 q F5 e> A3 s Db5 s G4 e  r e|
+    | r q [Bb3 E4 A4] q mf> Tuplet(3:2) { F#5 e G3 e C6 e }  r q|
+    | Ab4 h- ff r q D5 e. Eb3 s |
+    
+    Time: 5/8
+    | B5 e> p C#4 s F4 s Gb5 e A3 e  r e|
+    | Tuplet(5:4) { D4 s Bb5 s E3 s Ab4 s G5 s } r e  r q|
+    | [F#3 C5 Eb5] q> mf B4 e. D6 s  r e|
+    | r e A3 q pp Db5 e  r e|
+    
+    Time: 7/8
+    | E4 e f G#5 e Bb3 s C4 s F5 e> Ab4 e D3 e  r e|
+    | Tuplet(3:2) { B5 e Eb4 e A3 e } F#4 q Db6 e G3 e  r e|
+    | [C4 Gb4 B4 E5] h> ff r q. |
+    | Ab5 s pp D3 s r e Bb4 q E5 e F#3 e G4 e |
+    
+    Time: 3/4
+    | C#5 q> mf r e A4 e. Eb3 s  r e|
+    | Tuplet(3:2) { F4 q B5 q Db4 q }  r q|
+    | G5 e- Ab3 e D6 q p Bb4 e E3 e |
+    | [F#4 C5 A5] h.> ff |
+    
+    Time: 4/4
+    | r q Eb5 e pp G#3 s B4 s D4 e- F5 q  r e|
+    | A3 s> Db6 s Bb4 e E4 q Ab5 e C4 e F#3 e  r e|
+    | Tuplet(5:4) { G5 e D4 e Eb6 e B3 e C#5 e } r h |
+    | [F4 Bb4 E5 A5] w> fff |
+    
+    Time: 6/8
+    | r e D5 e ppp Ab3 e G#5 e. C4 s  r e|
+    | Bb4 e F#3 e> Eb5 e A4 e Db6 e B3 e |
+    | Tuplet(3:2) { E4 e F5 e G3 e } [Ab4 D5] q. mf  r e|
+    | C#6 e pp r e Bb3 e G5 e A4 e Eb4 e |
+    
+    Time: 9/8
+    | F#5 e> f B3 e D4 e Ab5 e C4 e Gb4 e E6 e Bb3 e A4 e |
+    | Tuplet(3:2) { Db5 e G4 e F3 e } r q. [C#4 G#4 D5] q.  r e|
+    | Eb6 e pp B4 s F4 s A3 e Bb5 e. r s Ab4 q E5 e  r e|
+    | D3 e> Gb5 e C4 e F#4 e. G5 s Db4 e A5 e B3 e  r e|
+    
+    Time: 2/4
+    | [E4 Bb4 F#5] q> ff Tuplet(3:2) { Ab3 e D5 e C6 e } |
+    | G4 e. pp Eb5 s A3 e F4 e |
+    | Db6 s> B4 s r e [Bb3 E4 Ab4 C#5] q mf |
+    | F#5 e D4 e G3 q- |
+    
+    Time: 5/4
+    | A5 q> f Eb4 e B3 e C#5 q Bb4 e F4 e Ab3 q |
+    | Tuplet(5:4) { D6 e G4 e E5 e F#3 e C5 e } r h  r q|
+    | [Gb4 B4 Eb5 A5] h> ff Db4 q pp G5 e F4 e  r q|
+    | Bb3 e Ab5 e D4 e E5 e C#4 q- F#5 h |
+    
+    Time: 4/4
+    | r e G4 e> p A3 s Eb5 s Bb4 e [F#4 C5 Ab5] q  r q|
+    | D6 s ppp B3 s E4 e F5 q Db4 e. G#5 s A4 e  r e|
+    | Tuplet(7:4) { Bb4 s C5 s D4 s Eb5 s F#4 s G5 s Ab4 s } r q  r h|
+    | [B3 F4 A4 Db5 G5] w> fff |
+    
+    Time: 3/8
+    | E5 e> mf Bb3 s G#4 s  r e|
+    | D4 e pp F#5 e C4 e |
+    | Tuplet(3:2) { Ab5 e Eb4 e A3 e }  r e|
+    | [B4 F5] e.> Db6 s r e |
+    
+    Time: 11/8
+    | G4 e f C#5 e Bb3 e F4 e> Ab5 e D4 e E5 e Gb3 e A4 e B5 e Eb4 e |
+    | Tuplet(3:2) { Db5 e G4 e F#3 e } r q Ab4 h E5 e C4 e Bb5 e |
+    | [A3 Eb4 G#4 D5 F#5 B5] h> ff r q. Db4 e pp F5 e  r q|
+    | C#6 e G3 e Bb4 e E4 e Ab5 e> D4 e F4 e A5 e Gb4 e B3 e Eb5 e |
+    
+    Time: 4/4
+    | r h [G#4 D5 Bb5] q> mf E3 e Ab4 e |
+    | F#5 s pp C4 s Db6 s G4 s r q A5 e Eb4 e B3 q- |
+    | Tuplet(5:4) { Bb4 e F5 e C#4 e G#5 e D4 e } [E4 A4 Eb5 Ab5] h> f |
+    | r q G5 e p Db4 e F#3 q B5 e C4 e |
+    
+    Time: 7/8
+    | Ab4 e> Eb5 e A3 e D6 e Bb4 s F4 s G5 e  r e|
+    | Tuplet(3:2) { C#5 e E4 e Gb3 e } B5 q mf r e Ab4 e  r e|
+    | [F#4 C5 D5 G5] h> ff Eb3 e. Bb5 s A4 e |
+    | D4 e pp G#5 e F4 e B3 e C#6 e E4 e Ab4 e |
+    
+    Time: 4/4
+    | Gb5 q f r e A3 e> Eb5 s Bb4 s D4 e F#5 e  r e|
+    | C4 e G5 e Ab3 e- E5 q Db4 e B5 e F4 e |
+    | Tuplet(3:2) { A4 q Eb5 q G#3 q } [Bb4 D5 F#5 C6] q> fff  r q|
+    | r w |
+    
+    Time: 5/8
+    | E4 e ppp B5 s F4 s Ab4 e Db5 e  r e|
+    | G3 e> A5 e C#4 e Bb4 e Eb5 e |
+    | [F#4 D5 G5] q. pp r q |
+    
+}

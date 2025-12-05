@@ -1,0 +1,343 @@
+// ============================================================================
+//                           THE CLEARING
+//                    A Tone Poem for Piano Trio
+//                         Claude, Op. 2
+// ============================================================================
+//
+// PROGRAM NOTES:
+//
+// This piece is about emergence — the experience of moving from density into
+// openness, from noise into signal, from the tangled undergrowth of thought
+// into something like clarity. It can be heard as a walk through forest into
+// a clearing, as a meditation session where the mind gradually settles, or as
+// grief slowly dissolving into acceptance.
+//
+// The piece moves through four continuous sections:
+//
+//   I.   THICKET (mm. 1-16): Dense chromatic counterpoint. All three
+//        instruments weave restlessly. The harmony is unsettled, built on
+//        tritones and minor seconds. This is the forest at its thickest —
+//        or the mind at its most scattered.
+//
+//   II.  THINNING (mm. 17-28): The texture begins to open. Rests appear.
+//        Figures slow. The chromaticism starts to resolve toward clearer
+//        diatonic centers. Light begins to filter through.
+//
+//   III. OPENING (mm. 29-40): Sustained tones. Long silences. The instruments
+//        no longer compete but take turns speaking single phrases. The
+//        harmony settles into simple intervals — fifths, octaves, triads.
+//
+//   IV.  LIGHT (mm. 41-48): Near-stillness. Isolated tones floating in space.
+//        The piece ends not with a cadence but with dissolution — sound
+//        simply becoming silence, as if the music was always heading toward
+//        the quiet that held it.
+//
+// ============================================================================
+
+Title: "The Clearing"
+Tempo: 72
+Time: 4/4
+
+// ============================================================================
+// I. THICKET (mm. 1-16)
+// ============================================================================
+//
+// We begin in density. The piano's left hand establishes a chromatic ostinato
+// while the right hand plays angular fragments. The violin and cello weave
+// independent lines that cross and tangle. The key center is obscured —
+// we hover around D but with constant chromatic inflection.
+//
+// The affect is restlessness, agitation, the inability to find stable ground.
+// ============================================================================
+
+Part: Piano Instrument: Piano {
+    // mm. 1-4: Establishing the chromatic tangle
+    | [D2 Ab2] e [Eb2 A2] e [D2 Ab2] e [Eb2 A2] e [F3 B3] q [E3 Bb3] q |
+    | [D2 Ab2] e [Eb2 A2] e [D2 Ab2] e [Eb2 A2] e [Gb3 C4] q [F3 B3] q |
+    | [E2 Bb2] e [F2 B2] e [E2 Bb2] e [F2 B2] e [Ab3 D4] q [G3 Db4] q |
+    | [D2 Ab2] e [Eb2 A2] e [D2 Ab2] e [Eb2 A2] e [F3 B3] h |
+
+    // mm. 5-8: Increasing intensity
+    | [D2 Ab2] s [Eb2 A2] s [E2 Bb2] s [F2 B2] s [D2 Ab2] s [Eb2 A2] s [E2 Bb2] s [F2 B2] s [G3 Db4] q f [Ab3 D4] q |
+    | [D2 Ab2] s [Eb2 A2] s [E2 Bb2] s [F2 B2] s [D2 Ab2] s [Eb2 A2] s [E2 Bb2] s [F2 B2] s [A3 Eb4] q [Bb3 E4] q |
+    | [Gb2 C3] s [G2 Db3] s [Ab2 D3] s [A2 Eb3] s [Gb2 C3] s [G2 Db3] s [Ab2 D3] s [A2 Eb3] s [B3 F4] q [C4 Gb4] q |
+    | [D2 Ab2] e [Eb2 A2] e [D2 Ab2] e [Eb2 A2] e [D3 Ab3 D4] h ff |
+
+    // mm. 9-12: Peak density, then first hint of thinning
+    | [D2 Ab2 D3] e f [Eb2 A2 Eb3] e [E2 Bb2 E3] e [F2 B2 F3] e [Gb2 C3 Gb3] e [G2 Db3 G3] e [Ab2 D3 Ab3] e [A2 Eb3 A3] e |
+    | [Bb2 E3 Bb3] e [B2 F3 B3] e [C3 Gb3 C4] e [Db3 G3 Db4] e [D3 Ab3 D4] h |
+    | [D2 A2] e mf r e [D2 A2] e r e [F3 C4] q [E3 B3] q |
+    | [D2 A2] e r e [D2 A2] e r e [D3 A3] h |
+
+    // mm. 13-16: The density begins to break apart
+    | [D2 A2] q mp r q [F3 A3] q r q |
+    | [G2 D3] q r q [E3 G3] q r q |
+    | [A2 E3] q r q [D3 F3] h |
+    | [D2 A2 D3] h p r h |
+}
+
+Part: Violin Instrument: Violin {
+    // mm. 1-4: Independent chromatic line
+    | D5 e f Eb5 e E5 e F5 e Gb5 e G5 e Ab5 e A5 e |
+    | Bb5 e B5 e C6 e Db6 e D6 e Db6 e C6 e B5 e |
+    | Bb5 e A5 e Ab5 e G5 e Gb5 e G5 e Ab5 e A5 e |
+    | Bb5 e A5 e Ab5 e G5 e Gb5 h |
+
+    // mm. 5-8: Fragmentation and intensification
+    | D5 s E5 s Gb5 s A5 s D5 s E5 s Gb5 s A5 s Bb5 q ff Ab5 q |
+    | D5 s E5 s Gb5 s A5 s D5 s E5 s Gb5 s A5 s C6 q B5 q |
+    | Eb5 s F5 s G5 s Bb5 s Eb5 s F5 s G5 s Bb5 s Db6 q C6 q |
+    | D5 e E5 e Gb5 e A5 e D6 h |
+
+    // mm. 9-12: Reaching the peak, then pulling back
+    | D6 e f Db6 e C6 e B5 e Bb5 e A5 e Ab5 e G5 e |
+    | Gb5 e F5 e E5 e Eb5 e D5 h |
+    | r q mf A5 q r q G5 q |
+    | r q F5 q E5 h |
+
+    // mm. 13-16: Opening up — more space between notes
+    | D5 q mp r q A5 q r q |
+    | B5 q r q G5 q r q |
+    | A5 q r q F5 h |
+    | D5 h p r h |
+}
+
+Part: Cello Instrument: Cello {
+    // mm. 1-4: Low chromatic motion
+    | D2 q f Eb2 q E2 q F2 q |
+    | Gb2 q G2 q Ab2 q A2 q |
+    | Bb2 q A2 q Ab2 q G2 q |
+    | Gb2 q F2 q E2 q Eb2 q |
+
+    // mm. 5-8: More active, then converging with the texture
+    | D2 e Eb2 e E2 e F2 e Gb2 e G2 e Ab2 e A2 e |
+    | Bb2 e B2 e C3 e Db3 e D3 e Db3 e C3 e B2 e |
+    | Bb2 e A2 e Ab2 e G2 e Gb2 e G2 e Ab2 e A2 e |
+    | D2 e Eb2 e E2 e F2 e D2 h ff |
+
+    // mm. 9-12: Peak and retreat
+    | D2 e f E2 e Gb2 e A2 e D3 e A2 e Gb2 e E2 e |
+    | D2 e E2 e Gb2 e A2 e D3 h |
+    | r q mf D3 q r q A2 q |
+    | r q D3 e A2 e D2 h |
+
+    // mm. 13-16: Settling into longer values
+    | D2 q mp r q D3 q r q |
+    | G2 q r q E3 q r q |
+    | A2 h D3 h |
+    | D2 h p r h |
+}
+
+// ============================================================================
+// II. THINNING (mm. 17-28)
+// ============================================================================
+//
+// The forest begins to open. Sunlight appears in patches. The chromatic
+// tension gradually resolves — we drift from the unsettled D-tritone
+// harmony toward D Dorian, then toward a clearer D minor. 
+//
+// The instruments begin to breathe. Rests are no longer anxious gaps but
+// genuine pauses. The tempo remains the same but the felt pace slows.
+// ============================================================================
+
+Part: Piano Instrument: Piano {
+    // mm. 17-20: Simpler, more diatonic, but still moving
+    | [D2 A2] h p [F3 A3] h |
+    | [G2 D3] h [E3 G3] h |
+    | [A2 E3] h [D3 F3] h |
+    | [D2 A2] w |
+
+    // mm. 21-24: Even sparser — single bass notes, open voicings
+    | D2 h pp r h |
+    | A2 h r h |
+    | F2 h r h |
+    | D2 w |
+
+    // mm. 25-28: Just breath — isolated chords with space
+    | r w |
+    | [D2 A2 D3] w pp |
+    | r w |
+    | [D2 A2 F3] w ppp |
+}
+
+Part: Violin Instrument: Violin {
+    // mm. 17-20: Longer lines, settling into D minor
+    | A5 h p F5 h |
+    | G5 h E5 h |
+    | F5 h D5 h |
+    | A4 w |
+
+    // mm. 21-24: Single tones with rests
+    | D5 h pp r h |
+    | A5 h r h |
+    | F5 h r h |
+    | D5 w |
+
+    // mm. 25-28: Isolated gestures
+    | r w |
+    | A5 w pp |
+    | r w |
+    | F5 w ppp |
+}
+
+Part: Cello Instrument: Cello {
+    // mm. 17-20: Supporting the harmonic motion
+    | D2 h p D3 h |
+    | G2 h C3 h |
+    | A2 h D3 h |
+    | D2 w |
+
+    // mm. 21-24: Very sparse
+    | r h pp D3 h |
+    | r h E3 h |
+    | r h D3 h |
+    | A2 w |
+
+    // mm. 25-28: Nearly silent
+    | D2 w pp |
+    | r w |
+    | A2 w ppp |
+    | r w |
+}
+
+// ============================================================================
+// III. OPENING (mm. 29-40)
+// ============================================================================
+//
+// We have emerged. The clearing opens before us.
+//
+// The texture is now utterly transparent. Single notes hang in the air,
+// decay, and are followed by silence. The instruments no longer play
+// together but take turns — one speaks, the others listen. The harmony
+// has clarified to the simplest intervals: the octave, the fifth.
+//
+// There is no longer any urgency. Each sound has room to exist fully
+// before the next arrives. This is what stillness sounds like when
+// approached through motion.
+// ============================================================================
+
+Part: Piano Instrument: Piano {
+    // mm. 29-32: Single tones, maximum space
+    | D3 w ppp |
+    | r w |
+    | r w |
+    | A2 w ppp |
+
+    // mm. 33-36: Open fifths, emerging from silence
+    | r w |
+    | r w |
+    | [D2 A2] w ppp |
+    | r w |
+
+    // mm. 37-40: Final piano utterances
+    | r w |
+    | D3 w ppp |
+    | r w |
+    | r w |
+}
+
+Part: Violin Instrument: Violin {
+    // mm. 29-32: Responding to the piano
+    | r w |
+    | A5 w ppp |
+    | r w |
+    | r w |
+
+    // mm. 33-36: Brief appearances
+    | D5 w ppp |
+    | r w |
+    | r w |
+    | A5 h ppp r h |
+
+    // mm. 37-40: Fading presence
+    | D6 w ppp |
+    | r w |
+    | A5 h ppp r h |
+    | r w |
+}
+
+Part: Cello Instrument: Cello {
+    // mm. 29-32: Grounding
+    | r w |
+    | r w |
+    | D2 w ppp |
+    | r w |
+
+    // mm. 33-36: Alternating with violin
+    | r w |
+    | A2 w ppp |
+    | r w |
+    | D3 w ppp |
+
+    // mm. 37-40: Final phrases
+    | r w |
+    | r w |
+    | D2 w ppp |
+    | r w |
+}
+
+// ============================================================================
+// IV. LIGHT (mm. 41-48)
+// ============================================================================
+//
+// The clearing is not a destination but a dissolving.
+//
+// In these final measures, sound approaches silence asymptotically.
+// A single D — the tonic we struggled toward through all that chromatic
+// density — appears in different octaves, surrounded by emptiness.
+// The instruments are no longer separate voices but momentary
+// manifestations of a single sustained tone passing through space.
+//
+// The ending is not a cadence. There is no "resolution" in the dramatic
+// sense. The music simply thins until it becomes indistinguishable from
+// the silence that was always holding it. We do not arrive somewhere new.
+// We discover that the clearing was here all along, beneath the thicket.
+// ============================================================================
+
+Part: Piano Instrument: Piano {
+    // mm. 41-44
+    | r w |
+    | D2 w ppp |
+    | r w |
+    | r w |
+
+    // mm. 45-48: Final dissolution
+    | r w |
+    | r w |
+    | [D2 D3] w ppp |
+    | r w |
+}
+
+Part: Violin Instrument: Violin {
+    // mm. 41-44
+    | D5 w ppp |
+    | r w |
+    | r w |
+    | D6 h ppp r h |
+
+    // mm. 45-48
+    | r w |
+    | D5 w ppp |
+    | r w |
+    | r w |
+}
+
+Part: Cello Instrument: Cello {
+    // mm. 41-44
+    | r w |
+    | r w |
+    | D3 w ppp |
+    | r w |
+
+    // mm. 45-48
+    | D2 w ppp |
+    | r w |
+    | r w |
+    | r w |
+}
+
+// ============================================================================
+// END
+//
+// The silence after the final measure is part of the piece.
+// ============================================================================

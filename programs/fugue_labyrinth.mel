@@ -1,0 +1,203 @@
+Title: "Fugue in D Minor - The Labyrinth"
+Tempo: 72
+Time: 4/4
+
+Part: Violin Instrument: Violin {
+    Key: D "Minor"
+    
+    | D5 q F5 e E5 e A5 q G#5 e A5 e |
+    | E5 q. F5 e C#5 q D5 q |
+    | E5 e F5 e G5 e A5 e Bb5 q A5 e G5 e |
+    | F5 e E5 e D5 e C#5 e D5 h |
+    | A5 q C6 e B5 e E6 q D#6 e E6 e |
+    | B5 q. C6 e G#5 q A5 q |
+    | D5 e E5 e F5 e G5 e A5 e Bb5 e A5 e G5 e |
+    | F5 q E5 q D5 h |
+    
+    | r q A5 e G5 e F5 e E5 e F5 e G5 e |
+    | A5 e Bb5 e C6 e D6 e E6 q D6 e C6 e |
+    | Bb5 e A5 e G5 e F5 e E5 q D5 q |
+    | C#5 e D5 e E5 e F5 e G5 h |
+    
+    Key: F "Major"
+    | F5 q A5 e G5 e C6 q B5 e C6 e |
+    | G5 q. A5 e E5 q F5 q |
+    | Tuplet(3:2) { G5 q A5 q Bb5 q } C6 e D6 e C6 e Bb5 e |
+    | A5 q G5 q F5 h |
+    
+    | r h C6 e Bb5 e A5 e G5 e |
+    | F5 e G5 e A5 e Bb5 e C6 q Bb5 e A5 e |
+    | G5 e F5 e E5 e D5 e C5 q D5 e E5 e |
+    | F5 q E5 e D5 e C5 h |
+    
+    Key: D "Minor"
+    | D5 q Bb4 e C5 e F4 q G4 e F4 e |
+    | Bb4 q. A4 e E5 q D5 q |
+    | A5 q F5 e G5 e C5 q D5 e C5 e |
+    | F5 q. E5 e Bb5 q A5 q |
+    | Tuplet(3:2) { G5 q F5 q E5 q } Tuplet(3:2) { D5 q C#5 q D5 q } |
+    | E5 e F5 e G5 e A5 e Bb5 e A5 e G5 e F5 e |
+    
+    | D5 q f F5 e E5 e A5 q G#5 e A5 e |
+    | r e A5 e> D5 q F5 e E5 e A5 e G#5 e |
+    | A5 e r e D5 q f F5 e E5 e A5 e G#5 e |
+    | A5 q E5 q. F5 e C#5 q |
+    
+    | D5 w ff |
+    | D5 q C#5 e D5 e E5 q F5 q |
+    | G5 e A5 e Bb5 e A5 e G5 e F5 e E5 e D5 e |
+    | C#5 e D5 e E5 e F5 e G5 q A5 q |
+    | D6 q> C6 e Bb5 e A5 q G5 q |
+    | F5 e E5 e D5 e C#5 e D5 h |
+    | D5 w fff |
+}
+
+Part: Viola Instrument: Viola {
+    Key: D "Minor"
+    
+    | r w |
+    | r w |
+    | A4 q C5 e B4 e E5 q D#5 e E5 e |
+    | B4 q. C5 e G#4 q A4 q |
+    | C5 e D5 e E5 e F5 e G5 q F5 e E5 e |
+    | D5 e C5 e B4 e A4 e G#4 q A4 q |
+    | B4 e C5 e D5 e E5 e F5 e G5 e F5 e E5 e |
+    | D5 q C#5 q D5 h |
+    
+    | D5 e E5 e F5 e E5 e D5 e C5 e D5 e E5 e |
+    | F5 e G5 e A5 e Bb5 e C6 q Bb5 e A5 e |
+    | G5 e F5 e E5 e D5 e C5 e D5 e E5 e F5 e |
+    | E5 q D5 q C#5 e D5 e E5 q |
+    
+    Key: F "Major"
+    | r w |
+    | r h C5 q E5 e D5 e |
+    | G5 q F#5 e G5 e D5 q. E5 e |
+    | B4 q C5 q A4 e Bb4 e C5 e D5 e |
+    
+    | E5 e F5 e G5 e A5 e Bb5 q A5 e G5 e |
+    | A5 q G5 e F5 e E5 e D5 e C5 e Bb4 e |
+    | A4 e Bb4 e C5 e D5 e E5 q F5 e G5 e |
+    | A5 q Bb5 e A5 e G5 h |
+    
+    Key: D "Minor"
+    | F4 q D4 e E4 e A3 q Bb3 e A3 e |
+    | D4 q. C4 e G4 q F4 q |
+    | C5 q A4 e Bb4 e E4 q F4 e E4 e |
+    | A4 q. G4 e D5 q C5 q |
+    | Tuplet(3:2) { Bb4 q A4 q G4 q } Tuplet(3:2) { F4 q E4 q F4 q } |
+    | G4 e A4 e Bb4 e C5 e D5 e C5 e Bb4 e A4 e |
+    
+    | F4 q f A4 e G4 e C5 q B4 e C5 e |
+    | G4 q. A4 e E4 q F4 q |
+    | r e F4 e> A4 q C5 e B4 e E5 q |
+    | D#5 e E5 e B4 q. C5 e G#4 q |
+    
+    | A4 w ff |
+    | A4 e Bb4 e A4 e G4 e F4 q G4 q |
+    | A4 e Bb4 e C5 e D5 e E5 e D5 e C5 e Bb4 e |
+    | A4 q G4 q F4 e G4 e A4 e Bb4 e |
+    | A4 q> G4 e F4 e E4 q D4 q |
+    | C#4 e D4 e E4 e F4 e G4 e F4 e E4 e D4 e |
+    | D4 w fff |
+}
+
+Part: Cello Instrument: Cello {
+    Key: D "Minor"
+    
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | D3 q F3 e E3 e A3 q G#3 e A3 e |
+    | E3 q. F3 e C#3 q D3 h |
+    
+    | r q D3 e E3 e F3 e G3 e A3 e Bb3 e |
+    | C4 e D4 e E4 e F4 e G4 e A4 e G4 e F4 e |
+    | E4 e D4 e C4 e Bb3 e A3 e G3 e F3 e E3 e |
+    | A3 q Bb3 e A3 e G3 e F3 e E3 e D3 e |
+    
+    Key: F "Major"
+    | r w |
+    | r w |
+    | r h F3 q A3 e G3 e |
+    | C4 q B3 e C4 e G3 q. A3 e |
+    
+    | E3 q F3 q G3 e A3 e Bb3 e C4 e |
+    | D4 q E4 e F4 e G4 e F4 e E4 e D4 e |
+    | C4 q Bb3 q A3 q Bb3 e C4 e |
+    | F3 e G3 e A3 e Bb3 e C4 h |
+    
+    Key: D "Minor"
+    | Bb2 q D3 e C3 e F3 q E3 e F3 e |
+    | Bb2 q. A2 e E3 q D3 q |
+    | F2 q A2 e G2 e C3 q B2 e C3 e |
+    | F2 q. E2 e Bb2 q A2 q |
+    | Tuplet(3:2) { D3 q C3 q Bb2 q } Tuplet(3:2) { A2 q G2 q A2 q } |
+    | Bb2 e C3 e D3 e E3 e F3 e E3 e D3 e C3 e |
+    
+    | D3 w f |
+    | D3 w |
+    | D3 w |
+    | D3 w |
+    
+    | D3 q f F3 e E3 e A3 q G#3 e A3 e |
+    | E3 q. F3 e C#3 q D3 q |
+    | Tuplet(3:2) { E3 q F3 q G3 q } Tuplet(3:2) { A3 q Bb3 q A3 q } |
+    | G3 e F3 e E3 e D3 e C#3 q D3 q |
+    | D3 q> E3 e F3 e G3 q A3 q |
+    | D3 e E3 e F3 e G3 e A3 e G3 e F3 e E3 e |
+    | D3 w fff |
+}
+
+Part: Contrabass Instrument: Contrabass {
+    Key: D "Minor"
+    
+    | r w |
+    | r w |
+    | r w |
+    | D3 q F3 e E3 e A3 q G#3 e A3 e |
+    | E3 q. F3 e C#3 q D3 q |
+    | E3 e F3 e G3 e A3 e Bb3 q A3 e G3 e |
+    | F3 e E3 e D3 e C#3 e D3 e E3 e F3 e G3 e |
+    | A3 q A2 q D3 h |
+    
+    | Bb2 e C3 e D3 e E3 e F3 e E3 e D3 e C3 e |
+    | F3 e E3 e D3 e C3 e Bb2 e A2 e G2 e F2 e |
+    | G2 q A2 q Bb2 q C3 q |
+    | A2 q G2 q A2 h |
+    
+    Key: F "Major"
+    | F2 q A2 e G2 e C3 q B2 e C3 e |
+    | G2 q. A2 e E2 q F2 q |
+    | Bb2 e C3 e D3 e E3 e F3 q E3 e D3 e |
+    | C3 e Bb2 e A2 e G2 e F2 h |
+    
+    | C3 e D3 e E3 e F3 e G3 q F3 e E3 e |
+    | D3 q C3 q Bb2 q A2 q |
+    | G2 q F2 q E2 e F2 e G2 e A2 e |
+    | Bb2 e C3 e D3 e E3 e F3 h |
+    
+    Key: D "Minor"
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | Tuplet(3:2) { G2 q F2 q E2 q } Tuplet(3:2) { D2 q C#2 q D2 q } |
+    | G2 e A2 e Bb2 e C3 e D3 e C3 e Bb2 e A2 e |
+    
+    | D2 w f |
+    | D2 w |
+    | D2 w |
+    | D2 w |
+    
+    | D2 w ff |
+    | D2 w |
+    | D2 w |
+    | D2 w |
+    | D2 w> |
+    | D2 w |
+    | D2 w fff |
+}

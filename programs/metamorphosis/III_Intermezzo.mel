@@ -1,0 +1,314 @@
+// ============================================================================
+// METAMORPHOSES ON A LAMENT
+// Movement III: Intermezzo — "Night Song (After the Storm)"
+// ============================================================================
+//
+// After the obsessive repetition of the passacaglia and the intellectual 
+// rigor of the fugue, we need breath. This movement is the still point.
+//
+// The form here is ternary (ABA'), with the outer sections in F major —
+// the relative major of our home key of A minor. There's a kind of tired
+// peace in this key, like arriving somewhere after a long journey.
+//
+// The tetrachord appears, but transformed: instead of A-G-F-E, we hear
+// F-E-D-C — the same shape, recontextualized. In major, the descent
+// becomes less a lament than a sigh, or a lullaby.
+//
+// The middle section (B) moves to D minor, darker, more restless.
+// The cello sings a long-breathed melody while the violins provide
+// a shimmering, almost impressionistic accompaniment.
+//
+// This is music for 3 AM, for the hour when grief has exhausted itself
+// and something like acceptance, or at least numbness, settles in.
+// ============================================================================
+
+Title: "Metamorphoses on a Lament - III. Intermezzo"
+Tempo: 48
+Time: 6/8
+
+Key: F "Major"
+
+Part: Cello Instrument: Cello {
+    // === A SECTION (Bars 1-16): The Nocturne ===
+    
+    // The cello sings the main melody — the tetrachord transformed
+    | r q. F3 q. p |
+    | E3 q. D3 q. |
+    | C3 h. |
+    | r q. F3 q. |
+    
+    | E3 q. D3 q. |
+    | C3 q. B2 q. |
+    | A2 h. |
+    | r h. |
+    
+    // Second phrase, higher
+    | r q. A3 q. mp |
+    | G3 q. F3 q. |
+    | E3 h. |
+    | r q. A3 q. |
+    
+    | G3 q. F3 q. |
+    | E3 q. D3 q. |
+    | C3 h. |
+    | r h. |
+    
+    // === B SECTION (Bars 17-32): The Dream ===
+    Key: D "Minor"
+    
+    // Darker, more chromatic
+    | D3 h. mf |
+    | C#3 q. D3 q. |
+    | E3 h. |
+    | F3 q. E3 q. |
+    
+    | D3 h. |
+    | Bb2 q. A2 q. |
+    | G2 h. |
+    | A2 h. |
+    
+    // Intensifying
+    | D3 q. E3 q. f |
+    | F3 q. G3 q. |
+    | A3 h. |
+    | Bb3 q. A3 q. |
+    
+    | G3 q. F3 q. |
+    | E3 q. D3 q. |
+    | C#3 h. |
+    | D3 h. |
+    
+    // === A' SECTION (Bars 33-48): Return, transformed ===
+    Key: F "Major"
+    
+    | r q. F3 q. p |
+    | E3 q. D3 q. |
+    | C3 h. |
+    | r q. F3 q. |
+    
+    | E3 q. D3 q. |
+    | C3 q. B2 q. |
+    | A2 h. |
+    | r h. |
+    
+    // Final phrase, dying away
+    | r q. F3 q. pp |
+    | E3 q. D3 q. |
+    | C3 h. |
+    | r q. C3 q. |
+    
+    | D3 q. E3 q. |
+    | F3 h. |
+    | F3 h. ppp |
+    | F3 h. |
+}
+
+Part: Viola Instrument: Viola {
+    // === A SECTION ===
+    // Sustained harmonies beneath the melody
+    | A2 h. pp |
+    | G2 h. |
+    | A2 h. |
+    | Bb2 h. |
+    
+    | G2 h. |
+    | F2 h. |
+    | E2 h. |
+    | F2 h. |
+    
+    | C3 h. pp |
+    | Bb2 h. |
+    | C3 h. |
+    | D3 h. |
+    
+    | Bb2 h. |
+    | A2 h. |
+    | G2 h. |
+    | A2 h. |
+    
+    // === B SECTION ===
+    Key: D "Minor"
+    
+    | F3 h. p |
+    | E3 h. |
+    | G3 h. |
+    | A3 h. |
+    
+    | F3 h. |
+    | D3 h. |
+    | E3 h. |
+    | E3 h. |
+    
+    | F3 h. mf |
+    | A3 h. |
+    | D4 h. |
+    | D4 h. |
+    
+    | Bb3 h. |
+    | A3 h. |
+    | G3 h. |
+    | F3 h. |
+    
+    // === A' SECTION ===
+    Key: F "Major"
+    
+    | A2 h. pp |
+    | G2 h. |
+    | A2 h. |
+    | Bb2 h. |
+    
+    | G2 h. |
+    | F2 h. |
+    | E2 h. |
+    | F2 h. |
+    
+    | A2 h. ppp |
+    | G2 h. |
+    | A2 h. |
+    | G2 h. |
+    
+    | F2 h. |
+    | A2 h. |
+    | A2 h. |
+    | A2 h. |
+}
+
+Part: "Violin 2" Instrument: Violin {
+    // === A SECTION ===
+    // Gentle arpeggiated accompaniment
+    | C4 e D4 e C4 e A3 e C4 e A3 e pp |
+    | C4 e B3 e C4 e G3 e B3 e G3 e |
+    | C4 e E4 e C4 e A3 e C4 e A3 e |
+    | D4 e F4 e D4 e Bb3 e D4 e Bb3 e |
+    
+    | C4 e E4 e C4 e G3 e C4 e G3 e |
+    | A3 e C4 e A3 e F3 e A3 e F3 e |
+    | A3 e C4 e A3 e E3 e A3 e E3 e |
+    | A3 e C4 e A3 e F3 e A3 e F3 e |
+    
+    | E4 e G4 e E4 e C4 e E4 e C4 e pp |
+    | D4 e F4 e D4 e Bb3 e D4 e Bb3 e |
+    | C4 e E4 e C4 e G3 e C4 e G3 e |
+    | F4 e A4 e F4 e D4 e F4 e D4 e |
+    
+    | D4 e F4 e D4 e Bb3 e D4 e Bb3 e |
+    | C4 e E4 e C4 e A3 e C4 e A3 e |
+    | B3 e D4 e B3 e G3 e B3 e G3 e |
+    | C4 e E4 e C4 e A3 e C4 e A3 e |
+    
+    // === B SECTION ===
+    Key: D "Minor"
+    
+    | D4 e F4 e A4 e D4 e F4 e A4 e p |
+    | E4 e G4 e A4 e E4 e G4 e A4 e |
+    | E4 e G4 e Bb4 e E4 e G4 e Bb4 e |
+    | F4 e A4 e C5 e F4 e A4 e C5 e |
+    
+    | D4 e F4 e A4 e D4 e F4 e A4 e |
+    | D4 e F4 e Bb4 e D4 e F4 e Bb4 e |
+    | C4 e E4 e G4 e C4 e E4 e G4 e |
+    | C#4 e E4 e A4 e C#4 e E4 e A4 e |
+    
+    | D4 e F4 e A4 e D4 e F4 e A4 e mf |
+    | F4 e A4 e C5 e F4 e A4 e C5 e |
+    | F4 e A4 e D5 e F4 e A4 e D5 e |
+    | F4 e Bb4 e D5 e F4 e Bb4 e D5 e |
+    
+    | E4 e G4 e Bb4 e E4 e G4 e Bb4 e |
+    | D4 e F4 e A4 e D4 e F4 e A4 e |
+    | C#4 e E4 e G4 e C#4 e E4 e G4 e |
+    | D4 e F4 e A4 e D4 e F4 e A4 e |
+    
+    // === A' SECTION ===
+    Key: F "Major"
+    
+    | C4 e D4 e C4 e A3 e C4 e A3 e pp |
+    | C4 e B3 e C4 e G3 e B3 e G3 e |
+    | C4 e E4 e C4 e A3 e C4 e A3 e |
+    | D4 e F4 e D4 e Bb3 e D4 e Bb3 e |
+    
+    | C4 e E4 e C4 e G3 e C4 e G3 e |
+    | A3 e C4 e A3 e F3 e A3 e F3 e |
+    | A3 e C4 e A3 e E3 e A3 e E3 e |
+    | A3 e C4 e A3 e F3 e A3 e F3 e |
+    
+    | C4 e D4 e C4 e A3 e C4 e A3 e ppp |
+    | C4 e B3 e C4 e G3 e B3 e G3 e |
+    | C4 e E4 e C4 e A3 e C4 e A3 e |
+    | C4 e E4 e C4 e G3 e C4 e G3 e |
+    
+    | A3 e C4 e F4 e A3 e C4 e F4 e |
+    | C4 e F4 e A4 e C4 e F4 e A4 e |
+    | C4 e F4 e A4 e C4 e F4 e A4 e |
+    | C4 e F4 e A4 e C4 e F4 e A4 e |
+}
+
+Part: "Violin 1" Instrument: Violin {
+    // === A SECTION ===
+    // High, floating countermelody
+    | r h. |
+    | r h. |
+    | r q. C5 q. pp |
+    | D5 q. E5 q. |
+    
+    | C5 h. |
+    | r q. A4 q. |
+    | C5 q. B4 q. |
+    | A4 h. |
+    
+    | r h. |
+    | r h. |
+    | r q. G5 q. pp |
+    | A5 q. B5 q. |
+    
+    | G5 h. |
+    | r q. F5 q. |
+    | E5 q. D5 q. |
+    | C5 h. |
+    
+    // === B SECTION ===
+    Key: D "Minor"
+    
+    | A4 h. p |
+    | A4 q. Bb4 q. |
+    | C5 h. |
+    | C5 q. D5 q. |
+    
+    | A4 h. |
+    | G4 q. F4 q. |
+    | E4 h. |
+    | E4 h. |
+    
+    | F4 q. G4 q. mf |
+    | A4 q. C5 q. |
+    | D5 h. |
+    | D5 q. E5 q. |
+    
+    | D5 q. C5 q. |
+    | Bb4 q. A4 q. |
+    | G4 h. |
+    | F4 h. |
+    
+    // === A' SECTION ===
+    Key: F "Major"
+    
+    | r h. |
+    | r h. |
+    | r q. C5 q. pp |
+    | D5 q. E5 q. |
+    
+    | C5 h. |
+    | r q. A4 q. |
+    | C5 q. B4 q. |
+    | A4 h. |
+    
+    | r h. |
+    | r q. C5 q. ppp |
+    | E5 h. |
+    | E5 h. |
+    
+    | F5 h. |
+    | F5 h. |
+    | F5 h. |
+    | F5 h. |
+}

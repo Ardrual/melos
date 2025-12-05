@@ -1,0 +1,802 @@
+// ============================================================================
+//                              ANAMNESIS
+//                    A Piano Quintet in Five Movements
+//                              Claude, Op. 5
+// ============================================================================
+//
+//                    Movement II: Spectra (Apparitions)
+//
+// ============================================================================
+//
+// PROGRAM NOTES:
+//
+// If "Umbra" was fog, "Spectra" is fever dream. The fragments from the first
+// movement return, but now distorted — inverted, displaced, harmonized against
+// their nature. This is the scherzo of false recognitions: moments where the
+// ear thinks it's grasped the theme, only to have it dissolve or reveal itself
+// as illusion.
+//
+// The word "spectra" carries a double meaning. In optics, a spectrum is light
+// broken into components — the hidden colors that white contains. In the
+// supernatural sense, spectra are ghosts, apparitions. Both meanings apply:
+// we're seeing the theme refracted, and we're chasing phantoms.
+//
+// The movement is in a modified scherzo-trio form:
+//
+//   A Section (mm. 1-36): Allegro inquieto, E minor
+//      Agitated, driven by the piano's insistent tritone (F#-C). The violins
+//      chase each other with inverted fragments. False starts, near-catches.
+//
+//   B Section (mm. 37-60): Meno mosso, C major
+//      A deceptive calm. The material seems to settle into diatonic clarity,
+//      but the "wrongness" is harmonic — these pitches don't belong to this
+//      key. The chromatic turn (C-D-Eb-D) appears over sunny C major, alien.
+//
+//   A' Section (mm. 61-88): Tempo I, E minor
+//      Return of the chase, intensified. Stretto passages — fragments piling
+//      atop each other. The climax almost states Phrase A complete, but in
+//      inversion. Then collapse.
+//
+// The tritone F#-C is the movement's destabilizing agent. In the hidden theme,
+// F# appears as part of the stepwise ascent (E-F#-G) and C appears in the
+// chromatic turn. Here, extracted and forced together, they create an interval
+// that can resolve nowhere — or everywhere.
+//
+// ============================================================================
+
+Title: "Anamnesis - II. Spectra"
+Tempo: 132
+Time: 3/4
+
+// ============================================================================
+// A SECTION: The Chase (mm. 1-36)
+// ============================================================================
+
+Part: Piano Instrument: Piano {
+    
+    // mm. 1-4: The tritone, hammered
+    // F#-C: the interval that destabilizes. It enters without preparation,
+    // insistent, almost brutal after the first movement's restraint.
+    | [F#3 C4] q [F#3 C4] q [F#3 C4] q f |
+    | [F#3 C4] q r q [F#3 C4] q |
+    | [F#3 C4] q [F#3 C4] q [F#3 C4] q |
+    | r q [F#3 C4] h |
+    
+    // mm. 5-8: The fifth, inverted context
+    // E-A: a fourth, but heard as the fifth's shadow. The piano
+    // provides harmonic ground while strings begin their chase.
+    | [E3 B3] h [E3 B3] q mf |
+    | [A2 E3] h. |
+    | [E3 B3] h [E3 B3] q |
+    | [F#3 C4] h. f |
+    
+    // mm. 9-12: Driving rhythm
+    | E3 q B3 q E4 q mf |
+    | F#3 q C4 q F#4 q |
+    | G3 q D4 q G4 q |
+    | [F#3 C4] h. f |
+    
+    // mm. 13-16: Responding to violin fragments
+    | r q [E3 G3 B3] h mp |
+    | r q [D3 F#3 A3] h |
+    | r q [C3 E3 G3] h |
+    | [F#3 C4] q [F#3 C4] q [F#3 C4] q f |
+    
+    // mm. 17-20: Stepwise descent in bass
+    // The theme's stepwise cell, but descending instead of ascending
+    | E2 q r q D2 q mf |
+    | r q C2 q r q |
+    | B1 q r q A1 q |
+    | [F#2 C3] h. f |
+    
+    // mm. 21-24: Chordal punctuation
+    | [E3 G3 B3] q r q [E3 G3 B3] q mf |
+    | [D3 F#3 A3] q r q [D3 F#3 A3] q |
+    | [C3 E3 G3] q r h |
+    | [F#2 C3 F#3] h. f |
+    
+    // mm. 25-28: Building intensity
+    | [E3 B3 E4] q [F#3 C4 F#4] q [G3 D4 G4] q mf |
+    | [A3 E4 A4] q [B3 F#4 B4] q [C4 G4 C5] q |
+    | [D4 A4 D5] q [E4 B4 E5] q [F#4 C5 F#5] q f |
+    | [G4 D5 G5] h. |
+    
+    // mm. 29-32: The Long-Short, distorted
+    // Dotted rhythm but with tritone, not fifth
+    | [F#3 C4] h [F#3 C4] q ff |
+    | [F#3 C4] h. |
+    | [E3 B3] h [E3 B3] q mf |
+    | [E3 B3] h. |
+    
+    // mm. 33-36: Transition to B section
+    | [D3 A3] h. p |
+    | [C3 G3] h. |
+    | [B2 F#3] h. pp |
+    | r h. |
+    
+    // =========================================================================
+    // B SECTION: False Calm (mm. 37-60)
+    // =========================================================================
+    
+    Tempo: 96
+    
+    // mm. 37-40: C major — deceptively bright
+    // The piano establishes a warm, diatonic texture. But the strings
+    // will bring chromatic material that doesn't belong.
+    | [C3 G3 E4] h. p |
+    | [C3 G3 E4] h. |
+    | [F3 A3 C4] h [G3 B3 D4] q |
+    | [C3 G3 E4] h. |
+    
+    // mm. 41-44: Gentle motion
+    | [C3 E3 G3] q [D3 F3 A3] q [E3 G3 B3] q pp |
+    | [F3 A3 C4] h. |
+    | [G3 B3 D4] q [A3 C4 E4] q [B3 D4 F4] q |
+    | [C4 E4 G4] h. |
+    
+    // mm. 45-48: The chromatic turn intrudes
+    // C-D-Eb-D from the theme, but over this "wrong" harmony
+    | [C3 G3] h. p |
+    | [D3 A3] h. |
+    | [Eb3 Bb3] h. |
+    | [D3 A3] h. |
+    
+    // mm. 49-52: Attempting to normalize
+    | [C3 G3 E4] h. pp |
+    | [C3 G3 E4] q [D3 A3 F4] q [E3 B3 G4] q |
+    | [F3 C4 A4] h. |
+    | [G3 D4 B4] h. |
+    
+    // mm. 53-56: Growing unease
+    | [E3 B3 G4] h [E3 B3] q p |
+    | [F3 C4 Ab4] h. |
+    | [Eb3 Bb3 G4] h. |
+    | [D3 A3 F#4] h. mp |
+    
+    // mm. 57-60: Transition back — tritone returns
+    | [C3 G3 E4] h. p |
+    | [B2 F#3 D4] h. |
+    | [F#3 C4] h. mf |
+    | [F#3 C4] q r h |
+    
+    // =========================================================================
+    // A' SECTION: Intensified Chase (mm. 61-88)
+    // =========================================================================
+    
+    Tempo: 144
+    
+    // mm. 61-64: Tritone returns, faster
+    | [F#3 C4] q [F#3 C4] q [F#3 C4] q ff |
+    | [F#3 C4] q [F#3 C4] q [F#3 C4] q |
+    | [G3 D4] q [F#3 C4] q [E3 B3] q |
+    | [F#3 C4] h. |
+    
+    // mm. 65-68: Driving forward
+    | [E3 B3 E4] q [E3 B3 E4] q [E3 B3 E4] q f |
+    | [F#3 C4 F#4] q [F#3 C4 F#4] q [F#3 C4 F#4] q |
+    | [G3 D4 G4] q [G3 D4 G4] q [G3 D4 G4] q |
+    | [A3 E4 A4] h. |
+    
+    // mm. 69-72: Fragments compressed
+    | E3 q F#3 q G3 q mf |
+    | A3 q B3 q C4 q |
+    | D4 q E4 q F#4 q f |
+    | [G4 D5] h. |
+    
+    // mm. 73-76: Near-statement (inverted Phrase A)
+    // This is the closest we come to coherent thematic statement
+    // but it's upside down — falling where it should rise
+    | [E4 B4] h [A3 E4] q ff |
+    | [A3 E4] q [G3 D4] q [F#3 C4] q |
+    | [E3 B3] q [F#3 C4] q [G3 D4] q |
+    | [A3 E4] h. |
+    
+    // mm. 77-80: Collapse begins
+    | [G3 D4] h [F#3 C4] q f |
+    | [E3 B3] h [D3 A3] q |
+    | [C3 G3] h [B2 F#3] q mf |
+    | [A2 E3] h. |
+    
+    // mm. 81-84: Fragmenting
+    | E3 q r q F#3 q mp |
+    | r q G3 q r q |
+    | A3 q r q B3 q |
+    | [F#3 C4] h. mf |
+    
+    // mm. 85-88: Final collapse
+    | [E3 B3] h. p |
+    | [F#3 C4] q r h |
+    | [E3 B3] h. pp |
+    | E3 h. ppp |
+}
+
+Part: "Violin 1" Instrument: Violin {
+    
+    // First violin leads the "chase" — stating inverted fragments,
+    // being answered by second violin in stretto-like passages.
+    
+    // mm. 1-4: Entry with inverted fifth
+    | r h E5 q f |
+    | A4 h. |
+    | r h E5 q |
+    | A4 q G4 q F#4 q |
+    
+    // mm. 5-8: The inverted stepwise cell
+    // A-G-F#-E: descending where the theme ascends
+    | E4 h. mf |
+    | A4 q G4 q F#4 q |
+    | E4 q F#4 q G4 q |
+    | A4 h. f |
+    
+    // mm. 9-12: Chasing
+    | B4 q A4 q G4 q mf |
+    | F#4 q E4 q D4 q |
+    | E4 q F#4 q G4 q |
+    | A4 h. |
+    
+    // mm. 13-16: Fragmentary
+    | E5 q r q D5 q mp |
+    | r q C5 q r q |
+    | B4 h. |
+    | A4 h. f |
+    
+    // mm. 17-20: More chase
+    | r q E5 h mf |
+    | D5 q C5 q B4 q |
+    | A4 q G4 q F#4 q |
+    | E4 h. |
+    
+    // mm. 21-24: Canonic with Violin 2
+    | E5 q D5 q C5 q mf |
+    | B4 q A4 q G4 q |
+    | F#4 q E4 q D4 q |
+    | C4 h. |
+    
+    // mm. 25-28: Rising intensity
+    | E4 q F#4 q G4 q f |
+    | A4 q B4 q C5 q |
+    | D5 q E5 q F#5 q |
+    | G5 h. |
+    
+    // mm. 29-32: Long-Short rhythm
+    | A5 h A5 q ff |
+    | G5 h. |
+    | F#5 h F#5 q mf |
+    | E5 h. |
+    
+    // mm. 33-36: Winding down
+    | D5 h. p |
+    | C5 h. |
+    | B4 h. pp |
+    | r h. |
+    
+    // B Section
+    Tempo: 96
+    
+    // mm. 37-40: Quiet, lyrical
+    | E5 h. p |
+    | E5 h D5 q |
+    | C5 h D5 q |
+    | E5 h. |
+    
+    // mm. 41-44: The chromatic turn in Violin 1
+    | C5 q D5 q Eb5 q pp |
+    | D5 h. |
+    | E5 q F5 q G5 q |
+    | E5 h. |
+    
+    // mm. 45-48: Echoing the turn
+    | C5 h. p |
+    | D5 h. |
+    | Eb5 h. |
+    | D5 h. |
+    
+    // mm. 49-52: Floating
+    | E5 h. pp |
+    | F5 h E5 q |
+    | D5 h C5 q |
+    | B4 h. |
+    
+    // mm. 53-56: Growing tense
+    | G4 h. p |
+    | Ab4 h. |
+    | G4 h. |
+    | F#4 h. mp |
+    
+    // mm. 57-60: Anticipating return
+    | E4 h. p |
+    | D4 h. |
+    | C4 h. mf |
+    | r q E4 h |
+    
+    // A' Section
+    Tempo: 144
+    
+    // mm. 61-64: Fast return
+    | E5 q D5 q C5 q ff |
+    | B4 q A4 q G4 q |
+    | F#4 q E4 q D4 q |
+    | C4 h. |
+    
+    // mm. 65-68: Driving
+    | E5 h E5 q f |
+    | F#5 h F#5 q |
+    | G5 h G5 q |
+    | A5 h. |
+    
+    // mm. 69-72: Scale runs
+    | E4 q F#4 q G4 q mf |
+    | A4 q B4 q C5 q |
+    | D5 q E5 q F#5 q f |
+    | G5 h. |
+    
+    // mm. 73-76: Near-statement (inverted)
+    | E5 h A4 q ff |
+    | A4 q G4 q F#4 q |
+    | E4 q F#4 q G4 q |
+    | A4 h. |
+    
+    // mm. 77-80: Falling
+    | G5 h F#5 q f |
+    | E5 h D5 q |
+    | C5 h B4 q mf |
+    | A4 h. |
+    
+    // mm. 81-84: Breaking apart
+    | E4 q r q F#4 q mp |
+    | r q G4 q r q |
+    | A4 q r q B4 q |
+    | C5 h. |
+    
+    // mm. 85-88: Dissolving
+    | B4 h. p |
+    | A4 q r h |
+    | G#4 h. pp |
+    | E4 h. ppp |
+}
+
+Part: "Violin 2" Instrument: Violin {
+    
+    // Second violin answers the first, creating stretto effects.
+    // Often a beat or two behind, pursuing but never catching.
+    
+    // mm. 1-4: Delayed entry
+    | r h. |
+    | r h E4 q f |
+    | A3 h. |
+    | r h E4 q |
+    
+    // mm. 5-8: Following Violin 1
+    | A3 q G3 q F#3 q mf |
+    | E3 h. |
+    | A3 q G3 q F#3 q |
+    | E3 h. f |
+    
+    // mm. 9-12: Parallel motion
+    | G4 q F#4 q E4 q mf |
+    | D4 q C4 q B3 q |
+    | C4 q D4 q E4 q |
+    | F#4 h. |
+    
+    // mm. 13-16: Interlocking
+    | r q C5 q r q mp |
+    | B4 q r q A4 q |
+    | G4 h. |
+    | F#4 h. f |
+    
+    // mm. 17-20: Chasing
+    | r h. |
+    | r q E4 h mf |
+    | D4 q C4 q B3 q |
+    | A3 h. |
+    
+    // mm. 21-24: Canon with Violin 1
+    | r q E4 q D4 q mf |
+    | C4 q B3 q A3 q |
+    | G3 q F#3 q E3 q |
+    | D3 h. |
+    
+    // mm. 25-28: Rising with V1
+    | C4 q D4 q E4 q f |
+    | F#4 q G4 q A4 q |
+    | B4 q C5 q D5 q |
+    | E5 h. |
+    
+    // mm. 29-32: Long-Short, offset
+    | F#5 h F#5 q ff |
+    | E5 h. |
+    | D5 h D5 q mf |
+    | C5 h. |
+    
+    // mm. 33-36: Descending
+    | B4 h. p |
+    | A4 h. |
+    | G4 h. pp |
+    | r h. |
+    
+    // B Section
+    Tempo: 96
+    
+    // mm. 37-40: Harmonizing
+    | C4 h. p |
+    | C4 h B3 q |
+    | A3 h B3 q |
+    | C4 h. |
+    
+    // mm. 41-44: Chromatic turn, lower
+    | A3 q B3 q C4 q pp |
+    | B3 h. |
+    | C4 q D4 q E4 q |
+    | C4 h. |
+    
+    // mm. 45-48: Parallel with V1
+    | A3 h. p |
+    | B3 h. |
+    | C4 h. |
+    | B3 h. |
+    
+    // mm. 49-52: Inner voice
+    | G3 h. pp |
+    | A3 h G3 q |
+    | F3 h E3 q |
+    | D3 h. |
+    
+    // mm. 53-56: Chromatic
+    | E4 h. p |
+    | F4 h. |
+    | Eb4 h. |
+    | D4 h. mp |
+    
+    // mm. 57-60: Transition
+    | C4 h. p |
+    | B3 h. |
+    | A3 h. mf |
+    | r q C4 h |
+    
+    // A' Section
+    Tempo: 144
+    
+    // mm. 61-64: Returning fast
+    | C5 q B4 q A4 q ff |
+    | G4 q F#4 q E4 q |
+    | D4 q C4 q B3 q |
+    | A3 h. |
+    
+    // mm. 65-68: Parallel with V1
+    | C5 h C5 q f |
+    | D5 h D5 q |
+    | E5 h E5 q |
+    | F#5 h. |
+    
+    // mm. 69-72: Scale runs
+    | C4 q D4 q E4 q mf |
+    | F#4 q G4 q A4 q |
+    | B4 q C5 q D5 q f |
+    | E5 h. |
+    
+    // mm. 73-76: Near-statement, lower
+    | C5 h F#4 q ff |
+    | F#4 q E4 q D4 q |
+    | C4 q D4 q E4 q |
+    | F#4 h. |
+    
+    // mm. 77-80: Falling with V1
+    | E5 h D5 q f |
+    | C5 h B4 q |
+    | A4 h G4 q mf |
+    | F#4 h. |
+    
+    // mm. 81-84: Breaking apart
+    | C4 q r q D4 q mp |
+    | r q E4 q r q |
+    | F#4 q r q G4 q |
+    | A4 h. |
+    
+    // mm. 85-88: Dissolving
+    | G4 h. p |
+    | F#4 q r h |
+    | E4 h. pp |
+    | B3 h. ppp |
+}
+
+Part: Viola Instrument: Viola {
+    
+    // The viola provides inner-voice continuity, often sustaining
+    // while the violins chase. It also carries hidden fragments.
+    
+    // mm. 1-4: Sustained under violin entry
+    | E3 h. f |
+    | E3 h. |
+    | E3 h. |
+    | E3 h. |
+    
+    // mm. 5-8: Motion begins
+    | E3 h. mf |
+    | E3 q D3 q C3 q |
+    | B2 h. |
+    | C3 h. f |
+    
+    // mm. 9-12: Inner line
+    | D3 q E3 q F#3 q mf |
+    | G3 q A3 q B3 q |
+    | G3 q F#3 q E3 q |
+    | C3 h. |
+    
+    // mm. 13-16: Rhythmic punctuation
+    | G3 q r h mp |
+    | F#3 q r h |
+    | E3 h. |
+    | C3 h. f |
+    
+    // mm. 17-20: Stepwise descent
+    | G3 h F#3 q mf |
+    | E3 h D3 q |
+    | C3 h B2 q |
+    | A2 h. |
+    
+    // mm. 21-24: Following bass motion
+    | G3 h. mf |
+    | F#3 h. |
+    | E3 h. |
+    | D3 h. |
+    
+    // mm. 25-28: Rising with all
+    | G3 q A3 q B3 q f |
+    | C4 q D4 q E4 q |
+    | F#4 q G4 q A4 q |
+    | B4 h. |
+    
+    // mm. 29-32: Long-Short
+    | C4 h C4 q ff |
+    | B3 h. |
+    | A3 h A3 q mf |
+    | G3 h. |
+    
+    // mm. 33-36: Settling
+    | F#3 h. p |
+    | E3 h. |
+    | D3 h. pp |
+    | r h. |
+    
+    // B Section
+    Tempo: 96
+    
+    // mm. 37-40: Warm sustained tones
+    | G3 h. p |
+    | G3 h. |
+    | A3 h G3 q |
+    | G3 h. |
+    
+    // mm. 41-44: Inner chromatic
+    | E3 h. pp |
+    | F3 h. |
+    | G3 h. |
+    | G3 h. |
+    
+    // mm. 45-48: The turn, hidden
+    // C-D-Eb-D in inner voice — planting seeds
+    | E3 h. p |
+    | F#3 h. |
+    | G3 h. |
+    | F#3 h. |
+    
+    // mm. 49-52: Sustained
+    | E3 h. pp |
+    | D3 h. |
+    | C3 h. |
+    | G3 h. |
+    
+    // mm. 53-56: Chromatic motion
+    | E3 h. p |
+    | Eb3 h. |
+    | D3 h. |
+    | C3 h. mp |
+    
+    // mm. 57-60: Transition
+    | G3 h. p |
+    | F#3 h. |
+    | E3 h. mf |
+    | r q G3 h |
+    
+    // A' Section
+    Tempo: 144
+    
+    // mm. 61-64: Driving inner voice
+    | A3 h. ff |
+    | A3 h. |
+    | G3 q F#3 q E3 q |
+    | D3 h. |
+    
+    // mm. 65-68: Repeated notes
+    | G3 h G3 q f |
+    | A3 h A3 q |
+    | B3 h B3 q |
+    | C4 h. |
+    
+    // mm. 69-72: Rising
+    | A3 q B3 q C4 q mf |
+    | D4 q E4 q F#4 q |
+    | G4 h. f |
+    | B4 h. |
+    
+    // mm. 73-76: Supporting near-statement
+    | G3 h. ff |
+    | F#3 h. |
+    | E3 h. |
+    | C3 h. |
+    
+    // mm. 77-80: Falling
+    | D4 h C4 q f |
+    | B3 h A3 q |
+    | G3 h F#3 q mf |
+    | E3 h. |
+    
+    // mm. 81-84: Breaking
+    | A3 q r q B3 q mp |
+    | r q C4 q r q |
+    | D4 q r q E4 q |
+    | F#4 h. |
+    
+    // mm. 85-88: Dissolving
+    | E3 h. p |
+    | D3 q r h |
+    | B2 h. pp |
+    | G#2 h. ppp |
+}
+
+Part: Cello Instrument: Cello {
+    
+    // The cello anchors the harmonic motion, but also introduces
+    // destabilizing bass notes that undermine the expected progressions.
+    
+    // mm. 1-4: Open fifth drone, then tritone
+    | E2 h. f |
+    | E2 h. |
+    | E2 h. |
+    | E2 h. |
+    
+    // mm. 5-8: Motion in bass
+    | E2 h. mf |
+    | A2 h. |
+    | E2 h. |
+    | C2 h. f |
+    
+    // mm. 9-12: The tritone in bass
+    | E2 q F#2 q G2 q mf |
+    | C2 q D2 q E2 q |
+    | E2 q D2 q C2 q |
+    | F#2 h. |
+    
+    // mm. 13-16: Punctuating
+    | E2 q r h mp |
+    | D2 q r h |
+    | C2 h. |
+    | F#2 h. f |
+    
+    // mm. 17-20: Descending bass
+    | E2 h. mf |
+    | D2 h. |
+    | C2 h. |
+    | F#1 h. |
+    
+    // mm. 21-24: Ground bass suggestion
+    | E2 h. mf |
+    | D2 h. |
+    | C2 h. |
+    | B1 h. |
+    
+    // mm. 25-28: Rising with ensemble
+    | E2 q F#2 q G2 q f |
+    | A2 q B2 q C3 q |
+    | D3 q E3 q F#3 q |
+    | G3 h. |
+    
+    // mm. 29-32: Long-Short in bass
+    | F#2 h F#2 q ff |
+    | E2 h. |
+    | D2 h D2 q mf |
+    | C2 h. |
+    
+    // mm. 33-36: Settling to pedal
+    | B1 h. p |
+    | A1 h. |
+    | E2 h. pp |
+    | r h. |
+    
+    // B Section
+    Tempo: 96
+    
+    // mm. 37-40: C major pedal
+    | C2 h. p |
+    | C2 h. |
+    | F2 h G2 q |
+    | C2 h. |
+    
+    // mm. 41-44: Simple bass motion
+    | C2 h. pp |
+    | D2 h. |
+    | E2 h. |
+    | C2 h. |
+    
+    // mm. 45-48: Under the chromatic turn
+    | C2 h. p |
+    | D2 h. |
+    | Eb2 h. |
+    | D2 h. |
+    
+    // mm. 49-52: Diatonic bass
+    | C2 h. pp |
+    | D2 h. |
+    | F2 h. |
+    | G2 h. |
+    
+    // mm. 53-56: Chromatic descent
+    | E2 h. p |
+    | F2 h. |
+    | Eb2 h. |
+    | D2 h. mp |
+    
+    // mm. 57-60: Preparing return
+    | C2 h. p |
+    | B1 h. |
+    | F#2 h. mf |
+    | r q E2 h |
+    
+    // A' Section
+    Tempo: 144
+    
+    // mm. 61-64: Tritone bass
+    | F#2 h. ff |
+    | F#2 h. |
+    | E2 q D2 q C2 q |
+    | F#2 h. |
+    
+    // mm. 65-68: Driving
+    | E2 h E2 q f |
+    | F#2 h F#2 q |
+    | G2 h G2 q |
+    | A2 h. |
+    
+    // mm. 69-72: Rising bass
+    | E2 q F#2 q G2 q mf |
+    | A2 q B2 q C3 q |
+    | D3 q E3 q F#3 q f |
+    | G3 h. |
+    
+    // mm. 73-76: Near-statement support
+    | E2 h. ff |
+    | A2 h. |
+    | E2 h. |
+    | A2 h. |
+    
+    // mm. 77-80: Descending
+    | G2 h F#2 q f |
+    | E2 h D2 q |
+    | C2 h B1 q mf |
+    | A1 h. |
+    
+    // mm. 81-84: Breaking apart
+    | E2 q r q F#2 q mp |
+    | r q G2 q r q |
+    | A2 q r q B2 q |
+    | C3 h. |
+    
+    // mm. 85-88: Final dissolution
+    | E2 h. p |
+    | F#2 q r h |
+    | E2 h. pp |
+    | E2 h. ppp |
+}
+
+// ============================================================================
+// END OF MOVEMENT II
+//
+// The chase has exhausted itself. The inverted theme — falling where it
+// should rise — almost emerged in the final pages, but collapsed before
+// completion. The tritone (F#-C) has done its destabilizing work; we end
+// on an E minor that feels provisional, uncertain.
+//
+// Movement III, "Lacuna," will be the still point: after fog, after fever,
+// a space of quiet. The cello will sing a long melody that contains all
+// the theme's intervals in the wrong order — so close, yet not.
+// ============================================================================

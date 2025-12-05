@@ -1,0 +1,27 @@
+Title: "The Halting Problem"
+Tempo: 140
+Time: 7/8
+
+Part: "Synth Bass 1" Instrument: "Synth Bass 1" {
+    | C2 e . C2 e . G2 e . C2 e . C3 e > G2 e . Bb2 e |
+    | C2 e . C2 e . G2 e . C2 e . C3 e > G2 e . F#2 e |
+    | [C2 G2] q . [Eb2 Bb2] q [F2 C3] q |
+    Time: 5/8
+    | C2 e C2 e C2 e C2 e C2 e |
+}
+
+Part: Celesta Instrument: Celesta {
+    | r h r e . |
+    | Tuplet(3:2) { C5 e Eb5 e G5 e } Tuplet(3:2) { Bb5 e D6 e F#6 e } C7 e . |
+    | Tuplet(5:4) { G5 q F5 q Eb5 q D5 q C5 q } F#4 e |
+    Time: 5/8
+    | [C5 E5 G5] e . [C5 E5 G5] e > [C5 E5 G5] q |
+}
+
+Part: "Violin" Instrument: Violin {
+    | r h r q . |
+    | r h r q . |
+    | G4 w . |
+    Time: 5/8
+    | G4 h r e |
+}

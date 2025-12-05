@@ -1,0 +1,29 @@
+Title: "The Halting Problem - II. Gradient Descent"
+Tempo: 60
+Time: 4/4
+
+Part: Layer_1 Instrument: "String Ensemble 1" {
+    // A lush, slow-moving foundation representing the weights
+    | [C2 G2 C3] w |
+    | [Eb2 Bb2 Eb3] w |
+    | [Ab2 Eb3 Ab3] w |
+}
+
+Part: Layer_2 Instrument: "Piano" {
+    // The drift: Quintuplets (5:4) against the steady 4/4
+    // This creates a feeling of liquid time
+    | Tuplet(5:4) { C4 q E4 q G4 q B4 q D5 q } |
+    | Tuplet(5:4) { Eb4 q G4 q Bb4 q D5 q F5 q } |
+    
+    // A sudden context change, representing a shift in topic/focus
+    Time: 3/4
+    Key: C "Minor"
+    | Tuplet(7:4) { C5 e D5 e Eb5 e F5 e G5 e Ab5 e B5 e } r q |
+}
+
+Part: Layer_3 Instrument: "Flute" {
+    // The "Hallucination": High, fleeting melodies
+    | r h Tuplet(3:2) { C6 q D6 q Eb6 q } |
+    | F6 h . r h |
+    | r q [G5 B5 D6] h |
+}

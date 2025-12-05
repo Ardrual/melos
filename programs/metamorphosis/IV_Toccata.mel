@@ -1,0 +1,390 @@
+// ============================================================================
+// METAMORPHOSES ON A LAMENT
+// Movement IV: Toccata — "Dance on the Grave"
+// ============================================================================
+//
+// The toccata ("touched," from toccare) is music for display — fingers flying
+// over keys, dazzling runs, virtuosic bravura. But this one has darker roots.
+//
+// In Irish and Appalachian tradition, wakes included dancing. The "dance on
+// the grave" isn't disrespect — it's life asserting itself against the void,
+// the living claiming their hours in the face of the inevitable descent.
+//
+// This movement transforms our lament into something fierce and joyful. The
+// tetrachord is still there (A-G-F-E), but now it's rhythmicized into 7/8 —
+// an asymmetrical, propulsive meter that feels like running downhill.
+//
+// Structure:
+//   - Introduction: The tetrachord as fanfare
+//   - A Section: Main dance theme (7/8)
+//   - B Section: Trio-like episode in 3/4 (breathing room)
+//   - A' Section: Return of dance, intensified
+//   - Coda: Final apotheosis — the tetrachord in augmentation, triumphant
+//
+// The key signature remains A minor, but the mode shifts toward A Dorian
+// at climactic moments (F# instead of F), giving a Celtic/modal flavor.
+// ============================================================================
+
+Title: "Metamorphoses on a Lament - IV. Toccata"
+Tempo: 168
+Time: 7/8
+
+Part: Cello Instrument: Cello {
+    // === INTRODUCTION (Bars 1-8): Fanfare ===
+    // The tetrachord as a call to dance
+    | A2 q. A2 q. A2 e ff |
+    | G2 q. G2 q. G2 e |
+    | F2 q. F2 q. F2 e |
+    | E2 q. E2 q. E2 e |
+    | A2 q. G2 q. F2 e |
+    | E2 q. F2 q. G2 e |
+    | A2 q. A2 q. A2 e |
+    | A2 q. r q. r e |
+    
+    // === A SECTION (Bars 9-24): The Dance ===
+    // Driving bass line in 7/8, grouped 3+2+2 or 2+2+3
+    | A2 q. E3 q A2 e f |
+    | G2 q. D3 q G2 e |
+    | F2 q. C3 q F2 e |
+    | E2 q. B2 q E2 e |
+    | A2 q. E3 q A2 e |
+    | G2 q. D3 q G2 e |
+    | F2 q. C3 q F2 e |
+    | E2 h.. |
+    
+    // Repeat with variation
+    | A2 e E3 e A2 e E3 q A2 e mf |
+    | G2 e D3 e G2 e D3 q G2 e |
+    | F2 e C3 e F2 e C3 q F2 e |
+    | E2 e B2 e E2 e B2 q E2 e |
+    | A2 e E3 e A2 e E3 q A2 e |
+    | G2 e D3 e G2 e D3 q G2 e |
+    | F2 e C3 e F2 e C3 q F2 e |
+    | E2 h.. |
+    
+    // === B SECTION (Bars 25-40): The Trio ===
+    // Suddenly lyrical, 3/4 time
+    Time: 3/4
+    | A2 h A2 q p |
+    | G2 h G2 q |
+    | F2 h F2 q |
+    | E2 h. |
+    | D2 h D2 q |
+    | C2 h C2 q |
+    | B1 h B1 q |
+    | A1 h. |
+    
+    // Second phrase with F# (Dorian)
+    | A2 h A2 q mp |
+    | G2 h G2 q |
+    | F#2 h F#2 q |
+    | E2 h. |
+    | D2 h D2 q |
+    | C#2 h C#2 q |
+    | D2 h D2 q |
+    | E2 h. |
+    
+    // === A' SECTION (Bars 41-56): The Dance Returns ===
+    Time: 7/8
+    | A2 q. E3 q A2 e ff |
+    | G2 q. D3 q G2 e |
+    | F#2 q. C#3 q F#2 e |
+    | E2 q. B2 q E2 e |
+    | A2 q. E3 q A2 e |
+    | G2 q. D3 q G2 e |
+    | F2 q. C3 q F2 e |
+    | E2 h.. |
+    
+    // Accelerating intensity
+    | A2 e A2 e E3 e A2 e E3 e A2 e A2 e |
+    | G2 e G2 e D3 e G2 e D3 e G2 e G2 e |
+    | F2 e F2 e C3 e F2 e C3 e F2 e F2 e |
+    | E2 e E2 e B2 e E2 e B2 e E2 e E2 e |
+    | A2 e A2 e E3 e A2 e E3 e A2 e A2 e |
+    | G2 e G2 e D3 e G2 e D3 e G2 e G2 e |
+    | F2 e F2 e C3 e F2 e C3 e F2 e F2 e |
+    | E2 h.. |
+    
+    // === CODA (Bars 57-68): Apotheosis ===
+    // The tetrachord in augmentation, triumphant
+    Time: 4/4
+    | A2 w fff |
+    | G2 w |
+    | F2 w |
+    | E2 w |
+    | A2 w |
+    | G2 w |
+    | F2 w |
+    | E2 w |
+    
+    // Final chords
+    | A2 h E3 h |
+    | A2 h E3 h |
+    | [A2 E3] w |
+    | A2 w |
+}
+
+Part: Viola Instrument: Viola {
+    // === INTRODUCTION ===
+    | E3 q. E3 q. E3 e ff |
+    | D3 q. D3 q. D3 e |
+    | C3 q. C3 q. C3 e |
+    | B2 q. B2 q. B2 e |
+    | E3 q. D3 q. C3 e |
+    | B2 q. C3 q. D3 e |
+    | E3 q. E3 q. E3 e |
+    | E3 q. r q. r e |
+    
+    // === A SECTION ===
+    | E3 q. A3 q E3 e f |
+    | D3 q. G3 q D3 e |
+    | C3 q. F3 q C3 e |
+    | B2 q. E3 q B2 e |
+    | E3 q. A3 q E3 e |
+    | D3 q. G3 q D3 e |
+    | C3 q. F3 q C3 e |
+    | B2 h.. |
+    
+    | C3 e E3 e C3 e E3 q C3 e mf |
+    | B2 e D3 e B2 e D3 q B2 e |
+    | A2 e C3 e A2 e C3 q A2 e |
+    | G#2 e B2 e G#2 e B2 q G#2 e |
+    | C3 e E3 e C3 e E3 q C3 e |
+    | B2 e D3 e B2 e D3 q B2 e |
+    | A2 e C3 e A2 e C3 q A2 e |
+    | G#2 h.. |
+    
+    // === B SECTION ===
+    Time: 3/4
+    | E3 h E3 q p |
+    | D3 h D3 q |
+    | C3 h C3 q |
+    | B2 h. |
+    | A2 h A2 q |
+    | G2 h G2 q |
+    | F#2 h F#2 q |
+    | E2 h. |
+    
+    | E3 h E3 q mp |
+    | D3 h D3 q |
+    | C#3 h C#3 q |
+    | B2 h. |
+    | A2 h A2 q |
+    | G#2 h G#2 q |
+    | A2 h A2 q |
+    | B2 h. |
+    
+    // === A' SECTION ===
+    Time: 7/8
+    | E3 q. A3 q E3 e ff |
+    | D3 q. G3 q D3 e |
+    | C#3 q. F#3 q C#3 e |
+    | B2 q. E3 q B2 e |
+    | E3 q. A3 q E3 e |
+    | D3 q. G3 q D3 e |
+    | C3 q. F3 q C3 e |
+    | B2 h.. |
+    
+    | E3 e E3 e A3 e E3 e A3 e E3 e E3 e |
+    | D3 e D3 e G3 e D3 e G3 e D3 e D3 e |
+    | C3 e C3 e F3 e C3 e F3 e C3 e C3 e |
+    | B2 e B2 e E3 e B2 e E3 e B2 e B2 e |
+    | E3 e E3 e A3 e E3 e A3 e E3 e E3 e |
+    | D3 e D3 e G3 e D3 e G3 e D3 e D3 e |
+    | C3 e C3 e F3 e C3 e F3 e C3 e C3 e |
+    | B2 h.. |
+    
+    // === CODA ===
+    Time: 4/4
+    | E3 w fff |
+    | D3 w |
+    | C3 w |
+    | B2 w |
+    | E3 w |
+    | D3 w |
+    | C3 w |
+    | B2 w |
+    
+    | E3 h A3 h |
+    | E3 h A3 h |
+    | [E3 A3] w |
+    | E3 w |
+}
+
+Part: "Violin 2" Instrument: Violin {
+    // === INTRODUCTION ===
+    | A3 q. A3 q. A3 e ff |
+    | G3 q. G3 q. G3 e |
+    | F3 q. F3 q. F3 e |
+    | E3 q. E3 q. E3 e |
+    | A3 q. G3 q. F3 e |
+    | E3 q. F3 q. G3 e |
+    | A3 q. A3 q. A3 e |
+    | A3 q. r q. r e |
+    
+    // === A SECTION ===
+    // Rhythmic motor, constant eighth notes
+    | A3 e C4 e E4 e A3 e C4 e E4 e A3 e f |
+    | G3 e B3 e D4 e G3 e B3 e D4 e G3 e |
+    | F3 e A3 e C4 e F3 e A3 e C4 e F3 e |
+    | E3 e G#3 e B3 e E3 e G#3 e B3 e E3 e |
+    | A3 e C4 e E4 e A3 e C4 e E4 e A3 e |
+    | G3 e B3 e D4 e G3 e B3 e D4 e G3 e |
+    | F3 e A3 e C4 e F3 e A3 e C4 e F3 e |
+    | E3 h.. |
+    
+    | A3 e C4 e E4 e C4 e E4 e C4 e A3 e mf |
+    | G3 e B3 e D4 e B3 e D4 e B3 e G3 e |
+    | F3 e A3 e C4 e A3 e C4 e A3 e F3 e |
+    | E3 e G#3 e B3 e G#3 e B3 e G#3 e E3 e |
+    | A3 e C4 e E4 e C4 e E4 e C4 e A3 e |
+    | G3 e B3 e D4 e B3 e D4 e B3 e G3 e |
+    | F3 e A3 e C4 e A3 e C4 e A3 e F3 e |
+    | E3 h.. |
+    
+    // === B SECTION ===
+    Time: 3/4
+    | C4 h C4 q p |
+    | B3 h B3 q |
+    | A3 h A3 q |
+    | G#3 h. |
+    | F3 h F3 q |
+    | E3 h E3 q |
+    | D#3 h D#3 q |
+    | E3 h. |
+    
+    | C4 h C4 q mp |
+    | B3 h B3 q |
+    | A3 h A3 q |
+    | G#3 h. |
+    | F#3 h F#3 q |
+    | E3 h E3 q |
+    | F#3 h F#3 q |
+    | G#3 h. |
+    
+    // === A' SECTION ===
+    Time: 7/8
+    | A3 e C4 e E4 e A3 e C4 e E4 e A3 e ff |
+    | G3 e B3 e D4 e G3 e B3 e D4 e G3 e |
+    | F#3 e A3 e C#4 e F#3 e A3 e C#4 e F#3 e |
+    | E3 e G#3 e B3 e E3 e G#3 e B3 e E3 e |
+    | A3 e C4 e E4 e A3 e C4 e E4 e A3 e |
+    | G3 e B3 e D4 e G3 e B3 e D4 e G3 e |
+    | F3 e A3 e C4 e F3 e A3 e C4 e F3 e |
+    | E3 h.. |
+    
+    | A3 e C4 e E4 e A4 e E4 e C4 e A3 e |
+    | G3 e B3 e D4 e G4 e D4 e B3 e G3 e |
+    | F3 e A3 e C4 e F4 e C4 e A3 e F3 e |
+    | E3 e G#3 e B3 e E4 e B3 e G#3 e E3 e |
+    | A3 e C4 e E4 e A4 e E4 e C4 e A3 e |
+    | G3 e B3 e D4 e G4 e D4 e B3 e G3 e |
+    | F3 e A3 e C4 e F4 e C4 e A3 e F3 e |
+    | E3 h.. |
+    
+    // === CODA ===
+    Time: 4/4
+    | C4 w fff |
+    | B3 w |
+    | A3 w |
+    | G#3 w |
+    | C4 w |
+    | B3 w |
+    | A3 w |
+    | G#3 w |
+    
+    | A3 h C4 h |
+    | A3 h C4 h |
+    | [A3 C4 E4] w |
+    | C4 w |
+}
+
+Part: "Violin 1" Instrument: Violin {
+    // === INTRODUCTION ===
+    // Blazing octaves
+    | A4 q. A4 q. A4 e ff |
+    | G4 q. G4 q. G4 e |
+    | F4 q. F4 q. F4 e |
+    | E4 q. E4 q. E4 e |
+    | A4 q. G4 q. F4 e |
+    | E4 q. F4 q. G4 e |
+    | A4 q. A4 q. A4 e |
+    | A4 q. r q. r e |
+    
+    // === A SECTION ===
+    // Virtuosic melody
+    | A4 q. E5 e D5 e C5 e B4 e f |
+    | G4 q. D5 e C5 e B4 e A4 e |
+    | F4 q. C5 e B4 e A4 e G4 e |
+    | E4 q. B4 e A4 e G#4 e F4 e |
+    | A4 q. E5 e D5 e C5 e B4 e |
+    | G4 q. D5 e C5 e B4 e A4 e |
+    | F4 q. C5 e B4 e A4 e G4 e |
+    | E4 h.. |
+    
+    // Even faster ornaments
+    | A4 e B4 e C5 e D5 e E5 e D5 e C5 e mf |
+    | G4 e A4 e B4 e C5 e D5 e C5 e B4 e |
+    | F4 e G4 e A4 e B4 e C5 e B4 e A4 e |
+    | E4 e F4 e G#4 e A4 e B4 e A4 e G#4 e |
+    | A4 e B4 e C5 e D5 e E5 e D5 e C5 e |
+    | G4 e A4 e B4 e C5 e D5 e C5 e B4 e |
+    | F4 e G4 e A4 e B4 e C5 e B4 e A4 e |
+    | E4 h.. |
+    
+    // === B SECTION ===
+    Time: 3/4
+    | A4 h. p |
+    | G4 h. |
+    | F4 h. |
+    | E4 h. |
+    | D4 h. |
+    | C4 h. |
+    | B3 h. |
+    | A3 h. |
+    
+    | A4 h B4 q mp |
+    | G4 h A4 q |
+    | F#4 h G4 q |
+    | E4 h. |
+    | D4 h E4 q |
+    | C#4 h D4 q |
+    | D4 h C#4 q |
+    | E4 h. |
+    
+    // === A' SECTION ===
+    Time: 7/8
+    | A4 q. E5 e D5 e C#5 e B4 e ff |
+    | G4 q. D5 e C5 e B4 e A4 e |
+    | F#4 q. C#5 e B4 e A4 e G4 e |
+    | E4 q. B4 e A4 e G#4 e F4 e |
+    | A4 q. E5 e D5 e C5 e B4 e |
+    | G4 q. D5 e C5 e B4 e A4 e |
+    | F4 q. C5 e B4 e A4 e G4 e |
+    | E4 h.. |
+    
+    | A5 e G5 e F5 e E5 e D5 e C5 e B4 e |
+    | G5 e F5 e E5 e D5 e C5 e B4 e A4 e |
+    | F5 e E5 e D5 e C5 e B4 e A4 e G4 e |
+    | E5 e D5 e C5 e B4 e A4 e G#4 e E4 e |
+    | A5 e G5 e F5 e E5 e D5 e C5 e B4 e |
+    | G5 e F5 e E5 e D5 e C5 e B4 e A4 e |
+    | F5 e E5 e D5 e C5 e B4 e A4 e G4 e |
+    | E4 h.. |
+    
+    // === CODA ===
+    Time: 4/4
+    | A5 w fff |
+    | G5 w |
+    | F5 w |
+    | E5 w |
+    | A5 w |
+    | G5 w |
+    | F5 w |
+    | E5 w |
+    
+    | A5 h E5 h |
+    | A5 h E5 h |
+    | [A4 E5 A5] w |
+    | A5 w |
+}

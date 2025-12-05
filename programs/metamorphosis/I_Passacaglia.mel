@@ -1,0 +1,278 @@
+// ============================================================================
+// METAMORPHOSES ON A LAMENT
+// Movement I: Passacaglia — "The Weight of Descent"
+// ============================================================================
+//
+// The passacaglia is among music's most obsessive forms: a bass line repeats
+// endlessly while the upper voices spin variations above it. There's something
+// almost Sisyphean about it — the bass keeps falling, keeps returning to begin
+// its descent again, while the music above struggles, ornaments, rages, accepts.
+//
+// Our ground bass is the descending tetrachord: A-G-F-E (in the bass, A2-G2-F2-E2).
+// This four-note figure has been called the "lament bass" since the 17th century.
+// Each note gets a full measure in 3/2 time, giving us a four-bar ostinato.
+//
+// The movement presents 8 variations, moving from sparse to dense, 
+// from resignation to fury, and finally to a kind of exhausted peace.
+// ============================================================================
+
+Title: "Metamorphoses on a Lament - I. Passacaglia"
+Tempo: 56
+Time: 3/2
+
+// The Cello states the ground alone — naked, inevitable
+Part: Cello Instrument: Cello {
+    // === GROUND STATEMENT (Bars 1-4) ===
+    // Just the bones. The tetrachord descending.
+    | A2 w. p |
+    | G2 w. |
+    | F2 w. |
+    | E2 w. |
+
+    // === VARIATION I (Bars 5-8): The Viola enters ===
+    // A simple counterpoint. Two voices acknowledging gravity.
+    | A2 w. |
+    | G2 w. |
+    | F2 w. |
+    | E2 w. |
+
+    // === VARIATION II (Bars 9-12): First Violin joins ===
+    // The texture thickens. The descent becomes communal.
+    | A2 w. mp |
+    | G2 w. |
+    | F2 w. |
+    | E2 w. |
+
+    // === VARIATION III (Bars 13-16): All four voices ===
+    // The ground begins to ornament itself.
+    | A2 h A2 q G2 h. |
+    | G2 h G2 q F2 h. |
+    | F2 h F2 q E2 h. |
+    | E2 w. |
+
+    // === VARIATION IV (Bars 17-20): Agitation ===
+    // The bass becomes restless, eighth notes, but still falling
+    | A2 q A2 q G2 q A2 q G2 q F2 q mf |
+    | G2 q F2 q E2 q F2 q E2 q D2 q |
+    | F2 q E2 q D2 q E2 q D2 q C2 q |
+    | E2 w. |
+
+    // === VARIATION V (Bars 21-24): The Storm ===
+    // Forte, driving, the descent becomes anguished
+    | A2 q A2 q A2 q G2 q G2 q G2 q f |
+    | G2 q G2 q G2 q F2 q F2 q F2 q |
+    | F2 q F2 q F2 q E2 q E2 q E2 q |
+    | E2 h. E2 h. ff |
+
+    // === VARIATION VI (Bars 25-28): The Break ===
+    // Suddenly quiet. The bass moves to longer values.
+    | A2 w. pp |
+    | G2 w. |
+    | F2 w. |
+    | E2 w. |
+
+    // === VARIATION VII (Bars 29-32): Decorated Descent ===
+    // Ornamental, almost baroque in its grief
+    | A2 h B2 q A2 q G2 h p |
+    | G2 h A2 q G2 q F2 h |
+    | F2 h G2 q F2 q E2 h |
+    | E2 w. |
+
+    // === VARIATION VIII - CODA (Bars 33-40): Resolution ===
+    // The ground slows, stretches. Acceptance.
+    | A2 w. pp |
+    | G2 w. |
+    | F2 w. |
+    | E2 w. |
+    | A2 w. ppp |
+    | G2 w. |
+    | F2 w. |
+    | E2 w. |
+}
+
+Part: Viola Instrument: Viola {
+    // === GROUND STATEMENT: Tacet ===
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+
+    // === VARIATION I: The Viola's lament ===
+    // A simple melody, a fifth above the bass at first
+    | E3 w. p |
+    | D3 w. |
+    | C3 w. |
+    | B2 w. |
+
+    // === VARIATION II ===
+    // Now the viola has a more independent line
+    | E3 h F3 h E3 h mp |
+    | D3 h E3 h D3 h |
+    | C3 h D3 h C3 h |
+    | B2 w. |
+
+    // === VARIATION III ===
+    // Eighth-note motion, inner voice activity
+    | C3 q D3 q E3 q F3 q E3 q D3 q |
+    | B2 q C3 q D3 q E3 q D3 q C3 q |
+    | A2 q B2 q C3 q D3 q C3 q B2 q |
+    | G#2 w. |
+
+    // === VARIATION IV ===
+    // Syncopated, restless
+    | r q E3 h E3 h r q mf |
+    | r q D3 h D3 h r q |
+    | r q C3 h C3 h r q |
+    | B2 w. |
+
+    // === VARIATION V: The Storm ===
+    // Driving repeated notes
+    | E3 q E3 q E3 q E3 q E3 q E3 q f |
+    | D3 q D3 q D3 q D3 q D3 q D3 q |
+    | C3 q C3 q C3 q C3 q C3 q C3 q |
+    | B2 h. B2 h. ff |
+
+    // === VARIATION VI ===
+    // Sustained, sorrowful
+    | C3 w. pp |
+    | B2 w. |
+    | A2 w. |
+    | G#2 w. |
+
+    // === VARIATION VII ===
+    // Ornamental counterpoint
+    | C3 h D3 q C3 q B2 h p |
+    | B2 h C3 q B2 q A2 h |
+    | A2 h B2 q A2 q G#2 h |
+    | G#2 w. |
+
+    // === VARIATION VIII - CODA ===
+    | C3 w. pp |
+    | B2 w. |
+    | A2 w. |
+    | G#2 w. |
+    | C3 w. ppp |
+    | B2 w. |
+    | A2 w. |
+    | G#2 w. |
+}
+
+Part: "Violin 2" Instrument: Violin {
+    // === GROUND STATEMENT and VAR I: Tacet ===
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+
+    // === VARIATION II: Second violin enters ===
+    | A3 w. mp |
+    | G3 w. |
+    | F3 w. |
+    | E3 w. |
+
+    // === VARIATION III ===
+    | E3 h F3 q E3 q D3 h |
+    | D3 h E3 q D3 q C3 h |
+    | C3 h D3 q C3 q B2 h |
+    | B2 w. |
+
+    // === VARIATION IV ===
+    | C4 q B3 q A3 q G3 q F3 q E3 q mf |
+    | B3 q A3 q G3 q F3 q E3 q D3 q |
+    | A3 q G3 q F3 q E3 q D3 q C3 q |
+    | G#3 w. |
+
+    // === VARIATION V: The Storm ===
+    | A3 e B3 e C4 e D4 e E4 e D4 e C4 e B3 e A3 e G3 e F3 e E3 e f |
+    | G3 e A3 e B3 e C4 e D4 e C4 e B3 e A3 e G3 e F3 e E3 e D3 e |
+    | F3 e G3 e A3 e B3 e C4 e B3 e A3 e G3 e F3 e E3 e D3 e C3 e |
+    | E3 h. E3 h. ff |
+
+    // === VARIATION VI ===
+    | E3 w. pp |
+    | D3 w. |
+    | C3 w. |
+    | B2 w. |
+
+    // === VARIATION VII ===
+    | E3 h F3 q E3 q D3 h p |
+    | D3 h E3 q D3 q C3 h |
+    | C3 h D3 q C3 q B2 h |
+    | B2 w. |
+
+    // === VARIATION VIII - CODA ===
+    | E3 w. pp |
+    | D3 w. |
+    | C3 w. |
+    | B2 w. |
+    | E3 w. ppp |
+    | D3 w. |
+    | C3 w. |
+    | B2 w. |
+}
+
+Part: "Violin 1" Instrument: Violin {
+    // === GROUND STATEMENT, VAR I, VAR II: Tacet ===
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+    | r w. |
+
+    // === VARIATION III: First violin enters with the melody ===
+    // The tetrachord now in the soprano, an octave and a fifth above the bass
+    | A4 h B4 q A4 q G4 h mp |
+    | G4 h A4 q G4 q F4 h |
+    | F4 h G4 q F4 q E4 h |
+    | E4 w. |
+
+    // === VARIATION IV ===
+    // A leaping, angular melody
+    | A4 q E5 q C5 q A4 q F4 q D4 q mf |
+    | G4 q D5 q B4 q G4 q E4 q C4 q |
+    | F4 q C5 q A4 q F4 q D4 q B3 q |
+    | E4 w. |
+
+    // === VARIATION V: The Storm ===
+    // Sixteenth-note fury
+    | A4 s B4 s C5 s D5 s E5 s D5 s C5 s B4 s A4 s G4 s F4 s E4 s A4 s G4 s F4 s E4 s D4 s E4 s F4 s G4 s A4 s B4 s C5 s D5 s f |
+    | G4 s A4 s B4 s C5 s D5 s C5 s B4 s A4 s G4 s F4 s E4 s D4 s G4 s F4 s E4 s D4 s C4 s D4 s E4 s F4 s G4 s A4 s B4 s C5 s |
+    | F4 s G4 s A4 s B4 s C5 s B4 s A4 s G4 s F4 s E4 s D4 s C4 s F4 s E4 s D4 s C4 s B3 s C4 s D4 s E4 s F4 s G4 s A4 s B4 s |
+    | E4 h. E4 h. ff |
+
+    // === VARIATION VI ===
+    // High, floating, pianissimo
+    | A5 w. pp |
+    | G5 w. |
+    | F5 w. |
+    | E5 w. |
+
+    // === VARIATION VII ===
+    // Decorated, expressive
+    | A4 q B4 e C5 e B4 q A4 q G4 h p |
+    | G4 q A4 e B4 e A4 q G4 q F4 h |
+    | F4 q G4 e A4 e G4 q F4 q E4 h |
+    | E4 w. |
+
+    // === VARIATION VIII - CODA ===
+    // The theme in its purest form, dying away
+    | A4 w. pp |
+    | G4 w. |
+    | F4 w. |
+    | E4 w. |
+    | A4 w. ppp |
+    | G4 w. |
+    | F4 w. |
+    | E4 w. |
+}
