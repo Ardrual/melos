@@ -75,6 +75,35 @@ pub fn handle_key(key: KeyEvent, state: &mut super::state::AppState) {
                 state.selected_track = track_num - 1;
             }
         }
+        // Tracker navigation
+        KeyCode::Left => {
+            state.scroll_left(1);
+        }
+        KeyCode::Right => {
+            state.scroll_right(1);
+        }
+        KeyCode::Char('[') => {
+            state.scroll_left(4); // Scroll by measure (assuming 4/4)
+        }
+        KeyCode::Char(']') => {
+            state.scroll_right(4);
+        }
+        KeyCode::Home => {
+            state.scroll_home();
+        }
+        KeyCode::End => {
+            state.scroll_end();
+        }
+        KeyCode::Up => {
+            if state.selected_track > 0 {
+                state.selected_track -= 1;
+            }
+        }
+        KeyCode::Down => {
+            if state.selected_track + 1 < state.track_count() {
+                state.selected_track += 1;
+            }
+        }
         _ => {}
     }
 }

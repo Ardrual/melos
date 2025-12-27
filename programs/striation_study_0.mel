@@ -1,0 +1,69 @@
+Title: "striation study no. 0 (extended)"
+Tempo: 132
+Time: 7/8
+
+Part: "perc" Instrument: "Acoustic Grand Piano" {
+    | Tuplet(5:4) { C3 s C3 s C3 s C3 s C3 s } r e C3 q. |
+    | C3 e C3 e Tuplet(3:2) { C3 s C3 s C3 s } r s r s |
+    Time: 5/8
+    | Tuplet(7:6) { C3 s C3 s C3 s C3 s C3 s C3 s C3 s } r e |
+    | C3 q C3 e. r s |
+    | Tuplet(9:8) { C3 s C3 s C3 s C3 s C3 s C3 s C3 s C3 s C3 s } C3 q |
+    Time: 4/4
+    | r e C3 e C3 e C3 e C3 e C3 e C3 e C3 e |
+    | Tuplet(11:8) { C3 s C3 s C3 s C3 s C3 s C3 s C3 s C3 s C3 s C3 s } r q |
+    | C3 q. C3 e C3 q C3 q |
+    Time: 3/4
+    | Tuplet(5:3) { C3 s C3 s C3 s C3 s C3 s } r e C3 q |
+    | r q Tuplet(7:4) { C3 s C3 s C3 s C3 s C3 s C3 s C3 s } |
+    Time: 13/16
+    | C3 s C3 s r s Tuplet(5:4) { C3 s C3 s C3 s C3 s C3 s } r s r s |
+    | Tuplet(8:5) { C3 s C3 s C3 s C3 s C3 s C3 s C3 s C3 s } |
+}
+
+Part: "upper" Instrument: "Electric Piano 1" {
+    | Tuplet(3:2) { G5 e A5 e B5 e } Tuplet(5:4) { C6 s D6 s E6 s F6 s G6 s } |
+    | [A5 C6 E6] q. r e |
+    Time: 9/8
+    | Tuplet(5:3) { B5 s C6 s D6 s E6 s F#6 s } G6 q. A6 q |
+    | Tuplet(7:4) { C7 s D7 s E7 s F7 s G7 s A7 s B7 s } r e. |
+    | Tuplet(9:8) { A6 s Bb6 s C7 s D7 s E7 s F7 s G7 s A7 s Bb7 s } C7 q |
+    Time: 6/8
+    | E6 q Tuplet(5:4) { F6 s G6 s A6 s Bb6 s C7 s } G6 q |
+    | r e Tuplet(3:2) { A6 e B6 e C7 e } G6 q |
+    Time: 4/4
+    | [C6 G6] h r q |
+    | Tuplet(5:4) { C6 e D6 e E6 e F6 e G6 e } A6 h |
+    | Tuplet(11:8) { A6 s G6 s F6 s E6 s D6 s C6 s Bb5 s A5 s G5 s F5 s } E5 q |
+}
+
+Part: "low strings" Instrument: "Cello" {
+    | C2 q. Tuplet(3:2) { G2 e A2 e B2 e } |
+    | r q C2 q G2 q |
+    Time: 4/4
+    | [C2 G2] h r q |
+    | Tuplet(5:4) { C2 e D2 e E2 e F2 e G2 e } G1 h |
+    | C2 q r q G1 h |
+    Time: 5/4
+    | Tuplet(7:6) { C2 s C2 s C2 s C2 s C2 s C2 s C2 s } G1 q |
+    | r q. C2 q G2 q |
+    | Tuplet(9:8) { F2 s G2 s A2 s Bb2 s C3 s Bb2 s A2 s G2 s F2 s } C2 h |
+    Time: 3/2
+    | [C2 C3] h [G1 G2] h |
+    | r h Tuplet(5:4) { C2 e C2 e C2 e C2 e C2 e } |
+}
+
+Part: "winds" Instrument: "Flute" {
+    | Tuplet(7:6) { D5 s E5 s F5 s G5 s A5 s B5 s C6 s } |
+    | r q. A5 e G5 e |
+    Time: 11/8
+    | Tuplet(9:8) { F5 s G5 s A5 s Bb5 s C6 s D6 s C6 s Bb5 s A5 s } r e |
+    | G5 q Tuplet(3:2) { A5 e B5 e C6 e } r q |
+    | Tuplet(13:8) { D6 s E6 s F6 s G6 s A6 s B6 s C7 s D7 s E7 s F7 s G7 s A7 s B7 s } |
+    Time: 7/4
+    | C6 h r q |
+    | Tuplet(5:3) { G5 s A5 s Bb5 s C6 s D6 s } C6 h |
+    Time: 5/8
+    | Tuplet(7:5) { F5 s F5 s G5 s A5 s Bb5 s C6 s D6 s } r e |
+    | A5 q G5 e r e |
+}

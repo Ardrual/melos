@@ -1,0 +1,217 @@
+Title: "Temporal Fractals"
+Tempo: 108
+Time: 4/4
+Key: D "Minor"
+
+Part: Piano Instrument: Piano {
+    | r q [D3 A3 D4] q mf [D3 A3 F4] q [D3 A3 D4] q |
+    | [C3 G3 E4] q [C3 G3 E4] e [C3 G3] e [Bb2 F3 D4] h |
+    | [A2 E3 C#4] q Tuplet(3:2) { [A2 E3] e [A2 E3] e [A2 E3] e } [A2 E3 A3] h |
+    | [D3 A3 D4] q [D3 A3 F4] e. [D3 A3] s [D3 A3 D4] h |
+    
+    | [G3 Bb3 D4] q f [G3 Bb3 D4] q Tuplet(3:2) { [F3 A3 C4] e [E3 G3 Bb3] e [D3 F3 A3] e } |
+    | [C3 E3 G3] q [C3 E3 Bb3] q [F3 A3 C4] h |
+    | Tuplet(5:4) { [Bb2 D3] s [C3 E3] s [D3 F3] s [E3 G3] s [F3 A3] s } [G3 Bb3 D4] q. [A3 C#4 E4] e |
+    | [D3 A3 D4 F4] w ff |
+    
+    Time: 7/8
+    Key: D "Minor"
+    Tempo: 120
+    
+    | [D3 A3] e [D3 F3] e [A2 E3] e [D3 A3] q [F3 A3] e [E3 G3] e |
+    | [D3 F3] e [C3 E3] e [Bb2 D3] e Tuplet(3:2) { [A2 C#3] e [Bb2 D3] e [C3 E3] e } [D3 F3] e |
+    | [G2 D3 Bb3] e mf [G2 D3] e [F2 C3 A3] e [G2 D3] q [A2 E3] e [Bb2 F3] e |
+    | Tuplet(5:4) { [C3 G3] s [D3 A3] s [E3 B3] s [F3 C4] s [G3 D4] s } [A3 E4] q [D3 A3] e |
+    
+    | [D3 A3 F4] e [D3 A3] e [C3 G3 E4] e [D3 A3] q. [D3 F3] e |
+    | [Bb2 F3 D4] e [A2 E3 C#4] e [G2 D3 Bb3] e [A2 E3] q [Bb2 F3] e [A2 E3] e |
+    | Tuplet(7:4) { [D3] s [E3] s [F3] s [G3] s [A3] s [Bb3] s [C#4] s } [D4 F4 A4] q |
+    | [D3 A3 D4] q. f [D3 A3 F4] q [D3 A3 D4] e |
+    
+    Time: 5/4
+    Tempo: 96
+    Key: F "Major"
+    
+    | [F3 A3 C4] q mp [F3 A3 C4] e [E3 G3 Bb3] e [D3 F3 A3] q [C3 E3 G3] q [F3 A3 C4] q |
+    | [Bb2 D3 F3] h Tuplet(3:2) { [A2 C3 E3] q [G2 Bb2 D3] q [F2 A2 C3] q } [E2 G2 Bb2] q |
+    | [F2 A2 C3] q [F3 A3 C4] q Tuplet(5:4) { [G3] e [A3] e [Bb3] e [C4] e [D4] e } [E4 G4] h |
+    | [F3 A3 C4 F4] w mf r q |
+    
+    | [D3 F3 A3] q [F3 A3 C4] q Tuplet(3:2) { [G3 Bb3] e [A3 C4] e [Bb3 D4] e } [C4 E4 G4] q [F3 A3 C4] q |
+    | Tuplet(5:4) { [Bb3] s [C4] s [D4] s [E4] s [F4] s } [G4] q [F4] q [E4] q [D4 F4] h |
+    | [C3 E3 G3 Bb3] q [F3 A3 C4] q [Bb2 D3 F3] q Tuplet(3:2) { [A2 C3] e [Bb2 D3] e [C3 E3] e } [D3 F3] q |
+    | [F2 A2 C3 F3] w f r q |
+    
+    Time: 4/4
+    Tempo: 132
+    Key: Bb "Major"
+    
+    | [Bb2 F3 Bb3] e ff [Bb2 F3] e [Bb2 D3 F3] e [Bb2 F3] e [A2 Eb3 G3] q [Bb2 F3 Bb3] q |
+    | [Eb3 G3 Bb3] e [Eb3 G3] e Tuplet(3:2) { [D3 F3] e [Eb3 G3] e [F3 A3] e } [G3 Bb3 D4] q [F3 A3 C4] q |
+    | Tuplet(5:4) { [Bb3] s [C4] s [D4] s [Eb4] s [F4] s } [G4 Bb4] q Tuplet(3:2) { [F4] e [Eb4] e [D4] e } [C4 Eb4] q |
+    | [Bb2 D3 F3 Bb3] h [A2 C3 Eb3 G3] q [Bb2 D3 F3 Bb3] q |
+    
+    | [Eb3 G3 Bb3 Eb4] q mf Tuplet(3:2) { [D3 F3 Bb3] e [C3 Eb3 G3] e [Bb2 D3 F3] e } [A2 C3 Eb3] q [Bb2 D3 F3] q |
+    | Tuplet(7:4) { [Bb3] s [C4] s [D4] s [Eb4] s [F4] s [G4] s [A4] s } [Bb4] q [A4 C5] q [G4 Bb4] q |
+    | [F3 A3 C4 F4] e [F3 A3] e [Eb3 G3 Bb3 Eb4] e [Eb3 G3] e Tuplet(3:2) { [D3 F3] e [Eb3 G3] e [F3 A3] e } [G3 Bb3] q |
+    | [Bb2 D3 F3 Bb3] w ff |
+}
+
+Part: Violin Instrument: Violin {
+    | r h D5 q mf A4 q |
+    | G4 q E4 e F4 e D4 h |
+    | C#4 q Tuplet(3:2) { E4 e D4 e C#4 e } A3 h |
+    | D4 q F4 e. E4 s D4 h |
+    
+    | Bb4 q f D5 q Tuplet(3:2) { C5 e Bb4 e A4 e } |
+    | G4 q Bb4 q A4 h |
+    | Tuplet(5:4) { D4 s E4 s F4 s G4 s A4 s } Bb4 q. C#5 e |
+    | D5 w ff |
+    
+    Time: 7/8
+    Tempo: 120
+    
+    | A4 e mf F4 e E4 e D4 q A4 e G4 e |
+    | F4 e E4 e D4 e Tuplet(3:2) { C#4 e D4 e E4 e } F4 e |
+    | Bb4 e G4 e A4 e D4 q E4 e F4 e |
+    | Tuplet(5:4) { G4 s A4 s B4 s C5 s D5 s } E5 q A4 e |
+    
+    | F5 e D5 e E5 e D5 q. F4 e |
+    | D5 e C#5 e Bb4 e A4 q Bb4 e A4 e |
+    | Tuplet(7:4) { D4 s E4 s F4 s G4 s A4 s Bb4 s C#5 s } D5 q |
+    | A4 q. f F5 q D5 e |
+    
+    Time: 5/4
+    Key: F "Major"
+    Tempo: 96
+    
+    | C5 q mp A4 e Bb4 e A4 q G4 q C5 q |
+    | D5 h Tuplet(3:2) { C5 q Bb4 q A4 q } G4 q |
+    | A4 q C5 q Tuplet(5:4) { D5 e E5 e F5 e G5 e A5 e } G5 h |
+    | F5 w mf r q |
+    
+    | A4 q C5 q Tuplet(3:2) { D5 e E5 e F5 e } G5 q A5 q |
+    | Tuplet(5:4) { Bb4 s C5 s D5 s E5 s F5 s } G5 q F5 q E5 q D5 h |
+    | Bb4 q C5 q D5 q Tuplet(3:2) { C5 e D5 e E5 e } F5 q |
+    | A5 w f r q |
+    
+    Time: 4/4
+    Key: Bb "Major"
+    Tempo: 132
+    
+    | D5 e ff Bb4 e D5 e F5 e Eb5 q D5 q |
+    | Bb4 e G4 e Tuplet(3:2) { A4 e Bb4 e C5 e } D5 q C5 q |
+    | Tuplet(5:4) { D5 s Eb5 s F5 s G5 s A5 s } Bb5 q Tuplet(3:2) { A5 e G5 e F5 e } Eb5 q |
+    | D5 h C5 q D5 q |
+    
+    | G5 q mf Tuplet(3:2) { F5 e Eb5 e D5 e } C5 q D5 q |
+    | Tuplet(7:4) { D5 s Eb5 s F5 s G5 s A5 s Bb5 s C6 s } D6 q C6 q Bb5 q |
+    | A5 e F5 e G5 e Eb5 e Tuplet(3:2) { D5 e Eb5 e F5 e } G5 q |
+    | Bb5 w ff |
+}
+
+Part: Cello Instrument: Cello {
+    | D2 h mf A2 q D3 q |
+    | C2 q C3 e Bb2 e Bb2 h |
+    | A2 q Tuplet(3:2) { A2 e G2 e F2 e } E2 h |
+    | D2 q D3 e. C3 s D2 h |
+    
+    | G2 q f Bb2 q Tuplet(3:2) { A2 e G2 e F2 e } |
+    | E2 q G2 q F2 h |
+    | Tuplet(5:4) { Bb1 s C2 s D2 s E2 s F2 s } G2 q. A2 e |
+    | D2 w ff |
+    
+    Time: 7/8
+    Tempo: 120
+    
+    | D2 e mf F2 e A2 e D2 q F2 e G2 e |
+    | F2 e E2 e D2 e Tuplet(3:2) { A1 e Bb1 e C2 e } D2 e |
+    | G2 e Bb2 e A2 e G2 q A2 e Bb2 e |
+    | Tuplet(5:4) { C2 s D2 s E2 s F2 s G2 s } A2 q D2 e |
+    
+    | D3 e A2 e G2 e D2 q. F2 e |
+    | Bb2 e A2 e G2 e E2 q F2 e E2 e |
+    | Tuplet(7:4) { D2 s E2 s F2 s G2 s A2 s Bb2 s C#3 s } D3 q |
+    | D2 q. f A2 q D2 e |
+    
+    Time: 5/4
+    Key: F "Major"
+    Tempo: 96
+    
+    | F2 q mp C2 e E2 e D2 q C2 q F2 q |
+    | Bb1 h Tuplet(3:2) { A1 q G1 q F1 q } E1 q |
+    | F1 q A1 q Tuplet(5:4) { Bb1 e C2 e D2 e E2 e F2 e } G2 h |
+    | F2 w mf r q |
+    
+    | D2 q F2 q Tuplet(3:2) { G2 e A2 e Bb2 e } C3 q F2 q |
+    | Tuplet(5:4) { G2 s A2 s Bb2 s C3 s D3 s } E3 q D3 q C3 q Bb2 h |
+    | E2 q F2 q Bb2 q Tuplet(3:2) { A2 e Bb2 e C3 e } D3 q |
+    | F2 w f r q |
+    
+    Time: 4/4
+    Key: Bb "Major"
+    Tempo: 132
+    
+    | Bb1 e ff F2 e Bb2 e F2 e Eb2 q Bb2 q |
+    | Eb2 e G2 e Tuplet(3:2) { F2 e G2 e A2 e } Bb2 q A2 q |
+    | Tuplet(5:4) { Bb2 s C3 s D3 s Eb3 s F3 s } G3 q Tuplet(3:2) { F3 e Eb3 e D3 e } C3 q |
+    | Bb2 h Eb2 q Bb2 q |
+    
+    | Eb3 q mf Tuplet(3:2) { D3 e C3 e Bb2 e } A2 q Bb2 q |
+    | Tuplet(7:4) { Bb2 s C3 s D3 s Eb3 s F3 s G3 s A3 s } Bb3 q A3 q G3 q |
+    | F2 e A2 e Eb2 e G2 e Tuplet(3:2) { F2 e G2 e A2 e } Bb2 q |
+    | Bb1 w ff |
+}
+
+Part: Clarinet Instrument: Clarinet {
+    | r h F4 q mf E4 q |
+    | E4 q G4 e F4 e F4 h |
+    | E4 q Tuplet(3:2) { G4 e F4 e E4 e } C#4 h |
+    | F4 q A4 e. G4 s F4 h |
+    
+    | D4 q f F4 q Tuplet(3:2) { E4 e D4 e C4 e } |
+    | Bb3 q E4 q C4 h |
+    | Tuplet(5:4) { F3 s G3 s A3 s Bb3 s C4 s } D4 q. E4 e |
+    | F4 w ff |
+    
+    Time: 7/8
+    Tempo: 120
+    
+    | F4 e mf D4 e C#4 e F4 q D4 e E4 e |
+    | D4 e C4 e Bb3 e Tuplet(3:2) { A3 e Bb3 e C4 e } D4 e |
+    | D4 e F4 e E4 e Bb3 q C4 e D4 e |
+    | Tuplet(5:4) { E4 s F4 s G4 s A4 s B4 s } C5 q F4 e |
+    
+    | A4 e F4 e G4 e F4 q. D4 e |
+    | F4 e E4 e D4 e C#4 q D4 e C#4 e |
+    | Tuplet(7:4) { F4 s G4 s A4 s Bb4 s C5 s D5 s E5 s } F5 q |
+    | F4 q. f A4 q F4 e |
+    
+    Time: 5/4
+    Key: F "Major"
+    Tempo: 96
+    
+    | A4 q mp F4 e G4 e F4 q E4 q A4 q |
+    | F4 h Tuplet(3:2) { E4 q D4 q C4 q } Bb3 q |
+    | C4 q E4 q Tuplet(5:4) { F4 e G4 e A4 e Bb4 e C5 e } Bb4 h |
+    | A4 w mf r q |
+    
+    | F4 q A4 q Tuplet(3:2) { Bb4 e C5 e D5 e } E5 q F5 q |
+    | Tuplet(5:4) { D4 s E4 s F4 s G4 s A4 s } Bb4 q A4 q G4 q F4 h |
+    | D4 q E4 q F4 q Tuplet(3:2) { E4 e F4 e G4 e } A4 q |
+    | C5 w f r q |
+    
+    Time: 4/4
+    Key: Bb "Major"
+    Tempo: 132
+    
+    | F4 e ff D4 e F4 e Bb4 e G4 q F4 q |
+    | G4 e Bb4 e Tuplet(3:2) { A4 e Bb4 e C5 e } Bb4 q A4 q |
+    | Tuplet(5:4) { F4 s G4 s A4 s Bb4 s C5 s } D5 q Tuplet(3:2) { C5 e Bb4 e A4 e } G4 q |
+    | F4 h G4 q F4 q |
+    
+    | Bb4 q mf Tuplet(3:2) { A4 e G4 e F4 e } Eb4 q F4 q |
+    | Tuplet(7:4) { F4 s G4 s A4 s Bb4 s C5 s D5 s Eb5 s } F5 q Eb5 q D5 q |
+    | C5 e A4 e Bb4 e G4 e Tuplet(3:2) { A4 e Bb4 e C5 e } D5 q |
+    | D5 w ff |
+}

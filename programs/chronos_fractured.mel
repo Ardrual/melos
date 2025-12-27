@@ -1,0 +1,36 @@
+Title: "Chronos Fractured (Corrected)"
+Tempo: 140
+Time: 7/8
+Key: A "Minor"
+
+Part: "Violin Solo" Instrument: Violin {
+    | A4 e C5 e E5 e A5 q > G5 q |
+    | F5 e E5 e D5 e [C5 E5] h |
+    | r e A4 e B4 e C5 q B4 q > |
+    
+    Time: 5/8
+    | Tuplet(3:2) { A5 e G5 e F5 e } E5 q . > |
+    | D5 s E5 s F5 s G5 s A5 s B5 s C6 q > |
+
+    Tempo: 90
+    Time: 4/4
+    Key: C "Major"
+    | G5 h mp Tuplet(5:4) { F5 e E5 e D5 e C5 e B4 e } |
+    | C5 w ppp |
+}
+
+Part: "Cello Accompaniment" Instrument: Cello {
+    | [A2 E3] q > [A2 E3] q [A2 E3] q r e |
+    | [D3 A3] q > [D3 A3] q [G2 D3] q r e |
+    | [F2 C3] e . [F2 C3] e . [E2 B2] h > |
+
+    Time: 5/8
+    | [D3 A3] q ff > [D3 A3] q r e |
+    | [G2 D3] q > [G2 D3] q r e |
+
+    Tempo: 90
+    Time: 4/4
+    Key: C "Major"
+    | [C3 G3] w mp |
+    | [C3 G3] h . r q |
+}

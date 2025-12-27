@@ -36,8 +36,9 @@ impl App {
 
     pub fn run(&mut self) -> Result<()> {
         while self.state.running {
+            let state = &mut self.state;
             self.terminal.draw(|frame| {
-                ui::render(frame, &self.state);
+                ui::render(frame, state);
             })?;
 
             match self.event_handler.next()? {
