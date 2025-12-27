@@ -215,8 +215,19 @@ fn render_tracker_grid(frame: &mut Frame, area: Rect, state: &mut AppState) {
                     format!(" ── ") // Sustain
                 }
             } else {
-                // Chord or multiple notes
-                format!("{:>3} ", notes_in_beat.len())
+                // Chord - show all notes
+                let mut chord_notes: Vec<_> = notes_in_beat.iter()
+                    .filter(|(_, start, _)| *start >= beat_start_tick && *start < beat_end_tick)
+                    .map(|(pitch, _, _)| pitch_to_name(*pitch))
+                    .collect();
+
+                if chord_notes.is_empty() {
+                    // All notes are sustaining
+                    " ── ".to_string()
+                } else {
+                    chord_notes.sort(); // Sort for consistent display
+                    format!("[{}] ", chord_notes.join(","))
+                }
             };
 
             let is_measure_start = beat_num % ts_num == 0;
