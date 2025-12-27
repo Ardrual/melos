@@ -75,18 +75,28 @@ pub fn handle_key(key: KeyEvent, state: &mut super::state::AppState) {
                 state.selected_track = track_num - 1;
             }
         }
-        // Tracker navigation
+        // Tracker navigation (vertical layout: time flows top-to-bottom)
+        KeyCode::Up => {
+            state.scroll_left(1); // Scroll up (earlier in time)
+        }
+        KeyCode::Down => {
+            state.scroll_right(1); // Scroll down (later in time)
+        }
         KeyCode::Left => {
-            state.scroll_left(1);
+            if state.selected_track > 0 {
+                state.selected_track -= 1;
+            }
         }
         KeyCode::Right => {
-            state.scroll_right(1);
+            if state.selected_track + 1 < state.track_count() {
+                state.selected_track += 1;
+            }
         }
         KeyCode::Char('[') => {
-            state.scroll_left(4); // Scroll by measure (assuming 4/4)
+            state.scroll_left(4); // Scroll up by measure
         }
         KeyCode::Char(']') => {
-            state.scroll_right(4);
+            state.scroll_right(4); // Scroll down by measure
         }
         KeyCode::Home => {
             state.scroll_home();
@@ -94,15 +104,11 @@ pub fn handle_key(key: KeyEvent, state: &mut super::state::AppState) {
         KeyCode::End => {
             state.scroll_end();
         }
-        KeyCode::Up => {
-            if state.selected_track > 0 {
-                state.selected_track -= 1;
-            }
+        KeyCode::PageUp => {
+            state.scroll_left(state.beats_visible);
         }
-        KeyCode::Down => {
-            if state.selected_track + 1 < state.track_count() {
-                state.selected_track += 1;
-            }
+        KeyCode::PageDown => {
+            state.scroll_right(state.beats_visible);
         }
         _ => {}
     }
