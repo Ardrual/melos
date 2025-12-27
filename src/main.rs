@@ -6,6 +6,7 @@ use melos::parser::parse;
 use melos::walker::walk;
 use melos::codegen::generate;
 use melos::tui::run_tui;
+use melos::gui::run_gui;
 
 pub mod inspect;
 
@@ -35,6 +36,10 @@ enum Commands {
         /// Launch interactive TUI mode
         #[arg(short = 'i', long)]
         interactive: bool,
+
+        /// Launch GUI piano roll view
+        #[arg(short = 'g', long)]
+        gui: bool,
     },
     /// Inspect a MIDI file
     Inspect {
@@ -48,7 +53,7 @@ fn main() -> Result<()> {
     let cli = Cli::parse();
 
     match &cli.command {
-        Commands::Compile { input, output, debug, interactive } => {
+        Commands::Compile { input, output, debug, interactive, gui } => {
             // 1. Read Input
             let input_content = fs::read_to_string(input)
                 .with_context(|| format!("Failed to read input file: {:?}", input))?;
@@ -74,6 +79,11 @@ fn main() -> Result<()> {
             // Launch TUI if interactive mode requested
             if *interactive {
                 return run_tui(input.clone(), ast, ir);
+            }
+
+            // Launch GUI if gui mode requested
+            if *gui {
+                return run_gui(input.clone(), ast, ir);
             }
 
             // 4. Codegen (IR -> MIDI)
