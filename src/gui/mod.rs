@@ -1,4 +1,5 @@
 mod piano_roll;
+mod playback;
 
 use std::path::PathBuf;
 use anyhow::Result;

@@ -1,8 +1,12 @@
 use std::path::PathBuf;
-use eframe::egui::{self, Color32, Pos2, Rect, Rounding, Sense, Stroke, Vec2};
+use eframe::egui::{self, Color32, Pos2, Rect, Rounding, Sense, Stroke, Vec2, TextEdit, FontId, TextStyle};
 
 use crate::ast::{Score, Header};
 use crate::ir::{IrScore, IrEventKind};
+use crate::parser::parse;
+use crate::walker::walk;
+
+use super::playback::{PlaybackEngine, PlaybackState};
 
 // Piano roll constants
 const KEY_WIDTH: f32 = 60.0;
@@ -24,12 +28,19 @@ const TRACK_COLORS: &[Color32] = &[
 
 pub struct PianoRollApp {
     score_path: PathBuf,
-    ast: Score,
     ir: IrScore,
+    // Editor state
+    source_code: String,
+    parse_error: Option<String>,
+    last_valid_ir: IrScore,
     // View state
     scroll_x: f32,
     scroll_y: f32,
     zoom_x: f32,
+    show_editor: bool,
+    editor_width_ratio: f32,
+    // Playback
+    playback: Option<PlaybackEngine>,
     // Derived data
     tempo: u32,
     time_sig: (u32, u32),
@@ -40,6 +51,10 @@ pub struct PianoRollApp {
 
 impl PianoRollApp {
     pub fn new(_cc: &eframe::CreationContext<'_>, score_path: PathBuf, ast: Score, ir: IrScore) -> Self {
+        // Read source file
+        let source_code = std::fs::read_to_string(&score_path)
+            .unwrap_or_else(|_| String::new());
+
         let tempo = ast.headers.iter()
             .find_map(|h| if let Header::Tempo(t) = h { Some(*t) } else { None })
             .unwrap_or(120);
@@ -51,19 +66,71 @@ impl PianoRollApp {
         let (pitch_range, total_beats) = Self::analyze_score(&ir);
         let track_visibility = vec![true; ir.tracks.len()];
 
+        // Initialize playback engine
+        let playback = PlaybackEngine::new(ir.clone(), tempo).ok();
+
         Self {
             score_path,
-            ast,
-            ir,
+            ir: ir.clone(),
+            source_code,
+            parse_error: None,
+            last_valid_ir: ir,
             scroll_x: 0.0,
             scroll_y: 0.0,
             zoom_x: 1.0,
+            show_editor: true,
+            editor_width_ratio: 0.35,
+            playback,
             tempo,
             time_sig,
             total_beats,
             pitch_range,
             track_visibility,
         }
+    }
+
+    fn reparse_source(&mut self) {
+        match parse(&self.source_code) {
+            Ok(ast) => {
+                match walk(&ast) {
+                    Ok(ir) => {
+                        // Update tempo and time sig from new AST
+                        self.tempo = ast.headers.iter()
+                            .find_map(|h| if let Header::Tempo(t) = h { Some(*t) } else { None })
+                            .unwrap_or(120);
+
+                        self.time_sig = ast.headers.iter()
+                            .find_map(|h| if let Header::TimeSignature(n, d) = h { Some((*n, *d)) } else { None })
+                            .unwrap_or((4, 4));
+
+                        let (pitch_range, total_beats) = Self::analyze_score(&ir);
+                        self.pitch_range = pitch_range;
+                        self.total_beats = total_beats;
+                        self.track_visibility.resize(ir.tracks.len(), true);
+
+                        self.ir = ir.clone();
+                        self.last_valid_ir = ir.clone();
+                        self.parse_error = None;
+
+                        // Recreate playback engine with new IR
+                        if let Some(ref playback) = self.playback {
+                            playback.stop();
+                        }
+                        self.playback = PlaybackEngine::new(ir, self.tempo).ok();
+                    }
+                    Err(e) => {
+                        self.parse_error = Some(format!("Walk error: {}", e));
+                    }
+                }
+            }
+            Err(e) => {
+                self.parse_error = Some(format!("{}", e));
+            }
+        }
+    }
+
+    fn save_source(&self) -> Result<(), std::io::Error> {
+        std::fs::write(&self.score_path, &self.source_code)
     }
 
     fn analyze_score(ir: &IrScore) -> ((u8, u8), u32) {
@@ -114,29 +181,85 @@ impl PianoRollApp {
 
 impl eframe::App for PianoRollApp {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
+        // Request repaint for playback animation
+        if let Some(ref playback) = self.playback {
+            if playback.state() == PlaybackState::Playing {
+                ctx.request_repaint();
+            }
+        }
+
         // Top panel with controls
         egui::TopBottomPanel::top("top_panel").show(ctx, |ui| {
             ui.horizontal(|ui| {
-                ui.heading("Melos Piano Roll");
+                // Playback controls
+                if let Some(ref playback) = self.playback {
+                    let state = playback.state();
+
+                    if state == PlaybackState::Playing {
+                        if ui.button("⏸").on_hover_text("Pause").clicked() {
+                            playback.pause();
+                        }
+                    } else {
+                        if ui.button("▶").on_hover_text("Play").clicked() {
+                            playback.play();
+                        }
+                    }
+
+                    if ui.button("⏹").on_hover_text("Stop").clicked() {
+                        playback.stop();
+                    }
+
+                    ui.separator();
+
+                    // Position display
+                    let pos = playback.position_beats();
+                    let measure = (pos / self.time_sig.0 as f64) as u32 + 1;
+                    let beat = (pos % self.time_sig.0 as f64) as u32 + 1;
+                    ui.label(format!("{}:{}", measure, beat));
+                } else {
+                    ui.label("No MIDI output");
+                }
+
                 ui.separator();
-                ui.label(format!("File: {}", self.score_path.file_name().unwrap_or_default().to_string_lossy()));
+
+                // Editor toggle
+                if ui.button(if self.show_editor { "◀ Hide Editor" } else { "▶ Show Editor" }).clicked() {
+                    self.show_editor = !self.show_editor;
+                }
+
                 ui.separator();
+
                 ui.label(format!("Tempo: {} BPM", self.tempo));
                 ui.label(format!("Time: {}/{}", self.time_sig.0, self.time_sig.1));
                 ui.separator();
 
                 ui.label("Zoom:");
-                if ui.button("-").clicked() {
+                if ui.button("−").clicked() {
                     self.zoom_x = (self.zoom_x * 0.8).max(0.25);
                 }
                 ui.label(format!("{:.0}%", self.zoom_x * 100.0));
                 if ui.button("+").clicked() {
                     self.zoom_x = (self.zoom_x * 1.25).min(4.0);
                 }
+
+                ui.with_layout(egui::Layout::right_to_left(egui::Align::Center), |ui| {
+                    if ui.button("💾 Save").clicked() {
+                        if let Err(e) = self.save_source() {
+                            self.parse_error = Some(format!("Save failed: {}", e));
+                        }
+                    }
+
+                    ui.label(
+                        self.score_path.file_name()
+                            .unwrap_or_default()
+                            .to_string_lossy()
+                            .to_string()
+                    );
+                });
             });
         });
 
-        // Bottom panel with track legend
+        // Bottom panel with track legend and error display
         egui::TopBottomPanel::bottom("bottom_panel").show(ctx, |ui| {
             ui.horizontal(|ui| {
                 ui.label("Tracks:");
@@ -153,11 +276,47 @@ impl eframe::App for PianoRollApp {
                         }
                     }
                 }
+
+                // Show parse error if any
+                if let Some(ref err) = self.parse_error {
+                    ui.separator();
+                    ui.label(egui::RichText::new(format!("⚠ {}", err)).color(Color32::from_rgb(255, 100, 100)));
+                }
             });
         });
 
-        // Main piano roll area
+        // Main content area with optional editor
         egui::CentralPanel::default().show(ctx, |ui| {
+            if self.show_editor {
+                // Split view: editor on left, piano roll on right
+                egui::SidePanel::left("editor_panel")
+                    .resizable(true)
+                    .default_width(ui.available_width() * self.editor_width_ratio)
+                    .min_width(200.0)
+                    .show_inside(ui, |ui| {
+                        ui.vertical(|ui| {
+                            ui.label(egui::RichText::new("Source Editor").strong());
+                            ui.separator();
+
+                            egui::ScrollArea::vertical().show(ui, |ui| {
+                                let response = ui.add(
+                                    TextEdit::multiline(&mut self.source_code)
+                                        .font(FontId::monospace(13.0))
+                                        .code_editor()
+                                        .desired_width(f32::INFINITY)
+                                        .desired_rows(30)
+                                );
+
+                                // Reparse on change
+                                if response.changed() {
+                                    self.reparse_source();
+                                }
+                            });
+                        });
+                    });
+            }
+
+            // Piano roll takes remaining space
             let available_size = ui.available_size();
 
             // Handle scroll input
@@ -333,6 +492,32 @@ impl eframe::App for PianoRollApp {
                         painter.rect_filled(note_rect, Rounding::same(2.0), note_color);
                         painter.rect_stroke(note_rect, Rounding::same(2.0), Stroke::new(1.0, track_color));
                     }
+                }
+            }
+
+            // Draw playhead cursor
+            if let Some(ref playback) = self.playback {
+                let pos_beats = playback.position_beats() as f32;
+                let playhead_x = grid_rect.min.x + pos_beats * ppb - self.scroll_x;
+
+                if playhead_x >= grid_rect.min.x && playhead_x <= grid_rect.max.x {
+                    painter.vline(
+                        playhead_x,
+                        grid_rect.min.y..=grid_rect.max.y,
+                        Stroke::new(2.0, Color32::from_rgb(255, 80, 80)),
+                    );
+
+                    // Draw playhead triangle at top
+                    let triangle_size = 8.0;
+                    painter.add(egui::Shape::convex_polygon(
+                        vec![
+                            Pos2::new(playhead_x, grid_rect.min.y),
+                            Pos2::new(playhead_x - triangle_size / 2.0, grid_rect.min.y - triangle_size),
+                            Pos2::new(playhead_x + triangle_size / 2.0, grid_rect.min.y - triangle_size),
+                        ],
+                        Color32::from_rgb(255, 80, 80),
+                        Stroke::NONE,
+                    ));
                 }
             }
 
