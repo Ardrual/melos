@@ -6,3 +6,4 @@ pub mod codegen;
 pub mod instruments;
 pub mod inspect;
 pub mod grammar;
+pub mod tui;

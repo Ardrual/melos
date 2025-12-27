@@ -5,6 +5,7 @@ use std::path::PathBuf;
 use melos::parser::parse;
 use melos::walker::walk;
 use melos::codegen::generate;
+use melos::tui::run_tui;
 
 pub mod inspect;
 
@@ -30,6 +31,10 @@ enum Commands {
         /// Print debug information (AST and IR)
         #[arg(short, long)]
         debug: bool,
+
+        /// Launch interactive TUI mode
+        #[arg(short = 'i', long)]
+        interactive: bool,
     },
     /// Inspect a MIDI file
     Inspect {
@@ -43,7 +48,7 @@ fn main() -> Result<()> {
     let cli = Cli::parse();
 
     match &cli.command {
-        Commands::Compile { input, output, debug } => {
+        Commands::Compile { input, output, debug, interactive } => {
             // 1. Read Input
             let input_content = fs::read_to_string(input)
                 .with_context(|| format!("Failed to read input file: {:?}", input))?;
@@ -64,6 +69,11 @@ fn main() -> Result<()> {
             if *debug {
                 println!("--- IR ---");
                 println!("{:#?}", ir);
+            }
+
+            // Launch TUI if interactive mode requested
+            if *interactive {
+                return run_tui(input.clone(), ast, ir);
             }
 
             // 4. Codegen (IR -> MIDI)
