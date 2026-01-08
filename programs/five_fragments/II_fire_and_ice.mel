@@ -1,0 +1,54 @@
+// Five Fragments: A Song Cycle for Clarinet and Piano
+// II. Fire and Ice (after Frost, 1920)
+//
+// Lines 1-4: The fire section (desire, passion)
+// Lines 5-9: The ice section (hate, cold destruction)
+// The poem's brevity and stark contrasts inspire a miniature in two parts.
+
+Title: "II. Fire and Ice"
+Tempo: 108
+Time: 4/4
+Key: D "Minor"
+
+// Piano part
+Part: "Piano" Instrument: Piano {
+    // FIRE - Lines 1-4: passionate, urgent, rising
+    | [D4 F4 A4] e [D4 F4 A4] e [E4 G4 Bb4] e [E4 G4 Bb4] e [F4 A4 C5] e [F4 A4 C5] e [G4 Bb4 D5] e [G4 Bb4 D5] e ff |
+    | [A4 C5 E5] e [A4 C5 E5] e [Bb4 D5 F5] e [Bb4 D5 F5] e [A4 C#5 E5] q [A4 C#5 E5] q |
+    | [D4 F4 A4] e [E4 G4 Bb4] e [F4 A4 C5] e [G4 Bb4 D5] e [A4 C5 E5] e [Bb4 D5 F5] e [C5 E5 G5] e [D5 F5 A5] e |
+    | [D5 F5 A5] h [C#5 E5 A5] h |
+
+    // Brief pause - the turn
+    | r w p |
+
+    // ICE - Lines 5-9: cold, deliberate, descending
+    Key: D "Minor"
+    Tempo: 72
+    | [D5 F5] q [C5 E5] q [Bb4 D5] q [A4 C5] q pp |
+    | [G4 Bb4] q [F4 A4] q [E4 G4] q [D4 F4] q |
+    | [D4 F4] h [D4 F4] h |
+    | [C#4 E4] q [D4 F4] q [E4 G4] q [D4 F4] q |
+    | [D4 F4] q [C4 E4] q [Bb3 D4] q [A3 C#4] q ppp |
+    | [D3 A3 D4] w |
+}
+
+// Clarinet - the voice
+Part: "Clarinet" Instrument: Clarinet {
+    // FIRE - passionate declaration
+    | D5 q F5 q A5 q A5 q ff |
+    | Bb5 q A5 q G5 q E5 q |
+    | F5 e G5 e A5 e Bb5 e C6 e D6 e E6 e F6 e |
+    | F6 h E6 h |
+
+    // The turn - held breath
+    | r h A5 h p |
+
+    // ICE - cold, measured, accepting
+    Tempo: 72
+    | A5 q G5 q F5 q E5 q pp |
+    | D5 q C5 q Bb4 q A4 q |
+    | A4 w |
+    | A4 q Bb4 q A4 q G4 q |
+    | F4 q E4 q D4 h ppp |
+    | D4 w |
+}

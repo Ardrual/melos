@@ -1,0 +1,67 @@
+// Five Fragments: A Song Cycle for Clarinet and Piano
+// IV. Nothing Gold Can Stay (after Frost, 1923)
+//
+// A brief elegy on transience - eight lines, here rendered as a miniature.
+// Lines 1-2: Nature's first green is gold, hardest hue to hold
+// Lines 3-4: Early leaf is flower, but only so an hour
+// Lines 5-6: Leaf subsides to leaf, Eden sank to grief
+// Lines 7-8: Dawn goes down to day - nothing gold can stay
+
+Title: "IV. Nothing Gold Can Stay"
+Tempo: 56
+Time: 3/4
+Key: E "Major"
+
+// Piano - tender, delicate, fading
+Part: "Piano" Instrument: Piano {
+    // Lines 1-2: "Nature's first green is gold"
+    | [E3 B3 E4] q [G#3 B3 E4] q [A3 C#4 E4] q p |
+    | [G#3 B3 E4] q [F#3 A3 D#4] q [E3 G#3 B3] q |
+    | [E3 B3 E4] q [G#3 B3 E4] q [A3 C#4 E4] q |
+    | [B3 D#4 F#4] h [B3 D#4 F#4] q |
+
+    // Lines 3-4: "Her early leaf's a flower"
+    | [C#4 E4 G#4] q [B3 D#4 F#4] q [A3 C#4 E4] q mp |
+    | [G#3 B3 E4] q [F#3 A3 C#4] q [E3 G#3 B3] q |
+    | [A3 C#4 E4] q [G#3 B3 D#4] q [F#3 A3 C#4] q |
+    | [E3 G#3 B3] h. |
+
+    // Lines 5-6: "Then leaf subsides to leaf"
+    | [E3 G#3 B3] q [D#3 F#3 B3] q [C#3 E3 A3] q p |
+    | [B2 D#3 F#3] q [A2 C#3 E3] q [G#2 B2 E3] q |
+    | [F#2 A2 D#3] q [E2 G#2 C#3] q [D#2 F#2 B2] q |
+    | [E2 G#2 B2] h. |
+
+    // Lines 7-8: "Nothing gold can stay"
+    | [E3 G#3 B3] h [E3 G#3 B3] q pp |
+    | [E3 G#3 B3] q [D#3 F#3 A3] q [C#3 E3 G#3] q |
+    | [E3 G#3 B3] h. ppp |
+    | [E2 E3] h. |
+}
+
+// Clarinet - precious, ephemeral melody
+Part: "Clarinet" Instrument: Clarinet {
+    // "Nature's first green is gold"
+    | G#4 q B4 q C#5 q p |
+    | B4 q A4 q G#4 q |
+    | G#4 q B4 q C#5 q |
+    | D#5 h D#5 q |
+
+    // "Her early leaf's a flower"
+    | E5 q D#5 q C#5 q mp |
+    | B4 q A4 q G#4 q |
+    | C#5 q B4 q A4 q |
+    | G#4 h. |
+
+    // "Then leaf subsides to leaf"
+    | G#4 q F#4 q E4 q p |
+    | D#4 q C#4 q B3 q |
+    | A3 q G#3 q F#3 q |
+    | E3 h. |
+
+    // "Nothing gold can stay"
+    | G#4 h G#4 q pp |
+    | G#4 q F#4 q E4 q |
+    | G#4 h. ppp |
+    | r h. |
+}

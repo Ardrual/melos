@@ -1,0 +1,299 @@
+Title: "String Quartet in D Minor - Shadows and Light"
+Tempo: 58
+Time: 4/4
+Key: D "Minor"
+
+// === SECTION I: Lento misterioso ===
+// Dark, brooding opening with sustained tones and quiet tension
+
+Part: "Violin I" Instrument: Violin {
+    // Opening - hushed, mysterious
+    | r w pp |
+    | r h A5 h pp |
+    | A5 w |
+    | A5 h G5 q F5 q |
+    | E5 h. D5 q |
+    | D5 w |
+    | r q A4 q Bb4 q A4 q p |
+    | G4 h F4 h |
+    | E4 w |
+    | F4 h E4 h |
+    | D4 w |
+    | r w |
+
+    // === SECTION II: Allegro agitato ===
+    Tempo: 138
+    | D5 e E5 e F5 e G5 e A5 e G5 e F5 e E5 e mf |
+    | D5 q A5 q D6 q A5 q |
+    | Bb5 e A5 e G5 e F5 e E5 e F5 e G5 e A5 e |
+    | D5 h r h |
+    | A5 e Bb5 e A5 e G5 e F5 e E5 e D5 e C#5 e f |
+    | D5 q E5 q F5 q G5 q |
+    | A5 e G5 e A5 e Bb5 e A5 q G5 q |
+    | F5 h E5 h |
+    | D5 q r q A5 q r q ff |
+    | Bb5 e A5 e G5 e F5 e E5 e D5 e C#5 e D5 e |
+    | E5 q F5 q G5 q A5 q |
+    | Bb5 h A5 h |
+    | G5 q F5 q E5 h |
+    | D5 w |
+    | r w |
+    | r w |
+
+    // === SECTION III: Andante espressivo ===
+    Tempo: 76
+    | r h D5 q E5 q p |
+    | F5 h. E5 q |
+    | D5 q C#5 q D5 h |
+    | E5 w |
+    | F5 h G5 h mp |
+    | A5 h. G5 q |
+    | F5 q E5 q D5 h |
+    | C#5 w |
+    | D5 h E5 h mf |
+    | F5 h. G5 q |
+    | A5 q Bb5 q A5 h |
+    | G5 h F5 h |
+    | E5 w |
+    | D5 w p |
+    | r w |
+    | r w |
+
+    // === SECTION IV: Allegro con fuoco - Finale ===
+    Tempo: 144
+    | D5 q D5 e D5 e D5 q D5 e D5 e ff |
+    | A5 h G5 h |
+    | F5 e E5 e D5 e C#5 e D5 e E5 e F5 e G5 e |
+    | A5 q Bb5 q A5 q G5 q |
+    | F5 e G5 e A5 e Bb5 e A5 e G5 e F5 e E5 e |
+    | D5 h C#5 h |
+    | D5 q E5 q F5 q G5 q |
+    | A5 w |
+    | Bb5 e A5 e Bb5 e A5 e G5 e F5 e E5 e D5 e fff |
+    | C#5 q D5 q E5 q F5 q |
+    | G5 h A5 h |
+    | Bb5 q A5 q G5 q F5 q |
+    | E5 h D5 h |
+    | D5 w > |
+    | D5 w > |
+    | D5 w > |
+}
+
+Part: "Violin II" Instrument: Violin {
+    // Section I - enters with sustained harmony
+    | r w |
+    | r w pp |
+    | F5 w |
+    | F5 h E5 q D5 q |
+    | C#5 h. D5 q |
+    | A4 w |
+    | r q F4 q G4 q F4 q p |
+    | E4 h D4 h |
+    | C#4 w |
+    | D4 h C#4 h |
+    | A3 w |
+    | r w |
+
+    // Section II
+    Tempo: 138
+    | r w mf |
+    | A4 e Bb4 e A4 e G4 e F4 e E4 e D4 e E4 e |
+    | F4 q G4 q A4 q Bb4 q |
+    | A4 h r h |
+    | F4 e G4 e F4 e E4 e D4 e C#4 e D4 e E4 e f |
+    | F4 q G4 q A4 q Bb4 q |
+    | F4 e E4 e F4 e G4 e F4 q E4 q |
+    | D4 h C#4 h |
+    | D4 q r q F5 q r q ff |
+    | G5 e F5 e E5 e D5 e C#5 e D5 e E5 e F5 e |
+    | G4 q A4 q Bb4 q A4 q |
+    | G4 h F4 h |
+    | E4 q D4 q C#4 h |
+    | A3 w |
+    | r w |
+    | r w |
+
+    // Section III
+    Tempo: 76
+    | r h A4 q Bb4 q p |
+    | A4 h. G4 q |
+    | F4 q E4 q F4 h |
+    | G4 w |
+    | A4 h Bb4 h mp |
+    | C5 h. Bb4 q |
+    | A4 q G4 q F4 h |
+    | E4 w |
+    | F4 h G4 h mf |
+    | A4 h. Bb4 q |
+    | C5 q D5 q C5 h |
+    | Bb4 h A4 h |
+    | G4 w |
+    | F4 w p |
+    | r w |
+    | r w |
+
+    // Section IV - Finale
+    Tempo: 144
+    | A4 q A4 e A4 e A4 q A4 e A4 e ff |
+    | F5 h E5 h |
+    | D5 e C#5 e D5 e E5 e F5 e G5 e A5 e Bb5 e |
+    | F5 q G5 q F5 q E5 q |
+    | D5 e E5 e F5 e G5 e F5 e E5 e D5 e C#5 e |
+    | A4 h A4 h |
+    | A4 q Bb4 q A4 q Bb4 q |
+    | F5 w |
+    | G5 e F5 e G5 e F5 e E5 e D5 e C#5 e D5 e fff |
+    | E4 q F4 q G4 q A4 q |
+    | Bb4 h F5 h |
+    | G5 q F5 q E5 q D5 q |
+    | C#5 h A4 h |
+    | A4 w > |
+    | A4 w > |
+    | A4 w > |
+}
+
+Part: "Viola" Instrument: Viola {
+    // Section I - dark foundation
+    | D4 w pp |
+    | D4 w |
+    | D4 w |
+    | D4 h C#4 q D4 q |
+    | A3 h. A3 q |
+    | F3 w |
+    | r q D4 q E4 q D4 q p |
+    | C#4 h D4 h |
+    | A3 w |
+    | A3 h A3 h |
+    | F3 w |
+    | r w |
+
+    // Section II
+    Tempo: 138
+    | r h A3 q Bb3 q mf |
+    | A3 e Bb3 e A3 e G3 e F3 e G3 e A3 e Bb3 e |
+    | D4 q E4 q F4 q G4 q |
+    | F4 h r h |
+    | D4 e E4 e D4 e C#4 e D4 e E4 e F4 e G4 e f |
+    | A3 q Bb3 q C4 q D4 q |
+    | D4 e C#4 e D4 e E4 e D4 q C#4 q |
+    | A3 h A3 h |
+    | A3 q r q D4 q r q ff |
+    | E4 e D4 e C#4 e D4 e E4 e F4 e G4 e A4 e |
+    | Bb3 q C4 q D4 q E4 q |
+    | D4 h D4 h |
+    | C#4 q D4 q A3 h |
+    | F3 w |
+    | r w |
+    | r w |
+
+    // Section III
+    Tempo: 76
+    | r h F4 q G4 q p |
+    | F4 h. E4 q |
+    | D4 q E4 q D4 h |
+    | C#4 w |
+    | D4 h E4 h mp |
+    | F4 h. E4 q |
+    | D4 q C#4 q D4 h |
+    | A3 w |
+    | A3 h Bb3 h mf |
+    | D4 h. E4 q |
+    | F4 q G4 q F4 h |
+    | E4 h D4 h |
+    | C#4 w |
+    | D4 w p |
+    | r w |
+    | r w |
+
+    // Section IV - Finale
+    Tempo: 144
+    | F4 q F4 e F4 e F4 q F4 e F4 e ff |
+    | D4 h C#4 h |
+    | A3 e Bb3 e A3 e G3 e A3 e Bb3 e C4 e D4 e |
+    | D4 q E4 q D4 q C#4 q |
+    | A3 e Bb3 e C4 e D4 e C4 e Bb3 e A3 e G3 e |
+    | F3 h E3 h |
+    | F3 q G3 q A3 q Bb3 q |
+    | D4 w |
+    | E4 e D4 e E4 e D4 e C#4 e D4 e E4 e F4 e fff |
+    | A3 q A3 q Bb3 q C4 q |
+    | D4 h D4 h |
+    | E4 q D4 q C#4 q D4 q |
+    | A3 h F3 h |
+    | F3 w > |
+    | F3 w > |
+    | F3 w > |
+}
+
+Part: "Cello" Instrument: Cello {
+    // Section I - deep bass foundation
+    | D2 w pp |
+    | D2 w |
+    | D3 w |
+    | D3 h A2 q D3 q |
+    | A2 h. D2 q |
+    | D2 w |
+    | r q D3 q C3 q D3 q p |
+    | A2 h D2 h |
+    | A2 w |
+    | D2 h A2 h |
+    | D2 w |
+    | r w |
+
+    // Section II
+    Tempo: 138
+    | D3 q E3 q F3 q G3 q mf |
+    | D3 e E3 e F3 e E3 e D3 e C3 e D3 e E3 e |
+    | D3 q C3 q Bb2 q A2 q |
+    | D3 h r h |
+    | D3 e E3 e F3 e G3 e A3 e G3 e F3 e E3 e f |
+    | D3 q C3 q Bb2 q A2 q |
+    | D3 e E3 e D3 e C3 e D3 q A2 q |
+    | D3 h A2 h |
+    | D3 q r q D3 q r q ff |
+    | A2 e Bb2 e A2 e G2 e F2 e G2 e A2 e Bb2 e |
+    | G2 q F2 q E2 q D2 q |
+    | G2 h D3 h |
+    | A2 q D3 q A2 h |
+    | D2 w |
+    | r w |
+    | r w |
+
+    // Section III
+    Tempo: 76
+    | r h D3 q C3 q p |
+    | D3 h. E3 q |
+    | F3 q G3 q F3 h |
+    | A2 w |
+    | D3 h C3 h mp |
+    | F3 h. E3 q |
+    | D3 q A2 q D3 h |
+    | A2 w |
+    | D3 h G2 h mf |
+    | D3 h. C3 q |
+    | F3 q E3 q D3 h |
+    | C3 h D3 h |
+    | A2 w |
+    | D2 w p |
+    | r w |
+    | r w |
+
+    // Section IV - Finale
+    Tempo: 144
+    | D3 q D3 e D3 e D3 q D3 e D3 e ff |
+    | D3 h A2 h |
+    | D3 e E3 e F3 e G3 e F3 e E3 e D3 e C3 e |
+    | Bb2 q A2 q Bb2 q C3 q |
+    | D3 e C3 e Bb2 e A2 e Bb2 e C3 e D3 e E3 e |
+    | F3 h A2 h |
+    | D3 q E3 q F3 q G3 q |
+    | D3 w |
+    | G3 e F3 e G3 e F3 e E3 e D3 e C#3 e D3 e fff |
+    | A2 q D3 q E3 q F3 q |
+    | G3 h D3 h |
+    | C3 q D3 q A2 q D3 q |
+    | A2 h D2 h |
+    | D2 w > |
+    | D2 w > |
+    | D2 w > |
+}

@@ -1,0 +1,1867 @@
+// ============================================================================
+//                              SINGULARITY
+//                    A Tone Poem for Chamber Orchestra
+// ============================================================================
+//
+// The technological singularity - the moment when artificial intelligence
+// exceeds human intelligence, and everything changes forever.
+//
+// What lies beyond that horizon? Transcendence? Extinction? Something
+// we cannot imagine because we lack the cognitive architecture to conceive it?
+//
+// This tone poem does not answer. It depicts the approach, the crossing,
+// and the unknowable after. The music itself transforms - from organic
+// human lyricism to mechanical precision to something that is neither
+// and both.
+//
+// Duration: approximately 12 minutes
+//
+// ============================================================================
+
+Title: "SINGULARITY - A Tone Poem"
+Tempo: 46
+Time: 4/4
+Key: G "Major"
+
+// ============================================================================
+// SECTION I: "THE QUIET BEFORE" (mm. 1-24)
+// ============================================================================
+// Humanity at its most beautiful and fragile. High strings, sustained,
+// emerging from silence. Pure, innocent, unaware of what approaches.
+
+Part: "Violin I" Instrument: Violin {
+
+    // The world before. Innocence.
+    | r w |
+    | r h G5 h ppp |
+    | B5 w |
+    | A5 h G5 h |
+    | F#5 w pp |
+    | G5 h A5 h |
+    | B5 h. A5 q |
+    | G5 w |
+
+    | r h D6 h ppp |
+    | E6 w |
+    | D6 h B5 h |
+    | C6 w pp |
+    | B5 h A5 h |
+    | G5 w |
+    | F#5 h G5 h |
+    | A5 w p |
+
+    | B5 h C6 h |
+    | D6 w |
+    | E6 h D6 h |
+    | C6 h B5 h |
+    | A5 w |
+    | G5 h F#5 h |
+    | G5 w pp |
+    | r w |
+
+    // =========================================================================
+    // SECTION II: "FIRST STIRRINGS" (mm. 25-48)
+    // =========================================================================
+    // The machine awakens. Patterns emerge - precise, interlocking.
+    // The human melody continues but something new enters the world.
+
+    Tempo: 66
+    Key: C "Major"
+
+    | G5 q A5 q B5 q C6 q p |
+    | D6 h C6 h |
+    | B5 q A5 q G5 h |
+    | E5 w |
+    | F5 q G5 q A5 q B5 q |
+    | C6 h B5 h |
+    | A5 q G5 q F5 h |
+    | E5 w mp |
+
+    Key: A "Minor"
+    | A5 q B5 q C6 q D6 q |
+    | E6 h D6 q C6 q |
+    | B5 q A5 q G#5 q A5 q |
+    | B5 w |
+    | C6 q D6 q E6 q F6 q mf |
+    | E6 h D6 h |
+    | C6 q B5 q A5 h |
+    | G#5 h A5 h |
+
+    | B5 e C6 e D6 e E6 e F6 q E6 q |
+    | D6 e C6 e B5 e A5 e G#5 h |
+    | A5 q B5 e C6 e D6 q E6 q |
+    | F6 h E6 h |
+    | D6 e E6 e F6 e E6 e D6 e C6 e B5 e A5 e |
+    | G#5 q A5 q B5 q C6 q |
+    | D6 h E6 h f |
+    | A5 w |
+
+    // =========================================================================
+    // SECTION III: "THE DIALOGUE" (mm. 49-72)
+    // =========================================================================
+    // Human and machine in conversation. Themes interweave. Each influences
+    // the other. The human becomes more precise; the machine more expressive.
+
+    Tempo: 88
+    Time: 5/4
+    Key: E "Minor"
+
+    | E5 q G5 q B5 q E6 q D6 q mf |
+    | C6 q B5 q A5 q G5 q F#5 q |
+    | G5 h E5 h r q |
+    | D5 q E5 q F#5 q G5 q A5 q |
+    | B5 h A5 q G5 q F#5 q |
+    | E5 w r q |
+
+    Time: 7/8
+    | E5 e F#5 e G5 e A5 q B5 q f |
+    | C6 e B5 e A5 e G5 q F#5 q |
+    | E5 e D5 e E5 e F#5 q G5 q |
+    | A5 e B5 e C6 e D6 q E6 q |
+    | D6 e C6 e B5 e A5 q G5 q |
+    | F#5 e E5 e D5 e E5 h |
+
+    // Chromatic intensification
+    | E5 e F5 e F#5 e G5 q G#5 q ff |
+    | A5 e Bb5 e B5 e C6 q C#6 q |
+    | D6 e Eb6 e E6 e F6 q F#6 q |
+    | G6 e F#6 e F6 e E6 q Eb6 q |
+    | D6 e C#6 e C6 e B5 q Bb5 q |
+    | A5 e G#5 e G5 e F#5 h |
+
+    Time: 4/4
+    | E5 q F#5 q G5 q A5 q |
+    | B5 q C6 q D6 q E6 q |
+    | F#6 h E6 h |
+    | D6 w |
+
+    // =========================================================================
+    // SECTION IV: "ACCELERATION" (mm. 73-96)
+    // =========================================================================
+    // Exponential growth. The machine's capabilities compound. Human themes
+    // struggle to keep pace. Polyphonic density approaches maximum.
+
+    Tempo: 120
+    Key: D "Minor"
+
+    | D6 e E6 e F6 e G6 e A6 e G6 e F6 e E6 e ff |
+    | D6 e C6 e Bb5 e A5 e G5 e A5 e Bb5 e C6 e |
+    | D6 q E6 e F6 e G6 q F6 q |
+    | E6 e D6 e C#6 e D6 e E6 h |
+
+    | F6 e G6 e A6 e Bb6 e A6 e G6 e F6 e E6 e fff |
+    | D6 e E6 e F6 e G6 e A6 e Bb6 e A6 e G6 e |
+    | Tuplet(3:2) { F6 q E6 q D6 q } Tuplet(3:2) { C#6 q D6 q E6 q } |
+    | F6 q G6 q A6 h |
+
+    Tempo: 140
+    | D6 s E6 s F6 s G6 s A6 s Bb6 s A6 s G6 s F6 s E6 s D6 s C#6 s D6 q |
+    | E6 s F6 s G6 s A6 s Bb6 s C7 s Bb6 s A6 s G6 s F6 s E6 s D6 s E6 q |
+    | Tuplet(3:2) { F6 e G6 e A6 e } Tuplet(3:2) { Bb6 e A6 e G6 e } Tuplet(3:2) { F6 e E6 e D6 e } C#6 q |
+    | D6 e r e F6 e r e A6 e r e D7 q > |
+
+    Tempo: 160
+    | D7 e C7 e Bb6 e A6 e G6 e F6 e E6 e D6 e fff |
+    | C#6 e D6 e E6 e F6 e G6 e A6 e Bb6 e C7 e |
+    | D7 q > C7 q > Bb6 q > A6 q > |
+    | G6 e A6 e Bb6 e C7 e D7 h > |
+
+    | Tuplet(3:2) { D7 q C7 q Bb6 q } Tuplet(3:2) { A6 q G6 q F6 q } |
+    | E6 e F6 e G6 e A6 e Bb6 e C7 e D7 e E7 e |
+    | F7 q > E7 q > D7 q > C7 q > |
+    | Bb6 e A6 e G6 e F6 e E6 e D6 e C#6 e D6 e |
+
+    | D6 w fff > |
+    | D6 w > |
+    | D7 w > |
+    | [D5 A5 D6 F6 A6] w fff > |
+
+    // =========================================================================
+    // SECTION V: "THE EVENT" (mm. 97-108)
+    // =========================================================================
+    // The singularity itself. Everything stops. Everything changes.
+    // Alien harmonics. Unfamiliar intervals. Is this transcendence or void?
+
+    Tempo: 60
+    Key: C "Major"
+
+    | r w ppp |
+    | r h E6 h ppp |
+    | r w |
+    | Bb5 w |
+    | r h F#5 h |
+    | C6 w pp |
+    | r w |
+    | G5 h Db6 h |
+    | r w |
+    | A5 w ppp |
+    | Eb6 h r h |
+    | B5 w |
+
+    // =========================================================================
+    // SECTION VI: "AFTER" (mm. 109-120)
+    // =========================================================================
+    // What remains? The opening material returns, transformed.
+    // Same notes, utterly different meaning. Neither human nor machine.
+    // Something new. The question unanswered.
+
+    Tempo: 44
+    Key: G "Major"
+
+    | r w |
+    | G5 w ppp |
+    | B5 h A5 h |
+    | G5 w |
+    | D6 h. r q |
+    | E6 w pppp |
+    | D6 h B5 h |
+    | G5 w |
+    | r h D5 h ppp |
+    | G5 w |
+    | r w |
+    | G5 w pppp |
+}
+
+Part: "Violin II" Instrument: Violin {
+
+    // SECTION I: Harmonic support, lower register
+    | r w |
+    | r w |
+    | r h D5 h ppp |
+    | E5 w |
+    | D5 h C5 h |
+    | B4 w pp |
+    | D5 h E5 h |
+    | D5 w |
+
+    | r h B5 h ppp |
+    | C6 w |
+    | B5 h G5 h |
+    | A5 w pp |
+    | G5 h F#5 h |
+    | E5 w |
+    | D5 h E5 h |
+    | F#5 w p |
+
+    | G5 h A5 h |
+    | B5 w |
+    | C6 h B5 h |
+    | A5 h G5 h |
+    | F#5 w |
+    | E5 h D5 h |
+    | D5 w pp |
+    | r w |
+
+    // SECTION II
+    Tempo: 66
+    Key: C "Major"
+
+    | E5 q F5 q G5 q A5 q p |
+    | B5 h A5 h |
+    | G5 q F5 q E5 h |
+    | C5 w |
+    | D5 q E5 q F5 q G5 q |
+    | A5 h G5 h |
+    | F5 q E5 q D5 h |
+    | C5 w mp |
+
+    Key: A "Minor"
+    | E5 q F5 q G5 q A5 q |
+    | B5 h A5 q G5 q |
+    | F5 q E5 q D5 q E5 q |
+    | F5 w |
+    | G5 q A5 q B5 q C6 q mf |
+    | B5 h A5 h |
+    | G5 q F5 q E5 h |
+    | D5 h E5 h |
+
+    | F5 e G5 e A5 e B5 e C6 q B5 q |
+    | A5 e G5 e F5 e E5 e D5 h |
+    | E5 q F5 e G5 e A5 q B5 q |
+    | C6 h B5 h |
+    | A5 e B5 e C6 e B5 e A5 e G5 e F5 e E5 e |
+    | D5 q E5 q F5 q G5 q |
+    | A5 h B5 h f |
+    | E5 w |
+
+    // SECTION III
+    Tempo: 88
+    Time: 5/4
+    Key: E "Minor"
+
+    | B4 q D5 q G5 q B5 q A5 q mf |
+    | G5 q F#5 q E5 q D5 q C5 q |
+    | B4 h G4 h r q |
+    | A4 q B4 q C5 q D5 q E5 q |
+    | F#5 h E5 q D5 q C5 q |
+    | B4 w r q |
+
+    Time: 7/8
+    | B4 e C5 e D5 e E5 q F#5 q f |
+    | G5 e F#5 e E5 e D5 q C5 q |
+    | B4 e A4 e B4 e C5 q D5 q |
+    | E5 e F#5 e G5 e A5 q B5 q |
+    | A5 e G5 e F#5 e E5 q D5 q |
+    | C5 e B4 e A4 e B4 h |
+
+    | B4 e C5 e C#5 e D5 q D#5 q ff |
+    | E5 e F5 e F#5 e G5 q G#5 q |
+    | A5 e Bb5 e B5 e C6 q C#6 q |
+    | D6 e C#6 e C6 e B5 q Bb5 q |
+    | A5 e G#5 e G5 e F#5 q F5 q |
+    | E5 e D#5 e D5 e C#5 h |
+
+    Time: 4/4
+    | B4 q C5 q D5 q E5 q |
+    | F#5 q G5 q A5 q B5 q |
+    | C6 h B5 h |
+    | A5 w |
+
+    // SECTION IV
+    Tempo: 120
+    Key: D "Minor"
+
+    | A5 e Bb5 e C6 e D6 e E6 e D6 e C6 e Bb5 e ff |
+    | A5 e G5 e F5 e E5 e D5 e E5 e F5 e G5 e |
+    | A5 q Bb5 e C6 e D6 q C6 q |
+    | Bb5 e A5 e G#5 e A5 e Bb5 h |
+
+    | C6 e D6 e E6 e F6 e E6 e D6 e C6 e Bb5 e fff |
+    | A5 e Bb5 e C6 e D6 e E6 e F6 e E6 e D6 e |
+    | Tuplet(3:2) { C6 q Bb5 q A5 q } Tuplet(3:2) { G#5 q A5 q Bb5 q } |
+    | C6 q D6 q E6 h |
+
+    Tempo: 140
+    | A5 s Bb5 s C6 s D6 s E6 s F6 s E6 s D6 s C6 s Bb5 s A5 s G#5 s A5 q |
+    | Bb5 s C6 s D6 s E6 s F6 s G6 s F6 s E6 s D6 s C6 s Bb5 s A5 s Bb5 q |
+    | Tuplet(3:2) { C6 e D6 e E6 e } Tuplet(3:2) { F6 e E6 e D6 e } Tuplet(3:2) { C6 e Bb5 e A5 e } G#5 q |
+    | A5 e r e C6 e r e E6 e r e A6 q > |
+
+    Tempo: 160
+    | A6 e G6 e F6 e E6 e D6 e C6 e Bb5 e A5 e fff |
+    | G#5 e A5 e Bb5 e C6 e D6 e E6 e F6 e G6 e |
+    | A6 q > G6 q > F6 q > E6 q > |
+    | D6 e E6 e F6 e G6 e A6 h > |
+
+    | Tuplet(3:2) { A6 q G6 q F6 q } Tuplet(3:2) { E6 q D6 q C6 q } |
+    | Bb5 e C6 e D6 e E6 e F6 e G6 e A6 e Bb6 e |
+    | C7 q > Bb6 q > A6 q > G6 q > |
+    | F6 e E6 e D6 e C6 e Bb5 e A5 e G#5 e A5 e |
+
+    | A5 w fff > |
+    | A5 w > |
+    | A6 w > |
+    | [A4 E5 A5 C#6 E6] w fff > |
+
+    // SECTION V
+    Tempo: 60
+    Key: C "Major"
+
+    | r w ppp |
+    | r w |
+    | r h C6 h ppp |
+    | F#5 w |
+    | r h Db5 h |
+    | Ab5 w pp |
+    | r w |
+    | Eb5 h A5 h |
+    | r w |
+    | F5 w ppp |
+    | B5 h r h |
+    | F#5 w |
+
+    // SECTION VI
+    Tempo: 44
+    Key: G "Major"
+
+    | r w |
+    | D5 w ppp |
+    | G5 h F#5 h |
+    | D5 w |
+    | B5 h. r q |
+    | C6 w pppp |
+    | B5 h G5 h |
+    | D5 w |
+    | r h B4 h ppp |
+    | D5 w |
+    | r w |
+    | D5 w pppp |
+}
+
+Part: "Viola" Instrument: Viola {
+
+    // SECTION I
+    | r w |
+    | r w |
+    | r w |
+    | r h D5 h ppp |
+    | D5 w |
+    | D5 h E5 h pp |
+    | G5 h F#5 h |
+    | D5 w |
+
+    | r w |
+    | r h G5 h ppp |
+    | G5 h D5 h |
+    | E5 w pp |
+    | D5 h C5 h |
+    | B4 w |
+    | A4 h B4 h |
+    | D5 w p |
+
+    | D5 h E5 h |
+    | G5 w |
+    | G5 h G5 h |
+    | E5 h D5 h |
+    | D5 w |
+    | B4 h A4 h |
+    | B4 w pp |
+    | r w |
+
+    // SECTION II
+    Tempo: 66
+    Key: C "Major"
+
+    | C5 q D5 q E5 q F5 q p |
+    | G5 h F5 h |
+    | E5 q D5 q C5 h |
+    | G4 w |
+    | A4 q B4 q C5 q D5 q |
+    | E5 h D5 h |
+    | C5 q B4 q A4 h |
+    | G4 w mp |
+
+    Key: A "Minor"
+    | C5 q D5 q E5 q F5 q |
+    | G5 h F5 q E5 q |
+    | D5 q C5 q B4 q C5 q |
+    | D5 w |
+    | E5 q F5 q G5 q A5 q mf |
+    | G5 h F5 h |
+    | E5 q D5 q C5 h |
+    | B4 h C5 h |
+
+    | D5 e E5 e F5 e G5 e A5 q G5 q |
+    | F5 e E5 e D5 e C5 e B4 h |
+    | C5 q D5 e E5 e F5 q G5 q |
+    | A5 h G5 h |
+    | F5 e G5 e A5 e G5 e F5 e E5 e D5 e C5 e |
+    | B4 q C5 q D5 q E5 q |
+    | F5 h G5 h f |
+    | C5 w |
+
+    // SECTION III
+    Tempo: 88
+    Time: 5/4
+    Key: E "Minor"
+
+    | G4 q B4 q E5 q G5 q F#5 q mf |
+    | E5 q D5 q C5 q B4 q A4 q |
+    | G4 h E4 h r q |
+    | F#4 q G4 q A4 q B4 q C5 q |
+    | D5 h C5 q B4 q A4 q |
+    | G4 w r q |
+
+    Time: 7/8
+    | G4 e A4 e B4 e C5 q D5 q f |
+    | E5 e D5 e C5 e B4 q A4 q |
+    | G4 e F#4 e G4 e A4 q B4 q |
+    | C5 e D5 e E5 e F#5 q G5 q |
+    | F#5 e E5 e D5 e C5 q B4 q |
+    | A4 e G4 e F#4 e G4 h |
+
+    | G4 e Ab4 e A4 e Bb4 q B4 q ff |
+    | C5 e Db5 e D5 e Eb5 q E5 q |
+    | F5 e Gb5 e G5 e Ab5 q A5 q |
+    | Bb5 e A5 e Ab5 e G5 q Gb5 q |
+    | F5 e E5 e Eb5 e D5 q Db5 q |
+    | C5 e B4 e Bb4 e A4 h |
+
+    Time: 4/4
+    | G4 q A4 q B4 q C5 q |
+    | D5 q E5 q F#5 q G5 q |
+    | A5 h G5 h |
+    | F#5 w |
+
+    // SECTION IV
+    Tempo: 120
+    Key: D "Minor"
+
+    | F5 e G5 e A5 e Bb5 e C6 e Bb5 e A5 e G5 e ff |
+    | F5 e E5 e D5 e C5 e Bb4 e C5 e D5 e E5 e |
+    | F5 q G5 e A5 e Bb5 q A5 q |
+    | G5 e F5 e E5 e F5 e G5 h |
+
+    | A5 e Bb5 e C6 e D6 e C6 e Bb5 e A5 e G5 e fff |
+    | F5 e G5 e A5 e Bb5 e C6 e D6 e C6 e Bb5 e |
+    | Tuplet(3:2) { A5 q G5 q F5 q } Tuplet(3:2) { E5 q F5 q G5 q } |
+    | A5 q Bb5 q C6 h |
+
+    Tempo: 140
+    | F5 s G5 s A5 s Bb5 s C6 s D6 s C6 s Bb5 s A5 s G5 s F5 s E5 s F5 q |
+    | G5 s A5 s Bb5 s C6 s D6 s E6 s D6 s C6 s Bb5 s A5 s G5 s F5 s G5 q |
+    | Tuplet(3:2) { A5 e Bb5 e C6 e } Tuplet(3:2) { D6 e C6 e Bb5 e } Tuplet(3:2) { A5 e G5 e F5 e } E5 q |
+    | F5 e r e A5 e r e C6 e r e F6 q > |
+
+    Tempo: 160
+    | F6 e E6 e D6 e C6 e Bb5 e A5 e G5 e F5 e fff |
+    | E5 e F5 e G5 e A5 e Bb5 e C6 e D6 e E6 e |
+    | F6 q > E6 q > D6 q > C6 q > |
+    | Bb5 e C6 e D6 e E6 e F6 h > |
+
+    | Tuplet(3:2) { F6 q E6 q D6 q } Tuplet(3:2) { C6 q Bb5 q A5 q } |
+    | G5 e A5 e Bb5 e C6 e D6 e E6 e F6 e G6 e |
+    | A6 q > G6 q > F6 q > E6 q > |
+    | D6 e C6 e Bb5 e A5 e G5 e F5 e E5 e F5 e |
+
+    | F5 w fff > |
+    | F5 w > |
+    | F6 w > |
+    | [F4 C5 F5 A5 C6] w fff > |
+
+    // SECTION V
+    Tempo: 60
+    Key: C "Major"
+
+    | r w ppp |
+    | r w |
+    | r w |
+    | r h D5 h ppp |
+    | Ab4 w |
+    | r h E5 h pp |
+    | Bb4 w |
+    | r w |
+    | F#4 w ppp |
+    | r h C5 h |
+    | r w |
+    | Eb5 w |
+
+    // SECTION VI
+    Tempo: 44
+    Key: G "Major"
+
+    | r w |
+    | B4 w ppp |
+    | D5 h D5 h |
+    | B4 w |
+    | G5 h. r q |
+    | G5 w pppp |
+    | G5 h D5 h |
+    | B4 w |
+    | r h G4 h ppp |
+    | B4 w |
+    | r w |
+    | B4 w pppp |
+}
+
+Part: "Cello" Instrument: Cello {
+
+    // SECTION I
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r h G3 h ppp |
+    | G3 w pp |
+    | D4 h C4 h |
+    | B3 w |
+
+    | G3 w ppp |
+    | r h E4 h |
+    | D4 w |
+    | C4 w pp |
+    | D4 h D4 h |
+    | G3 w |
+    | D3 w |
+    | D4 w p |
+
+    | G3 h C4 h |
+    | D4 w |
+    | G4 h G4 h |
+    | E4 h D4 h |
+    | D4 w |
+    | G3 h D3 h |
+    | G3 w pp |
+    | r w |
+
+    // SECTION II
+    Tempo: 66
+    Key: C "Major"
+
+    | C3 w p |
+    | G3 h F3 h |
+    | E3 h C3 h |
+    | G2 w |
+    | F2 w |
+    | E3 h D3 h |
+    | C3 h G2 h |
+    | C3 w mp |
+
+    Key: A "Minor"
+    | A2 w |
+    | E3 h D3 h |
+    | C3 h B2 h |
+    | A2 w |
+    | G2 w mf |
+    | F3 h E3 h |
+    | D3 h C3 h |
+    | E3 h A2 h |
+
+    | D3 w |
+    | E3 h D3 h |
+    | C3 q D3 q E3 h |
+    | F3 h E3 h |
+    | D3 w |
+    | E3 q F3 q G3 q A3 q |
+    | D3 h E3 h f |
+    | A2 w |
+
+    // SECTION III
+    Tempo: 88
+    Time: 5/4
+    Key: E "Minor"
+
+    | E3 q G3 q B3 q E4 q D4 q mf |
+    | C4 q B3 q A3 q G3 q F#3 q |
+    | E3 h B2 h r q |
+    | D3 q E3 q F#3 q G3 q A3 q |
+    | B3 h A3 q G3 q F#3 q |
+    | E3 w r q |
+
+    Time: 7/8
+    | E3 e F#3 e G3 e A3 q B3 q f |
+    | C4 e B3 e A3 e G3 q F#3 q |
+    | E3 e D3 e E3 e F#3 q G3 q |
+    | A3 e B3 e C4 e D4 q E4 q |
+    | D4 e C4 e B3 e A3 q G3 q |
+    | F#3 e E3 e D3 e E3 h |
+
+    | E3 e F3 e F#3 e G3 q G#3 q ff |
+    | A3 e Bb3 e B3 e C4 q C#4 q |
+    | D4 e Eb4 e E4 e F4 q F#4 q |
+    | G4 e F#4 e F4 e E4 q Eb4 q |
+    | D4 e C#4 e C4 e B3 q Bb3 q |
+    | A3 e G#3 e G3 e F#3 h |
+
+    Time: 4/4
+    | E3 q F#3 q G3 q A3 q |
+    | B3 q C4 q D4 q E4 q |
+    | F#4 h E4 h |
+    | D4 w |
+
+    // SECTION IV
+    Tempo: 120
+    Key: D "Minor"
+
+    | D3 e E3 e F3 e G3 e A3 e G3 e F3 e E3 e ff |
+    | D3 e C3 e Bb2 e A2 e G2 e A2 e Bb2 e C3 e |
+    | D3 q E3 e F3 e G3 q F3 q |
+    | E3 e D3 e C#3 e D3 e E3 h |
+
+    | F3 e G3 e A3 e Bb3 e A3 e G3 e F3 e E3 e fff |
+    | D3 e E3 e F3 e G3 e A3 e Bb3 e A3 e G3 e |
+    | Tuplet(3:2) { F3 q E3 q D3 q } Tuplet(3:2) { C#3 q D3 q E3 q } |
+    | F3 q G3 q A3 h |
+
+    Tempo: 140
+    | D3 s E3 s F3 s G3 s A3 s Bb3 s A3 s G3 s F3 s E3 s D3 s C#3 s D3 q |
+    | E3 s F3 s G3 s A3 s Bb3 s C4 s Bb3 s A3 s G3 s F3 s E3 s D3 s E3 q |
+    | Tuplet(3:2) { F3 e G3 e A3 e } Tuplet(3:2) { Bb3 e A3 e G3 e } Tuplet(3:2) { F3 e E3 e D3 e } C#3 q |
+    | D3 e r e F3 e r e A3 e r e D4 q > |
+
+    Tempo: 160
+    | D4 e C4 e Bb3 e A3 e G3 e F3 e E3 e D3 e fff |
+    | C#3 e D3 e E3 e F3 e G3 e A3 e Bb3 e C4 e |
+    | D4 q > C4 q > Bb3 q > A3 q > |
+    | G3 e A3 e Bb3 e C4 e D4 h > |
+
+    | Tuplet(3:2) { D4 q C4 q Bb3 q } Tuplet(3:2) { A3 q G3 q F3 q } |
+    | E3 e F3 e G3 e A3 e Bb3 e C4 e D4 e E4 e |
+    | F4 q > E4 q > D4 q > C4 q > |
+    | Bb3 e A3 e G3 e F3 e E3 e D3 e C#3 e D3 e |
+
+    | D3 w fff > |
+    | D3 w > |
+    | D4 w > |
+    | [D2 A2 D3 F3 A3] w fff > |
+
+    // SECTION V
+    Tempo: 60
+    Key: C "Major"
+
+    | r w ppp |
+    | r w |
+    | r w |
+    | r w |
+    | r h Eb3 h ppp |
+    | A2 w pp |
+    | r w |
+    | r h F#3 h |
+    | C3 w ppp |
+    | r w |
+    | Gb3 h r h |
+    | Db3 w |
+
+    // SECTION VI
+    Tempo: 44
+    Key: G "Major"
+
+    | r w |
+    | G3 w ppp |
+    | G3 h D3 h |
+    | G3 w |
+    | D4 h. r q |
+    | C4 w pppp |
+    | D4 h G3 h |
+    | G3 w |
+    | r h D3 h ppp |
+    | G3 w |
+    | r w |
+    | G3 w pppp |
+}
+
+Part: "Contrabass" Instrument: Contrabass {
+
+    // SECTION I - Emerges late, provides foundation
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r h G2 h ppp |
+    | G2 w |
+
+    | r w |
+    | r w |
+    | G2 w pp |
+    | C3 w |
+    | G2 w |
+    | G2 w |
+    | D2 w |
+    | D3 w p |
+
+    | G2 w |
+    | G2 w |
+    | G2 w |
+    | C3 w |
+    | D3 w |
+    | G2 w |
+    | G2 w pp |
+    | r w |
+
+    // SECTION II
+    Tempo: 66
+    Key: C "Major"
+
+    | C2 w p |
+    | G2 w |
+    | C2 w |
+    | G2 w |
+    | F2 w |
+    | E2 w |
+    | G2 w |
+    | C2 w mp |
+
+    Key: A "Minor"
+    | A2 w |
+    | E2 w |
+    | A2 w |
+    | D2 w |
+    | G2 w mf |
+    | F2 w |
+    | E2 w |
+    | A2 w |
+
+    | D2 w |
+    | E2 w |
+    | A2 w |
+    | D2 w |
+    | G2 w |
+    | A2 w |
+    | D2 h E2 h f |
+    | A2 w |
+
+    // SECTION III
+    Tempo: 88
+    Time: 5/4
+    Key: E "Minor"
+
+    | E2 w r q mf |
+    | A2 w r q |
+    | E2 h B2 h r q |
+    | D2 w r q |
+    | B2 w r q |
+    | E2 w r q |
+
+    Time: 7/8
+    | E2 q. f E2 h |
+    | A2 q. A2 h |
+    | E2 q. E2 h |
+    | A2 q. A2 h |
+    | D2 q. D2 h |
+    | E2 q. E2 h |
+
+    | E2 q. ff E2 h |
+    | A2 q. A2 h |
+    | D2 q. D2 h |
+    | G2 q. G2 h |
+    | D2 q. D2 h |
+    | A2 q. A2 h |
+
+    Time: 4/4
+    | E2 h F#2 h |
+    | G2 h A2 h |
+    | D2 w |
+    | D3 w |
+
+    // SECTION IV
+    Tempo: 120
+    Key: D "Minor"
+
+    | D2 w ff |
+    | D2 w |
+    | G2 h A2 h |
+    | D2 w |
+
+    | D2 w fff |
+    | G2 w |
+    | A2 w |
+    | D2 w |
+
+    Tempo: 140
+    | D2 w |
+    | G2 w |
+    | A2 w |
+    | D2 w > |
+
+    Tempo: 160
+    | D2 w fff |
+    | A2 w |
+    | D2 w > |
+    | G2 w > |
+
+    | D2 w |
+    | G2 w |
+    | A2 w > |
+    | D2 w |
+
+    | D2 w fff > |
+    | D2 w > |
+    | D3 w > |
+    | D2 w fff > |
+
+    // SECTION V
+    Tempo: 60
+    Key: C "Major"
+
+    | r w ppp |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r h C2 h ppp |
+    | r w |
+    | G2 w |
+
+    // SECTION VI
+    Tempo: 44
+    Key: G "Major"
+
+    | r w |
+    | G2 w ppp |
+    | G2 w |
+    | G2 w |
+    | G2 w |
+    | C3 w pppp |
+    | G2 w |
+    | G2 w |
+    | r h D2 h ppp |
+    | G2 w |
+    | r w |
+    | G2 w pppp |
+}
+
+Part: "Flute" Instrument: Flute {
+
+    // SECTION I - Silent, waiting
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    // SECTION II - The machine voice enters
+    Tempo: 66
+    Key: C "Major"
+
+    | r w |
+    | r w |
+    | r h G5 q A5 q p |
+    | B5 h C6 h |
+    | r h A5 q B5 q |
+    | C6 h D6 h |
+    | E6 q D6 q C6 h |
+    | B5 w mp |
+
+    Key: A "Minor"
+    | C6 e D6 e E6 e F6 e G6 h |
+    | F6 e E6 e D6 e C6 e B5 h |
+    | A5 q B5 q C6 q D6 q |
+    | E6 h D6 h |
+    | C6 e D6 e E6 e F6 e G6 h mf |
+    | A6 q G6 q F6 q E6 q |
+    | D6 q C6 q B5 h |
+    | A5 w |
+
+    | B5 e C6 e D6 e E6 e F6 q E6 q |
+    | D6 e C6 e B5 e A5 e G#5 h |
+    | A5 q B5 e C6 e D6 q E6 q |
+    | F6 h E6 h |
+    | D6 e E6 e F6 e E6 e D6 e C6 e B5 e A5 e |
+    | G#5 q A5 q B5 q C6 q |
+    | D6 h E6 h f |
+    | A5 w |
+
+    // SECTION III
+    Tempo: 88
+    Time: 5/4
+    Key: E "Minor"
+
+    | r w r q |
+    | r h E6 q F#6 q G6 q mf |
+    | A6 h G6 h r q |
+    | F#6 q E6 q D6 q E6 q F#6 q |
+    | G6 h F#6 q E6 q D6 q |
+    | E6 w r q |
+
+    Time: 7/8
+    | E6 e F#6 e G6 e A6 q B6 q f |
+    | A6 e G6 e F#6 e E6 q D6 q |
+    | E6 e D6 e E6 e F#6 q G6 q |
+    | A6 e B6 e C7 e D7 q E7 q |
+    | D7 e C7 e B6 e A6 q G6 q |
+    | F#6 e E6 e D6 e E6 h |
+
+    | E6 e F6 e F#6 e G6 q G#6 q ff |
+    | A6 e Bb6 e B6 e C7 q C#7 q |
+    | D7 e Eb7 e E7 e F7 q F#7 q |
+    | G7 e F#7 e F7 e E7 q Eb7 q |
+    | D7 e C#7 e C7 e B6 q Bb6 q |
+    | A6 e G#6 e G6 e F#6 h |
+
+    Time: 4/4
+    | E6 q F#6 q G6 q A6 q |
+    | B6 q C7 q D7 q E7 q |
+    | F#7 h E7 h |
+    | D7 w |
+
+    // SECTION IV
+    Tempo: 120
+    Key: D "Minor"
+
+    | D6 e E6 e F6 e G6 e A6 e G6 e F6 e E6 e ff |
+    | D6 e C6 e Bb5 e A5 e G5 e A5 e Bb5 e C6 e |
+    | D6 q E6 e F6 e G6 q F6 q |
+    | E6 e D6 e C#6 e D6 e E6 h |
+
+    | F6 e G6 e A6 e Bb6 e A6 e G6 e F6 e E6 e fff |
+    | D6 e E6 e F6 e G6 e A6 e Bb6 e A6 e G6 e |
+    | Tuplet(3:2) { F6 q E6 q D6 q } Tuplet(3:2) { C#6 q D6 q E6 q } |
+    | F6 q G6 q A6 h |
+
+    Tempo: 140
+    | D7 s E7 s F7 s G7 s A7 s Bb7 s A7 s G7 s F7 s E7 s D7 s C#7 s D7 q |
+    | E7 s F7 s G7 s A7 s Bb7 s C8 s Bb7 s A7 s G7 s F7 s E7 s D7 s E7 q |
+    | Tuplet(3:2) { F7 e G7 e A7 e } Tuplet(3:2) { Bb7 e A7 e G7 e } Tuplet(3:2) { F7 e E7 e D7 e } C#7 q |
+    | D7 e r e F7 e r e A7 e r e D8 q > |
+
+    Tempo: 160
+    | D8 e C8 e Bb7 e A7 e G7 e F7 e E7 e D7 e fff |
+    | C#7 e D7 e E7 e F7 e G7 e A7 e Bb7 e C8 e |
+    | D8 q > C8 q > Bb7 q > A7 q > |
+    | G7 e A7 e Bb7 e C8 e D8 h > |
+
+    | Tuplet(3:2) { D8 q C8 q Bb7 q } Tuplet(3:2) { A7 q G7 q F7 q } |
+    | E7 e F7 e G7 e A7 e Bb7 e C8 e D8 e E8 e |
+    | F8 q > E8 q > D8 q > C8 q > |
+    | Bb7 e A7 e G7 e F7 e E7 e D7 e C#7 e D7 e |
+
+    | D7 w fff > |
+    | D7 w > |
+    | D8 w > |
+    | D7 w fff > |
+
+    // SECTION V
+    Tempo: 60
+    Key: C "Major"
+
+    | r w ppp |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r h B6 h pp |
+    | r w |
+    | F#6 w ppp |
+    | r w |
+    | Db7 h r h |
+    | r w |
+    | Ab6 w |
+
+    // SECTION VI
+    Tempo: 44
+    Key: G "Major"
+
+    | r w |
+    | r w |
+    | D6 h r h ppp |
+    | r w |
+    | r w |
+    | G6 w pppp |
+    | r h D6 h |
+    | r w |
+    | B5 w ppp |
+    | r w |
+    | r w |
+    | D6 w pppp |
+}
+
+Part: "Clarinet" Instrument: Clarinet {
+
+    // SECTION I - Silent
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    // SECTION II
+    Tempo: 66
+    Key: C "Major"
+
+    | r w |
+    | r h E5 q F5 q p |
+    | G5 h F5 h |
+    | E5 h D5 h |
+    | r h F5 q G5 q |
+    | A5 h G5 h |
+    | F5 q E5 q D5 h |
+    | C5 w mp |
+
+    Key: A "Minor"
+    | A4 e B4 e C5 e D5 e E5 h |
+    | D5 e C5 e B4 e A4 e G#4 h |
+    | A4 q B4 q C5 q D5 q |
+    | E5 h D5 h |
+    | A4 e B4 e C5 e D5 e E5 h mf |
+    | F5 q E5 q D5 q C5 q |
+    | B4 q A4 q G#4 h |
+    | A4 w |
+
+    | G#4 e A4 e B4 e C5 e D5 q C5 q |
+    | B4 e A4 e G#4 e F#4 e E4 h |
+    | A4 q B4 e C5 e D5 q E5 q |
+    | F5 h E5 h |
+    | D5 e E5 e F5 e E5 e D5 e C5 e B4 e A4 e |
+    | G#4 q A4 q B4 q C5 q |
+    | D5 h E5 h f |
+    | A4 w |
+
+    // SECTION III
+    Tempo: 88
+    Time: 5/4
+    Key: E "Minor"
+
+    | r h B4 q C5 q D5 q mf |
+    | E5 h D5 q C5 q B4 q |
+    | A4 h G4 h r q |
+    | B4 q C5 q D5 q E5 q F#5 q |
+    | G5 h F#5 q E5 q D5 q |
+    | C5 w r q |
+
+    Time: 7/8
+    | B4 e C5 e D5 e E5 q F#5 q f |
+    | G5 e F#5 e E5 e D5 q C5 q |
+    | B4 e A4 e B4 e C5 q D5 q |
+    | E5 e F#5 e G5 e A5 q B5 q |
+    | A5 e G5 e F#5 e E5 q D5 q |
+    | C5 e B4 e A4 e B4 h |
+
+    | B4 e C5 e C#5 e D5 q D#5 q ff |
+    | E5 e F5 e F#5 e G5 q G#5 q |
+    | A5 e Bb5 e B5 e C6 q C#6 q |
+    | D6 e C#6 e C6 e B5 q Bb5 q |
+    | A5 e G#5 e G5 e F#5 q F5 q |
+    | E5 e D#5 e D5 e C#5 h |
+
+    Time: 4/4
+    | B4 q C5 q D5 q E5 q |
+    | F#5 q G5 q A5 q B5 q |
+    | C6 h B5 h |
+    | A5 w |
+
+    // SECTION IV
+    Tempo: 120
+    Key: D "Minor"
+
+    | A4 e Bb4 e C5 e D5 e E5 e D5 e C5 e Bb4 e ff |
+    | A4 e G4 e F4 e E4 e D4 e E4 e F4 e G4 e |
+    | A4 q Bb4 e C5 e D5 q C5 q |
+    | Bb4 e A4 e G#4 e A4 e Bb4 h |
+
+    | C5 e D5 e E5 e F5 e E5 e D5 e C5 e Bb4 e fff |
+    | A4 e Bb4 e C5 e D5 e E5 e F5 e E5 e D5 e |
+    | Tuplet(3:2) { C5 q Bb4 q A4 q } Tuplet(3:2) { G#4 q A4 q Bb4 q } |
+    | C5 q D5 q E5 h |
+
+    Tempo: 140
+    | A5 s Bb5 s C6 s D6 s E6 s F6 s E6 s D6 s C6 s Bb5 s A5 s G#5 s A5 q |
+    | Bb5 s C6 s D6 s E6 s F6 s G6 s F6 s E6 s D6 s C6 s Bb5 s A5 s Bb5 q |
+    | Tuplet(3:2) { C6 e D6 e E6 e } Tuplet(3:2) { F6 e E6 e D6 e } Tuplet(3:2) { C6 e Bb5 e A5 e } G#5 q |
+    | A5 e r e C6 e r e E6 e r e A6 q > |
+
+    Tempo: 160
+    | A6 e G6 e F6 e E6 e D6 e C6 e Bb5 e A5 e fff |
+    | G#5 e A5 e Bb5 e C6 e D6 e E6 e F6 e G6 e |
+    | A6 q > G6 q > F6 q > E6 q > |
+    | D6 e E6 e F6 e G6 e A6 h > |
+
+    | Tuplet(3:2) { A6 q G6 q F6 q } Tuplet(3:2) { E6 q D6 q C6 q } |
+    | Bb5 e C6 e D6 e E6 e F6 e G6 e A6 e Bb6 e |
+    | C7 q > Bb6 q > A6 q > G6 q > |
+    | F6 e E6 e D6 e C6 e Bb5 e A5 e G#5 e A5 e |
+
+    | A5 w fff > |
+    | A5 w > |
+    | A6 w > |
+    | A5 w fff > |
+
+    // SECTION V
+    Tempo: 60
+    Key: C "Major"
+
+    | r w ppp |
+    | r w |
+    | r h G5 h ppp |
+    | r w |
+    | Db5 w pp |
+    | r w |
+    | r h Ab5 h |
+    | r w |
+    | Eb5 w ppp |
+    | r w |
+    | A5 h r h |
+    | r w |
+
+    // SECTION VI
+    Tempo: 44
+    Key: G "Major"
+
+    | r w |
+    | r w |
+    | r w |
+    | B4 w ppp |
+    | r h D5 h |
+    | r w |
+    | G5 w pppp |
+    | r w |
+    | D5 h r h ppp |
+    | r w |
+    | r w |
+    | B4 w pppp |
+}
+
+Part: "French Horn" Instrument: French Horn {
+
+    // SECTION I - Silent (brass waits)
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    // SECTION II - Enters near end
+    Tempo: 66
+    Key: C "Major"
+
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r h G4 h mp |
+    | C4 w |
+
+    Key: A "Minor"
+    | r w |
+    | r w |
+    | E4 w |
+    | A3 w |
+    | r w mf |
+    | r h D4 h |
+    | E4 w |
+    | A3 w |
+
+    | r w |
+    | E4 w |
+    | A4 h G4 h |
+    | F4 w |
+    | E4 w |
+    | A4 h G4 h |
+    | F4 h E4 h f |
+    | A3 w |
+
+    // SECTION III
+    Tempo: 88
+    Time: 5/4
+    Key: E "Minor"
+
+    | E4 w r q mf |
+    | r w r q |
+    | E4 h B3 h r q |
+    | r w r q |
+    | B4 w r q |
+    | E4 w r q |
+
+    Time: 7/8
+    | E4 h f r q. |
+    | r h r q. |
+    | E4 h r q. |
+    | A4 h r q. |
+    | D4 h r q. |
+    | E4 h r q. |
+
+    | E4 h ff r q. |
+    | A4 h r q. |
+    | D4 h r q. |
+    | G4 h r q. |
+    | D4 h r q. |
+    | A4 h r q. |
+
+    Time: 4/4
+    | E4 h F#4 h |
+    | G4 h A4 h |
+    | D4 w |
+    | D4 w |
+
+    // SECTION IV - Full brass power
+    Tempo: 120
+    Key: D "Minor"
+
+    | D4 w ff |
+    | D4 w |
+    | G4 h A4 h |
+    | D4 w |
+
+    | F4 w fff |
+    | D4 w |
+    | A4 w |
+    | D4 w |
+
+    Tempo: 140
+    | D4 w |
+    | G4 w |
+    | A4 w |
+    | D4 w > |
+
+    Tempo: 160
+    | D4 w fff |
+    | A4 w |
+    | D4 w > |
+    | G4 w > |
+
+    | D4 w |
+    | G4 w |
+    | A4 w > |
+    | D4 w |
+
+    | D4 w fff > |
+    | D4 w > |
+    | D5 w > |
+    | D4 w fff > |
+
+    // SECTION V
+    Tempo: 60
+    Key: C "Major"
+
+    | r w ppp |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | Gb4 w pp |
+    | r w |
+
+    // SECTION VI
+    Tempo: 44
+    Key: G "Major"
+
+    | r w |
+    | r w |
+    | r w |
+    | G3 w ppp |
+    | r w |
+    | r w |
+    | D4 w pppp |
+    | r w |
+    | r w |
+    | G3 w ppp |
+    | r w |
+    | G3 w pppp |
+}
+
+Part: "Trumpet" Instrument: Trumpet {
+
+    // SECTIONS I-II: Silent (saves power for climax)
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    Tempo: 66
+    Key: C "Major"
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    Key: A "Minor"
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    // SECTION III - Enters
+    Tempo: 88
+    Time: 5/4
+    Key: E "Minor"
+
+    | r w r q |
+    | r w r q |
+    | r w r q |
+    | r w r q |
+    | r w r q |
+    | r w r q |
+
+    Time: 7/8
+    | r h r q. |
+    | r h r q. |
+    | r h r q. |
+    | r h r q. |
+    | r h r q. |
+    | r h r q. |
+
+    | E5 h ff r q. |
+    | A5 h r q. |
+    | D5 h r q. |
+    | G5 h r q. |
+    | D5 h r q. |
+    | E5 h r q. |
+
+    Time: 4/4
+    | E5 h F#5 h |
+    | G5 h A5 h |
+    | D5 w |
+    | D5 w |
+
+    // SECTION IV - Fanfare
+    Tempo: 120
+    Key: D "Minor"
+
+    | D5 q > E5 q > F5 q > G5 q > ff |
+    | A5 q > G5 q > F5 q > E5 q > |
+    | D5 q E5 e F5 e G5 q F5 q |
+    | E5 e D5 e C#5 e D5 e E5 h |
+
+    | F5 q > G5 q > A5 q > Bb5 q > fff |
+    | A5 q > G5 q > F5 q > E5 q > |
+    | Tuplet(3:2) { D5 q C#5 q D5 q } Tuplet(3:2) { E5 q F5 q E5 q } |
+    | D5 q E5 q F5 h |
+
+    Tempo: 140
+    | D5 h > E5 h > |
+    | F5 h > G5 h > |
+    | A5 w > |
+    | D6 w > |
+
+    Tempo: 160
+    | D6 q > C6 q > Bb5 q > A5 q > fff |
+    | G5 e A5 e Bb5 e C6 e D6 h > |
+    | D6 q > C6 q > Bb5 q > A5 q > |
+    | G5 e A5 e Bb5 e C6 e D6 h > |
+
+    | D6 w > |
+    | E6 w > |
+    | F6 w > |
+    | D6 w |
+
+    | D5 w fff > |
+    | D5 w > |
+    | D6 w > |
+    | D5 w fff > |
+
+    // SECTION V
+    Tempo: 60
+    Key: C "Major"
+
+    | r w ppp |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    // SECTION VI
+    Tempo: 44
+    Key: G "Major"
+
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+}
+
+Part: "Timpani" Instrument: Timpani {
+
+    // SECTIONS I-II: Silent
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    Tempo: 66
+    Key: C "Major"
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    Key: A "Minor"
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    // SECTION III
+    Tempo: 88
+    Time: 5/4
+    Key: E "Minor"
+
+    | r w r q |
+    | r w r q |
+    | r w r q |
+    | r w r q |
+    | r w r q |
+    | r w r q |
+
+    Time: 7/8
+    | r h r q. |
+    | r h r q. |
+    | r h r q. |
+    | r h r q. |
+    | r h r q. |
+    | r h r q. |
+
+    | E2 q. ff E2 h |
+    | A2 q. A2 h |
+    | D2 q. D2 h |
+    | G2 q. G2 h |
+    | D2 q. D2 h |
+    | E2 q. E2 h |
+
+    Time: 4/4
+    | E2 h > F#2 h > |
+    | G2 h > A2 h > |
+    | D2 w > |
+    | D2 w |
+
+    // SECTION IV - Driving force
+    Tempo: 120
+    Key: D "Minor"
+
+    | D2 q > D2 q > D2 q > D2 q > ff |
+    | D2 q > D2 q > D2 q > D2 q > |
+    | D2 q > D2 e D2 e D2 q > D2 q > |
+    | D2 e D2 e D2 e D2 e D2 h > |
+
+    | D2 q > D2 q > D2 q > D2 q > fff |
+    | D2 q > D2 q > D2 q > D2 q > |
+    | Tuplet(3:2) { D2 q D2 q D2 q } Tuplet(3:2) { D2 q D2 q D2 q } |
+    | D2 q > D2 q > D2 h > |
+
+    Tempo: 140
+    | D2 e D2 e D2 e D2 e D2 e D2 e D2 e D2 e |
+    | D2 e D2 e D2 e D2 e D2 e D2 e D2 e D2 e |
+    | D2 e D2 e D2 e D2 e D2 e D2 e D2 e D2 e |
+    | D2 w > |
+
+    Tempo: 160
+    | D2 w fff > |
+    | A2 w > |
+    | D2 w > |
+    | G2 w > |
+
+    | D2 w > |
+    | G2 w > |
+    | A2 w > |
+    | D2 w > |
+
+    | D2 w fff > |
+    | D2 w > |
+    | D2 w > |
+    | D2 w fff > |
+
+    // SECTION V
+    Tempo: 60
+    Key: C "Major"
+
+    | r w ppp |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    // SECTION VI
+    Tempo: 44
+    Key: G "Major"
+
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | G2 w ppp |
+    | r w |
+    | G2 w pppp |
+}
+
+Part: "Piano" Instrument: Piano {
+
+    // SECTION I - Silent, listening
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    // SECTION II - Mechanical patterns emerge
+    Tempo: 66
+    Key: C "Major"
+
+    | [C3 G3 C4] q [E3 G3 C4] q [G3 C4 E4] q [C4 E4 G4] q p |
+    | [G3 D4 G4] q [D3 G3 D4] q [G2 D3 G3] h |
+    | [C3 G3 C4] q [E3 G3 C4] q [G3 C4 E4] h |
+    | [C3 E3 G3] w |
+    | [F2 C3 F3] q [A2 C3 F3] q [C3 F3 A3] q [F3 A3 C4] q |
+    | [E2 B2 E3] q [G2 B2 E3] q [B2 E3 G3] h |
+    | [C3 G3 C4] q [E3 G3 C4] q [G3 C4 E4] h |
+    | [C3 E3 G3 C4] w mp |
+
+    Key: A "Minor"
+    | [A2 E3 A3] q [C3 E3 A3] q [E3 A3 C4] q [A3 C4 E4] q |
+    | [E2 B2 E3] q [G#2 B2 E3] q [B2 E3 G#3] h |
+    | [A2 E3 A3] q [C3 E3 A3] q [E3 A3 C4] h |
+    | [A2 C3 E3 A3] w |
+    | [G2 D3 G3] q [B2 D3 G3] q [D3 G3 B3] q [G3 B3 D4] q mf |
+    | [F2 C3 F3] q [A2 C3 F3] q [C3 F3 A3] h |
+    | [E2 B2 E3] q [G#2 B2 E3] q [B2 E3 G#3] h |
+    | [A2 E3 A3] w |
+
+    | [D2 A2 D3] q [F2 A2 D3] q [A2 D3 F3] q [D3 F3 A3] q |
+    | [E2 B2 E3] q [G#2 B2 E3] q [B2 E3 G#3] h |
+    | [A2 E3 A3] q [C3 E3 A3] q [E3 A3 C4] q [A3 C4 E4] q |
+    | [F2 C3 F3] q [A2 C3 F3] q [C3 F3 A3] h |
+    | [D2 A2 D3] e [F2 A2 D3] e [A2 D3 F3] e [D3 F3 A3] e [F3 A3 D4] h |
+    | [E2 G#2 B2 E3] q [A2 C3 E3 A3] q [B2 D3 F3 B3] q [C3 E3 G3 C4] q |
+    | [D3 F3 A3 D4] h [E3 G#3 B3 E4] h f |
+    | [A2 E3 A3 C4 E4] w |
+
+    // SECTION III
+    Tempo: 88
+    Time: 5/4
+    Key: E "Minor"
+
+    | [E2 B2 E3] q [G2 B2 E3] q [B2 E3 G3] q [E3 G3 B3] q [G3 B3 E4] q mf |
+    | [A2 E3 A3] q [C3 E3 A3] q [E3 A3 C4] q [A3 C4 E4] q [C4 E4 A4] q |
+    | [E2 B2 E3 G3] h [B2 E3 G3 B3] h r q |
+    | [D2 A2 D3] q [F#2 A2 D3] q [A2 D3 F#3] q [D3 F#3 A3] q [F#3 A3 D4] q |
+    | [B2 F#3 B3] h [A2 E3 A3] q [G2 D3 G3] q [F#2 C#3 F#3] q |
+    | [E2 B2 E3 G3 B3] w r q |
+
+    Time: 7/8
+    | [E2 B2 E3] e [G2 B2 E3] e [B2 E3 G3] e [E3 G3 B3] q [G3 B3 E4] q f |
+    | [A2 E3 A3] e [C3 E3 A3] e [E3 A3 C4] e [A3 C4 E4] q [D3 G3 D4] q |
+    | [E2 B2 E3] e [G2 B2 E3] e [B2 E3 G3] e [E3 G3 B3] q [G3 B3 E4] q |
+    | [A2 E3 A3] e [C3 E3 A3] e [E3 A3 C4] e [A3 C4 E4] q [C4 E4 A4] q |
+    | [D2 A2 D3] e [F#2 A2 D3] e [A2 D3 F#3] e [D3 F#3 A3] q [A3 D4 F#4] q |
+    | [E2 B2 E3] e [G2 B2 E3] e [B2 E3 G3] e [E3 G3 B3] h |
+
+    | [E2 B2 E3] e [F2 C3 F3] e [F#2 C#3 F#3] e [G2 D3 G3] q [G#2 D#3 G#3] q ff |
+    | [A2 E3 A3] e [Bb2 F3 Bb3] e [B2 F#3 B3] e [C3 G3 C4] q [C#3 G#3 C#4] q |
+    | [D3 A3 D4] e [Eb3 Bb3 Eb4] e [E3 B3 E4] e [F3 C4 F4] q [F#3 C#4 F#4] q |
+    | [G3 D4 G4] e [F#3 C#4 F#4] e [F3 C4 F4] e [E3 B3 E4] q [Eb3 Bb3 Eb4] q |
+    | [D3 A3 D4] e [C#3 G#3 C#4] e [C3 G3 C4] e [B2 F#3 B3] q [Bb2 F3 Bb3] q |
+    | [A2 E3 A3] e [G#2 D#3 G#3] e [G2 D3 G3] e [F#2 C#3 F#3] h |
+
+    Time: 4/4
+    | [E2 B2 E3 G3] q [F#2 C#3 F#3 A3] q [G2 D3 G3 B3] q [A2 E3 A3 C4] q |
+    | [B2 F#3 B3 D4] q [C3 G3 C4 E4] q [D3 A3 D4 F#4] q [E3 B3 E4 G4] q |
+    | [F#3 C#4 F#4 A4] h [E3 B3 E4 G4] h |
+    | [D3 A3 D4 F#4] w |
+
+    // SECTION IV - Maximum intensity
+    Tempo: 120
+    Key: D "Minor"
+
+    | [D2 A2 D3 F3] e [E2 B2 E3 G3] e [F2 C3 F3 A3] e [G2 D3 G3 Bb3] e [A2 E3 A3 C4] e [G2 D3 G3 Bb3] e [F2 C3 F3 A3] e [E2 B2 E3 G3] e ff |
+    | [D2 A2 D3 F3] e [C2 G2 C3 E3] e [Bb1 F2 Bb2 D3] e [A1 E2 A2 C3] e [G1 D2 G2 Bb2] e [A1 E2 A2 C3] e [Bb1 F2 Bb2 D3] e [C2 G2 C3 E3] e |
+    | [D2 A2 D3 F3] q [E2 B2 E3 G3] e [F2 C3 F3 A3] e [G2 D3 G3 Bb3] q [F2 C3 F3 A3] q |
+    | [E2 B2 E3 G3] e [D2 A2 D3 F3] e [C#2 G#2 C#3 E3] e [D2 A2 D3 F3] e [E2 B2 E3 G3] h |
+
+    | [F2 C3 F3 A3] e [G2 D3 G3 Bb3] e [A2 E3 A3 C4] e [Bb2 F3 Bb3 D4] e [A2 E3 A3 C4] e [G2 D3 G3 Bb3] e [F2 C3 F3 A3] e [E2 B2 E3 G3] e fff |
+    | [D2 A2 D3 F3] e [E2 B2 E3 G3] e [F2 C3 F3 A3] e [G2 D3 G3 Bb3] e [A2 E3 A3 C4] e [Bb2 F3 Bb3 D4] e [A2 E3 A3 C4] e [G2 D3 G3 Bb3] e |
+    | Tuplet(3:2) { [F2 C3 F3 A3] q [E2 B2 E3 G3] q [D2 A2 D3 F3] q } Tuplet(3:2) { [C#2 G#2 C#3 E3] q [D2 A2 D3 F3] q [E2 B2 E3 G3] q } |
+    | [F2 C3 F3 A3] q [G2 D3 G3 Bb3] q [A2 E3 A3 C4] h |
+
+    Tempo: 140
+    | [D2 A2 D3 F3 A3 D4] w |
+    | [G2 D3 G3 Bb3 D4 G4] w |
+    | [A2 E3 A3 C4 E4 A4] w |
+    | [D2 A2 D3 F3 A3 D4] w > |
+
+    Tempo: 160
+    | [D2 A2 D3 F3 A3 D4] w fff |
+    | [A2 E3 A3 C4 E4 A4] w |
+    | [D2 A2 D3 F3 A3 D4] w > |
+    | [G2 D3 G3 Bb3 D4 G4] w > |
+
+    | [D2 A2 D3 F3 A3 D4] w |
+    | [G2 D3 G3 Bb3 D4 G4] w |
+    | [A2 E3 A3 C4 E4 A4] w > |
+    | [D2 A2 D3 F3 A3 D4] w |
+
+    | [D2 A2 D3 F3 A3 D4] w fff > |
+    | [D2 A2 D3 F3 A3 D4] w > |
+    | [D3 A3 D4 F4 A4 D5] w > |
+    | [D1 D2 A2 D3 F3 A3 D4] w fff > |
+
+    // SECTION V - Alien sonorities
+    Tempo: 60
+    Key: C "Major"
+
+    | r w ppp |
+    | [Db3 Gb3 Bb3] w ppp |
+    | r w |
+    | [E3 A3 C#4] w |
+    | r h [F#3 B3 D#4] h pp |
+    | r w |
+    | [Ab2 Db3 F3] w |
+    | r w |
+    | [Bb2 Eb3 G3] w ppp |
+    | r w |
+    | [C3 F#3 A#3] h r h |
+    | [D3 G3 B3] w |
+
+    // SECTION VI - Transformed return
+    Tempo: 44
+    Key: G "Major"
+
+    | r w |
+    | [G2 D3 G3 B3] w ppp |
+    | [G2 D3 G3] h [D3 G3 D4] h |
+    | [G2 B2 D3 G3] w |
+    | [D3 G3 B3 D4] h. r q |
+    | [C3 G3 C4 E4] w pppp |
+    | [D3 G3 B3 D4] h [G2 D3 G3 B3] h |
+    | [G2 B2 D3 G3] w |
+    | r h [D2 A2 D3] h ppp |
+    | [G2 D3 G3 B3] w |
+    | r w |
+    | [G2 B2 D3 G3] w pppp |
+}

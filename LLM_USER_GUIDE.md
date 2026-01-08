@@ -2,7 +2,99 @@
 
 This document describes the syntax and semantics of **Melos**, a domain-specific language for representing musical scores. Use this guide to generate valid Melos code.
 
-## 1. Overview
+---
+
+## Part I: Compositional Process
+
+Before writing Melos code, work through this process. It's designed to help you compose music that's distinctive rather than generic.
+
+**Note**: Skip any step that doesn't fit your intent. If you're deliberately avoiding a climax, don't add one just because it's a step here. This process is meant to surface options, not constrain choices.
+
+### Step 1: Sketch Your Idea in Prose
+
+Before any notation, write 2-3 sentences describing the piece's core gesture or idea. Be specific about what a listener would *hear*, not what they would understand intellectually.
+
+**Weak**: "A piece about longing that builds to a climax"
+**Better**: "A solo clarinet phrase that keeps reaching for a high G but falls back; when it finally arrives, the piano drops out"
+
+Then ask: *Can this be heard, or only explained?* If it requires explanation, revise until it describes sound.
+
+### Step 2: Design Your Rhythmic Vocabulary
+
+Write out the 3-5 rhythmic cells you'll use in this piece *before* assigning pitches. Consider:
+
+- Does at least one rhythm push against the beat (syncopation)?
+- Do different voices have different rhythmic profiles?
+- Is there a distinctive rhythmic cell that makes this piece *this piece*?
+
+**Test**: If you remove pitch information, can you still tell a theme from an accompaniment? If all parts have the same rhythmic values, they'll blur together.
+
+Example rhythmic sketch:
+```
+Theme rhythm: long-short-short-LONG (half, eighth, eighth, half tied)
+Accompaniment: offbeat pulses (rest-eighth, chord-quarter, rest-eighth, chord-quarter)
+Countermelody: running eighths BUT with rests on strong beats
+```
+
+### Step 3: Design Your Theme's Contour
+
+Before writing pitches, sketch the *shape*:
+
+- Where is the highest note? Where is the lowest?
+- Is there a distinctive interval (a leap of a sixth, a tritone, a repeated fourth)?
+- Can you hum the shape without pitch names and recognize it?
+
+**Test**: Write the theme. Cover the page. Can you remember how it goes? If not, ask: what would make it stick? A wider leap? A distinctive rhythm? An unexpected direction?
+
+### Step 4: Plan Textural Contrast
+
+List the textures you'll use and where. Name them specifically:
+
+- **Monophony**: single unaccompanied line
+- **Homophony**: melody with chordal accompaniment
+- **Polyphony**: independent melodic lines
+- **Heterophony**: the same melody in multiple simultaneous versions
+- **Pointillism**: isolated events with silence between
+
+If you have only one texture type, add another. If every section is "melody + arpeggiated accompaniment," that's one texture repeated.
+
+### Step 5: Generate Three Climax Options
+
+Before writing your moment of highest intensity, sketch three different approaches:
+
+1. **Option A**: How would you build intensity through *register* (extreme high or low)?
+2. **Option B**: How would you build intensity through *texture* (voices entering or dropping out, density changing)?
+3. **Option C**: How would you build intensity through *rhythm* (syncopation, silence, metric shift)?
+
+Write a sentence describing each. Then choose one—or combine elements. The goal isn't to avoid any particular gesture, but to consider alternatives before committing.
+
+### Step 6: Variation Pass
+
+After writing a draft, go through it asking "what if":
+
+**Rhythmic variation**: Pick any measure. What if one voice had longer notes while another had shorter? What if there were a rest on a strong beat?
+
+**Melodic variation**: Pick any 4-bar phrase. What if the third bar leapt instead of stepped? What if the contour inverted?
+
+**Dynamic variation**: Pick any phrase. What if it swelled in the middle? What if it started loud and got soft?
+
+**Textural variation**: Pick any section. What if one voice dropped out for two beats? What if two voices played in octaves instead of harmony?
+
+You don't have to accept every variation—but asking the question surfaces possibilities you wouldn't otherwise consider.
+
+### Step 7: The Listener Test
+
+Imagine someone hearing this piece with no context—no title, no program note, no knowledge of your intentions.
+
+- What would they actually *hear*?
+- Would they notice the structural features you designed?
+- If you described the piece to them afterward, would they say "yes, I heard that" or "I didn't notice"?
+
+If something in your intention isn't audible, either make it more salient or remove it from your description. The music is what's heard, not what's meant.
+
+---
+
+## Part II: Syntax Reference
 
 Melos is a text-based format for defining musical scores. It supports:
 -   Global headers (Title, Tempo, Time, Key)
@@ -10,11 +102,11 @@ Melos is a text-based format for defining musical scores. It supports:
 -   Measures containing musical events (notes, rests, tuplets)
 -   Context changes within parts (Time Signature, Key Signature, Tempo)
 
-## 2. Syntax Specification
+### Syntax Specification
 
 The following grammar describes the structure of a Melos file.
 
-### 2.1. Top-Level Structure
+#### Top-Level Structure
 
 A score consists of headers followed by one or more parts.
 
@@ -26,7 +118,7 @@ HEADER      ::= "Title:" STRING_LITERAL
               | "Key:"  KEY_SIGNATURE
 ```
 
-### 2.2. Parts
+#### Parts
 
 Each part represents a musical voice or instrument.
 
@@ -35,9 +127,9 @@ PART        ::= "Part:" IDENTIFIER "Instrument:" INSTRUMENT_NAME "{" CONTENT "}"
 CONTENT     ::= (MEASURE | CONTEXT_CHANGE)+
 ```
 
-The `INSTRUMENT_NAME` determines the MIDI instrument used. The `IDENTIFIER` is just a name for the part (e.g., "Violin 1"). See [Instruments](#211-instruments) for details.
+The `INSTRUMENT_NAME` determines the MIDI instrument used. The `IDENTIFIER` is just a name for the part (e.g., "Violin 1"). See [Instruments](#instruments) for details.
 
-### 2.3. Measures and Events
+#### Measures and Events
 
 Music is organized into measures enclosed in pipes `|`.
 
@@ -46,7 +138,7 @@ MEASURE     ::= "|" EVENT* "|"
 EVENT       ::= NOTE | CHORD | REST | TUPLET
 ```
 
-### 2.4. Notes
+#### Notes
 
 A note consists of a pitch, optional duration, optional dynamic, and optional articulation.
 
@@ -58,7 +150,7 @@ ACCIDENTAL  ::= "#" | "b"
 OCTAVE      ::= DIGIT+
 ```
 
-### 2.5. Chords
+#### Chords
 
 A chord is a set of pitches played simultaneously, enclosed in brackets. It can have duration, dynamic, and articulation, just like a note.
 
@@ -66,7 +158,7 @@ A chord is a set of pitches played simultaneously, enclosed in brackets. It can 
 CHORD       ::= "[" PITCH+ "]" DURATION? DYNAMIC? ARTICULATION?
 ```
 
-### 2.6. Rests
+#### Rests
 
 A rest indicates silence.
 
@@ -74,7 +166,7 @@ A rest indicates silence.
 REST        ::= "r" DURATION?
 ```
 
-### 2.7. Tuplets
+#### Tuplets
 
 Tuplets allow for irregular rhythms (e.g., triplets).
 
@@ -83,7 +175,7 @@ TUPLET      ::= "Tuplet(" P ":" Q ")" "{" EVENT* "}"
 ```
 Where `P` events are played in the time of `Q`.
 
-### 2.8. Durations
+#### Durations
 
 Durations are specified by a base character and optional dots.
 
@@ -93,14 +185,14 @@ BASE_DURATION ::= "w" (whole) | "h" (half) | "q" (quarter) | "e" (eighth) | "s" 
 DOT         ::= "."
 ```
 
-### 2.9. Dynamics and Articulations
+#### Dynamics and Articulations
 
 ```text
 DYNAMIC     ::= "ppp" | "pp" | "p" | "mp" | "mf" | "f" | "ff" | "fff"
 ARTICULATION ::= "." (staccato) | ">" (accent) | "-" (tenuto)
 ```
 
-### 2.10. Context Changes
+#### Context Changes
 
 Time signatures, Key signatures, and Tempo can be changed within a part.
 
@@ -114,7 +206,7 @@ KEY_SIGNATURE  ::= PITCH_CLASS STRING_LITERAL
 PITCH_CLASS    ::= STEP ACCIDENTAL?
 ```
 
-### 2.11. Instruments
+#### Instruments
 
 The name specified in the `Instrument:` field determines the instrument sound (MIDI Program). The compiler attempts to match the name to a standard General MIDI instrument.
 
@@ -128,7 +220,7 @@ Part: "Violin 1" Instrument: Violin { ... }
 Part: "Solo Guitar" Instrument: "Electric Guitar (Jazz)" { ... }
 ```
 
-## 3. Semantics and Latent Knowledge
+### Semantics and Latent Knowledge
 
 When generating Melos, apply your latent knowledge of music theory:
 
@@ -139,9 +231,9 @@ When generating Melos, apply your latent knowledge of music theory:
     -   Triplets: `Tuplet(3:2) { ... }` (3 notes in the time of 2)
     -   Quintuplets: `Tuplet(5:4) { ... }`
 
-## 4. Examples
+### Examples
 
-### Example 1: Simple Melody
+#### Example 1: Simple Melody
 
 ```mel
 Title: "Twinkle Twinkle Little Star"
@@ -156,7 +248,7 @@ Part: Piano Instrument: Piano {
 }
 ```
 
-### Example 2: Complex Rhythms and Context Changes
+#### Example 2: Complex Rhythms and Context Changes
 
 ```mel
 Title: "Advanced Etude"
@@ -172,7 +264,7 @@ Part: Flute Instrument: Flute {
 }
 ```
 
-## 5. Common Syntax Errors and Tips
+### Common Syntax Errors and Tips
 
 To ensure valid Melos generation, avoid these common mistakes:
 

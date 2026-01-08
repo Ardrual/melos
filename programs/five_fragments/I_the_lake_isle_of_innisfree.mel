@@ -1,0 +1,92 @@
+// Five Fragments: A Song Cycle for Clarinet and Piano
+// I. The Lake Isle of Innisfree (after Yeats)
+//
+// "I will arise and go now, and go to Innisfree,
+// And a small cabin build there, of clay and wattles made;
+// Nine bean-rows will I have there, a hive for the honey-bee,
+// And live alone in the bee-loud glade.
+//
+// And I shall have some peace there, for peace comes dropping slow..."
+
+Title: "I. The Lake Isle of Innisfree"
+Tempo: 66
+Time: 6/8
+Key: G "Major"
+
+// Piano: Gentle, rippling accompaniment suggesting water and bees
+Part: "Piano" Instrument: Piano {
+    // Introduction - water lapping, peace dropping slow
+    | [G3 D4] e [B3 D4] e [G3 D4] e [G3 D4] e [B3 D4] e [G3 D4] e |
+    | [G3 D4] e [B3 D4] e [G3 D4] e [A3 E4] e [C4 E4] e [A3 E4] e |
+    | [G3 D4] e [B3 D4] e [G3 D4] e [G3 D4] e [B3 D4] e [G3 D4] e |
+    | [A3 E4] e [C4 E4] e [A3 E4] e [D3 A3] e [F#3 A3] e [D3 A3] e |
+
+    // A section - "I will arise and go now"
+    | [G3 B3] e [D4 G4] e [B3 D4] e [G3 B3] e [D4 G4] e [B3 D4] e |
+    | [A3 C4] e [E4 A4] e [C4 E4] e [A3 C4] e [E4 A4] e [C4 E4] e |
+    | [B3 D4] e [F#4 B4] e [D4 F#4] e [B3 D4] e [G4 B4] e [D4 G4] e |
+    | [A3 C4] e [E4 A4] e [C4 E4] e [D3 F#3] e [A3 D4] e [F#3 A3] e |
+    | [G3 B3] e [D4 G4] e [B3 D4] e [E3 G3] e [B3 E4] e [G3 B3] e |
+    | [C3 E3] e [G3 C4] e [E3 G3] e [C3 E3] e [G3 C4] e [E3 G3] e |
+    | [D3 F#3] e [A3 D4] e [F#3 A3] e [D3 F#3] e [A3 D4] e [F#3 A3] e |
+    | [G3 B3] e [D4 G4] e [B3 D4] e [G3 B3] q. |
+
+    // B section - "And I shall have some peace there"
+    | [C3 E3] e [G3 C4] e [E3 G3] e [C3 E3] e [G3 C4] e [E3 G3] e |
+    | [G3 B3] e [D4 G4] e [B3 D4] e [G3 B3] e [D4 G4] e [B3 D4] e |
+    | [A3 C4] e [E4 A4] e [C4 E4] e [F#3 A3] e [D4 F#4] e [A3 D4] e |
+    | [G3 B3] e [D4 G4] e [B3 D4] e [G3 B3] q. |
+    | [E3 G3] e [B3 E4] e [G3 B3] e [E3 G3] e [B3 E4] e [G3 B3] e |
+    | [A3 C4] e [E4 A4] e [C4 E4] e [A3 C4] e [E4 A4] e [C4 E4] e |
+    | [D3 F#3] e [A3 D4] e [F#3 A3] e [D3 F#3] e [A3 D4] e [F#3 A3] e |
+    | [G3 B3] e [D4 G4] e [B3 D4] e [G3 B3] q. |
+
+    // A' section - Return, "I hear it in the deep heart's core"
+    | [G3 B3] e [D4 G4] e [B3 D4] e [G3 B3] e [D4 G4] e [B3 D4] e |
+    | [E3 G3] e [B3 E4] e [G3 B3] e [C3 E3] e [G3 C4] e [E3 G3] e |
+    | [D3 F#3] e [A3 D4] e [F#3 A3] e [D3 F#3] e [A3 D4] e [F#3 A3] e |
+    | [G3 B3] e [D4 G4] e [B3 D4] e [G3 B3] q. |
+
+    // Coda - fading, "the deep heart's core"
+    | [G3 D4] e [B3 D4] e [G3 D4] e [G3 D4] e [B3 D4] e [G3 D4] e pp |
+    | [G3 D4] e [B3 D4] e [G3 D4] e [G3 B3 D4] q. |
+}
+
+// Clarinet: The singing voice, carrying the text
+Part: "Clarinet" Instrument: Clarinet {
+    // Introduction - wait
+    | r q. r q. |
+    | r q. r q. |
+    | r q. r q. |
+    | r q. r q. |
+
+    // A section - "I will arise and go now, and go to Innisfree"
+    | D5 e E5 e D5 e B4 q. mp |
+    | C5 e D5 e E5 e A4 q. |
+    | B4 e D5 e F#5 e G5 e F#5 e D5 e |
+    | E5 q. D5 q. |
+    | B4 e D5 e G5 e G5 e F#5 e E5 e |
+    | E5 q. E5 e D5 e C5 e |
+    | D5 q. D5 e C5 e B4 e |
+    | A4 e B4 e D5 e G4 q. |
+
+    // B section - "And I shall have some peace there, for peace comes dropping slow"
+    | E5 q. mf E5 e D5 e C5 e |
+    | D5 q. D5 e E5 e F#5 e |
+    | G5 e F#5 e E5 e D5 e C5 e D5 e |
+    | B4 q. r q. |
+    | E5 e G5 e B5 e B5 q. |
+    | A5 e G5 e E5 e G5 q. |
+    | F#5 e E5 e D5 e E5 e D5 e C5 e |
+    | B4 e A4 e B4 e D5 q. |
+
+    // A' section - "I will arise and go now" (return, more intimate)
+    | D5 e E5 e D5 e B4 q. p |
+    | G4 e B4 e E5 e E5 e D5 e C5 e |
+    | D5 q. D5 e E5 e D5 e |
+    | B4 e A4 e G4 e G4 q. |
+
+    // Coda - "I hear it in the deep heart's core"
+    | D5 q. pp B4 q. |
+    | G4 q. G4 q. |
+}
