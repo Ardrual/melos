@@ -1,13 +1,13 @@
 # Melos
 
-
-**Melos** is a high-level, human-readable notation language for describing Western music. It compiles directly to MIDI and is designed to be intuitive for both humans and LLMs, and to enable more effective LLM composition.
+**Melos** is a high-level, human-readable notation language for describing Western music. It compiles directly to MIDI and is designed to be intuitive for both humans and LLMs, enabling more effective AI-assisted composition.
 
 ## Features
 
-- **Structural Hierarchy**: Captures music as Sections, Parts, and Bars, not just a stream of MIDI events.
+- **Structural Hierarchy**: Captures music as Sections, Parts, and Bars, rather than just a stream of MIDI events.
 - **Readable Syntax**: Designed to look like a clean, stripped-down score.
 - **Direct Compilation**: Compiles `.mel` source files to standard MIDI (`.mid`) files.
+- **LLM Optimized**: Syntax and structure are tailored for generation by Large Language Models.
 
 ## Installation
 
@@ -39,21 +39,27 @@ Tempo: 120
 Time: 4/4
 Key: G "Major"
 
-Part: "Piano" "Acoustic Grand Piano"
+Part: "Piano" Instrument: Piano {
     | G4 q  B4 q  D5 h |
     | C5 q  E5 q  G5 h |
     | D5 q  F#5 q A5 q G5 q |
     | G5 w |
+}
 ```
 
-### Using with LLMs
+### AI Integration
 
-Melos is designed to be easy for LLMs to generate. As a simple approach, you can upload the LLM user guide at the start of a chat, and most models will be able to generate valid Melos code, and discuss it at a high level with general music theory knowledge.
+Melos is specifically designed for AI workflows.
+
+- **Composer Skill**: We provide a portable "skill" definition in the `skill/` directory that can be used to teach AI agents (like Claude Code) how to compose, compile, and debug music using Melos.
+- **User Guide**: Check out the [LLM User Guide](LLM_USER_GUIDE.md) for a comprehensive look at the language features and tips for LLM prompting.
 
 ## Project Structure
 
-- `compiler/`: The Rust compiler (Melos -> MIDI)
-- `programs/`: Example scores and test files
+- `src/`: The Rust compiler source code.
+- `skill/`: A portable AI agent skill for music composition.
+- `programs/`: Example scores and test files.
+- `tests/`: Integration tests for the compiler.
 
 ## Development
 

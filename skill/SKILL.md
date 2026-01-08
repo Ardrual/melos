@@ -7,11 +7,9 @@ description: Compose a piece of music in the Melos language, compile it to MIDI,
 
 Compose music in the Melos domain-specific language, compile to MIDI, and iteratively fix errors.
 
-**This skill includes a bundled Melos compiler binary (`melos`) for macOS x86_64 (Intel).**
-
 ## Workflow
 
-1. **Gather requirements** - Ask the user about:
+1. **Gather requirements** - Determine the user's intent:
    - Style/genre (classical, jazz, pop, etc.)
    - Mood/character
    - Instrumentation
@@ -23,9 +21,9 @@ Compose music in the Melos domain-specific language, compile to MIDI, and iterat
 
 3. **Compose the piece** - Write a `.mel` file in the current directory
 
-4. **Compile and validate** - Use the bundled compiler:
+4. **Compile and validate** - Use the included Melos compiler:
    ```bash
-   .claude/skills/compose/melos compile <filename>.mel
+   ./melos compile <filename>.mel
    ```
 
    This produces a `.mid` file with the same base name.
@@ -36,7 +34,7 @@ Compose music in the Melos domain-specific language, compile to MIDI, and iterat
    - Fix the `.mel` file and recompile
    - Repeat until successful
 
-6. **Offer playback** - Once compiled successfully, let the user know the MIDI file is ready
+6. **Finalize** - Once compiled successfully, inform the user that the MIDI file is ready.
 
 ## Compositional Process
 

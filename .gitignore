@@ -2,5 +2,4 @@ target/
 check_rhythm.py
 fix_rhythm.py
 .DS_Store
-
 *.mid
