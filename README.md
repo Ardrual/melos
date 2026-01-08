@@ -53,7 +53,6 @@ Melos is designed to be easy for LLMs to generate. As a simple approach, you can
 ## Project Structure
 
 - `compiler/`: The Rust compiler (Melos -> MIDI)
-- `converter/`: Python tools for MusicXML -> Melos conversion
 - `programs/`: Example scores and test files
 
 ## Development
