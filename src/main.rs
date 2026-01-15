@@ -1,12 +1,12 @@
 use clap::{Parser, Subcommand};
 use anyhow::{Context, Result};
-use std::fs;
 use std::path::PathBuf;
 use melos::parser::parse;
 use melos::walker::walk;
 use melos::codegen::generate;
 use melos::tui::run_tui;
 use melos::gui::run_gui;
+use melos::loader::load_source;
 
 pub mod inspect;
 
@@ -19,10 +19,10 @@ struct Cli {
 
 #[derive(Subcommand)]
 enum Commands {
-    /// Compile a Melos file to MIDI
+    /// Compile a Melos file or directory to MIDI
     Compile {
-        /// Input Melos file
-        #[arg(value_name = "FILE")]
+        /// Input Melos file or directory containing .mel files
+        #[arg(value_name = "PATH")]
         input: PathBuf,
 
         /// Output MIDI file
@@ -54,12 +54,12 @@ fn main() -> Result<()> {
 
     match &cli.command {
         Commands::Compile { input, output, debug, interactive, gui } => {
-            // 1. Read Input
-            let input_content = fs::read_to_string(input)
-                .with_context(|| format!("Failed to read input file: {:?}", input))?;
+            // 1. Load source (handles both files and directories)
+            let loaded = load_source(input)
+                .with_context(|| format!("Failed to load source from: {:?}", input))?;
 
             // 2. Parse
-            let ast = parse(&input_content)
+            let ast = parse(&loaded.source)
                 .context("Failed to parse Melos")?;
 
             if *debug {
@@ -78,12 +78,12 @@ fn main() -> Result<()> {
 
             // Launch TUI if interactive mode requested
             if *interactive {
-                return run_tui(input.clone(), ast, ir);
+                return run_tui(loaded.base_path.clone(), ast, ir);
             }
 
             // Launch GUI if gui mode requested
             if *gui {
-                return run_gui(input.clone(), ast, ir);
+                return run_gui(loaded.base_path.clone(), ast, ir);
             }
 
             // 4. Codegen (IR -> MIDI)
@@ -92,15 +92,24 @@ fn main() -> Result<()> {
 
             // 5. Write Output
             let output_path = output.clone().unwrap_or_else(|| {
-                let mut p = input.clone();
-                p.set_extension("mid");
-                p
+                if loaded.base_path.is_dir() {
+                    // For directories, create .mid file with directory name
+                    let dir_name = loaded.base_path.file_name()
+                        .and_then(|n| n.to_str())
+                        .unwrap_or("output");
+                    loaded.base_path.join(format!("{}.mid", dir_name))
+                } else {
+                    // For files, replace extension
+                    let mut p = loaded.base_path.clone();
+                    p.set_extension("mid");
+                    p
+                }
             });
 
             smf.save(&output_path)
                 .with_context(|| format!("Failed to write MIDI file: {:?}", output_path))?;
 
-            println!("Successfully compiled {:?} to {:?}", input, output_path);
+            println!("Successfully compiled {:?} to {:?}", loaded.base_path, output_path);
         }
         Commands::Inspect { input } => {
             inspect::inspect(input)?;

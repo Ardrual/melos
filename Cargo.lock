@@ -2058,6 +2058,7 @@ dependencies = [
  "pest_derive",
  "pretty_assertions",
  "ratatui",
+ "tempfile",
 ]
 
 [[package]]

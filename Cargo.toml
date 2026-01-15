@@ -16,3 +16,4 @@ ratatui = "0.28"
 
 [dev-dependencies]
 pretty_assertions = "1.4.1"
+tempfile = "3.10"

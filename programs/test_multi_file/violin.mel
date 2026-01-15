@@ -1,0 +1,6 @@
+Part: Violin Instrument: Violin {
+    | r w |
+    | E5 q F5 q G5 q A5 q |
+    | G5 h E5 h |
+    | C5 w |
+}
