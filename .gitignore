@@ -1,6 +1,14 @@
 target/
-check_rhythm.py
-fix_rhythm.py
 .DS_Store
 *.mid
-.claude/skills/compose
+
+# Don't track .mel files in root - scores should go in scores/
+/*.mel
+
+# AI assistant directories
+.claude/
+.gemini/
+
+# Python scripts
+check_rhythm.py
+fix_rhythm.py

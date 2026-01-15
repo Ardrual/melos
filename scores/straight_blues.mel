@@ -1,0 +1,8 @@
+Title: "Straight Blues Example"
+Tempo: 120
+Time: 4/4
+
+Part: Piano Instrument: "Acoustic Grand Piano" {
+    | C4 e E4 e F4 e F#4 e | | G4 e Bb4 e C5 e r e |
+    | C4 e E4 e F4 e F#4 e | | G4 e Bb4 e C5 e r e |
+}

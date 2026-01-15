@@ -1,0 +1,176 @@
+Title: "Seam and Signal"
+Tempo: 52
+Time: 3/2
+Key: C "Major"
+
+Part: "Violin I" Instrument: Violin {
+    | E5 h p D5 h C5 h |
+    | B4 h C5 h D5 h |
+    | E5 h G5 h F5 h |
+    | E5 h D5 h C5 h |
+    | G5 h F5 h E5 h |
+    | D5 h E5 h F5 h |
+    | G5 h A5 h G5 h |
+    | F5 h E5 h D5 h |
+    | E5 h D5 h C5 h |
+    | B4 h C5 h D5 h |
+    | E5 h F5 h G5 h |
+    | A5 h G5 h F5 h |
+    | E5 h D5 h C5 h |
+    | D5 h E5 h F5 h |
+    | G5 h F5 h E5 h |
+    | D5 h C5 h B4 h |
+    | E5 h D5 h C5 h |
+    | D5 q. C5 e B4 q. C5 e D5 q. E5 e |
+    | F5 h E5 h D5 h |
+    | C5 h D5 h E5 h |
+    | F5 h G5 h A5 h |
+    | G5 h F5 h E5 h |
+    | D5 h E5 h F5 h |
+    | E5 h D5 h C5 h |
+    | A5 h G5 h F5 h |
+    | E5 h F5 h G5 h |
+    | A5 h B5 h A5 h |
+    | G5 h F5 h E5 h |
+    | D5 h E5 h F5 h |
+    | G5 h F5 h E5 h |
+    | D5 h C5 h B4 h |
+    | C5 h D5 h E5 h |
+    | E5 h D5 h C5 h |
+    | B4 h C5 h D5 h |
+    | E5 h F5 h G5 h |
+    | A5 h G5 h F5 h |
+    | E5 h D5 h C5 h |
+    | D5 h E5 h F5 h |
+    | E5 h D5 h C5 h |
+    | C5 w C5 h |
+}
+
+Part: "Violin II" Instrument: Violin {
+    | C5 h p B4 h A4 h |
+    | G4 h A4 h B4 h |
+    | C5 h E5 h D5 h |
+    | C5 h B4 h A4 h |
+    | E5 h D5 h C5 h |
+    | B4 h C5 h D5 h |
+    | E5 h F5 h E5 h |
+    | D5 h C5 h B4 h |
+    | C5 h B4 h A4 h |
+    | G4 h A4 h B4 h |
+    | C5 h D5 h E5 h |
+    | F5 h E5 h D5 h |
+    | C5 h B4 h A4 h |
+    | B4 h C5 h D5 h |
+    | E5 h D5 h C5 h |
+    | B4 h A4 h G4 h |
+    | C5 h B4 h A4 h |
+    | B4 q. A4 e G4 q. A4 e B4 q. C5 e |
+    | D5 h C5 h B4 h |
+    | A4 h B4 h C5 h |
+    | D5 h E5 h F5 h |
+    | E5 h D5 h C5 h |
+    | B4 h C5 h D5 h |
+    | C5 h B4 h A4 h |
+    | A4 h G4 h F4 h |
+    | E4 h F4 h G4 h |
+    | A4 h B4 h A4 h |
+    | G4 h F4 h E4 h |
+    | D4 h E4 h F4 h |
+    | G4 h F4 h E4 h |
+    | D4 h C4 h B3 h |
+    | C4 h D4 h E4 h |
+    | C5 h B4 h A4 h |
+    | G4 h A4 h B4 h |
+    | C5 h D5 h E5 h |
+    | F5 h E5 h D5 h |
+    | C5 h B4 h A4 h |
+    | B4 h C5 h D5 h |
+    | C5 h B4 h A4 h |
+    | C5 w C5 h |
+}
+
+Part: "Viola" Instrument: Viola {
+    | G3 h p F3 h E3 h |
+    | D3 h E3 h F3 h |
+    | G3 h B3 h A3 h |
+    | G3 h F3 h E3 h |
+    | B3 h A3 h G3 h |
+    | F3 h G3 h A3 h |
+    | B3 h C4 h B3 h |
+    | A3 h G3 h F3 h |
+    | G3 h F3 h E3 h |
+    | D3 h E3 h F3 h |
+    | G3 h A3 h B3 h |
+    | C4 h B3 h A3 h |
+    | G3 h F3 h E3 h |
+    | F3 h G3 h A3 h |
+    | B3 h A3 h G3 h |
+    | F3 h E3 h D3 h |
+    | G3 h F3 h E3 h |
+    | F3 q. E3 e D3 q. E3 e F3 q. G3 e |
+    | A3 h G3 h F3 h |
+    | E3 h F3 h G3 h |
+    | A3 h B3 h C4 h |
+    | B3 h A3 h G3 h |
+    | F3 h G3 h A3 h |
+    | G3 h F3 h E3 h |
+    | E3 h D3 h C3 h |
+    | B2 h C3 h D3 h |
+    | E3 h F3 h E3 h |
+    | D3 h C3 h B2 h |
+    | A2 h B2 h C3 h |
+    | D3 h C3 h B2 h |
+    | A2 h G2 h F2 h |
+    | G2 h A2 h B2 h |
+    | G3 h F3 h E3 h |
+    | D3 h E3 h F3 h |
+    | G3 h A3 h B3 h |
+    | C4 h B3 h A3 h |
+    | G3 h F3 h E3 h |
+    | F3 h G3 h A3 h |
+    | G3 h F3 h E3 h |
+    | G3 w G3 h |
+}
+
+Part: "Cello" Instrument: Cello {
+    | C2 h p G2 h C2 h |
+    | F2 h C2 h F2 h |
+    | G2 h D2 h G2 h |
+    | C2 h G2 h C2 h |
+    | A1 h E2 h A1 h |
+    | D2 h A1 h D2 h |
+    | G1 h D2 h G1 h |
+    | C2 h G2 h C2 h |
+    | C2 h G2 h C2 h |
+    | F2 h C2 h F2 h |
+    | G2 h D2 h G2 h |
+    | A1 h E2 h A1 h |
+    | D2 h A1 h D2 h |
+    | G1 h D2 h G1 h |
+    | C2 h G2 h C2 h |
+    | F2 h C2 h F2 h |
+    | C2 h G2 h C2 h |
+    | D2 q. C2 e B1 q. C2 e D2 q. E2 e |
+    | F2 h C2 h F2 h |
+    | G2 h D2 h G2 h |
+    | A1 h E2 h A1 h |
+    | D2 h A1 h D2 h |
+    | G1 h D2 h G1 h |
+    | C2 h G2 h C2 h |
+    | E2 h B1 h E2 h |
+    | A1 h E2 h A1 h |
+    | D2 h A1 h D2 h |
+    | G1 h D2 h G1 h |
+    | C2 h G2 h C2 h |
+    | F2 h C2 h F2 h |
+    | B1 h F#2 h B1 h |
+    | E2 h B1 h E2 h |
+    | C2 h G2 h C2 h |
+    | F2 h C2 h F2 h |
+    | G2 h D2 h G2 h |
+    | A1 h E2 h A1 h |
+    | D2 h A1 h D2 h |
+    | G1 h D2 h G1 h |
+    | C2 h G2 h C2 h |
+    | C2 w C2 h |
+}

@@ -1,0 +1,176 @@
+Title: "Seam and Signal"
+Tempo: 144
+Time: 6/8
+Key: A "Major"
+
+Part: "Violin I" Instrument: Violin {
+    | A5 q. mf E5 q. |
+    | C#6 e B5 e A5 e E5 e F#5 e G#5 e |
+    | A5 q. C#6 q. |
+    | B5 e A5 e G#5 e F#5 e E5 e D5 e |
+    | C#6 q. E6 q. |
+    | D6 e C#6 e B5 e A5 e G#5 e F#5 e |
+    | E6 q. D6 q. |
+    | C#6 e B5 e A5 e G#5 e F#5 e E5 e |
+    | A5 q. E5 q. |
+    | C#6 e B5 e A5 e E5 e F#5 e G#5 e |
+    | A5 q. C#6 q. |
+    | B5 e A5 e G#5 e F#5 e E5 e D5 e |
+    | C#6 q. E6 q. |
+    | D6 e C#6 e B5 e A5 e G#5 e F#5 e |
+    | E6 q. D6 q. |
+    | C#6 e B5 e A5 e G#5 e F#5 e E5 e |
+    | A5 q. E5 q. |
+    | C#6 e D6 e E6 e F#6 e E6 e D6 e |
+    | C#6 q. E6 q. |
+    | B5 e C#6 e D6 e E6 e F#6 e E6 e |
+    | D6 q. F#6 q. |
+    | E6 e D6 e C#6 e B5 e A5 e G#5 e |
+    | F#5 q. E5 q. |
+    | D5 e E5 e F#5 e G#5 e A5 e B5 e |
+    | A5 q. E5 q. |
+    | C#6 e B5 e A5 e E5 e F#5 e G#5 e |
+    | A5 q. C#6 q. |
+    | B5 e A5 e G#5 e F#5 e E5 e D5 e |
+    | C#6 q. E6 q. |
+    | D6 e C#6 e B5 e A5 e G#5 e F#5 e |
+    | E6 q. D6 q. |
+    | C#6 e B5 e A5 e G#5 e F#5 e E5 e |
+    | A5 q. E5 q. |
+    | C#6 e B5 e A5 e E5 e F#5 e G#5 e |
+    | A5 q. C#6 q. |
+    | B5 e A5 e G#5 e F#5 e E5 e D5 e |
+    | C#6 q. E6 q. |
+    | D6 e C#6 e B5 e A5 e G#5 e F#5 e |
+    | E6 q. D6 q. |
+    | A5 h. |
+}
+
+Part: "Violin II" Instrument: Violin {
+    | E5 q. mf B4 q. |
+    | A5 e G#5 e F#5 e E5 e D5 e C#5 e |
+    | E5 q. G#5 q. |
+    | F#5 e E5 e D5 e C#5 e B4 e A4 e |
+    | G#5 q. B5 q. |
+    | A5 e G#5 e F#5 e E5 e D5 e C#5 e |
+    | E5 q. D5 q. |
+    | C#5 e B4 e A4 e G#4 e F#4 e E4 e |
+    | E5 q. mf B4 q. |
+    | A5 e G#5 e F#5 e E5 e D5 e C#5 e |
+    | E5 q. G#5 q. |
+    | F#5 e E5 e D5 e C#5 e B4 e A4 e |
+    | G#5 q. B5 q. |
+    | A5 e G#5 e F#5 e E5 e D5 e C#5 e |
+    | E5 q. D5 q. |
+    | C#5 e B4 e A4 e G#4 e F#4 e E4 e |
+    | E5 q. mf B4 q. |
+    | A5 e B5 e C#6 e D6 e C#6 e B5 e |
+    | E5 q. G#5 q. |
+    | F#5 e G#5 e A5 e B5 e C#6 e B5 e |
+    | G#5 q. B5 q. |
+    | A5 e G#5 e F#5 e E5 e D5 e C#5 e |
+    | E5 q. D5 q. |
+    | C#5 e B4 e A4 e G#4 e F#4 e E4 e |
+    | E5 q. mf B4 q. |
+    | A5 e G#5 e F#5 e E5 e D5 e C#5 e |
+    | E5 q. G#5 q. |
+    | F#5 e E5 e D5 e C#5 e B4 e A4 e |
+    | G#5 q. B5 q. |
+    | A5 e G#5 e F#5 e E5 e D5 e C#5 e |
+    | E5 q. D5 q. |
+    | C#5 e B4 e A4 e G#4 e F#4 e E4 e |
+    | E5 q. mf B4 q. |
+    | A5 e G#5 e F#5 e E5 e D5 e C#5 e |
+    | E5 q. G#5 q. |
+    | F#5 e E5 e D5 e C#5 e B4 e A4 e |
+    | G#5 q. B5 q. |
+    | A5 e G#5 e F#5 e E5 e D5 e C#5 e |
+    | E5 q. D5 q. |
+    | A4 h. |
+}
+
+Part: "Viola" Instrument: Viola {
+    | A4 q. mf E4 q. |
+    | C#5 e B4 e A4 e E4 e F#4 e G#4 e |
+    | A4 q. C#5 q. |
+    | B4 e A4 e G#4 e F#4 e E4 e D4 e |
+    | C#5 q. E5 q. |
+    | D5 e C#5 e B4 e A4 e G#4 e F#4 e |
+    | E5 q. D5 q. |
+    | C#5 e B4 e A4 e G#4 e F#4 e E4 e |
+    | A4 q. mf E4 q. |
+    | C#5 e B4 e A4 e E4 e F#4 e G#4 e |
+    | A4 q. C#5 q. |
+    | B4 e A4 e G#4 e F#4 e E4 e D4 e |
+    | C#5 q. E5 q. |
+    | D5 e C#5 e B4 e A4 e G#4 e F#4 e |
+    | E5 q. D5 q. |
+    | C#5 e B4 e A4 e G#4 e F#4 e E4 e |
+    | A4 q. mf E4 q. |
+    | C#5 e D5 e E5 e F#5 e E5 e D5 e |
+    | A4 q. C#5 q. |
+    | B4 e C#5 e D5 e E5 e F#5 e E5 e |
+    | C#5 q. E5 q. |
+    | D5 e C#5 e B4 e A4 e G#4 e F#4 e |
+    | F#4 q. E4 q. |
+    | D4 e E4 e F#4 e G#4 e A4 e B4 e |
+    | A4 q. mf E4 q. |
+    | C#5 e B4 e A4 e E4 e F#4 e G#4 e |
+    | A4 q. C#5 q. |
+    | B4 e A4 e G#4 e F#4 e E4 e D4 e |
+    | C#5 q. E5 q. |
+    | D5 e C#5 e B4 e A4 e G#4 e F#4 e |
+    | E5 q. D5 q. |
+    | C#5 e B4 e A4 e G#4 e F#4 e E4 e |
+    | A4 q. mf E4 q. |
+    | C#5 e B4 e A4 e E4 e F#4 e G#4 e |
+    | A4 q. C#5 q. |
+    | B4 e A4 e G#4 e F#4 e E4 e D4 e |
+    | C#5 q. E5 q. |
+    | D5 e C#5 e B4 e A4 e G#4 e F#4 e |
+    | E5 q. D5 q. |
+    | A4 h. |
+}
+
+Part: "Cello" Instrument: Cello {
+    | A2 q. mf E2 q. |
+    | C#3 e B2 e A2 e E2 e F#2 e G#2 e |
+    | A2 q. C#3 q. |
+    | B2 e A2 e G#2 e F#2 e E2 e D2 e |
+    | C#3 q. E3 q. |
+    | D3 e C#3 e B2 e A2 e G#2 e F#2 e |
+    | E3 q. D3 q. |
+    | C#3 e B2 e A2 e G#2 e F#2 e E2 e |
+    | A2 q. mf E2 q. |
+    | C#3 e B2 e A2 e E2 e F#2 e G#2 e |
+    | A2 q. C#3 q. |
+    | B2 e A2 e G#2 e F#2 e E2 e D2 e |
+    | C#3 q. E3 q. |
+    | D3 e C#3 e B2 e A2 e G#2 e F#2 e |
+    | E3 q. D3 q. |
+    | C#3 e B2 e A2 e G#2 e F#2 e E2 e |
+    | A2 q. mf E2 q. |
+    | C#3 e D3 e E3 e F#3 e E3 e D3 e |
+    | A2 q. C#3 q. |
+    | B2 e C#3 e D3 e E3 e F#3 e E3 e |
+    | C#3 q. E3 q. |
+    | D3 e C#3 e B2 e A2 e G#2 e F#2 e |
+    | F#2 q. E2 q. |
+    | D2 e E2 e F#2 e G#2 e A2 e B2 e |
+    | A2 q. mf E2 q. |
+    | C#3 e B2 e A2 e E2 e F#2 e G#2 e |
+    | A2 q. C#3 q. |
+    | B2 e A2 e G#2 e F#2 e E2 e D2 e |
+    | C#3 q. E3 q. |
+    | D3 e C#3 e B2 e A2 e G#2 e F#2 e |
+    | E3 q. D3 q. |
+    | C#3 e B2 e A2 e G#2 e F#2 e E2 e |
+    | A2 q. mf E2 q. |
+    | C#3 e B2 e A2 e E2 e F#2 e G#2 e |
+    | A2 q. C#3 q. |
+    | B2 e A2 e G#2 e F#2 e E2 e D2 e |
+    | C#3 q. E3 q. |
+    | D3 e C#3 e B2 e A2 e G#2 e F#2 e |
+    | E3 q. D3 q. |
+    | A2 h. |
+}

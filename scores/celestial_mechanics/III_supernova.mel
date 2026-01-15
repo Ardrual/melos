@@ -1,0 +1,99 @@
+Title: "Celestial Mechanics III: Supernova"
+Tempo: 160
+Time: 4/4
+Key: C "Minor" // Actually chromatic
+
+// Part 1: The Fuse (Strings, Sul Ponticello simulation via ppp + rapid notes)
+Part: "Violin" Instrument: Violin {
+    // Measures 1-4: The frantic fuse
+    | C4 s C#4 s D4 s Eb4 s E4 s F4 s F#4 s G4 s C4 s C#4 s D4 s Eb4 s E4 s F4 s F#4 s G4 s |
+    | G4 s G#4 s A4 s Bb4 s B4 s C5 s C#5 s D5 s G4 s G#4 s A4 s Bb4 s B4 s C5 s C#5 s D5 s |
+    | D5 sEb5 s E5 s F5 s F#5 s G5 s G#5 s A5 s D5 s Eb5 s E5 s F5 s F#5 s G5 s G#5 s A5 s |
+    | Bb5 s B5 s C6 s C#6 s D6 s Eb6 s E6 s F6 s Bb5 s B5 s C6 s C#6 s D6 s Eb6 s E6 s F6 s |
+
+    // Measures 5-8: Adding pressure (triplets)
+    | Tuplet(3:2) { F6 e E6 e Eb6 e } Tuplet(3:2) { D6 e Db6 e C6 e } Tuplet(3:2) { B5 e Bb5 e A5 e } Tuplet(3:2) { Ab5 e G5 e Gb5 e } |
+    | Tuplet(3:2) { F5 e E5 e Eb5 e } Tuplet(3:2) { D5 e Db5 e C5 e } Tuplet(3:2) { B4 e Bb4 e A4 e } Tuplet(3:2) { Ab4 e G4 e Gb4 e } |
+    | F4 s G4 s A4 s B4 s C5 s D5 s E5 s F#5 s G#5 s A#5 s C6 s D6 s E6 s F#6 s G#6 s A#6 s | // Accelerating up
+    | B6 w > |
+
+    // Measure 9-12: Chaos
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    // Measures 13-14: The False Vacuum (Tempo 60)
+    Tempo: 60 // Tempo change
+    | [C5 E5 G5 C6] w pp |
+    | [C5 E5 G5 C6] w |
+
+    // Measure 15+: Explosion (Tempo 160)
+    Tempo: 160
+    | [C6 Eb6 G6 C7] s fff r s r e r q r h |
+    | r w |
+    | C7 s B6 s Bb6 s A6 s Ab6 s G6 s Gb6 s F6 s E6 s Eb6 s D6 s Db6 s C6 s B5 s Bb5 s A5 s |
+    | G3 w |
+}
+
+Part: "Cello" Instrument: Cello {
+    // M1-4: Contrary motion fuse
+    | C3 s B2 s Bb2 s A2 s Ab2 s G2 s Gb2 s F2 s C3 s B2 s Bb2 s A2 s Ab2 s G2 s Gb2 s F2 s |
+    | F2 s E2 s Eb2 s D2 s Db2 s C2 s B1 s Bb1 s F2 s E2 s Eb2 s D2 s Db2 s C2 s B1 s Bb1 s |
+    | A1 s Ab1 s G1 s Gb1 s F1 s E1 s Eb1 s D1 s A1 s Ab1 s G1 s Gb1 s F1 s E1 s Eb1 s D1 s |
+    | Db1 s C1 s B0 s Bb0 s A0 s Ab0 s G0 s Gb0 s Db1 s C1 s B0 s Bb0 s A0 s Ab0 s G0 s Gb0 s |
+
+    // M5-8
+    | C1 q > G1 q > C2 q > G2 q > |
+    | C1 q G1 q C2 q G2 q |
+    | C1 s D1 s E1 s F#1 s G#1 s A#1 s C2 s D2 s E2 s F#2 s G#2 s A#2 s C3 s D3 s E3 s F#3 s |
+    | G3 w > |
+
+    // M9-12: Chaos
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+
+    // M13-14: False Vacuum
+    Tempo: 60
+    | [C2 G2 C3] w pp |
+    | [C2 G2 C3] w |
+
+    // M15+: Explosion
+    Tempo: 160
+    | [C1 G1 C2] s fff r s r e r q r h |
+    | r w |
+    | C2 s Db2 s D2 s Eb2 s E2 s F2 s Gb2 s G2 s Ab2 s A2 s Bb2 s B2 s C3 s Db3 s D3 s Eb3 s |
+    | C1 w |
+}
+
+Part: "Piano" Instrument: Piano {
+    // M1-8: Silence
+    | r w | 
+    | r w | 
+    | r w | 
+    | r w |
+    | r w | 
+    | r w | 
+    | r w | 
+    | r w |
+
+    // M9-12: Join the acceleration
+    | r h Tuplet(5:4) { C4 e E4 e G4 e Bb4 e D5 e } | 
+    | Tuplet(6:4) { Eb5 e Gb5 e A5 e C6 e Eb6 e Gb6 e } r h |
+    | Tuplet(7:4) { G6 e B6 e D7 e F#7 e A7 e C8 e E8 e } r h |
+    | r w |
+
+    // M13-14: False Vacuum
+    Tempo: 60
+    | [C3 E3 G3 C4 E4 G4] w pp |
+    | [C3 E3 G3 C4 E4 G4] w |
+
+    // M15+: Explosion
+    Tempo: 160
+    | [C1 C2 C3 C4 C5] s fff r s r e r q r h |
+    | [B0 B1 B2 B3] s r s r e r q r h |
+    | r w |
+    | [C1 G1 C2] w |
+}

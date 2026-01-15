@@ -19,10 +19,10 @@ cargo test
 cargo test <test_name>
 
 # Compile a .mel file to MIDI
-cargo run --release -- compile programs/myscore.mel
+cargo run --release -- compile scores/myscore.mel
 
-# Compile with debug output (shows AST and IR)
-cargo run --release -- compile programs/myscore.mel --debug
+# Compile all .mel files in a directory (concatenates them into one MIDI)
+cargo run --release -- compile scores/myproject/
 
 # Inspect a MIDI file
 cargo run --release -- inspect file.mid
@@ -64,3 +64,7 @@ See `LLM_USER_GUIDE.md` for complete syntax. Key points:
 - Dynamics: `ppp` through `fff`
 - Chords: `[C4 E4 G4] q`
 - Tuplets: `Tuplet(3:2) { E4 q E4 q E4 q }`
+- Swing: `Swing: e 0.66` (applies swing to eighth notes)
+- Comments: `// comment` or `= comment` (line comments)
+
+> **Note**: The `skill/` directory contains an early-stage portable AI skill for music composition. See `skill/README.md` for details.

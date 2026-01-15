@@ -1,0 +1,544 @@
+Title: "Twilight Elegy"
+Tempo: 66
+Time: 4/4
+Key: D "Minor"
+
+Part: "Flute" Instrument: Flute {
+    // Introduction (mm. 1-8)
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    // A Section (mm. 9-24)
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    // Transition (mm. 25-32)
+    | r w |
+    | D5 w mp |
+    | D5 w mf |
+    | C#5 w |
+    | D5 w |
+    | E5 h f D5 h |
+    | C#5 w |
+    | D5 w mf |
+    // B Section (mm. 33-48)
+    | D5 h mf E5 h |
+    | F5 w |
+    | E5 h f D5 h |
+    | D5 w |
+    | G5 q f F5 q E5 q D5 q |
+    | C5 h D5 h |
+    | E5 h F5 h |
+    | E5 w |
+    | F5 h ff G5 h |
+    | A5 h Bb5 h |
+    | A5 w |
+    | A5 w f |
+    | G5 h mf F5 h |
+    | E5 w |
+    | D5 h C#5 h |
+    | D5 w |
+    // Climax (mm. 49-56)
+    | A5 q. ff Bb5 e A5 h |
+    | G5 q A5 q Bb5 h |
+    | C6 w |
+    | Bb5 h A5 h |
+    | G5 q. A5 e Bb5 h |
+    | A5 w |
+    | r w |
+    | D5 w p |
+    // A' Section (mm. 57-72)
+    | D6 w pp |
+    | C#6 w |
+    | D6 w |
+    | r w |
+    | r w |
+    | D5 w pp |
+    | D5 w |
+    | r w |
+    | A5 w |
+    | r w |
+    | D5 w |
+    | r w |
+    | r w |
+    | A4 w pp |
+    | r w |
+    | r w |
+    // Coda (mm. 73-80)
+    | r w |
+    | r w |
+    | r w |
+    | D5 w ppp |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+}
+
+Part: "Oboe" Instrument: Oboe {
+    // Introduction (mm. 1-8)
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    // A Section (mm. 9-24)
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    // Transition (mm. 25-32)
+    | A4 q. mp G4 e F4 h |
+    | E4 h D4 h |
+    | r h mf D4 q E4 q |
+    | F4 q G4 q A4 h |
+    | Bb4 q f A4 q G4 h |
+    | A4 h r h |
+    | r h A4 h |
+    | Bb4 w mf |
+    // B Section (mm. 33-48)
+    | A4 q. mf F5 e E5 h |
+    | D5 q E5 q F5 h |
+    | G5 h f F5 q E5 q |
+    | D5 w |
+    | r q E5 q F5 q G5 q |
+    | A5 h f G5 h |
+    | F5 q E5 q D5 q E5 q |
+    | C#5 w |
+    | D5 q. ff E5 e F5 h |
+    | G5 q A5 q Bb5 h |
+    | A5 h G5 h |
+    | F5 w f |
+    | E5 q mf D5 q C#5 q D5 q |
+    | E5 h F5 h |
+    | G5 q F5 q E5 q D5 q |
+    | E5 w |
+    // Climax (mm. 49-56)
+    | F5 q. ff G5 e A5 h |
+    | Bb5 h A5 h |
+    | G5 w |
+    | F5 h E5 h |
+    | D5 q. E5 e F5 h |
+    | E5 w |
+    | r w |
+    | A4 w p |
+    // A' Section (mm. 57-72)
+    | r w |
+    | r h pp A4 q Bb4 q |
+    | A4 h G4 h |
+    | F4 w |
+    | E4 q. p F4 e E4 h |
+    | D4 w |
+    | r w |
+    | A4 q. pp F5 e E5 h |
+    | D5 q C#5 q Bb4 h |
+    | A4 w |
+    | r h G4 q A4 q |
+    | Bb4 w |
+    | A4 h p G4 h |
+    | F4 w |
+    | r w |
+    | r w |
+    // Coda (mm. 73-80)
+    | r w |
+    | r w |
+    | A4 h pp r h |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+}
+
+Part: "Clarinet" Instrument: Clarinet {
+    // Introduction (mm. 1-8)
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    // A Section - Main theme (mm. 9-24)
+    | A4 q. mp F5 e E5 h |
+    | D5 q C#5 q Bb4 h |
+    | A4 h G4 q A4 q |
+    | D4 w |
+    | A4 q. mf F5 e G5 h |
+    | A5 q G5 q F5 h |
+    | E5 q D5 q C#5 q Bb4 q |
+    | A4 w |
+    | A4 q. f Bb5 e A5 h |
+    | G5 q F5 q E5 h |
+    | D5 h C#5 q D5 q |
+    | E5 w |
+    | D5 q. mp C#5 e Bb4 h |
+    | A4 q G4 q F4 h |
+    | E4 h D4 h |
+    | D4 w p |
+    // Transition (mm. 25-32)
+    | r h mp D4 q E4 q |
+    | F4 q G4 q A4 h |
+    | Bb4 q mf A4 q G4 q F4 q |
+    | E4 h D4 h |
+    | r h A4 q Bb4 q |
+    | C5 h f Bb4 h |
+    | A4 q G4 q F4 q E4 q |
+    | D4 w mf |
+    // B Section (mm. 33-48)
+    | r h mp A4 q Bb4 q |
+    | A4 h G4 h |
+    | r h mf D4 q E4 q |
+    | F4 q G4 q A4 h |
+    | Bb4 h f A4 h |
+    | r h E4 q F4 q |
+    | G4 h A4 h |
+    | A4 w |
+    | Bb4 q. ff A4 e G4 h |
+    | F4 h E4 h |
+    | D4 h D5 h |
+    | C5 w f |
+    | Bb4 q mf A4 q G4 q A4 q |
+    | Bb4 h A4 h |
+    | G4 q A4 q Bb4 q G4 q |
+    | A4 w |
+    // Climax (mm. 49-56)
+    | D5 q. ff E5 e F5 h |
+    | G5 h F5 h |
+    | E5 w |
+    | D5 h C#5 h |
+    | Bb4 q. C5 e D5 h |
+    | C#5 w |
+    | r w |
+    | F4 w p |
+    // A' Section - Theme returns fragmented (mm. 57-72)
+    | A4 q. pp F5 e E5 h |
+    | D5 w |
+    | r h C#5 q Bb4 q |
+    | A4 w |
+    | r h A4 q. Bb4 e |
+    | A4 h G4 h |
+    | F4 q E4 q D4 h |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | A4 h p r h |
+    | r h F4 h |
+    | E4 w |
+    | D4 w pp |
+    // Coda (mm. 73-80)
+    | r h pp A4 q. F5 e |
+    | E5 h D5 h |
+    | r w |
+    | r w |
+    | r w |
+    | r h A4 h ppp |
+    | r w |
+    | r w |
+}
+
+Part: "Violin" Instrument: Violin {
+    // Introduction (mm. 1-8)
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r h mp A3 h |
+    | Bb3 w |
+    | F4 h D4 h |
+    | C#4 w |
+    // A Section (mm. 9-24)
+    | D4 h mp C#4 h |
+    | D4 w |
+    | Bb3 h A3 h |
+    | F4 w |
+    | D4 h mf E4 h |
+    | F4 w |
+    | G4 h E4 h |
+    | F4 w |
+    | F4 h f G4 h |
+    | A4 h Bb4 h |
+    | A4 h G4 h |
+    | G4 w |
+    | F4 h mp E4 h |
+    | D4 h C#4 h |
+    | A3 w |
+    | A3 w p |
+    // Transition (mm. 25-32)
+    | F4 q mp E4 q D4 q E4 q |
+    | F4 q G4 q A4 h |
+    | D4 q mf E4 q F4 q G4 q |
+    | A4 h Bb4 h |
+    | A4 q f G4 q F4 q E4 q |
+    | F4 h G4 h |
+    | A4 q Bb4 q A4 q G4 q |
+    | F4 w mf |
+    // B Section (mm. 33-48)
+    | F4 q mf E4 q D4 q E4 q |
+    | F4 h G4 h |
+    | A4 q f Bb4 q A4 q G4 q |
+    | F4 w |
+    | G4 q f A4 q Bb4 q A4 q |
+    | C5 h Bb4 h |
+    | A4 q G4 q F4 q G4 q |
+    | A4 w |
+    | Bb4 q ff C5 q D5 q C5 q |
+    | D5 h E5 h |
+    | F5 w |
+    | E5 w f |
+    | D5 h mf C#5 h |
+    | D5 h Bb4 h |
+    | A4 h G4 h |
+    | A4 w |
+    // Climax (mm. 49-56)
+    | D5 q ff E5 q F5 q G5 q |
+    | A5 h Bb5 h |
+    | A5 w |
+    | G5 h F5 h |
+    | E5 q F5 q G5 q A5 q |
+    | G5 w |
+    | r w |
+    | F4 w p |
+    // A' Section (mm. 57-72)
+    | F4 w pp |
+    | E4 w |
+    | F4 h E4 h |
+    | D4 w |
+    | C#4 w |
+    | D4 w |
+    | A3 w |
+    | F4 w |
+    | F4 h E4 h |
+    | D4 w |
+    | Bb3 w |
+    | G4 w |
+    | F4 h pp E4 h |
+    | D4 w |
+    | C#4 w |
+    | D4 w ppp |
+    // Coda (mm. 73-80)
+    | F4 w pp |
+    | E4 w |
+    | D4 w |
+    | D4 w ppp |
+    | r w |
+    | D4 w ppp |
+    | r w |
+    | D4 w ppp |
+}
+
+Part: "Viola" Instrument: Viola {
+    // Introduction (mm. 1-8)
+    | r w |
+    | r w |
+    | r w |
+    | r w |
+    | r h mp F3 h |
+    | E3 w |
+    | D3 h Bb3 h |
+    | A3 w |
+    // A Section (mm. 9-24)
+    | A3 h mp A3 h |
+    | Bb3 w |
+    | G3 h F3 h |
+    | A3 w |
+    | A3 h mf C#4 h |
+    | D4 w |
+    | Bb3 h C#4 h |
+    | C4 w |
+    | D4 h f E4 h |
+    | F4 h D4 h |
+    | E4 h E4 h |
+    | C#4 w |
+    | D4 h mp C#4 h |
+    | Bb3 h A3 h |
+    | E3 w |
+    | F3 w p |
+    // Transition (mm. 25-32)
+    | A3 q mp Bb3 q A3 q G3 q |
+    | A3 h C4 h |
+    | Bb3 q mf A3 q Bb3 q C4 q |
+    | D4 h E4 h |
+    | D4 q f C4 q Bb3 q C4 q |
+    | D4 h E4 h |
+    | E4 q D4 q C#4 q D4 q |
+    | D4 w mf |
+    // B Section (mm. 33-48)
+    | A3 h mf Bb3 h |
+    | C4 h D4 h |
+    | C4 q f Bb3 q A3 q Bb3 q |
+    | A3 w |
+    | Bb3 q f C4 q D4 q C4 q |
+    | E4 h D4 h |
+    | C4 q Bb3 q A3 q Bb3 q |
+    | E4 w |
+    | D4 h ff E4 h |
+    | F4 h G4 h |
+    | D4 w |
+    | C#4 w f |
+    | Bb3 h mf A3 h |
+    | Bb3 h G3 h |
+    | E3 h E3 h |
+    | C#4 w |
+    // Climax (mm. 49-56)
+    | A4 q ff Bb4 q C5 q Bb4 q |
+    | D5 h D5 h |
+    | E5 w |
+    | D5 h C#5 h |
+    | Bb4 q C5 q D5 q E5 q |
+    | E5 w |
+    | r w |
+    | A3 w p |
+    // A' Section (mm. 57-72)
+    | A3 w pp |
+    | A3 w |
+    | A3 h G3 h |
+    | F3 w |
+    | E3 w |
+    | F3 w |
+    | D3 w |
+    | C4 w |
+    | Bb3 h A3 h |
+    | F3 w |
+    | G3 w |
+    | D3 w |
+    | Bb3 w pp |
+    | A3 w |
+    | A3 w |
+    | A3 w ppp |
+    // Coda (mm. 73-80)
+    | A3 w pp |
+    | Bb3 w |
+    | A3 w |
+    | F3 w ppp |
+    | r w |
+    | F3 w ppp |
+    | r w |
+    | A3 w ppp |
+}
+
+Part: "Cello" Instrument: Cello {
+    // Introduction - Solo opening (mm. 1-8)
+    | D3 h p A2 h |
+    | Bb2 q A2 q G2 h |
+    | F2 h. E2 q |
+    | D2 w |
+    | D3 q E3 q F3 h |
+    | G3 h A3 h |
+    | Bb3 q A3 q G3 q F3 q |
+    | E3 w |
+    // A Section (mm. 9-24)
+    | D3 h mp A2 h |
+    | G2 w |
+    | E3 h D3 h |
+    | D3 w |
+    | D3 h mf A2 h |
+    | D3 w |
+    | G3 h A3 h |
+    | F3 w |
+    | Bb2 h f C3 h |
+    | D3 h G3 h |
+    | A3 h A2 h |
+    | A2 w |
+    | Bb2 h mp A2 h |
+    | G2 h A2 h |
+    | A2 w |
+    | D2 w p |
+    // Transition (mm. 25-32)
+    | D3 q mp E3 q F3 q D3 q |
+    | A2 h D3 h |
+    | G2 q mf A2 q Bb2 q C3 q |
+    | D3 h A2 h |
+    | G2 h f C3 h |
+    | F2 h Bb2 h |
+    | A2 q Bb2 q A2 q E2 q |
+    | D2 w mf |
+    // B Section (mm. 33-48)
+    | D3 q mf E3 q F3 q D3 q |
+    | A2 h Bb2 h |
+    | C3 q f D3 q E3 q C3 q |
+    | D3 w |
+    | G2 q f A2 q Bb2 q G2 q |
+    | A2 h G2 h |
+    | F2 h E2 h |
+    | A2 w |
+    | Bb2 h ff C3 h |
+    | D3 h E3 h |
+    | F3 w |
+    | A2 w f |
+    | G2 h mf F2 h |
+    | G2 h E2 h |
+    | A2 h A2 h |
+    | A2 w |
+    // Climax (mm. 49-56)
+    | D3 q ff E3 q F3 q G3 q |
+    | F3 h G3 h |
+    | C3 w |
+    | Bb2 h A2 h |
+    | G2 q A2 q Bb2 q C3 q |
+    | A2 w |
+    | r w |
+    | D3 w p |
+    // A' Section (mm. 57-72)
+    | D3 w pp |
+    | A2 w |
+    | D3 w |
+    | D3 w |
+    | A2 w |
+    | Bb2 w |
+    | D3 w |
+    | A2 w |
+    | Bb2 w |
+    | D3 w |
+    | G2 w |
+    | G2 w |
+    | G2 w pp |
+    | D2 w |
+    | A2 w |
+    | D2 w ppp |
+    // Coda (mm. 73-80)
+    | D3 w pp |
+    | G2 w |
+    | D3 h A2 h |
+    | D2 w ppp |
+    | r w |
+    | D2 w ppp |
+    | r w |
+    | D2 w ppp |
+}

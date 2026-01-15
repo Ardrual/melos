@@ -7,7 +7,8 @@ header = {
     ("Title" ~ ":" ~ string_literal) |
     ("Tempo" ~ ":" ~ integer) |
     ("Time" ~ ":" ~ time_signature) |
-    ("Key" ~ ":" ~ key_signature)
+    ("Key" ~ ":" ~ key_signature) |
+    ("Swing" ~ ":" ~ swing_setting)
 }
 
 part = { "Part" ~ ":" ~ part_name ~ "Instrument" ~ ":" ~ instrument_name ~ "{" ~ part_content ~ "}" }
@@ -19,7 +20,7 @@ part_content = { measure_block }
 
 measure_block = { (measure | context_change)+ }
 
-measure = { "|" ~ music_event* ~ "|" }
+measure = { "|"? ~ music_event* ~ "|" }
 
 music_event = { note | chord | rest | tuplet | dynamic }
 
@@ -45,13 +46,16 @@ articulation = { "." | ">" | "-" }
 context_change = {
     ("Tempo" ~ ":" ~ integer) |
     ("Time" ~ ":" ~ time_signature) |
-    ("Key" ~ ":" ~ key_signature)
+    ("Key" ~ ":" ~ key_signature) |
+    ("Swing" ~ ":" ~ swing_setting)
 }
 
 time_signature = { integer ~ "/" ~ integer }
 key_signature = { pitch_class ~ string_literal }
 pitch_class = { step ~ accidental? }
 
+swing_setting = { ("off") | (base_duration ~ float) }
+float = @{ ASCII_DIGIT+ ~ "." ~ ASCII_DIGIT+ }
 string_literal = @{ "\"" ~ (!"\"" ~ ANY)* ~ "\"" }
 identifier = @{ ASCII_ALPHA ~ (ASCII_ALPHANUMERIC | "_")* }
 integer = @{ ASCII_DIGIT+ }

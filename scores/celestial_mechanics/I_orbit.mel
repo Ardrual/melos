@@ -1,0 +1,151 @@
+Title: "Celestial Mechanics I: Orbit"
+Tempo: 120
+Time: 4/4
+Key: C "Major"
+
+// Part 1: Clockwork Ostinato
+// Starts alone, continues as the "sun" or gravity well
+Part: "Piano" Instrument: Piano {
+    // Measures 1-4: The base orbit establishment
+    | E4 e G4 e C5 e G4 e B4 e G4 e C5 e G4 e |
+    | E4 e G4 e C5 e G4 e B4 e G4 e C5 e G4 e |
+    | E4 e G4 e C5 e G4 e B4 e G4 e C5 e G4 e |
+    | E4 e G4 e C5 e G4 e B4 e G4 e C5 e G4 e |
+
+    // Measures 5-8: Continue ostinato
+    | E4 e G4 e C5 e G4 e B4 e G4 e C5 e G4 e |
+    | E4 e G4 e C5 e G4 e B4 e G4 e C5 e G4 e |
+    | E4 e G4 e C5 e G4 e B4 e G4 e C5 e G4 e |
+    | E4 e G4 e C5 e G4 e B4 e G4 e C5 e G4 e |
+    
+    // Measures 9-12: Slight variation in harmony
+    | F4 e A4 e C5 e A4 e E5 e A4 e C5 e A4 e |
+    | F4 e A4 e C5 e A4 e E5 e A4 e C5 e A4 e |
+    | E4 e G4 e C5 e G4 e B4 e G4 e C5 e G4 e |
+    | E4 e G4 e C5 e G4 e B4 e G4 e C5 e G4 e |
+    
+    // Measures 13-15: Building tension
+    | D4 e F#4 e A4 e F#4 e D5 e F#4 e A4 e F#4 e |
+    | D4 e F#4 e A4 e F#4 e D5 e F#4 e A4 e F#4 e |
+    | G4 e B4 e D5 e B4 e G5 e B4 e D5 e B4 e |
+
+    // Measure 16: The Disruption (5/8)
+    Time: 5/8
+    | [C4 E4 G4] e > [C4 E4 G4] e > r e [C4 E4 G4] e > r e | 
+
+    // Measures 17-20: Return to 4/4 but shifted axis
+    Time: 4/4
+    | [Ab3 C4 Eb4] e mp [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e |
+    | [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e [Ab3 C4 Eb4] e |
+    | [G3 B3 D4] e mf [G3 B3 D4] e [G3 B3 D4] e [G3 B3 D4] e [G3 B3 D4] e [G3 B3 D4] e [G3 B3 D4] e [G3 B3 D4] e |
+    | [C4 E4 G4] w |
+}
+
+// Part 2: Winds - The Elliptical Orbits
+Part: "Flute" Instrument: Flute {
+    // Measures 1-4: Rest
+    | r w | 
+    | r w | 
+    | r w | 
+    | r w |
+    
+    // Measures 5-8: Entering the orbit
+    | C6 h. mp G5 q |
+    | E6 w |
+    | r h C6 h |
+    | B5 w |
+    
+    // Measures 9-12
+    | A5 q. C6 e F6 h |
+    | E6 h. r q |
+    | G5 e > A5 e G5 e F5 e E5 h |
+    | r w |
+    
+    // Measures 13-15: Syncopation 3+3+2
+    | D6 q. F#6 q. A6 q |
+    | D6 q. F#6 q. A6 q |
+    | G6 q. B6 q. D7 q > |
+
+    // Measure 16: Disruption (5/8) - Silence to accentuate piano
+    Time: 5/8
+    | r h r e |
+
+    // Measures 17-20: Unstable high orbit
+    Time: 4/4
+    | Eb6 w p | 
+    | Ab6 w > |
+    | G6 h. r q |
+    | C7 w |
+}
+
+Part: "Clarinet" Instrument: Clarinet {
+    // Measures 1-4: Rest
+    | r w | 
+    | r w | 
+    | r w | 
+    | r w |
+
+    // Measures 5-8
+    | r w |
+    | G4 h. C5 q |
+    | E5 w |
+    | D5 w |
+
+    // Measures 9-12
+    | F5 h A5 h |
+    | C6 w |
+    | C5 q B4 q C5 h |
+    | r w |
+
+    // Measures 13-15: Counter syncopation
+    | r q D5 q. F#5 q. |
+    | A5 q D5 q. F#5 q. |
+    | B5 q G5 q. B5 q. |
+
+    // Measure 16: Disruption
+    Time: 5/8
+    | r h r e |
+
+    // Measures 17-20
+    Time: 4/4
+    | C5 w | 
+    | Eb5 w |
+    | D5 w |
+    | E5 w |
+}
+
+// Part 3: Rogue Planet Cello
+// Enters at the disruption
+Part: "Cello" Instrument: Cello {
+    // Measures 1-15: Silence
+    | r w | 
+    | r w | 
+    | r w | 
+    | r w |
+    | r w | 
+    | r w | 
+    | r w | 
+    | r w |
+    | r w | 
+    | r w | 
+    | r w | 
+    | r w |
+    | r w | 
+    | r w | 
+    | r w |
+
+    // Measure 16: The Rogue Planet enters aggressively
+    // 5/8 measure
+    Time: 5/8
+    | C2 e > C2 e > C2 e > C2 e > C2 e > |
+
+    // Measures 17-20: Triplets against straight 8ths
+    // Note: Tuplet(3:2) 3 quarters in time of 2 quarters (half note duration)
+    // We want triplets filling the 4/4 bar. 
+    // 4/4 has 2 half notes. So 2 sets of triplets.
+    Time: 4/4
+    | Tuplet(3:2) { C3 q Eb3 q G3 q } Tuplet(3:2) { C3 q Eb3 q G3 q } |
+    | Tuplet(3:2) { Ab2 q C3 q Eb3 q } Tuplet(3:2) { Ab2 q C3 q Eb3 q } |
+    | Tuplet(3:2) { G2 q B2 q D3 q } Tuplet(3:2) { G2 q B2 q D3 q } |
+    | C2 w |
+}

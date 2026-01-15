@@ -43,9 +43,12 @@ pub fn walk(score: &Score) -> Result<IrScore> {
     }
 
     let mut global_time_signature = (4, 4);
+    let mut global_swing = None;
     for header in &score.headers {
-        if let Header::TimeSignature(num, den) = header {
-            global_time_signature = (*num, *den);
+        match header {
+            Header::TimeSignature(num, den) => global_time_signature = (*num, *den),
+            Header::Swing(swing) => global_swing = *swing,
+            _ => {}
         }
     }
 
@@ -55,7 +58,7 @@ pub fn walk(score: &Score) -> Result<IrScore> {
         if let Some(&(index, current_end_time)) = track_map.get(&part.name) {
             // Merge with existing track
             let channel = tracks[index].channel;
-            let (mut new_track, duration) = walk_part(part, channel, global_time_signature)?;
+            let (mut new_track, duration) = walk_part(part, channel, global_time_signature, global_swing)?;
 
             // Shift events
             for event in &mut new_track.events {
@@ -71,7 +74,7 @@ pub fn walk(score: &Score) -> Result<IrScore> {
             let channel = next_channel;
             next_channel = (next_channel + 1) % 16; // Wrap around 0-15
 
-            let (new_track, duration) = walk_part(part, channel, global_time_signature)?;
+            let (new_track, duration) = walk_part(part, channel, global_time_signature, global_swing)?;
             tracks.push(new_track);
             track_map.insert(part.name.clone(), (tracks.len() - 1, duration));
         }
@@ -90,11 +93,12 @@ pub fn walk(score: &Score) -> Result<IrScore> {
     Ok(IrScore { tracks, ppq: PPQ })
 }
 
-fn walk_part(part: &Part, channel: u8, initial_time_signature: (u32, u32)) -> Result<(IrTrack, u32)> {
+fn walk_part(part: &Part, channel: u8, initial_time_signature: (u32, u32), initial_swing: Option<(BaseDuration, f64)>) -> Result<(IrTrack, u32)> {
     let mut events = Vec::new();
     let mut current_time = 0;
     let mut current_velocity = 100; // Default velocity (mf)
     let mut current_time_signature = initial_time_signature;
+    let mut current_swing = initial_swing;
     let mut measure_index = 0;
 
     // Add Program Change event if instrument is found
@@ -132,7 +136,7 @@ fn walk_part(part: &Part, channel: u8, initial_time_signature: (u32, u32)) -> Re
                 }
 
                 for event in &measure.events {
-                    process_event(event, &mut current_time, &mut events, 1.0, &mut current_velocity)?;
+                    process_event(event, &mut current_time, &mut events, 1.0, &mut current_velocity, current_swing)?;
                 }
             }
             MeasureBlock::ContextChange(cc) => {
@@ -158,6 +162,9 @@ fn walk_part(part: &Part, channel: u8, initial_time_signature: (u32, u32)) -> Re
                             time: current_time,
                             kind: IrEventKind::Tempo(*bpm),
                         });
+                    }
+                    ContextChange::Swing(swing) => {
+                        current_swing = *swing;
                     }
                 }
             }
@@ -209,11 +216,28 @@ fn process_event(
     events: &mut Vec<IrEvent>,
     time_scale: f64,
     current_velocity: &mut u8,
+    current_swing: Option<(BaseDuration, f64)>,
 ) -> Result<()> {
     match event {
         Event::Note(note) => {
             let duration = calculate_duration(&note.duration, PPQ)?;
-            let scaled_duration = (duration as f64 * time_scale) as u32;
+            let mut scaled_duration = (duration as f64 * time_scale).round() as u32;
+            
+            // Apply swing
+            if let Some((swing_base, ratio)) = current_swing {
+                let swing_dur = calculate_duration(&Some(Duration::Base(swing_base.clone(), 0)), PPQ)?;
+                if duration == swing_dur {
+                    let is_onbeat = (*current_time % (swing_dur * 2)) == 0;
+                    if is_onbeat {
+                        scaled_duration = (duration as f64 * ratio * 2.0).round() as u32;
+                    } else {
+                        // Ensure the pair sums exactly to 2 * duration
+                        let onbeat_dur = (duration as f64 * ratio * 2.0).round() as u32;
+                        scaled_duration = (duration * 2) - onbeat_dur;
+                    }
+                }
+            }
+
             let pitch = calculate_pitch(&note.pitch)?;
             
             // Update velocity if dynamic is present
@@ -233,7 +257,22 @@ fn process_event(
         }
         Event::Chord(pitches, duration_opt, dynamic_opt, _articulation) => {
             let duration = calculate_duration(duration_opt, PPQ)?;
-            let scaled_duration = (duration as f64 * time_scale) as u32;
+            let mut scaled_duration = (duration as f64 * time_scale).round() as u32;
+
+            // Apply swing
+            if let Some((swing_base, ratio)) = current_swing {
+                let swing_dur = calculate_duration(&Some(Duration::Base(swing_base.clone(), 0)), PPQ)?;
+                if duration == swing_dur {
+                    let is_onbeat = (*current_time % (swing_dur * 2)) == 0;
+                    if is_onbeat {
+                        scaled_duration = (duration as f64 * ratio * 2.0).round() as u32;
+                    } else {
+                        // Ensure the pair sums exactly to 2 * duration
+                        let onbeat_dur = (duration as f64 * ratio * 2.0).round() as u32;
+                        scaled_duration = (duration * 2) - onbeat_dur;
+                    }
+                }
+            }
             
             if let Some(dyn_str) = dynamic_opt {
                 *current_velocity = dynamic_to_velocity(dyn_str);
@@ -254,19 +293,35 @@ fn process_event(
         }
         Event::Rest(duration_opt) => {
             let duration = calculate_duration(duration_opt, PPQ)?;
-            let scaled_duration = (duration as f64 * time_scale) as u32;
+            let mut scaled_duration = (duration as f64 * time_scale).round() as u32;
+
+            // Apply swing
+            if let Some((swing_base, ratio)) = current_swing {
+                let swing_dur = calculate_duration(&Some(Duration::Base(swing_base.clone(), 0)), PPQ)?;
+                if duration == swing_dur {
+                    let is_onbeat = (*current_time % (swing_dur * 2)) == 0;
+                    if is_onbeat {
+                        scaled_duration = (duration as f64 * ratio * 2.0).round() as u32;
+                    } else {
+                        // Ensure the pair sums exactly to 2 * duration
+                        let onbeat_dur = (duration as f64 * ratio * 2.0).round() as u32;
+                        scaled_duration = (duration * 2) - onbeat_dur;
+                    }
+                }
+            }
+
             *current_time += scaled_duration;
         }
         Event::Tuplet(tuplet) => {
             let new_scale = time_scale * (tuplet.q as f64 / tuplet.p as f64);
             for sub_event in &tuplet.events {
-                process_event(sub_event, current_time, events, new_scale, current_velocity)?;
+                process_event(sub_event, current_time, events, new_scale, current_velocity, current_swing)?;
             }
         }
         Event::Dynamic(dyn_str) => {
             *current_velocity = dynamic_to_velocity(dyn_str);
         }
-        _ => {} // Handle other events if necessary
+        Event::Tie => {}
     }
     Ok(())
 }

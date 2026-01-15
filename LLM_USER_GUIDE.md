@@ -97,10 +97,34 @@ If something in your intention isn't audible, either make it more salient or rem
 ## Part II: Syntax Reference
 
 Melos is a text-based format for defining musical scores. It supports:
--   Global headers (Title, Tempo, Time, Key)
+-   Global headers (Title, Tempo, Time, Key, Swing)
 -   Multiple parts (instruments)
 -   Measures containing musical events (notes, rests, tuplets)
--   Context changes within parts (Time Signature, Key Signature, Tempo)
+-   Context changes within parts (Time Signature, Key Signature, Tempo, Swing)
+-   Multi-file projects (directory compilation)
+
+### Multi-File Projects
+
+For larger compositions, you can split your score across multiple `.mel` files in a directory:
+
+```
+my_suite/
+├── score.mel     # Headers (Title, Tempo, etc.)
+├── piano.mel     # Part definition
+└── violin.mel    # Another part definition
+```
+
+Compile the directory to generate a single MIDI file:
+
+```bash
+melos compile my_suite/
+```
+
+Files are loaded in this order:
+1. `score.mel` (if present) is loaded first
+2. All other `.mel` files in alphabetical order
+
+This allows you to organize parts into separate files while sharing global headers.
 
 ### Syntax Specification
 
@@ -116,6 +140,19 @@ HEADER      ::= "Title:" STRING_LITERAL
               | "Tempo:" INTEGER
               | "Time:" TIME_SIGNATURE
               | "Key:"  KEY_SIGNATURE
+              | "Swing:" SWING_SETTING
+```
+
+#### Comments
+
+Line comments are supported using `//` or `=` as prefixes:
+
+```mel
+// This is a comment
+= This is also a comment
+Part: "Piano" Instrument: Piano {
+    | C4 q D4 q |  // end-of-line comment
+}
 ```
 
 #### Parts
@@ -200,6 +237,9 @@ Time signatures, Key signatures, and Tempo can be changed within a part.
 CONTEXT_CHANGE ::= "Time:" TIME_SIGNATURE
                  | "Key:" KEY_SIGNATURE
                  | "Tempo:" INTEGER
+                 | "Swing:" SWING_SETTING
+
+SWING_SETTING  ::= "off" | BASE_DURATION FLOAT
 
 TIME_SIGNATURE ::= INTEGER "/" INTEGER
 KEY_SIGNATURE  ::= PITCH_CLASS STRING_LITERAL
@@ -259,10 +299,25 @@ Part: Flute Instrument: Flute {
     | C5 q E5 q G5 q C6 q |
     Time: 3/4
     Key: G "Major"
-    | Tuplet(3:2) { D6 q E6 q F#6 q } |
+    | Tuplet(3:2) { D6 q E6 q F#6 q } G6 q |
     | G6 h r q |
 }
 ```
+
+#### Example 3: Swing Feel
+
+```mel
+Title: "Swung Blues"
+Tempo: 120
+Time: 4/4
+Swing: e 0.66
+
+Part: Piano Instrument: Piano {
+    | C4 e E4 e G4 e Bb4 e C5 q r q |
+}
+```
+
+The `Swing:` header applies swing timing to the specified note duration. The ratio (e.g., `0.66`) determines how much the downbeat is lengthened relative to the upbeat. Use `Swing: off` mid-piece to disable swing.
 
 ### Common Syntax Errors and Tips
 

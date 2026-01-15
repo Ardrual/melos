@@ -6,13 +6,9 @@ edition = "2024"
 [dependencies]
 anyhow = "1.0.100"
 clap = { version = "4.5.53", features = ["derive"] }
-crossterm = "0.28"
-eframe = "0.29"
-midir = "0.10"
 midly = "0.5.3"
 pest = "2.8.4"
 pest_derive = "2.8.4"
-ratatui = "0.28"
 
 [dev-dependencies]
 pretty_assertions = "1.4.1"

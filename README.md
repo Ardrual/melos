@@ -24,7 +24,7 @@ cargo build --release
 To compile a `.mel` file to MIDI:
 
 ```bash
-cargo run --release -- compile programs/myscore.mel
+cargo run --release -- compile scores/myscore.mel
 ```
 
 This will generate `myscore.mid` in the same directory.
@@ -57,8 +57,8 @@ Melos is specifically designed for AI workflows.
 ## Project Structure
 
 - `src/`: The Rust compiler source code.
-- `skill/`: A portable AI agent skill for music composition.
-- `programs/`: Example scores and test files.
+- `skill/`: A portable AI agent skill for music composition. *(Early feature - see `skill/README.md`)*
+- `scores/`: Example scores and test files.
 - `tests/`: Integration tests for the compiler.
 
 ## Development

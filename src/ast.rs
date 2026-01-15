@@ -10,6 +10,7 @@ pub enum Header {
     Tempo(u32),
     TimeSignature(u32, u32),
     KeySignature(String, String),
+    Swing(Option<(BaseDuration, f64)>),
 }
 
 #[derive(Debug, PartialEq, Clone)]
@@ -35,6 +36,7 @@ pub enum ContextChange {
     Tempo(u32),
     TimeSignature(u32, u32),
     KeySignature(String, String),
+    Swing(Option<(BaseDuration, f64)>),
 }
 
 #[derive(Debug, PartialEq, Clone)]
@@ -55,14 +57,14 @@ pub struct Note {
     pub articulation: Option<String>,
 }
 
-#[derive(Debug, PartialEq, Clone)]
+#[derive(Debug, PartialEq, Clone, Copy)]
 pub struct Pitch {
     pub step: char,
     pub accidental: Option<Accidental>,
     pub octave: i32,
 }
 
-#[derive(Debug, PartialEq, Clone)]
+#[derive(Debug, PartialEq, Clone, Copy)]
 pub enum Accidental {
     Sharp,
     Flat,
@@ -82,7 +84,7 @@ pub enum Duration {
     Fraction(u32, u32),
 }
 
-#[derive(Debug, PartialEq, Clone)]
+#[derive(Debug, PartialEq, Clone, Copy)]
 pub enum BaseDuration {
     Whole,
     Half,

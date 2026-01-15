@@ -1,0 +1,56 @@
+Title: "Nocturne in Eb Major: 'The Distant Shore'"
+Tempo: 60
+Time: 3/4
+Key: Eb "Major"
+
+Part: "Piano RH" Instrument: Piano {
+    // Intro/Opening Theme
+    | r h. |
+    | G4 q. mf Bb4 e Eb5 q |
+    | D5 q. C5 e Bb4 q |
+    | Ab4 q. G4 e F4 q |
+    | G4 h. |
+    
+    // Development/Leaps
+    | G4 q. Bb4 e Eb5 q |
+    | G5 q. F5 e D5 q |
+    | Eb5 q. Bb4 e G4 q |
+    | F4 h. |
+    
+    // Climax
+    | Bb4 q f D5 q F5 q |
+    | Ab5 q. G5 e F5 q |
+    | [Eb5 G5 Bb5] h. > |
+    | [D5 F5 Ab5] h. |
+    
+    // Resolution
+    | [Eb5 G5] h. p |
+    | [Eb4 G4 Bb4] h. |
+    | [Eb3 G3 Bb3 Eb4] h. |
+}
+
+Part: "Piano LH" Instrument: Piano {
+    // Intro/Opening Theme
+    | Eb3 q p G3 q Bb3 q |
+    | Eb3 q G3 q Bb3 q |
+    | Ab2 q C3 q Eb3 q |
+    | Bb2 q D3 q F3 q |
+    | Eb3 q G3 q Bb3 q |
+    
+    // Development/Leaps
+    | Eb3 q G3 q Bb3 q |
+    | B2 q D3 q G3 q |
+    | C3 q Eb3 q G3 q |
+    | Bb2 q D3 q F3 q |
+    
+    // Climax
+    | Bb2 q f D3 q F3 q |
+    | Bb2 q D3 q F3 q |
+    | Eb3 q G3 q Bb3 q |
+    | Ab2 q C3 q Eb3 q |
+    
+    // Resolution
+    | Eb2 q p G2 q Bb2 q |
+    | Eb2 q G2 q Bb2 q |
+    | [Eb1 Eb2] h. |
+}

@@ -1,0 +1,80 @@
+Title: "Fault Lines"
+Tempo: 120
+Time: 4/4
+Key: E "Minor"
+
+Part: "Violin I" Instrument: Violin {
+    | E5 q mf G5 q B5 q A5 q |
+    | G5 q F#5 q E5 q D5 q |
+    | C5 h D5 h |
+    | E5 q F#5 q G5 q A5 q |
+    | B5 h A5 h |
+    | G5 q A5 q B5 q C6 q |
+    | D6 h C6 h |
+    | B5 q A5 q G5 q F#5 q |
+    | E5 q F#5 q G5 q A5 q |
+    | B5 h C6 h |
+    | D6 q C6 q B5 q A5 q |
+    | G5 h A5 h |
+    | B5 q A5 q G5 q F#5 q |
+    | E5 h D5 h |
+    | C5 q D5 q E5 q F#5 q |
+    | E5 w |
+}
+
+Part: "Violin II" Instrument: Violin {
+    | B4 h mf D5 h |
+    | C5 h B4 h |
+    | A4 q B4 q C5 q D5 q |
+    | E5 h D5 h |
+    | C5 q D5 q E5 q F#5 q |
+    | G5 h F#5 h |
+    | E5 q F#5 q G5 q A5 q |
+    | B5 h A5 h |
+    | G5 q A5 q B5 q C6 q |
+    | D6 h C6 h |
+    | B5 q A5 q G5 q F#5 q |
+    | E5 h F#5 h |
+    | G5 q F#5 q E5 q D5 q |
+    | C5 h B4 h |
+    | A4 q B4 q C5 q D5 q |
+    | E5 w |
+}
+
+Part: "Viola" Instrument: Viola {
+    | E3 h mf G3 h |
+    | F3 h E3 h |
+    | D3 q E3 q F3 q G3 q |
+    | A3 h G3 h |
+    | F3 q G3 q A3 q B3 q |
+    | C4 h B3 h |
+    | A3 q B3 q C4 q D4 q |
+    | E4 h D4 h |
+    | C4 q D4 q E4 q F4 q |
+    | G4 h F4 h |
+    | E4 q D4 q C4 q B3 q |
+    | A3 h B3 h |
+    | C4 q B3 q A3 q G3 q |
+    | F3 h E3 h |
+    | D3 q E3 q F3 q G3 q |
+    | E3 w |
+}
+
+Part: "Cello" Instrument: Cello {
+    | E2 q mf B1 q C2 q D2 q |
+    | E2 q B1 q C2 q D2 q |
+    | F2 q C2 q D2 q E2 q |
+    | E2 q D2 q C2 q B1 q |
+    | A1 q E2 q F2 q G2 q |
+    | E2 q B1 q C2 q D2 q |
+    | F2 q C2 q D2 q E2 q |
+    | E2 q D2 q C2 q B1 q |
+    | A1 q E2 q F2 q G2 q |
+    | B1 q F2 q G2 q A2 q |
+    | E2 q B1 q C2 q D2 q |
+    | F2 q C2 q D2 q E2 q |
+    | E2 q D2 q C2 q B1 q |
+    | A1 q E2 q F2 q G2 q |
+    | B1 q C2 q D2 q E2 q |
+    | E2 w |
+}

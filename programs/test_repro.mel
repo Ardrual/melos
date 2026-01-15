@@ -1,7 +1,0 @@
-Part: Test Instrument: Piano {
-    Time: 4/4
-    | Tuplet(5:4) { C3 s D3 s E3 s F3 s G3 s } A3 q. B3 e |
-    
-    Time: 5/4
-    | C3 q D3 q Tuplet(5:4) { E3 e F3 e G3 e A3 e B3 e } C4 h |
-}

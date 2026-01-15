@@ -1,5 +1,7 @@
 # Melos Compose Skill
 
+> **Early Feature**: This is an early-stage feature for teaching AI agents to compose music using Melos. The API and bundled binary may change as the project evolves.
+
 A self-contained skill that lets AI agents compose music in the Melos language.
 
 ## Installation
@@ -29,9 +31,7 @@ Once registered, the agent can use the skill to compose music. For example:
 
 ## Portability
 
-The bundled `melos` binary is for **macOS x86_64 (Intel)**.
-
-For other platforms, build from the Melos source:
+The bundled `melos` binary is built for macOS. For other platforms, build from the Melos source:
 
 ```bash
 cargo build --release

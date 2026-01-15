@@ -1,0 +1,80 @@
+Title: "Veil and Forge"
+Tempo: 72
+Time: 4/4
+Key: D "Minor"
+
+Part: "Violin I" Instrument: Violin {
+    | D5 q mp F5 e E5 e D5 q C#5 q |
+    | D5 h A4 q C#5 q |
+    | F5 q E5 q D5 q C#5 q |
+    | D5 h. A4 q |
+    | F5 q A5 q G5 q F5 q |
+    | E5 q D5 q C#5 q D5 q |
+    | A5 q. G5 e F5 q E5 q |
+    | D5 h F5 q E5 q |
+    | D5 q F5 q A5 q G5 q |
+    | F5 q E5 q D5 q C#5 q |
+    | D5 h A4 q D5 q |
+    | F5 q E5 q D5 q C#5 q |
+    | E5 q. F5 e G5 q A5 q |
+    | B5 q A5 q G5 q F5 q |
+    | E5 h D5 q C#5 q |
+    | D5 w |
+}
+
+Part: "Violin II" Instrument: Violin {
+    | A4 h mp D4 q F4 q |
+    | F4 q E4 q D4 q C#4 q |
+    | D4 h A3 q C#4 q |
+    | D4 h. F4 q |
+    | A4 q G4 q F4 q E4 q |
+    | D4 q C#4 q D4 q E4 q |
+    | F4 q. E4 e D4 q C#4 q |
+    | D4 h A3 q C#4 q |
+    | F4 q A4 q G4 q F4 q |
+    | E4 q D4 q C#4 q D4 q |
+    | A4 h F4 q E4 q |
+    | D4 q E4 q F4 q G4 q |
+    | A4 q. G4 e F4 q E4 q |
+    | D4 q F4 q E4 q D4 q |
+    | C#4 h D4 q E4 q |
+    | D4 w |
+}
+
+Part: "Viola" Instrument: Viola {
+    | D4 h. mp A3 q |
+    | A3 h D4 q F3 q |
+    | F3 q G3 q A3 q B3 q |
+    | C4 h A3 q G3 q |
+    | F3 q A3 q G3 q F3 q |
+    | E3 q F3 q G3 q A3 q |
+    | Bb3 q. A3 e G3 q F3 q |
+    | E3 h G3 q A3 q |
+    | D3 h F3 q A3 q |
+    | G3 q F3 q E3 q D3 q |
+    | C3 h D3 q E3 q |
+    | F3 q E3 q D3 q C3 q |
+    | D3 q. E3 e F3 q G3 q |
+    | A3 q G3 q F3 q E3 q |
+    | D3 h E3 q F3 q |
+    | D3 w |
+}
+
+Part: "Cello" Instrument: Cello {
+    | D2 w p |
+    | A1 h D2 h |
+    | Bb1 h A1 h |
+    | D2 w |
+    | G1 h A1 h |
+    | D2 h A1 h |
+    | Bb1 h A1 h |
+    | D2 w |
+    | G1 h A1 h |
+    | D2 h A1 h |
+    | Bb1 h A1 h |
+    | D2 w |
+    | A1 h B1 h |
+    | C2 h A1 h |
+    | D2 h A1 h |
+    | D2 w |
+}

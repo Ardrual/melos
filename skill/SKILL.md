@@ -5,6 +5,8 @@ description: Compose a piece of music in the Melos language, compile it to MIDI,
 
 # Melos Composer
 
+> **Early Feature**: This skill is an early-stage portable AI skill for music composition. The bundled `melos` binary may not include all features from the main Melos compiler.
+
 Compose music in the Melos domain-specific language, compile to MIDI, and iteratively fix errors.
 
 ## Workflow
@@ -159,7 +161,7 @@ The structure and tone should emerge organically from the work itself. Some piec
 ### Compile all movements
 
 ```bash
-for f in work_name/*.mel; do .claude/skills/compose/melos compile "$f"; done
+for f in work_name/*.mel; do ./melos compile "$f"; done
 ```
 
 ## Melos Syntax Quick Reference
@@ -221,6 +223,8 @@ Tuplet(3:2) { E4 q E4 q E4 q }   // triplet: 3 quarters in time of 2
 Time: 3/4
 Key: G "Major"
 Tempo: 140
+Swing: e 0.66   // Apply swing to eighth notes
+Swing: off      // Disable swing
 ```
 
 ### Common Instruments
@@ -247,6 +251,28 @@ Error: "Expected octave number"
 ### String literal issues
 - Titles and key quality need quotes: `Key: G "Major"`
 - Part names need quotes: `Part: "Violin 1"`
+
+### Multiple Part blocks with same instrument
+Each instrument needs exactly ONE Part block containing all its measures. Multiple Part blocks with the same instrument play simultaneously as separate tracks—they do NOT concatenate.
+
+Wrong (creates 3 simultaneous cello tracks):
+```mel
+Part: "Cello Intro" Instrument: Cello { | D3 w | }
+Part: "Cello Theme" Instrument: Cello { | A3 w | }
+Part: "Cello Coda" Instrument: Cello { | D2 w | }
+```
+
+Correct (one continuous part):
+```mel
+Part: "Cello" Instrument: Cello {
+    // Intro
+    | D3 w |
+    // Theme
+    | A3 w |
+    // Coda
+    | D2 w |
+}
+```
 
 ## Example Composition
 

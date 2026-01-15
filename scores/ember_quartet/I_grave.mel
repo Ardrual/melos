@@ -1,0 +1,64 @@
+Title: "Ember Quartet"
+Tempo: 72
+Time: 4/4
+Key: D "Minor"
+
+Part: "Violin I" Instrument: Violin {
+    | D5 q mp F5 q E5 q D5 q |
+    | C#5 q D5 q F5 q E5 q |
+    | D5 h A4 h |
+    | F5 q E5 q D5 q C#5 q |
+    | D5 q F5 q A5 q G5 q |
+    | F5 h E5 h |
+    | D5 q C#5 q D5 q E5 q |
+    | F5 q A5 q G5 q F5 q |
+    | E5 h D5 h |
+    | C#5 q D5 q E5 q F5 q |
+    | G5 h F5 h |
+    | E5 q D5 q C#5 q D5 q |
+}
+
+Part: "Violin II" Instrument: Violin {
+    | A4 h F4 h |
+    | G4 h E4 h |
+    | F4 q E4 q D4 q C#4 q |
+    | D4 h A3 h |
+    | F4 q A4 q G4 q F4 q |
+    | E4 h D4 h |
+    | C#4 q D4 q F4 q E4 q |
+    | D4 h A3 h |
+    | C#4 q D4 q E4 q F4 q |
+    | G4 h F4 h |
+    | E4 q F4 q G4 q A4 q |
+    | A4 h D4 h |
+}
+
+Part: "Viola" Instrument: Viola {
+    | D4 h A3 h |
+    | E4 h A3 h |
+    | D4 h F3 h |
+    | D4 h A3 h |
+    | D4 q F4 q E4 q D4 q |
+    | C#4 h D4 h |
+    | A3 h D4 h |
+    | F3 h A3 h |
+    | G3 h A3 h |
+    | D4 q C#4 q D4 q E4 q |
+    | F3 h A3 h |
+    | D4 w |
+}
+
+Part: "Cello" Instrument: Cello {
+    | D3 w |
+    | A2 w |
+    | Bb2 h A2 h |
+    | D3 w |
+    | G2 h A2 h |
+    | D3 w |
+    | A2 w |
+    | Bb2 h A2 h |
+    | D3 w |
+    | A2 w |
+    | G2 h A2 h |
+    | D3 w |
+}

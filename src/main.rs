@@ -4,17 +4,23 @@ use std::path::PathBuf;
 use melos::parser::parse;
 use melos::walker::walk;
 use melos::codegen::generate;
-use melos::tui::run_tui;
-use melos::gui::run_gui;
 use melos::loader::load_source;
 
 pub mod inspect;
 
 #[derive(Parser)]
-#[command(author, version, about, long_about = None)]
+#[command(author, version, about = "Melos - A music composition language", long_about = None)]
 struct Cli {
     #[command(subcommand)]
-    command: Commands,
+    command: Option<Commands>,
+
+    /// Input Melos file to compile (shorthand for `melos compile <file>`)
+    #[arg(value_name = "FILE")]
+    input: Option<PathBuf>,
+
+    /// Output MIDI file
+    #[arg(short, long, value_name = "FILE")]
+    output: Option<PathBuf>,
 }
 
 #[derive(Subcommand)]
@@ -28,18 +34,6 @@ enum Commands {
         /// Output MIDI file
         #[arg(short, long, value_name = "FILE")]
         output: Option<PathBuf>,
-
-        /// Print debug information (AST and IR)
-        #[arg(short, long)]
-        debug: bool,
-
-        /// Launch interactive TUI mode
-        #[arg(short = 'i', long)]
-        interactive: bool,
-
-        /// Launch GUI piano roll view
-        #[arg(short = 'g', long)]
-        gui: bool,
     },
     /// Inspect a MIDI file
     Inspect {
@@ -52,69 +46,67 @@ enum Commands {
 fn main() -> Result<()> {
     let cli = Cli::parse();
 
-    match &cli.command {
-        Commands::Compile { input, output, debug, interactive, gui } => {
-            // 1. Load source (handles both files and directories)
-            let loaded = load_source(input)
-                .with_context(|| format!("Failed to load source from: {:?}", input))?;
+    // Handle direct file argument (default to compile)
+    if let Some(input) = cli.input {
+        return compile(&input, cli.output.as_ref());
+    }
 
-            // 2. Parse
-            let ast = parse(&loaded.source)
-                .context("Failed to parse Melos")?;
-
-            if *debug {
-                println!("--- AST ---");
-                println!("{:#?}", ast);
-            }
-
-            // 3. Walk (AST -> IR)
-            let ir = walk(&ast)
-                .context("Failed to generate IR")?;
-
-            if *debug {
-                println!("--- IR ---");
-                println!("{:#?}", ir);
-            }
-
-            // Launch TUI if interactive mode requested
-            if *interactive {
-                return run_tui(loaded.base_path.clone(), ast, ir);
-            }
-
-            // Launch GUI if gui mode requested
-            if *gui {
-                return run_gui(loaded.base_path.clone(), ast, ir);
-            }
-
-            // 4. Codegen (IR -> MIDI)
-            let smf = generate(&ir)
-                .context("Failed to generate MIDI")?;
-
-            // 5. Write Output
-            let output_path = output.clone().unwrap_or_else(|| {
-                if loaded.base_path.is_dir() {
-                    // For directories, create .mid file with directory name
-                    let dir_name = loaded.base_path.file_name()
-                        .and_then(|n| n.to_str())
-                        .unwrap_or("output");
-                    loaded.base_path.join(format!("{}.mid", dir_name))
-                } else {
-                    // For files, replace extension
-                    let mut p = loaded.base_path.clone();
-                    p.set_extension("mid");
-                    p
-                }
-            });
-
-            smf.save(&output_path)
-                .with_context(|| format!("Failed to write MIDI file: {:?}", output_path))?;
-
-            println!("Successfully compiled {:?} to {:?}", loaded.base_path, output_path);
+    // Handle subcommands
+    match cli.command {
+        Some(Commands::Compile { input, output }) => {
+            compile(&input, output.as_ref())
         }
-        Commands::Inspect { input } => {
-            inspect::inspect(input)?;
+        Some(Commands::Inspect { input }) => {
+            inspect::inspect(&input)
+        }
+        None => {
+            // No input and no subcommand - show help
+            eprintln!("Usage: melos <FILE> or melos compile <FILE>");
+            eprintln!("       melos inspect <FILE.mid>");
+            eprintln!();
+            eprintln!("Run 'melos --help' for more information.");
+            std::process::exit(1);
         }
     }
+}
+
+fn compile(input: &PathBuf, output: Option<&PathBuf>) -> Result<()> {
+    // 1. Load source (handles both files and directories)
+    let loaded = load_source(input)
+        .with_context(|| format!("Failed to load source from: {:?}", input))?;
+
+    // 2. Parse
+    let ast = parse(&loaded.source)
+        .context("Failed to parse Melos")?;
+
+    // 3. Walk (AST -> IR)
+    let ir = walk(&ast)
+        .context("Failed to generate IR")?;
+
+    // 4. Codegen (IR -> MIDI)
+    let smf = generate(&ir)
+        .context("Failed to generate MIDI")?;
+
+    // 5. Write Output
+    let output_path = output.cloned().unwrap_or_else(|| {
+        if loaded.base_path.is_dir() {
+            // For directories, create .mid file with directory name
+            let dir_name = loaded.base_path.file_name()
+                .and_then(|n| n.to_str())
+                .unwrap_or("output");
+            loaded.base_path.join(format!("{}.mid", dir_name))
+        } else {
+            // For files, replace extension
+            let mut p = loaded.base_path.clone();
+            p.set_extension("mid");
+            p
+        }
+    });
+
+    smf.save(&output_path)
+        .with_context(|| format!("Failed to write MIDI file: {:?}", output_path))?;
+
+    println!("Compiled {:?} → {:?}", loaded.base_path, output_path);
 
     Ok(())
 }

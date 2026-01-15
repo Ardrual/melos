@@ -1,0 +1,80 @@
+Title: "Veil and Forge"
+Tempo: 56
+Time: 3/4
+Key: Bb "Major"
+
+Part: "Violin I" Instrument: Violin {
+    | F5 h. mp |
+    | G5 q A5 q Bb5 q |
+    | C6 h Bb5 q |
+    | A5 h. |
+    | G5 q F5 q E5 q |
+    | D5 h E5 q |
+    | F5 q G5 q A5 q |
+    | Bb5 h. |
+    | A5 q G5 q F5 q |
+    | E5 h D5 q |
+    | C5 q D5 q E5 q |
+    | F5 h. |
+    | G5 q A5 q Bb5 q |
+    | C6 h Bb5 q |
+    | A5 h G5 q |
+    | F5 h. |
+}
+
+Part: "Violin II" Instrument: Violin {
+    | D5 h. mp |
+    | E5 q F5 q G5 q |
+    | A5 h G5 q |
+    | F5 h. |
+    | E5 q D5 q C5 q |
+    | Bb4 h C5 q |
+    | D5 q E5 q F5 q |
+    | G5 h. |
+    | F5 q E5 q D5 q |
+    | C5 h Bb4 q |
+    | A4 q Bb4 q C5 q |
+    | D5 h. |
+    | E5 q F5 q G5 q |
+    | A5 h G5 q |
+    | F5 h E5 q |
+    | D5 h. |
+}
+
+Part: "Viola" Instrument: Viola {
+    | Bb3 h. mp |
+    | C4 q D4 q E4 q |
+    | F4 h E4 q |
+    | D4 h. |
+    | C4 q Bb3 q A3 q |
+    | G3 h A3 q |
+    | Bb3 q C4 q D4 q |
+    | E4 h. |
+    | D4 q C4 q Bb3 q |
+    | A3 h G3 q |
+    | F3 q G3 q A3 q |
+    | Bb3 h. |
+    | C4 q D4 q E4 q |
+    | F4 h E4 q |
+    | D4 h C4 q |
+    | Bb3 h. |
+}
+
+Part: "Cello" Instrument: Cello {
+    | Bb2 h. p |
+    | F2 h C3 q |
+    | D2 h Eb2 q |
+    | Bb1 h. |
+    | C2 h F2 q |
+    | Bb1 h C2 q |
+    | D2 h Eb2 q |
+    | F2 h. |
+    | Bb1 h F2 q |
+    | C2 h D2 q |
+    | Eb2 h F2 q |
+    | Bb1 h. |
+    | F2 h C3 q |
+    | D2 h Eb2 q |
+    | F2 h G2 q |
+    | Bb1 h. |
+}

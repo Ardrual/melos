@@ -34,6 +34,9 @@ pub fn parse(input: &str) -> Result<Score> {
                         let (root, scale) = parse_key_signature(inner)?;
                         headers.push(Header::KeySignature(root, scale));
                     }
+                    Rule::swing_setting => {
+                        headers.push(Header::Swing(parse_swing_setting(inner)?));
+                    }
                     _ => {}
                 }
             }
@@ -122,6 +125,10 @@ fn parse_measure_block(pair: pest::iterators::Pair<Rule>) -> Result<Vec<MeasureB
                         let (root, scale) = parse_key_signature(inner)?;
                         blocks.push(MeasureBlock::ContextChange(ContextChange::KeySignature(root, scale)));
                     }
+                    Rule::swing_setting => {
+                        // swing_setting is already what we want, don't descend into it again
+                        blocks.push(MeasureBlock::ContextChange(ContextChange::Swing(parse_swing_setting(inner)?)));
+                    }
                     _ => {}
                 }
             }
@@ -152,6 +159,7 @@ fn parse_music_event(pair: pest::iterators::Pair<Rule>) -> Result<Event> {
         Rule::rest => Ok(Event::Rest(parse_rest(inner)?)),
         Rule::tuplet => Ok(Event::Tuplet(parse_tuplet(inner)?)),
         Rule::dynamic => Ok(Event::Dynamic(inner.as_str().to_string())),
+        Rule::swing_setting => Err(anyhow!("Swing setting not allowed as music event")),
         _ => Err(anyhow!("Unknown event type")),
     }
 }
@@ -286,3 +294,40 @@ fn parse_key_signature(pair: pest::iterators::Pair<Rule>) -> Result<(String, Str
     
     Ok((pitch_class, scale))
 }
+
+fn parse_swing_setting(pair: pest::iterators::Pair<Rule>) -> Result<Option<(BaseDuration, f64)>> {
+    let pair_str = pair.as_str();
+    let pair_rule = pair.as_rule();
+    let mut inner = pair.into_inner();
+    
+    // Header::Swing calls us with Rule::swing_setting. 
+    // ContextChange::Swing also calls us with Rule::swing_setting (the inner of Rule::context_change).
+    
+    if pair_rule != Rule::swing_setting {
+        return Err(anyhow!("Unexpected direct call to parse_swing_setting with rule {:?}", pair_rule));
+    }
+
+    if pair_str == "off" {
+        return Ok(None);
+    }
+
+    let first = inner.next().ok_or_else(|| anyhow!("Empty swing setting in: {}", pair_str))?;
+    
+    match first.as_rule() {
+        Rule::base_duration => {
+            let base = match first.as_str() {
+                "w" => BaseDuration::Whole,
+                "h" => BaseDuration::Half,
+                "q" => BaseDuration::Quarter,
+                "e" => BaseDuration::Eighth,
+                "s" => BaseDuration::Sixteenth,
+                _ => return Err(anyhow!("Unknown duration base")),
+            };
+            let float_pair = inner.next().ok_or_else(|| anyhow!("Missing swing ratio in: {}", pair_str))?;
+            let ratio = float_pair.as_str().parse()?;
+            Ok(Some((base, ratio)))
+        }
+        _ => Err(anyhow!("Unexpected swing setting: {} (rule: {:?})", first.as_str(), first.as_rule())),
+    }
+}
+

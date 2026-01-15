@@ -1,0 +1,97 @@
+Title: "Celestial Mechanics II: Nebula"
+Tempo: 50
+Time: 4/4
+Key: C "Major" // Atonal/Modal really, but we need a key signature
+
+// Part 1: The Cloud (Drone)
+Part: "Choir" Instrument: Choir Aahs {
+    // Measures 1-4: Ethereal open fifths base
+    | [C3 G3 C4] w pp |
+    | [C3 G3 C4] w |
+    | [C3 G3 B3] w | // Shift to major 7th tension
+    | [C3 G3 A3] w | // Resolve to 6th? No, simple shift
+    
+    // Measures 5-8: Triggered Harmonic Shifts (Flute triggers F#)
+    | [C3 F#3 A3] w |
+    | [C3 F#3 A3] w |
+    | [B2 D#3 G#3] w | // Weird chord shift
+    | [B2 E3 G3] w |
+
+    // Measures 9-12: Increasing Density
+    | [A2 E3 G3 C4] w mp |
+    | [A2 E3 G3 B3] w |
+    | [F2 C3 E3 A3] w |
+    | [F2 C3 E3 G#3] w |
+
+    // Measure 13: THE SILENCE
+    | r w |
+
+    // Measures 14-16: Re-entry
+    | [D2 A2 D3 F#3] w p |
+    | [D2 A2 D3 F#3] h [D2 A2 D3 F3] h | // Subtle internal shift
+    | [C2 G2 C3 Eb3] w |
+}
+
+// Part 2: The Sparks (Pointillism)
+Part: "Flute" Instrument: Flute {
+    // Measure 1: Silence
+    | r w |
+    // Measure 2: First spark (quintuplet)
+    | r h Tuplet(5:4) { C6 e Eb6 e G6 e B5 e C6 e } |
+    
+    // Measure 3-4
+    | r w |
+    | r h. E6 q |
+
+    // Measure 5: The F# trigger (Septuplet)
+    | Tuplet(7:4) { F#5 e A5 e C#6 e E6 e F#6 e A6 e C7 e } r h |
+    
+    // Measure 6-8: Scattered
+    | r w |
+    | r h Tuplet(3:2) { G#5 q B5 q D#6 q } |
+    | E6 w > |
+
+    // Measure 9-12: Dense interaction
+    | Tuplet(5:4) { C6 e G5 e A5 e B5 e C6 e } r h |
+    | r h Tuplet(6:4) { D6 e F6 e A6 e C7 e E7 e G7 e } | // Sextuplet
+    | A6 h. r q |
+    | G#6 w > | // Tension before silence
+
+    // Measure 13: SILENCE
+    | r w |
+
+    // From here, fades out leaving sparks
+    // Measures 14-16
+    | r w |
+    | Tuplet(3:2) { A5 q C#6 q E6 q } r h |
+    | r h G5 h |
+}
+
+Part: "Piano" Instrument: Piano {
+    // High register sprinkles
+    // M1-4
+    | r w |
+    | r w |
+    | r q Tuplet(5:4) { B6 e G6 e E6 e C6 e A5 e } r q |
+    | r w |
+
+    // M5-8
+    | r w |
+    | Tuplet(3:2) { F#6 q A6 q C#7 q } r h | 
+    | r w |
+    | r h [G5 B5] h | // High block chord
+
+    // M9-12: Adding to the noise
+    | r h [C6 E6] h |
+    | [B5 D#6] w |
+    | r h [A5 C6] h |
+    | [G#5 B5] w |
+
+    // M13: SILENCE
+    | r w |
+
+    // M14-16: Exit
+    | F#6 w |
+    | F6 w |
+    | Eb6 w |
+}
