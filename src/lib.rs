@@ -7,3 +7,4 @@ pub mod instruments;
 pub mod inspect;
 pub mod grammar;
 pub mod loader;
+pub mod wasm;
